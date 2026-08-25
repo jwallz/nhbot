@@ -18,6 +18,7 @@ dependencies = [
 
 [project.optional-dependencies]
 dev = ["pytest>=8"]
+geo = ["pyshp>=2.3", "shapely>=2.0", "topojson>=1.9"]
 
 [project.scripts]
 nhbot = "nhbot.cli:main"

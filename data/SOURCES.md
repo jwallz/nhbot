@@ -24,6 +24,13 @@ Gazetteer is a keyless static download.
 - https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2023_Gazetteer/2023_Gaz_cousubs_national.zip
 - Filter USPS == NH. Keyless. (The Census *API* now requires a free key.)
 
+## US Census — Cartographic Boundary (county subdivisions)  [MAP GEOMETRY]
+`data/raw/geo/cb_2023_33_cousub_500k.{shp,dbf,shx,prj}`
+- https://www2.census.gov/geo/tiger/GENZ2023/shp/cb_2023_33_cousub_500k.zip
+- 1:500,000 generalized, EPSG:4269. Carries the 10-digit GEOID -> joins to the
+  crosswalk with zero name reconciliation. Keyless. Processed by `nhbot boundaries`
+  into `data/processed/nh_municipalities.{geojson,topojson}`.
+
 ## Vintages currently loaded
 | dataset | vintages |
 |---|---|
@@ -32,3 +39,4 @@ Gazetteer is a keyless static download.
 | Equalized rate — estimate | 2025 |
 | Equalization ratio | 2019–2025 |
 | Tax rate (4-way split) | 2025 |
+| Map geometry (boundaries) | Census cb 2023 |
