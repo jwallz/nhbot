@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+.pytest_cache/
+
+# Environment
+.env
+
+# OS
+.DS_Store
+
+# Raw source snapshots (gitignored by policy; see data/SOURCES.md to re-fetch)
+data/raw/
+
+# Local Postgres data dir, if any
+pgdata/

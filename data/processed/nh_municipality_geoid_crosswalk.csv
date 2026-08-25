@@ -1,0 +1,260 @@
+municipality,entity_type,geoid,state_fips,county_fips,county_name,cousub_fips,census_name,ansicode,aland_sqmi,awater_sqmi,intptlat,intptlon,match_method,source
+Acworth,town,3301900260,33,019,Sullivan,00260,Acworth town,00873525,38.805,0.255,43.213923,-72.287033,name,2023_Gaz_cousubs_national.txt
+Albany,town,3300300420,33,003,Carroll,00420,Albany town,00873526,75.147,0.597,43.95945,-71.274251,name,2023_Gaz_cousubs_national.txt
+Alexandria,town,3300900580,33,009,Grafton,00580,Alexandria town,00873527,43.148,0.203,43.622322,-71.856277,name,2023_Gaz_cousubs_national.txt
+Allenstown,town,3301300660,33,013,Merrimack,00660,Allenstown town,00873528,20.463,0.112,43.143341,-71.386106,name,2023_Gaz_cousubs_national.txt
+Alstead,town,3300500820,33,005,Cheshire,00820,Alstead town,00873529,38.825,0.568,43.091742,-72.310321,name,2023_Gaz_cousubs_national.txt
+Alton,town,3300101060,33,001,Belknap,01060,Alton town,00873530,63.697,19.48,43.488323,-71.240617,name,2023_Gaz_cousubs_national.txt
+Amherst,town,3301101300,33,011,Hillsborough,01300,Amherst town,00873531,33.906,0.511,42.874824,-71.600533,name,2023_Gaz_cousubs_national.txt
+Andover,town,3301301460,33,013,Merrimack,01460,Andover town,00873532,40.148,0.895,43.450724,-71.7906,name,2023_Gaz_cousubs_national.txt
+Antrim,town,3301101700,33,011,Hillsborough,01700,Antrim town,00873533,35.695,0.818,43.050292,-71.981968,name,2023_Gaz_cousubs_national.txt
+Ashland,town,3300902020,33,009,Grafton,02020,Ashland town,00873534,11.227,0.545,43.725967,-71.642579,name,2023_Gaz_cousubs_national.txt
+Atkinson,town,3301502340,33,015,Rockingham,02340,Atkinson town,00873535,11.156,0.182,42.839113,-71.167192,name,2023_Gaz_cousubs_national.txt
+Atkinson & Gilmanton,unincorporated,3300702420,33,007,Coos,02420,Atkinson and Gilmanton Academy grant,00871100,19.19,0.11,44.995891,-71.122281,override,2023_Gaz_cousubs_national.txt
+Auburn,town,3301502820,33,015,Rockingham,02820,Auburn town,00873536,25.35,3.461,42.997059,-71.365806,name,2023_Gaz_cousubs_national.txt
+Barnstead,town,3300103220,33,001,Belknap,03220,Barnstead town,00873537,43.06,1.879,43.348588,-71.256896,name,2023_Gaz_cousubs_national.txt
+Barrington,town,3301703460,33,017,Strafford,03460,Barrington town,00873538,46.653,1.968,43.215566,-71.03898,name,2023_Gaz_cousubs_national.txt
+Bartlett,town,3300303700,33,003,Carroll,03700,Bartlett town,00873539,74.8,0.425,44.077237,-71.221265,name,2023_Gaz_cousubs_national.txt
+Bath,town,3300903940,33,009,Grafton,03940,Bath town,00873540,37.712,0.862,44.182955,-71.987011,name,2023_Gaz_cousubs_national.txt
+Bean's Grant,unincorporated,3300704100,33,007,Coos,04100,Beans grant,00871459,9.661,0.,44.222683,-71.376589,name,2023_Gaz_cousubs_national.txt
+Bean's Purchase,unincorporated,3300704260,33,007,Coos,04260,Beans purchase,00871460,65.194,0.105,44.289758,-71.152198,name,2023_Gaz_cousubs_national.txt
+Bedford,town,3301104500,33,011,Hillsborough,04500,Bedford town,00873541,32.78,0.281,42.935584,-71.536871,name,2023_Gaz_cousubs_national.txt
+Belmont,town,3300104740,33,001,Belknap,04740,Belmont town,00873542,29.943,1.94,43.474455,-71.482208,name,2023_Gaz_cousubs_national.txt
+Bennington,town,3301104900,33,011,Hillsborough,04900,Bennington town,00873543,11.362,0.225,43.020284,-71.903705,name,2023_Gaz_cousubs_national.txt
+Benton,town,3300905060,33,009,Grafton,05060,Benton town,00873544,48.204,0.23,44.035925,-71.846557,name,2023_Gaz_cousubs_national.txt
+Berlin,city,3300705140,33,007,Coos,05140,Berlin city,00873545,61.349,0.852,44.484328,-71.277123,name,2023_Gaz_cousubs_national.txt
+Bethlehem,town,3300905460,33,009,Grafton,05460,Bethlehem town,00873546,90.6,0.354,44.260435,-71.609203,name,2023_Gaz_cousubs_national.txt
+Boscawen,town,3301306260,33,013,Merrimack,06260,Boscawen town,00873547,24.888,0.639,43.311717,-71.665381,name,2023_Gaz_cousubs_national.txt
+Bow,town,3301306500,33,013,Merrimack,06500,Bow town,00873548,28.171,0.376,43.133177,-71.537242,name,2023_Gaz_cousubs_national.txt
+Bradford,town,3301306980,33,013,Merrimack,06980,Bradford town,00873549,35.24,0.691,43.224128,-71.966175,name,2023_Gaz_cousubs_national.txt
+Brentwood,town,3301507220,33,015,Rockingham,07220,Brentwood town,00873550,16.817,0.158,42.983723,-71.053998,name,2023_Gaz_cousubs_national.txt
+Bridgewater,town,3300907540,33,009,Grafton,07540,Bridgewater town,00873551,21.494,0.21,43.651247,-71.686005,name,2023_Gaz_cousubs_national.txt
+Bristol,town,3300907700,33,009,Grafton,07700,Bristol town,00873552,16.744,5.173,43.624415,-71.710324,name,2023_Gaz_cousubs_national.txt
+Brookfield,town,3300307940,33,003,Carroll,07940,Brookfield town,00873553,22.812,0.423,43.561279,-71.093391,name,2023_Gaz_cousubs_national.txt
+Brookline,town,3301108100,33,011,Hillsborough,08100,Brookline town,00873554,19.835,0.361,42.749263,-71.67567,name,2023_Gaz_cousubs_national.txt
+Cambridge,unincorporated,3300708420,33,007,Coos,08420,Cambridge township,00873555,50.99,0.728,44.659301,-71.097522,base,2023_Gaz_cousubs_national.txt
+Campton,town,3300908660,33,009,Grafton,08660,Campton town,00873556,51.836,0.699,43.830862,-71.64607,name,2023_Gaz_cousubs_national.txt
+Canaan,town,3300908980,33,009,Grafton,08980,Canaan town,00873557,53.358,1.764,43.687687,-72.043987,name,2023_Gaz_cousubs_national.txt
+Candia,town,3301509300,33,015,Rockingham,09300,Candia town,00873558,30.338,0.228,43.056895,-71.340635,name,2023_Gaz_cousubs_national.txt
+Canterbury,town,3301309860,33,013,Merrimack,09860,Canterbury town,00873559,43.876,0.83,43.352567,-71.533765,name,2023_Gaz_cousubs_national.txt
+Carroll,town,3300710100,33,007,Coos,10100,Carroll town,00873560,50.272,0.024,44.305266,-71.497376,name,2023_Gaz_cousubs_national.txt
+Center Harbor,town,3300110660,33,001,Belknap,10660,Center Harbor town,00873561,13.265,2.978,43.702775,-71.510443,name,2023_Gaz_cousubs_national.txt
+Chandler's Purchase,unincorporated,3300711220,33,007,Coos,11220,Chandlers purchase,00871663,2.126,0.,44.261058,-71.358654,name,2023_Gaz_cousubs_national.txt
+Charlestown,town,3301911380,33,019,Sullivan,11380,Charlestown town,00873562,35.764,2.276,43.246631,-72.383893,name,2023_Gaz_cousubs_national.txt
+Chatham,town,3300311780,33,003,Carroll,11780,Chatham town,00873563,56.703,0.548,44.127498,-71.060691,name,2023_Gaz_cousubs_national.txt
+Chester,town,3301512100,33,015,Rockingham,12100,Chester town,00873564,26.01,0.113,42.98453,-71.255104,name,2023_Gaz_cousubs_national.txt
+Chesterfield,town,3300512260,33,005,Cheshire,12260,Chesterfield town,00873565,45.559,1.982,42.888002,-72.443472,name,2023_Gaz_cousubs_national.txt
+Chichester,town,3301312420,33,013,Merrimack,12420,Chichester town,00873566,21.187,0.106,43.265259,-71.408835,name,2023_Gaz_cousubs_national.txt
+Claremont,city,3301912900,33,019,Sullivan,12900,Claremont city,00873567,43.153,0.897,43.38647,-72.334496,name,2023_Gaz_cousubs_national.txt
+Clarksville,town,3300713220,33,007,Coos,13220,Clarksville town,00871098,60.33,2.02,45.018249,-71.325569,name,2023_Gaz_cousubs_national.txt
+Colebrook,town,3300713780,33,007,Coos,13780,Colebrook town,00871097,40.51,0.208,44.895204,-71.409528,name,2023_Gaz_cousubs_national.txt
+Columbia,town,3300713940,33,007,Coos,13940,Columbia town,00873568,60.775,0.333,44.816184,-71.512441,name,2023_Gaz_cousubs_national.txt
+Concord,city,3301314200,33,013,Merrimack,14200,Concord city,00873569,63.963,3.229,43.232493,-71.561252,name,2023_Gaz_cousubs_national.txt
+Conway,town,3300314660,33,003,Carroll,14660,Conway town,00873570,69.482,2.255,44.005785,-71.06517,name,2023_Gaz_cousubs_national.txt
+Cornish,town,3301915060,33,019,Sullivan,15060,Cornish town,00873571,41.954,0.655,43.472988,-72.311749,name,2023_Gaz_cousubs_national.txt
+Crawford's Purchase,unincorporated,3300716100,33,007,Coos,16100,Crawfords purchase,00871742,8.193,0.,44.262335,-71.40151,name,2023_Gaz_cousubs_national.txt
+Croydon,town,3301916340,33,019,Sullivan,16340,Croydon town,00873572,36.769,0.777,43.444227,-72.178349,name,2023_Gaz_cousubs_national.txt
+Cutt's Grant,unincorporated,3300716660,33,007,Coos,16660,Cutts grant,00873196,11.28,0.,44.204927,-71.33583,name,2023_Gaz_cousubs_national.txt
+Dalton,town,3300716820,33,007,Coos,16820,Dalton town,00873573,27.53,0.554,44.394773,-71.688907,name,2023_Gaz_cousubs_national.txt
+Danbury,town,3301316980,33,013,Merrimack,16980,Danbury town,00873574,37.732,0.307,43.528318,-71.868472,name,2023_Gaz_cousubs_national.txt
+Danville,town,3301517140,33,015,Rockingham,17140,Danville town,00873575,11.649,0.181,42.927892,-71.119888,name,2023_Gaz_cousubs_national.txt
+Deerfield,town,3301517460,33,015,Rockingham,17460,Deerfield town,00873576,50.758,1.338,43.136321,-71.255077,name,2023_Gaz_cousubs_national.txt
+Deering,town,3301117780,33,011,Hillsborough,17780,Deering town,00873577,30.589,0.64,43.083105,-71.860603,name,2023_Gaz_cousubs_national.txt
+Derry,town,3301517940,33,015,Rockingham,17940,Derry town,00873578,35.474,0.822,42.887613,-71.282047,name,2023_Gaz_cousubs_national.txt
+Dix's Grant,unincorporated,3300718340,33,007,Coos,18340,Dixs grant,00871113,20.021,0.043,44.920423,-71.191801,name,2023_Gaz_cousubs_national.txt
+Dixville,unincorporated,3300718420,33,007,Coos,18420,Dixville township,00871095,48.98,0.173,44.869592,-71.256477,base,2023_Gaz_cousubs_national.txt
+Dorchester,town,3300918740,33,009,Grafton,18740,Dorchester town,00873579,44.612,0.605,43.748186,-71.988184,name,2023_Gaz_cousubs_national.txt
+Dover,city,3301718820,33,017,Strafford,18820,Dover city,00873580,26.729,2.315,43.18636,-70.883623,name,2023_Gaz_cousubs_national.txt
+Dublin,town,3300519140,33,005,Cheshire,19140,Dublin town,00873581,27.895,1.096,42.889279,-72.069849,name,2023_Gaz_cousubs_national.txt
+Dummer,town,3300719300,33,007,Coos,19300,Dummer town,00873582,47.959,1.201,44.66501,-71.251806,name,2023_Gaz_cousubs_national.txt
+Dunbarton,town,3301319460,33,013,Merrimack,19460,Dunbarton town,00873583,30.863,0.462,43.112473,-71.607479,name,2023_Gaz_cousubs_national.txt
+Durham,town,3301719700,33,017,Strafford,19700,Durham town,00873584,22.413,2.354,43.117061,-70.918807,name,2023_Gaz_cousubs_national.txt
+East Kingston,town,3301521380,33,015,Rockingham,21380,East Kingston town,00873585,9.917,0.056,42.925865,-71.002633,name,2023_Gaz_cousubs_national.txt
+Easton,town,3300922020,33,009,Grafton,22020,Easton town,00873586,31.135,0.014,44.101177,-71.795115,name,2023_Gaz_cousubs_national.txt
+Eaton,town,3300323380,33,003,Carroll,23380,Eaton town,00873587,24.302,1.298,43.90696,-71.04752,name,2023_Gaz_cousubs_national.txt
+Effingham,town,3300323620,33,003,Carroll,23620,Effingham town,00873588,38.774,1.144,43.746733,-71.04191,name,2023_Gaz_cousubs_national.txt
+Ellsworth,town,3300923860,33,009,Grafton,23860,Ellsworth town,00873589,21.41,0.124,43.911799,-71.768996,name,2023_Gaz_cousubs_national.txt
+Enfield,town,3300924340,33,009,Grafton,24340,Enfield town,00873590,40.305,2.847,43.603314,-72.118598,name,2023_Gaz_cousubs_national.txt
+Epping,town,3301524660,33,015,Rockingham,24660,Epping town,00873591,26.027,0.183,43.051027,-71.088254,name,2023_Gaz_cousubs_national.txt
+Epsom,town,3301324900,33,013,Merrimack,24900,Epsom town,00873592,34.417,0.198,43.204812,-71.348563,name,2023_Gaz_cousubs_national.txt
+Errol,town,3300725140,33,007,Coos,25140,Errol town,00873593,60.354,9.089,44.758253,-71.108812,name,2023_Gaz_cousubs_national.txt
+Erving's Grant,unincorporated,3300725180,33,007,Coos,25180,Ervings location,00873594,3.752,0.,44.800424,-71.343659,override,2023_Gaz_cousubs_national.txt
+Exeter,town,3301525380,33,015,Rockingham,25380,Exeter town,00873595,19.603,0.36,42.988453,-70.961542,name,2023_Gaz_cousubs_national.txt
+Farmington,town,3301726020,33,017,Strafford,26020,Farmington town,00873596,36.587,0.351,43.366924,-71.062503,name,2023_Gaz_cousubs_national.txt
+Fitzwilliam,town,3300526500,33,005,Cheshire,26500,Fitzwilliam town,00873597,34.635,1.399,42.753205,-72.153028,name,2023_Gaz_cousubs_national.txt
+Francestown,town,3301127140,33,011,Hillsborough,27140,Francestown town,00873598,29.814,0.562,42.994135,-71.816098,name,2023_Gaz_cousubs_national.txt
+Franconia,town,3300927300,33,009,Grafton,27300,Franconia town,00873599,65.514,0.311,44.177045,-71.618733,name,2023_Gaz_cousubs_national.txt
+Franklin,city,3301327380,33,013,Merrimack,27380,Franklin city,00873600,27.433,1.736,43.453915,-71.669893,name,2023_Gaz_cousubs_national.txt
+Freedom,town,3300327700,33,003,Carroll,27700,Freedom town,00873601,34.734,3.172,43.842036,-71.075161,name,2023_Gaz_cousubs_national.txt
+Fremont,town,3301527940,33,015,Rockingham,27940,Fremont town,00873602,17.173,0.227,43.000369,-71.119162,name,2023_Gaz_cousubs_national.txt
+Gilford,town,3300128740,33,001,Belknap,28740,Gilford town,00873603,38.786,14.758,43.519499,-71.375838,name,2023_Gaz_cousubs_national.txt
+Gilmanton,town,3300128980,33,001,Belknap,28980,Gilmanton town,00873604,57.9,1.711,43.43159,-71.366322,name,2023_Gaz_cousubs_national.txt
+Gilsum,town,3300529220,33,005,Cheshire,29220,Gilsum town,00873605,16.669,0.022,43.041227,-72.262369,name,2023_Gaz_cousubs_national.txt
+Goffstown,town,3301129860,33,011,Hillsborough,29860,Goffstown town,00873606,37.008,0.591,43.019198,-71.555445,name,2023_Gaz_cousubs_national.txt
+Gorham,town,3300730260,33,007,Coos,30260,Gorham town,00873607,31.829,0.484,44.393423,-71.19849,name,2023_Gaz_cousubs_national.txt
+Goshen,town,3301930500,33,019,Sullivan,30500,Goshen town,00873608,22.44,0.092,43.272092,-72.101033,name,2023_Gaz_cousubs_national.txt
+Grafton,town,3300930820,33,009,Grafton,30820,Grafton town,00873609,41.473,0.934,43.574691,-71.951919,name,2023_Gaz_cousubs_national.txt
+Grantham,town,3301931220,33,019,Sullivan,31220,Grantham town,00873610,27.217,0.832,43.51659,-72.149093,name,2023_Gaz_cousubs_national.txt
+Green's Grant,unincorporated,3300731780,33,007,Coos,31780,Greens grant,00871974,3.667,0.003,44.290017,-71.218153,name,2023_Gaz_cousubs_national.txt
+Greenfield,town,3301131540,33,011,Hillsborough,31540,Greenfield town,00873611,26.211,0.546,42.93874,-71.879424,name,2023_Gaz_cousubs_national.txt
+Greenland,town,3301531700,33,015,Rockingham,31700,Greenland town,00873612,10.484,2.836,43.039732,-70.845622,name,2023_Gaz_cousubs_national.txt
+Greenville,town,3301131940,33,011,Hillsborough,31940,Greenville town,00873613,6.878,0.,42.757935,-71.799416,name,2023_Gaz_cousubs_national.txt
+Groton,town,3300932180,33,009,Grafton,32180,Groton town,00873614,40.696,0.065,43.725276,-71.86493,name,2023_Gaz_cousubs_national.txt
+Hadley's Purchase,unincorporated,3300732420,33,007,Coos,32420,Hadleys purchase,00872009,7.407,0.,44.126078,-71.332407,name,2023_Gaz_cousubs_national.txt
+Hale's Location,unincorporated,3300332500,33,003,Carroll,32500,Hale's location,00871993,2.488,0.,44.038403,-71.170888,name,2023_Gaz_cousubs_national.txt
+Hampstead,town,3301532900,33,015,Rockingham,32900,Hampstead town,00873615,13.42,0.665,42.881061,-71.171883,name,2023_Gaz_cousubs_national.txt
+Hampton,town,3301533060,33,015,Rockingham,33060,Hampton town,00873616,12.911,1.721,42.93913,-70.834273,name,2023_Gaz_cousubs_national.txt
+Hampton Falls,town,3301533460,33,015,Rockingham,33460,Hampton Falls town,00873617,12.221,0.429,42.924811,-70.886242,name,2023_Gaz_cousubs_national.txt
+Hancock,town,3301133700,33,011,Hillsborough,33700,Hancock town,00873618,29.97,1.284,42.977339,-71.997821,name,2023_Gaz_cousubs_national.txt
+Hanover,town,3300933860,33,009,Grafton,33860,Hanover town,00873619,49.028,1.107,43.721023,-72.185207,name,2023_Gaz_cousubs_national.txt
+Harrisville,town,3300534420,33,005,Cheshire,34420,Harrisville town,00873620,18.652,1.577,42.948536,-72.068986,name,2023_Gaz_cousubs_national.txt
+Hart's Location,town,3300334500,33,003,Carroll,34500,Hart's Location town,00872015,18.678,0.105,44.140912,-71.375633,name,2023_Gaz_cousubs_national.txt
+Haverhill,town,3300934820,33,009,Grafton,34820,Haverhill town,00873621,50.99,1.369,44.075844,-72.00465,name,2023_Gaz_cousubs_national.txt
+Hebron,town,3300935220,33,009,Grafton,35220,Hebron town,00873622,17.006,2.254,43.693579,-71.792047,name,2023_Gaz_cousubs_national.txt
+Henniker,town,3301335540,33,013,Merrimack,35540,Henniker town,00873623,44.119,0.683,43.169407,-71.831201,name,2023_Gaz_cousubs_national.txt
+Hill,town,3301335860,33,013,Merrimack,35860,Hill town,00873624,26.554,0.178,43.528306,-71.769192,name,2023_Gaz_cousubs_national.txt
+Hillsborough,town,3301136180,33,011,Hillsborough,36180,Hillsborough town,00873625,43.701,1.003,43.146685,-71.951025,name,2023_Gaz_cousubs_national.txt
+Hinsdale,town,3300536660,33,005,Cheshire,36660,Hinsdale town,00873626,20.517,2.133,42.809298,-72.504822,name,2023_Gaz_cousubs_national.txt
+Holderness,town,3300936900,33,009,Grafton,36900,Holderness town,00873627,30.35,5.376,43.761761,-71.582529,name,2023_Gaz_cousubs_national.txt
+Hollis,town,3301137140,33,011,Hillsborough,37140,Hollis town,00873628,31.729,0.567,42.749624,-71.585402,name,2023_Gaz_cousubs_national.txt
+Hooksett,town,3301337300,33,013,Merrimack,37300,Hooksett town,00873629,36.056,1.069,43.081242,-71.446616,name,2023_Gaz_cousubs_national.txt
+Hopkinton,town,3301337540,33,013,Merrimack,37540,Hopkinton town,00873630,43.296,1.79,43.202191,-71.696789,name,2023_Gaz_cousubs_national.txt
+Hudson,town,3301137940,33,011,Hillsborough,37940,Hudson town,00873631,28.282,0.979,42.760497,-71.409393,name,2023_Gaz_cousubs_national.txt
+Jackson,town,3300338260,33,003,Carroll,38260,Jackson town,00873632,66.77,0.039,44.18762,-71.155763,name,2023_Gaz_cousubs_national.txt
+Jaffrey,town,3300538500,33,005,Cheshire,38500,Jaffrey town,00873633,38.4,1.776,42.829254,-72.059901,name,2023_Gaz_cousubs_national.txt
+Jefferson,town,3300738820,33,007,Coos,38820,Jefferson town,00873634,49.995,0.33,44.396741,-71.464694,name,2023_Gaz_cousubs_national.txt
+Keene,city,3300539300,33,005,Cheshire,39300,Keene city,00873635,37.092,0.259,42.953842,-72.306875,name,2023_Gaz_cousubs_national.txt
+Kensington,town,3301539780,33,015,Rockingham,39780,Kensington town,00873636,11.967,0.014,42.93287,-70.964273,name,2023_Gaz_cousubs_national.txt
+Kilkenny,unincorporated,3300739940,33,007,Coos,39940,Kilkenny township,00873637,25.678,0.02,44.479595,-71.405486,base,2023_Gaz_cousubs_national.txt
+Kingston,town,3301540100,33,015,Rockingham,40100,Kingston town,00873638,19.794,1.241,42.913731,-71.073595,name,2023_Gaz_cousubs_national.txt
+Laconia,city,3300140180,33,001,Belknap,40180,Laconia city,00873639,19.838,6.242,43.576535,-71.482263,name,2023_Gaz_cousubs_national.txt
+Lancaster,town,3300740420,33,007,Coos,40420,Lancaster town,00873640,49.968,1.118,44.472363,-71.544149,name,2023_Gaz_cousubs_national.txt
+Landaff,town,3300940660,33,009,Grafton,40660,Landaff town,00873641,28.34,0.137,44.160094,-71.885201,name,2023_Gaz_cousubs_national.txt
+Langdon,town,3301940900,33,019,Sullivan,40900,Langdon town,00873642,16.249,0.073,43.186975,-72.359587,name,2023_Gaz_cousubs_national.txt
+Lebanon,city,3300941300,33,009,Grafton,41300,Lebanon city,00873643,40.305,0.968,43.635428,-72.253837,name,2023_Gaz_cousubs_national.txt
+Lee,town,3301741460,33,017,Strafford,41460,Lee town,00873644,19.99,0.209,43.119202,-71.007082,name,2023_Gaz_cousubs_national.txt
+Lempster,town,3301941700,33,019,Sullivan,41700,Lempster town,00873645,32.345,0.399,43.236564,-72.184869,name,2023_Gaz_cousubs_national.txt
+Lincoln,town,3300941860,33,009,Grafton,41860,Lincoln town,00873646,130.456,0.56,44.09469,-71.631382,name,2023_Gaz_cousubs_national.txt
+Lisbon,town,3300942020,33,009,Grafton,42020,Lisbon town,00873647,26.238,0.428,44.242257,-71.848617,name,2023_Gaz_cousubs_national.txt
+Litchfield,town,3301142260,33,011,Hillsborough,42260,Litchfield town,00873648,14.924,0.382,42.846081,-71.468283,name,2023_Gaz_cousubs_national.txt
+Littleton,town,3300942580,33,009,Grafton,42580,Littleton town,00873649,49.958,4.038,44.343351,-71.795118,name,2023_Gaz_cousubs_national.txt
+Livermore,unincorporated,3300942820,33,009,Grafton,42820,Livermore town,00873650,63.784,0.163,44.069466,-71.420016,name,2023_Gaz_cousubs_national.txt
+Londonderry,town,3301543220,33,015,Rockingham,43220,Londonderry town,00873651,41.997,0.128,42.879789,-71.392326,name,2023_Gaz_cousubs_national.txt
+Loudon,town,3301343380,33,013,Merrimack,43380,Loudon town,00873652,46.158,0.559,43.308134,-71.44913,name,2023_Gaz_cousubs_national.txt
+Low & Burbank's Grant,unincorporated,3300743620,33,007,Coos,43620,Low and Burbanks grant,00872225,26.14,0.001,44.329511,-71.348094,name,2023_Gaz_cousubs_national.txt
+Lyman,town,3300944100,33,009,Grafton,44100,Lyman town,00873653,28.388,0.295,44.257464,-71.934489,name,2023_Gaz_cousubs_national.txt
+Lyme,town,3300944260,33,009,Grafton,44260,Lyme town,00873654,53.82,1.205,43.816634,-72.094295,name,2023_Gaz_cousubs_national.txt
+Lyndeborough,town,3301144580,33,011,Hillsborough,44580,Lyndeborough town,00873655,30.436,0.116,42.896409,-71.768331,name,2023_Gaz_cousubs_national.txt
+Madbury,town,3301744820,33,017,Strafford,44820,Madbury town,00873656,11.619,0.567,43.174607,-70.941453,name,2023_Gaz_cousubs_national.txt
+Madison,town,3300345060,33,003,Carroll,45060,Madison town,00873657,38.488,2.386,43.908458,-71.15382,name,2023_Gaz_cousubs_national.txt
+Manchester,city,3301145140,33,011,Hillsborough,45140,Manchester city,00873658,33.069,1.868,42.984941,-71.444131,name,2023_Gaz_cousubs_national.txt
+Marlborough,town,3300545460,33,005,Cheshire,45460,Marlborough town,00873659,20.411,0.234,42.886226,-72.177684,name,2023_Gaz_cousubs_national.txt
+Marlow,town,3300545700,33,005,Cheshire,45700,Marlow town,00873660,25.971,0.47,43.138544,-72.208769,name,2023_Gaz_cousubs_national.txt
+Martin's Location,unincorporated,3300746020,33,007,Coos,46020,Martins location,00872260,3.725,0.03,44.330433,-71.202479,name,2023_Gaz_cousubs_national.txt
+Mason,town,3301146260,33,011,Hillsborough,46260,Mason town,00873661,23.935,0.055,42.742181,-71.750968,name,2023_Gaz_cousubs_national.txt
+Meredith,town,3300147140,33,001,Belknap,47140,Meredith town,00873662,40.075,14.494,43.631211,-71.498585,name,2023_Gaz_cousubs_national.txt
+Merrimack,town,3301147540,33,011,Hillsborough,47540,Merrimack town,00873663,32.592,0.842,42.852034,-71.519876,name,2023_Gaz_cousubs_national.txt
+Middleton,town,3301747700,33,017,Strafford,47700,Middleton town,00873664,18.074,0.43,43.483007,-71.070641,name,2023_Gaz_cousubs_national.txt
+Milan,town,3300747860,33,007,Coos,47860,Milan town,00873665,63.688,0.759,44.553867,-71.218255,name,2023_Gaz_cousubs_national.txt
+Milford,town,3301148020,33,011,Hillsborough,48020,Milford town,00873666,25.411,0.056,42.818645,-71.673354,name,2023_Gaz_cousubs_national.txt
+Millsfield,unincorporated,3300748260,33,007,Coos,48260,Millsfield township,00873667,44.814,0.404,44.747716,-71.261574,base,2023_Gaz_cousubs_national.txt
+Milton,town,3301748660,33,017,Strafford,48660,Milton town,00873668,33.05,1.224,43.452229,-71.014652,name,2023_Gaz_cousubs_national.txt
+Monroe,town,3300948980,33,009,Grafton,48980,Monroe town,00873669,22.335,1.492,44.296605,-71.980684,name,2023_Gaz_cousubs_national.txt
+Mont Vernon,town,3301149140,33,011,Hillsborough,49140,Mont Vernon town,00873670,16.824,0.082,42.908885,-71.694199,name,2023_Gaz_cousubs_national.txt
+Moultonborough,town,3300349380,33,003,Carroll,49380,Moultonborough town,00873671,59.687,15.393,43.720515,-71.368582,name,2023_Gaz_cousubs_national.txt
+Nashua,city,3301150260,33,011,Hillsborough,50260,Nashua city,00873672,30.834,0.9,42.749074,-71.490544,name,2023_Gaz_cousubs_national.txt
+Nelson,town,3300550580,33,005,Cheshire,50580,Nelson town,00873673,21.911,1.369,42.999482,-72.121703,name,2023_Gaz_cousubs_national.txt
+New Boston,town,3301150740,33,011,Hillsborough,50740,New Boston town,00873674,42.815,0.397,42.981209,-71.67752,name,2023_Gaz_cousubs_national.txt
+New Castle,town,3301550980,33,015,Rockingham,50980,New Castle town,00873676,0.809,1.462,43.062147,-70.717071,name,2023_Gaz_cousubs_national.txt
+New Durham,town,3301751220,33,017,Strafford,51220,New Durham town,00873677,41.215,2.619,43.463687,-71.15214,name,2023_Gaz_cousubs_national.txt
+New Hampton,town,3300151540,33,001,Belknap,51540,New Hampton town,00873679,36.765,1.609,43.623436,-71.632547,name,2023_Gaz_cousubs_national.txt
+New Ipswich,town,3301151940,33,011,Hillsborough,51940,New Ipswich town,00873681,32.727,0.32,42.746257,-71.874434,name,2023_Gaz_cousubs_national.txt
+New London,town,3301352100,33,013,Merrimack,52100,New London town,00873682,22.34,3.08,43.417721,-71.990609,name,2023_Gaz_cousubs_national.txt
+Newbury,town,3301350900,33,013,Merrimack,50900,Newbury town,00873675,35.839,2.263,43.314026,-72.024551,name,2023_Gaz_cousubs_national.txt
+Newfields,town,3301551380,33,015,Rockingham,51380,Newfields town,00873678,7.091,0.168,43.038509,-70.967954,name,2023_Gaz_cousubs_national.txt
+Newington,town,3301551620,33,015,Rockingham,51620,Newington town,00873680,8.109,4.265,43.085924,-70.827443,name,2023_Gaz_cousubs_national.txt
+Newmarket,town,3301552340,33,015,Rockingham,52340,Newmarket town,00873683,12.593,1.595,43.070913,-70.946939,name,2023_Gaz_cousubs_national.txt
+Newport,town,3301952580,33,019,Sullivan,52580,Newport town,00873684,43.572,0.072,43.371345,-72.202789,name,2023_Gaz_cousubs_national.txt
+Newton,town,3301552900,33,015,Rockingham,52900,Newton town,00873685,9.813,0.146,42.870369,-71.045915,name,2023_Gaz_cousubs_national.txt
+North Hampton,town,3301554580,33,015,Rockingham,54580,North Hampton town,00873687,13.888,0.498,42.979934,-70.829441,name,2023_Gaz_cousubs_national.txt
+Northfield,town,3301354260,33,013,Merrimack,54260,Northfield town,00873686,28.506,0.368,43.401788,-71.555391,name,2023_Gaz_cousubs_national.txt
+Northumberland,town,3300756100,33,007,Coos,56100,Northumberland town,00873688,35.689,1.088,44.568495,-71.5193,name,2023_Gaz_cousubs_national.txt
+Northwood,town,3301556820,33,015,Rockingham,56820,Northwood town,00873689,28.156,2.094,43.211856,-71.223393,name,2023_Gaz_cousubs_national.txt
+Nottingham,town,3301557460,33,015,Rockingham,57460,Nottingham town,00873690,46.496,1.938,43.129847,-71.131859,name,2023_Gaz_cousubs_national.txt
+Odell,unincorporated,3300757860,33,007,Coos,57860,Odell township,00873691,44.324,0.689,44.744941,-71.381331,base,2023_Gaz_cousubs_national.txt
+Orange,town,3300958340,33,009,Grafton,58340,Orange town,00873692,23.069,0.058,43.679341,-71.921827,name,2023_Gaz_cousubs_national.txt
+Orford,town,3300958500,33,009,Grafton,58500,Orford town,00873693,46.5,1.405,43.883333,-72.033845,name,2023_Gaz_cousubs_national.txt
+Ossipee,town,3300358740,33,003,Carroll,58740,Ossipee town,00873694,70.477,4.802,43.737249,-71.150349,name,2023_Gaz_cousubs_national.txt
+Pelham,town,3301159940,33,011,Hillsborough,59940,Pelham town,00873695,26.343,0.54,42.730992,-71.337075,name,2023_Gaz_cousubs_national.txt
+Pembroke,town,3301360020,33,013,Merrimack,60020,Pembroke town,00873696,22.635,0.174,43.167722,-71.438517,name,2023_Gaz_cousubs_national.txt
+Peterborough,town,3301160580,33,011,Hillsborough,60580,Peterborough town,00873697,38.02,0.408,42.890077,-71.941157,name,2023_Gaz_cousubs_national.txt
+Piermont,town,3300961060,33,009,Grafton,61060,Piermont town,00873698,38.442,1.39,43.961851,-72.001293,name,2023_Gaz_cousubs_national.txt
+Pinkham's Grant,unincorporated,3300761620,33,007,Coos,61620,Pinkhams grant,00872509,3.793,0.006,44.256955,-71.241579,name,2023_Gaz_cousubs_national.txt
+Pittsburg,town,3300761780,33,007,Coos,61780,Pittsburg town,00871099,281.32,9.979,45.145326,-71.254877,name,2023_Gaz_cousubs_national.txt
+Pittsfield,town,3301361940,33,013,Merrimack,61940,Pittsfield town,00873699,24.024,0.288,43.288501,-71.309368,name,2023_Gaz_cousubs_national.txt
+Plainfield,town,3301962340,33,019,Sullivan,62340,Plainfield town,00873700,52.247,0.743,43.543837,-72.295537,name,2023_Gaz_cousubs_national.txt
+Plaistow,town,3301562500,33,015,Rockingham,62500,Plaistow town,00873701,10.591,0.006,42.845597,-71.09326,name,2023_Gaz_cousubs_national.txt
+Plymouth,town,3300962660,33,009,Grafton,62660,Plymouth town,00873702,28.101,0.557,43.743912,-71.726744,name,2023_Gaz_cousubs_national.txt
+Portsmouth,city,3301562900,33,015,Rockingham,62900,Portsmouth city,00873703,15.661,1.163,43.060594,-70.780349,name,2023_Gaz_cousubs_national.txt
+Randolph,town,3300763860,33,007,Coos,63860,Randolph town,00873704,47.042,0.059,44.397489,-71.305053,name,2023_Gaz_cousubs_national.txt
+Raymond,town,3301564020,33,015,Rockingham,64020,Raymond town,00873705,28.818,0.795,43.032583,-71.203144,name,2023_Gaz_cousubs_national.txt
+Richmond,town,3300564420,33,005,Cheshire,64420,Richmond town,00873706,37.543,0.196,42.773484,-72.278745,name,2023_Gaz_cousubs_national.txt
+Rindge,town,3300564580,33,005,Cheshire,64580,Rindge town,00873707,37.106,2.688,42.756663,-72.013247,name,2023_Gaz_cousubs_national.txt
+Rochester,city,3301765140,33,017,Strafford,65140,Rochester city,00873708,45.021,0.415,43.298493,-70.977005,name,2023_Gaz_cousubs_national.txt
+Rollinsford,town,3301765540,33,017,Strafford,65540,Rollinsford town,00873709,7.287,0.281,43.219815,-70.843107,name,2023_Gaz_cousubs_national.txt
+Roxbury,town,3300565700,33,005,Cheshire,65700,Roxbury town,00873710,11.908,0.292,42.951105,-72.199742,name,2023_Gaz_cousubs_national.txt
+Rumney,town,3300965940,33,009,Grafton,65940,Rumney town,00873711,41.698,0.915,43.834707,-71.774335,name,2023_Gaz_cousubs_national.txt
+Rye,town,3301566180,33,015,Rockingham,66180,Rye town,00873712,12.638,24.129,43.033467,-70.719223,name,2023_Gaz_cousubs_national.txt
+Salem,town,3301566660,33,015,Rockingham,66660,Salem town,00873713,24.84,1.055,42.788267,-71.221725,name,2023_Gaz_cousubs_national.txt
+Salisbury,town,3301366980,33,013,Merrimack,66980,Salisbury town,00873714,39.581,0.225,43.386099,-71.772917,name,2023_Gaz_cousubs_national.txt
+Sanbornton,town,3300167300,33,001,Belknap,67300,Sanbornton town,00873715,47.373,2.276,43.524186,-71.601607,name,2023_Gaz_cousubs_national.txt
+Sandown,town,3301567620,33,015,Rockingham,67620,Sandown town,00873716,13.934,0.489,42.934018,-71.183605,name,2023_Gaz_cousubs_national.txt
+Sandwich,town,3300367780,33,003,Carroll,67780,Sandwich town,00873717,90.878,3.271,43.838564,-71.443132,name,2023_Gaz_cousubs_national.txt
+Sargent's Purchase,unincorporated,3300767860,33,007,Coos,67860,Sargents purchase,00872626,25.869,0.006,44.215547,-71.302898,name,2023_Gaz_cousubs_national.txt
+Seabrook,town,3301568260,33,015,Rockingham,68260,Seabrook town,00873718,8.977,0.724,42.883123,-70.860823,name,2023_Gaz_cousubs_national.txt
+Second College Grant,unincorporated,3300768500,33,007,Coos,68500,Second College grant,00871136,41.333,0.506,44.92427,-71.125487,name,2023_Gaz_cousubs_national.txt
+Sharon,town,3301168820,33,011,Hillsborough,68820,Sharon town,00873719,15.661,0.,42.816215,-71.934424,name,2023_Gaz_cousubs_national.txt
+Shelburne,town,3300768980,33,007,Coos,68980,Shelburne town,00873720,47.919,0.843,44.367172,-71.087115,name,2023_Gaz_cousubs_national.txt
+Somersworth,city,3301769940,33,017,Strafford,69940,Somersworth city,00873721,9.801,0.196,43.253476,-70.887944,name,2023_Gaz_cousubs_national.txt
+South Hampton,town,3301571140,33,015,Rockingham,71140,South Hampton town,00873722,8.024,0.025,42.889802,-70.959546,name,2023_Gaz_cousubs_national.txt
+Springfield,town,3301972740,33,019,Sullivan,72740,Springfield town,00873723,43.614,0.886,43.491916,-72.038114,name,2023_Gaz_cousubs_national.txt
+Stark,town,3300773060,33,007,Coos,73060,Stark town,00873724,58.808,0.915,44.595126,-71.403249,name,2023_Gaz_cousubs_national.txt
+Stewartstown,town,3300773380,33,007,Coos,73380,Stewartstown town,00871096,46.25,0.607,44.96067,-71.406991,name,2023_Gaz_cousubs_national.txt
+Stoddard,town,3300573700,33,005,Cheshire,73700,Stoddard town,00873725,50.934,2.117,43.076314,-72.113952,name,2023_Gaz_cousubs_national.txt
+Strafford,town,3301773860,33,017,Strafford,73860,Strafford town,00873726,49.03,2.188,43.275384,-71.169956,name,2023_Gaz_cousubs_national.txt
+Stratford,town,3300774180,33,007,Coos,74180,Stratford town,00873727,79.237,0.526,44.715053,-71.52754,name,2023_Gaz_cousubs_national.txt
+Stratham,town,3301574340,33,015,Rockingham,74340,Stratham town,00873728,15.148,0.356,43.014993,-70.902602,name,2023_Gaz_cousubs_national.txt
+Success,unincorporated,3300774500,33,007,Coos,74500,Success township,00873729,56.499,0.519,44.512692,-71.072713,base,2023_Gaz_cousubs_national.txt
+Sugar Hill,town,3300974740,33,009,Grafton,74740,Sugar Hill town,00873730,17.048,0.183,44.21841,-71.80024,name,2023_Gaz_cousubs_national.txt
+Sullivan,town,3300574900,33,005,Cheshire,74900,Sullivan town,00873731,18.537,0.189,43.020616,-72.214374,name,2023_Gaz_cousubs_national.txt
+Sunapee,town,3301975060,33,019,Sullivan,75060,Sunapee town,00873732,21.053,4.102,43.390095,-72.093136,name,2023_Gaz_cousubs_national.txt
+Surry,town,3300575300,33,005,Cheshire,75300,Surry town,00873733,15.686,0.316,43.018778,-72.343383,name,2023_Gaz_cousubs_national.txt
+Sutton,town,3301375460,33,013,Merrimack,75460,Sutton town,00873734,42.554,0.782,43.335017,-71.918365,name,2023_Gaz_cousubs_national.txt
+Swanzey,town,3300575700,33,005,Cheshire,75700,Swanzey town,00873735,44.975,0.356,42.858271,-72.29636,name,2023_Gaz_cousubs_national.txt
+Tamworth,town,3300376100,33,003,Carroll,76100,Tamworth town,00873736,59.551,1.099,43.864038,-71.296068,name,2023_Gaz_cousubs_national.txt
+Temple,town,3301176260,33,011,Hillsborough,76260,Temple town,00873737,22.252,0.22,42.826723,-71.875416,name,2023_Gaz_cousubs_national.txt
+Thompson & Meserve's Purchase,unincorporated,3300776580,33,007,Coos,76580,Thompson and Meserves purchase,00872800,18.514,0.,44.297119,-71.277804,name,2023_Gaz_cousubs_national.txt
+Thornton,town,3300976740,33,009,Grafton,76740,Thornton town,00873738,50.091,0.604,43.947877,-71.635785,name,2023_Gaz_cousubs_national.txt
+Tilton,town,3300177060,33,001,Belknap,77060,Tilton town,00873739,11.145,0.797,43.471211,-71.576458,name,2023_Gaz_cousubs_national.txt
+Troy,town,3300577380,33,005,Cheshire,77380,Troy town,00873740,17.458,0.157,42.828798,-72.188943,name,2023_Gaz_cousubs_national.txt
+Tuftonboro,town,3300377620,33,003,Carroll,77620,Tuftonboro town,00873741,40.512,8.926,43.669877,-71.275891,name,2023_Gaz_cousubs_national.txt
+Unity,town,3301977940,33,019,Sullivan,77940,Unity town,00873742,36.981,0.217,43.299305,-72.274568,name,2023_Gaz_cousubs_national.txt
+Wakefield,town,3300378180,33,003,Carroll,78180,Wakefield town,00873743,39.63,5.255,43.592806,-71.007798,name,2023_Gaz_cousubs_national.txt
+Walpole,town,3300578420,33,005,Cheshire,78420,Walpole town,00873744,35.226,1.445,43.081102,-72.403127,name,2023_Gaz_cousubs_national.txt
+Warner,town,3301378580,33,013,Merrimack,78580,Warner town,00873745,55.23,0.248,43.283544,-71.830606,name,2023_Gaz_cousubs_national.txt
+Warren,town,3300978740,33,009,Grafton,78740,Warren town,00873746,48.527,0.47,43.965803,-71.859117,name,2023_Gaz_cousubs_national.txt
+Washington,town,3301978980,33,019,Sullivan,78980,Washington town,00873747,45.711,1.982,43.190051,-72.093871,name,2023_Gaz_cousubs_national.txt
+Waterville Valley,town,3300979380,33,009,Grafton,79380,Waterville Valley town,00873748,64.327,0.128,43.942831,-71.448052,name,2023_Gaz_cousubs_national.txt
+Weare,town,3301179780,33,011,Hillsborough,79780,Weare town,00873749,59.067,1.035,43.078287,-71.703508,name,2023_Gaz_cousubs_national.txt
+Webster,town,3301380020,33,013,Merrimack,80020,Webster town,00873750,28.212,0.582,43.306572,-71.725682,name,2023_Gaz_cousubs_national.txt
+Wentworth,town,3300980500,33,009,Grafton,80500,Wentworth town,00873752,41.564,0.515,43.858721,-71.923718,name,2023_Gaz_cousubs_national.txt
+Wentworth's Location,unincorporated,3300780740,33,007,Coos,80740,Wentworth location,00873751,18.337,0.923,44.845026,-71.095874,override,2023_Gaz_cousubs_national.txt
+Westmoreland,town,3300582660,33,005,Cheshire,82660,Westmoreland town,00873753,35.806,1.033,42.968075,-72.430856,name,2023_Gaz_cousubs_national.txt
+Whitefield,town,3300784420,33,007,Coos,84420,Whitefield town,00873754,34.264,0.475,44.375513,-71.589598,name,2023_Gaz_cousubs_national.txt
+Wilmot,town,3301384900,33,013,Merrimack,84900,Wilmot town,00873755,29.413,0.206,43.443284,-71.922446,name,2023_Gaz_cousubs_national.txt
+Wilton,town,3301185220,33,011,Hillsborough,85220,Wilton town,00873756,25.611,0.09,42.835302,-71.769155,name,2023_Gaz_cousubs_national.txt
+Winchester,town,3300585540,33,005,Cheshire,85540,Winchester town,00873757,54.993,0.562,42.789314,-72.395238,name,2023_Gaz_cousubs_national.txt
+Windham,town,3301585780,33,015,Rockingham,85780,Windham town,00873758,26.744,1.035,42.811092,-71.302688,name,2023_Gaz_cousubs_national.txt
+Windsor,town,3301185940,33,011,Hillsborough,85940,Windsor town,00873759,8.249,0.268,43.113044,-72.013639,name,2023_Gaz_cousubs_national.txt
+Wolfeboro,town,3300386420,33,003,Carroll,86420,Wolfeboro town,00873760,47.951,10.492,43.614448,-71.169156,name,2023_Gaz_cousubs_national.txt
+Woodstock,town,3300987060,33,009,Grafton,87060,Woodstock town,00873761,58.762,0.549,43.999889,-71.714447,name,2023_Gaz_cousubs_national.txt
