@@ -1,0 +1,16 @@
+<div class="rate-toggle" role="tablist" aria-label="Choose which rate to map">
+  {% for key, meta in rate_meta.items() %}
+  <a href="#" role="tab" class="{{ 'on' if key == rate }}"
+     aria-selected="{{ 'true' if key == rate else 'false' }}"
+     hx-get="/fragments/map?rate={{ key }}" hx-target="#mapwrap" hx-swap="innerHTML">
+     {{ meta.label }}</a>
+  {% endfor %}
+</div>
+{{ svg | safe }}
+<div class="legend">
+  <span class="cap">{{ rate_meta[rate].label }} {{ year }} ($/$1,000)</span>
+  {% for b in legend %}<span class="sw"><i style="background: {{ b.color }}"></i>{{ "%.1f"|format(b.lo) }}–{{ "%.1f"|format(b.hi) }}</span>{% endfor %}
+  <span class="sw"><i style="background:#d8d7d0"></i>n/a</span>
+</div>
+<p class="maphint">{{ rate_meta[rate].blurb|capitalize }}.{% if rate == 'equalized' and year == 2025 %} 2025 equalized figures are estimated until DRA publishes.{% endif %}
+   <a href="/about/equalized-rates">How advertised &amp; equalized differ →</a></p>

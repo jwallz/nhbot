@@ -77,6 +77,25 @@ Next: GRANIT boundary polygons (the clickable map), then DOE (schools), SOS
 (elections), and ACS (demographics) — each a new fact table on the same GEOID
 spine. Production target: Python + PostgreSQL/PostGIS on EC2.
 
+## Run the site (FastAPI + Jinja2 + HTMX)
+
+Server-side rendered, no front-end framework. Town pages and the comparison tool
+read live from Postgres; the map is a server-rendered SVG choropleth whose towns
+are `<a>` links (zero JS), and the compare tool filters/sorts via HTMX fragment
+swaps.
+
+```bash
+pip install -e '.[web]'
+export NHBOT_DSN="dbname=nhbot"
+uvicorn nhbot.web.app:app --reload
+# open http://127.0.0.1:8000
+```
+
+Routes: `/` (map) · `/town/{geoid}` · `/compare` (HTMX) · `/healthz`.
+The web layer lives in `src/nhbot/web/` (thin psycopg2 query layer in `repo.py`,
+no ORM). HTMX is loaded from a CDN in `base.html` — vendor it into `static/` for a
+fully self-contained deploy.
+
 ## License
 
 MIT (see `LICENSE`). Nonpartisan civic infrastructure — corrections welcome.

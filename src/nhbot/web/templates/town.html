@@ -1,0 +1,73 @@
+{% extends "base.html" %}
+{% block title %}{{ m.name }}, NH — NHbot{% endblock %}
+{% block content %}
+<nav class="crumbs"><a href="/">Map</a> / <span>{{ m.name }}</span></nav>
+
+<header class="town-head">
+  <h1>{{ m.name }}</h1>
+  <p class="meta">{{ m.county }} County · {{ m.entity_type|capitalize }}
+     {% if m.aland_sqmi %}· {{ "%.0f"|format(m.aland_sqmi|float) }} sq mi{% endif %}</p>
+</header>
+
+{% if current and current.advertised %}
+<section class="hero-stat">
+  <div class="figure">{{ "%.2f"|format(current.advertised|float) }}</div>
+  <div class="cap">total tax rate, {{ current.tax_year }} — per $1,000 of assessed value
+    <span class="sub">the rate on your bill</span></div>
+</section>
+{% endif %}
+
+{% if split %}
+<section class="panel">
+  <h2>{{ split.tax_year }} advertised rate — where the money goes</h2>
+  <table class="kv">
+    <tr><th>Municipal</th><td>{{ "%.2f"|format(split.municipal_rate|float) }}</td></tr>
+    <tr><th>County</th><td>{{ "%.2f"|format(split.county_rate|float) }}</td></tr>
+    <tr><th>Local education</th><td>{{ "%.2f"|format(split.local_ed_rate|float) }}</td></tr>
+    <tr><th>State education</th><td>{{ "%.2f"|format(split.state_ed_rate|float) }}</td></tr>
+    <tr class="total"><th>Total</th><td>{{ "%.2f"|format(split.total_rate|float) }}</td></tr>
+  </table>
+</section>
+{% endif %}
+
+{% if current and current.equalized %}
+<section class="panel compare-card">
+  <div class="row">
+    <div>
+      <h2>Equalized rate <span class="badge {{ 'official' if current.is_official else 'estimate' }}">{{ 'DRA official' if current.is_official else 'estimate' }}</span></h2>
+      <p class="sub">for comparing {{ m.name }} with other towns{% if current.dra_rank %} · rank {{ current.dra_rank }} of 234{% endif %}</p>
+    </div>
+    <div class="figure sm">{{ "%.2f"|format(current.equalized|float) }}</div>
+  </div>
+  {% if current.ratio_pct and current.advertised %}
+  <p class="explain">
+    {{ m.name }} assesses property at about <strong>{{ "%.0f"|format(current.ratio_pct|float) }}%</strong>
+    of market value. The advertised <strong>{{ "%.2f"|format(current.advertised|float) }}</strong> is
+    charged on that assessed value. Restated as if everything were assessed at full market value, it
+    becomes the equalized <strong>{{ "%.2f"|format(current.equalized|float) }}</strong> — the honest
+    number for comparing towns. Same tax bill, different denominator.
+    <a href="/about/equalized-rates">Why this matters →</a>
+  </p>
+  {% endif %}
+</section>
+{% endif %}
+
+<section class="panel">
+  <h2>History</h2>
+  <table class="grid">
+    <thead><tr><th>Year</th><th class="num">Advertised</th><th class="num">Equalized</th><th class="num">Ratio %</th><th class="num">Rank</th><th>Source</th></tr></thead>
+    <tbody>
+    {% for h in history %}
+      <tr>
+        <td>{{ h.tax_year }}</td>
+        <td class="num">{{ "%.2f"|format(h.advertised|float) if h.advertised else "—" }}</td>
+        <td class="num">{{ "%.2f"|format(h.equalized|float) if h.equalized else "—" }}</td>
+        <td class="num">{{ "%.1f"|format(h.ratio_pct|float) if h.ratio_pct else "—" }}</td>
+        <td class="num">{{ h.dra_rank or "—" }}</td>
+        <td>{{ "official" if h.is_official else ("estimate" if h.equalized else "—") }}</td>
+      </tr>
+    {% endfor %}
+    </tbody>
+  </table>
+</section>
+{% endblock %}

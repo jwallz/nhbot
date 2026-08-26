@@ -147,6 +147,15 @@ def load_official(cur, g):
                 ON CONFLICT (geoid,tax_year) DO UPDATE SET
                   ratio_pct=EXCLUDED.ratio_pct, load_id=EXCLUDED.load_id
             """, (geoid, yr, num(r["equalization_ratio"]), lid))
+        # advertised total rate (the "Local Tax Rate" column) -> tax_rate.
+        # Historical years have the total only; the 4-way split exists for 2025.
+        if num(r["local_total_rate"]) is not None:
+            cur.execute("""
+                INSERT INTO nh.tax_rate(geoid,tax_year,total_rate,load_id)
+                VALUES (%s,%s,%s,%s)
+                ON CONFLICT (geoid,tax_year) DO UPDATE SET
+                  total_rate=EXCLUDED.total_rate, load_id=EXCLUDED.load_id
+            """, (geoid, yr, num(r["local_total_rate"]), lid))
     return n_eq, n_missing
 
 def load_estimate(cur, g):

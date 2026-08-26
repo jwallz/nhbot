@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="lede">
+  <h1>What is your New Hampshire town actually like?</h1>
+  <p>Start with property taxes. The map shows the <strong>advertised rate</strong> —
+     the number on your tax bill — by default. Toggle to the <strong>equalized rate</strong>
+     to compare towns fairly, since assessment levels differ. Click any town for detail.</p>
+</section>
+<div id="mapwrap" class="mapwrap">
+  {% include "partials/_map.html" %}
+</div>
+{% endblock %}

@@ -1,0 +1,59 @@
+{% extends "base.html" %}
+{% block title %}Advertised vs. equalized rates — NHbot{% endblock %}
+{% block content %}
+<nav class="crumbs"><a href="/">Map</a> / <span>How rates work</span></nav>
+<article class="prose">
+  <h1>Two tax rates, and why they differ</h1>
+
+  <p>Every New Hampshire town publishes a property-tax rate — dollars per $1,000 of
+     value. But there are really <strong>two</strong> rates, and confusing them is the
+     single most common mistake in comparing towns.</p>
+
+  <h2>The advertised rate — what you pay</h2>
+  <p>This is the rate on your tax bill. The town multiplies it by <em>its own assessed
+     value</em> of your property. It is the number people know and the one this site
+     shows first. But it is <strong>not comparable between towns</strong>, because towns
+     assess at different fractions of true market value.</p>
+
+  <h2>The equalized rate — for comparing towns</h2>
+  <p>Assessments drift below market value between revaluations (NH requires a full
+     revaluation only every five years). Each year the Department of Revenue
+     Administration runs a <strong>ratio study</strong> — comparing recent sale prices to
+     assessed values — to find each town's <strong>equalization ratio</strong>, the
+     percentage of market value at which it assesses. Divide the town's assessed value by
+     that ratio and you get its <strong>full-market (equalized) valuation</strong>; the
+     equalized tax rate is the rate the town would charge on that full value.</p>
+
+  <p class="formula">equalized rate&nbsp;≈&nbsp;advertised rate&nbsp;×&nbsp;equalization ratio</p>
+
+  <div class="callout">
+    <h3>A worked example</h3>
+    <p>Say a town assesses at <strong>67%</strong> of market value and its advertised rate
+       is <strong>$23.98</strong>. A home worth <strong>$745,000</strong> is assessed
+       around <strong>$500,000</strong>, so the bill is 500 × 23.98 ≈
+       <strong>$11,990</strong>. Express that same bill against the home's full
+       $745,000 market value and the rate is about <strong>$16</strong> — the equalized
+       rate. Nobody pays $16; it is the advertised rate translated onto a full-market base
+       so it can be compared with any other town.</p>
+  </div>
+
+  <h2>Why the equalized rate can look "too low"</h2>
+  <p>Whenever a town assesses below market (ratio under 100%), its equalized rate is lower
+     than its advertised rate — sometimes dramatically. That is not an error and not a
+     discount; it is the same tax burden expressed on a larger base.</p>
+
+  <h2>Revaluation re-bases the rate — it is not a tax cut</h2>
+  <p>When a town completes a revaluation and assessments jump to full market value, the
+     advertised rate <em>falls</em> toward the old equalized rate. Taxes, in aggregate,
+     don't change — the town still raises the same money; it is now spread over a larger
+     assessed base. Your individual bill shifts only if your property gained more or less
+     value than the town average.</p>
+
+  <h2>Which should you use?</h2>
+  <p>To understand your own bill, use the <strong>advertised</strong> rate. To ask "is this
+     town more expensive than that one?", use the <strong>equalized</strong> rate — it is
+     the only apples-to-apples comparison. This site shows both, everywhere.</p>
+
+  <p class="src">Source: NH Department of Revenue Administration, Equalization Bureau.</p>
+</article>
+{% endblock %}
