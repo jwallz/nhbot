@@ -1,0 +1,30 @@
+<p class="viewlabel">Showing all {{ rows|length }} towns ranked by the
+   <strong>{{ rate_meta[rate].label|lower }}</strong> ({{ year }}) — {{ rate_meta[rate].blurb }}.</p>
+
+<table class="grid compare">
+  <thead>
+    <tr>
+      {% macro sortth(key, label, cls="") %}
+        <th class="{{ cls }}">
+          <a href="#" hx-get="/compare?sort={{ key }}&dir={{ 'asc' if (sort==key and dir=='desc') else 'desc' }}"
+             hx-target="#results" hx-include="#filters">
+            {{ label }}{% if sort == key %}<span class="arrow">{{ '▾' if dir=='desc' else '▴' }}</span>{% endif %}
+          </a>
+        </th>
+      {% endmacro %}
+      {% macro rateth(key, label) %}
+        <th class="num {{ 'active' if rate == key else 'dim' }}">
+          {{ label }}{% if sort == key %}<span class="arrow">▾</span>{% endif %}
+        </th>
+      {% endmacro %}
+      {{ sortth('name','Town') }}
+      {{ sortth('county','County') }}
+      {{ rateth('advertised','Advertised') }}
+      {{ rateth('equalized','Equalized') }}
+      {{ sortth('ratio','Ratio %','num') }}
+    </tr>
+  </thead>
+  <tbody id="rows">
+    {% include "partials/_compare_rows.html" %}
+  </tbody>
+</table>

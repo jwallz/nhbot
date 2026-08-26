@@ -2,8 +2,8 @@
 <tr>
   <td><a href="/town/{{ r.geoid }}">{{ r.name }}</a></td>
   <td>{{ r.county }}</td>
-  <td class="num">{{ "%.2f"|format(r.advertised|float) if r.advertised else "—" }}</td>
-  <td class="num">{{ "%.2f"|format(r.equalized|float) if r.equalized else "—" }}{% if r.equalized and not r.is_official %}<span class="est" title="estimate">*</span>{% endif %}</td>
+  <td class="num {{ '' if rate == 'advertised' else 'dim' }}">{{ "%.2f"|format(r.advertised|float) if r.advertised else "—" }}</td>
+  <td class="num {{ '' if rate == 'equalized' else 'dim' }}">{{ "%.2f"|format(r.equalized|float) if r.equalized else "—" }}{% if r.equalized and not r.is_official %}<span class="est" title="estimate">*</span>{% endif %}</td>
   <td class="num">{{ "%.1f"|format(r.ratio|float) if r.ratio else "—" }}</td>
 </tr>
 {% endfor %}

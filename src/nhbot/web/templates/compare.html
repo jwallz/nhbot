@@ -5,10 +5,17 @@
 <p class="lede"><strong>Advertised</strong> is the rate on the bill — but it is
    <em>not</em> comparable between towns, because assessment levels differ.
    <strong>Equalized</strong> restates every town at full market value, so it is.
-   Sort by either. <a href="/about/equalized-rates">More →</a></p>
+   Pick which to rank by. <a href="/about/equalized-rates">More →</a></p>
 
 <form id="filters" class="filters"
-      hx-get="/compare" hx-target="#rows" hx-trigger="change" hx-include="#filters">
+      hx-get="/compare" hx-target="#results" hx-trigger="change" hx-include="#filters">
+  <label>Rank by
+    <select name="rate">
+      {% for key, meta in rate_meta.items() %}
+      <option value="{{ key }}" {{ 'selected' if key == rate }}>{{ meta.label }}</option>
+      {% endfor %}
+    </select>
+  </label>
   <label>Year
     <select name="year">
       {% for y in years %}<option value="{{ y }}" {{ 'selected' if y == year }}>{{ y }}</option>{% endfor %}
@@ -27,30 +34,9 @@
       <option value="town" {{ 'selected' if entity == 'town' }}>Towns only</option>
     </select>
   </label>
-  <input type="hidden" name="sort" value="{{ sort }}">
-  <input type="hidden" name="dir" value="{{ dir }}">
 </form>
 
-<table class="grid compare">
-  <thead>
-    <tr>
-      {% macro th(key, label, cls="") %}
-        <th class="{{ cls }}">
-          <a href="#" hx-get="/compare?sort={{ key }}&dir={{ 'asc' if (sort==key and dir=='desc') else 'desc' }}"
-             hx-target="#rows" hx-include="#filters">
-            {{ label }}{% if sort == key %}<span class="arrow">{{ '▾' if dir=='desc' else '▴' }}</span>{% endif %}
-          </a>
-        </th>
-      {% endmacro %}
-      {{ th('name','Town') }}
-      {{ th('county','County') }}
-      {{ th('advertised','Advertised','num') }}
-      {{ th('equalized','Equalized','num') }}
-      {{ th('ratio','Ratio %','num') }}
-    </tr>
-  </thead>
-  <tbody id="rows">
-    {% include "partials/_compare_rows.html" %}
-  </tbody>
-</table>
+<div id="results">
+  {% include "partials/_compare_results.html" %}
+</div>
 {% endblock %}

@@ -65,17 +65,22 @@ def town(request: Request, geoid: str):
 @app.get("/compare", response_class=HTMLResponse)
 def compare(request: Request,
             year: int = Query(None), county: str = Query(None),
-            entity: str = Query(None), sort: str = Query("advertised"),
-            dir: str = Query("desc")):
+            entity: str = Query(None), rate: str = Query("advertised"),
+            sort: str = Query(None), dir: str = Query("desc")):
+    rate = _clean_rate(rate)
     year = year or repo.latest_year()
+    # column-header sorts (name/county/ratio) win; otherwise rank by the chosen rate view
+    effective_sort = sort if sort in ("name", "county", "ratio") else rate
     ctx = {
         "years": repo.available_years(),
         "counties": repo.counties(),
-        "rows": repo.compare_rows(year, county, entity, sort, dir),
+        "rows": repo.compare_rows(year, county, entity, effective_sort, dir),
         "year": year, "county": county, "entity": entity,
-        "sort": sort, "dir": dir,
+        "rate": rate, "sort": effective_sort, "dir": dir,
+        "rate_meta": RATE_META,
     }
-    tmpl = "partials/_compare_rows.html" if request.headers.get("HX-Request") else "compare.html"
+    # HX requests swap the results block (caption + table); full load gets the shell.
+    tmpl = "partials/_compare_results.html" if request.headers.get("HX-Request") else "compare.html"
     return templates.TemplateResponse(request=request, name=tmpl, context=ctx)
 
 

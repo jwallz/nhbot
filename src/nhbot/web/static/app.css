@@ -20,7 +20,9 @@ footer.site{max-width:860px;margin:40px auto 0;padding:16px 20px;border-top:1px 
   color:var(--faint);font-size:13px}
 h1{font-size:26px;margin:24px 0 6px}
 h2{font-size:16px;margin:0 0 10px}
-.lede{color:var(--muted);max-width:60ch}
+.lede{color:var(--muted);max-width:none}
+.lede h1{max-width:none}
+.lede p{max-width:78ch}
 .lede strong,p strong{color:var(--ink)}
 
 /* map */
@@ -89,3 +91,10 @@ tr.footnote td{color:var(--faint);font-size:12px;border:none}
 .prose .callout{background:var(--panel);border:1px solid var(--line);border-left:3px solid var(--accent);
   border-radius:8px;padding:14px 18px;margin:18px 0}
 .prose .src{color:var(--faint);font-size:13px;margin-top:22px}
+
+/* compare view label + rate-column emphasis */
+.viewlabel{color:var(--muted);margin:14px 0 10px}
+.viewlabel strong{color:var(--ink)}
+table.compare th.active{color:var(--ink);font-weight:700}
+table.compare th.dim{color:var(--faint)}
+table.compare td.dim{color:var(--faint)}
