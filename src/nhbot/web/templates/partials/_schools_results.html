@@ -1,0 +1,31 @@
+<p class="viewlabel">Showing {{ rows|length }} town-district records, sorted by
+   <strong>
+   {%- if sort == 'cpp' %}cost per pupil{% elif sort == 'enrollment' %}enrollment
+   {%- elif sort == 'ratio' %}students per teacher{% elif sort == 'district' %}district
+   {%- elif sort == 'county' %}county{% else %}town{% endif %}</strong>
+   ({{ 'high to low' if dir == 'desc' else 'low to high' }}).</p>
+
+<table class="grid compare">
+  <thead>
+    <tr>
+      {% macro sortth(key, label, cls="") %}
+        <th class="{{ cls }}">
+          <a href="#" hx-get="/schools?sort={{ key }}&dir={{ 'asc' if (sort==key and dir=='desc') else 'desc' }}"
+             hx-target="#sresults" hx-include="#sfilters">
+            {{ label }}{% if sort == key %}<span class="arrow">{{ '▾' if dir=='desc' else '▴' }}</span>{% endif %}
+          </a>
+        </th>
+      {% endmacro %}
+      {{ sortth('town','Town') }}
+      {{ sortth('district','District') }}
+      <th>Grades</th>
+      {{ sortth('cpp','Cost / pupil','num') }}
+      <th class="num">vs state</th>
+      {{ sortth('enrollment','Enrollment','num') }}
+      {{ sortth('ratio','Students / teacher','num') }}
+    </tr>
+  </thead>
+  <tbody id="srows">
+    {% include "partials/_schools_rows.html" %}
+  </tbody>
+</table>

@@ -57,8 +57,10 @@ def town(request: Request, geoid: str):
     history = repo.rate_history(geoid)
     current = history[0] if history else None
     split = repo.tax_split(geoid, current["tax_year"]) if current else None
+    schools = repo.get_schools(geoid)
     return templates.TemplateResponse(request=request, name="town.html", context={
         "m": m, "history": history, "current": current, "split": split,
+        "schools": schools, "state_cpp": repo.STATE_CPP_TOTAL,
     })
 
 
@@ -69,8 +71,8 @@ def compare(request: Request,
             sort: str = Query(None), dir: str = Query("desc")):
     rate = _clean_rate(rate)
     year = year or repo.latest_year()
-    # column-header sorts (name/county/ratio) win; otherwise rank by the chosen rate view
-    effective_sort = sort if sort in ("name", "county", "ratio") else rate
+    # column-header sorts (name/county/ratio/cpp) win; otherwise rank by the chosen rate view
+    effective_sort = sort if sort in ("name", "county", "ratio", "cpp") else rate
     ctx = {
         "years": repo.available_years(),
         "counties": repo.counties(),
@@ -81,6 +83,20 @@ def compare(request: Request,
     }
     # HX requests swap the results block (caption + table); full load gets the shell.
     tmpl = "partials/_compare_results.html" if request.headers.get("HX-Request") else "compare.html"
+    return templates.TemplateResponse(request=request, name=tmpl, context=ctx)
+
+
+@app.get("/schools", response_class=HTMLResponse)
+def schools(request: Request, county: str = Query(None),
+            sort: str = Query("cpp"), dir: str = Query("desc")):
+    sort = sort if sort in repo.SCHOOL_SORTS else "cpp"
+    ctx = {
+        "counties": repo.counties(),
+        "rows": repo.school_rows(county, sort, dir),
+        "county": county, "sort": sort, "dir": dir,
+        "state_cpp": repo.STATE_CPP_TOTAL,
+    }
+    tmpl = "partials/_schools_results.html" if request.headers.get("HX-Request") else "schools.html"
     return templates.TemplateResponse(request=request, name=tmpl, context=ctx)
 
 

@@ -20,3 +20,6 @@ data/raw/
 
 # Local Postgres data dir, if any
 pgdata/
+
+# Scratch: files staged for manual deletion (Claude can't rm on the bridge)
+_to_delete/

@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+{% block title %}Compare NH school spending — NHbot{% endblock %}
+{% block content %}
+<h1>Town school spending</h1>
+<p class="lede">Cost per pupil, enrollment, and staffing for every town's school
+   district. These figures are reported by the <strong>district</strong>, so a town
+   in a cooperative shows one row per district it belongs to (its K-8 district and
+   its 9-12 cooperative, for example). The statewide average cost per pupil is
+   <strong>${{ "{:,.0f}".format(state_cpp) }}</strong> (NH DOE, FY2025 operating).</p>
+
+<form id="sfilters" class="filters"
+      hx-get="/schools" hx-target="#sresults" hx-trigger="change" hx-include="#sfilters">
+  <label>County
+    <select name="county">
+      <option value="">All</option>
+      {% for c in counties %}<option value="{{ c.county_fips }}" {{ 'selected' if c.county_fips == county }}>{{ c.name }}</option>{% endfor %}
+    </select>
+  </label>
+</form>
+
+<div id="sresults">
+  {% include "partials/_schools_results.html" %}
+</div>
+{% endblock %}

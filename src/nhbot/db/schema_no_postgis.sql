@@ -143,3 +143,39 @@ SELECT DISTINCT ON (e.geoid)
 FROM equalized_rate e
 JOIN municipality m USING (geoid)
 ORDER BY e.geoid, e.tax_year DESC, e.is_official DESC;
+
+-- ---------------------------------------------------------------------
+-- Schools (NH DOE). District-level facts; towns link via town_district.
+-- ---------------------------------------------------------------------
+CREATE TABLE IF NOT EXISTS sau (
+    sau_id  int  PRIMARY KEY,
+    name    text NOT NULL
+);
+CREATE TABLE IF NOT EXISTS school_district (
+    district_id int  PRIMARY KEY,
+    name        text NOT NULL,
+    sau_id      int REFERENCES sau(sau_id)
+);
+CREATE TABLE IF NOT EXISTS town_district (
+    geoid       char(10) NOT NULL REFERENCES municipality(geoid),
+    district_id int      NOT NULL REFERENCES school_district(district_id),
+    grade_span  text,
+    PRIMARY KEY (geoid, district_id)
+);
+CREATE INDEX IF NOT EXISTS town_district_geoid_idx    ON town_district(geoid);
+CREATE INDEX IF NOT EXISTS town_district_district_idx ON town_district(district_id);
+
+CREATE TABLE IF NOT EXISTS district_finance (
+    district_id    int NOT NULL REFERENCES school_district(district_id),
+    year           int NOT NULL,
+    cpp_elementary numeric, cpp_middle numeric, cpp_high numeric, cpp_total numeric,
+    load_id        int REFERENCES source_load(load_id),
+    PRIMARY KEY (district_id, year)
+);
+CREATE TABLE IF NOT EXISTS district_enrollment (
+    district_id           int NOT NULL REFERENCES school_district(district_id),
+    year                  int NOT NULL,
+    enrollment            numeric, teacher_fte numeric, student_teacher_ratio numeric,
+    load_id               int REFERENCES source_load(load_id),
+    PRIMARY KEY (district_id, year)
+);

@@ -52,6 +52,46 @@
 </section>
 {% endif %}
 
+{% if schools %}
+<section class="panel">
+  <h2>Schools <a href="/schools" style="font-size:13px;font-weight:400">compare all towns →</a></h2>
+  <p class="sub">{{ m.name }} belongs to
+    {% if schools|length == 1 %}one school district{% else %}{{ schools|length }} school districts{% endif %}.
+    Cost per pupil and enrollment are reported at the district level, so towns
+    that share a cooperative share its figures.</p>
+  <table class="grid">
+    <thead><tr>
+      <th>District</th><th>Grades</th>
+      <th class="num">Cost / pupil</th><th class="num">vs state</th>
+      <th class="num">Enrollment</th><th class="num">Students / teacher</th>
+    </tr></thead>
+    <tbody>
+    {% for d in schools %}
+      <tr>
+        <td>{{ d.district }}{% if d.sau %}<br><span class="muted" style="font-size:12px">SAU {{ d.sau_id }} · {{ d.sau }}</span>{% endif %}</td>
+        <td>{{ d.grade_span or "—" }}</td>
+        <td class="num">{{ "$%s"|format("{:,.0f}".format(d.cpp_total|float)) if d.cpp_total else "—" }}</td>
+        <td class="num">
+          {%- if d.cpp_total and state_cpp -%}
+            {% set pct = ((d.cpp_total|float - state_cpp) / state_cpp * 100) %}
+            <span class="{{ 'est' if pct > 0 else '' }}">{{ "%+.0f%%"|format(pct) }}</span>
+          {%- else -%}—{%- endif -%}
+        </td>
+        <td class="num">{{ "{:,.0f}".format(d.enrollment|float) if d.enrollment else "—" }}</td>
+        <td class="num">{{ "%.1f"|format(d.student_teacher_ratio|float) if d.student_teacher_ratio else "—" }}</td>
+      </tr>
+    {% endfor %}
+    </tbody>
+  </table>
+  <p class="src" style="color:var(--faint);font-size:12px;margin-top:12px">
+    Cost per pupil: NH DOE, FY2025 (operating), statewide average
+    ${{ "{:,.0f}".format(state_cpp) }}. Enrollment &amp; student-teacher ratio: NH DOE,
+    fall 2021&ndash;22. District-level figures apply to every town in a shared district
+    or cooperative.
+  </p>
+</section>
+{% endif %}
+
 <section class="panel">
   <h2>History</h2>
   <table class="grid">

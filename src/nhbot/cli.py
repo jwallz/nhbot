@@ -23,7 +23,11 @@ def _boundaries():
     from nhbot.ingest import boundaries   # lazy import: requires the [geo] extra
     boundaries.main()
 
-EXTRA = {"boundaries": _boundaries}
+def _doe_schools():
+    from nhbot.ingest import doe_schools
+    doe_schools.main()
+
+EXTRA = {"boundaries": _boundaries, "doe-schools": _doe_schools}
 STEPS = {**CORE, **EXTRA}
 
 def main(argv=None):

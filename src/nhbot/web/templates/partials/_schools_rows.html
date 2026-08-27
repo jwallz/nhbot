@@ -1,0 +1,21 @@
+{% for r in rows %}
+<tr>
+  <td><a href="/town/{{ r.geoid }}">{{ r.town }}</a></td>
+  <td>{{ r.district }}{% if r.sau_id %}<br><span class="muted" style="font-size:12px">SAU {{ r.sau_id }}</span>{% endif %}</td>
+  <td>{{ r.grade_span or "—" }}</td>
+  <td class="num">{{ "$%s"|format("{:,.0f}".format(r.cpp_total|float)) if r.cpp_total else "—" }}</td>
+  <td class="num">
+    {%- if r.cpp_total and state_cpp -%}
+      {% set pct = ((r.cpp_total|float - state_cpp) / state_cpp * 100) %}
+      <span class="{{ 'est' if pct > 0 else '' }}">{{ "%+.0f%%"|format(pct) }}</span>
+    {%- else -%}—{%- endif -%}
+  </td>
+  <td class="num">{{ "{:,.0f}".format(r.enrollment|float) if r.enrollment else "—" }}</td>
+  <td class="num">{{ "%.1f"|format(r.student_teacher_ratio|float) if r.student_teacher_ratio else "—" }}</td>
+</tr>
+{% endfor %}
+<tr class="footnote"><td colspan="7">
+  Cost per pupil: NH DOE FY2025 (operating). Enrollment &amp; students-per-teacher:
+  NH DOE, fall 2021&ndash;22. Figures are district-level; cooperative towns share
+  their cooperative's numbers.
+</td></tr>

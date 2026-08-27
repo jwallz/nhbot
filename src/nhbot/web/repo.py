@@ -9,6 +9,10 @@ from nhbot.web.db import query, query_one
 
 METRICS = {"advertised", "equalized"}
 
+# NH statewide average cost per pupil, DOE FY2025 (operating). Town-page benchmark.
+STATE_CPP_TOTAL = 22699.85
+STATE_CPP_YEAR = 2025
+
 # Sort columns whitelisted to keep the compare endpoint injection-safe.
 COMPARE_SORTS = {
     "name":       "m.name",
@@ -16,6 +20,7 @@ COMPARE_SORTS = {
     "equalized":  "e.full_value_rate",
     "advertised": "t.total_rate",
     "ratio":      "r.ratio_pct",
+    "cpp":        "cpp.cpp_total",
 }
 
 def latest_official_year():
@@ -80,6 +85,80 @@ def tax_split(geoid, year):
         WHERE geoid = %s AND tax_year = %s AND municipal_rate IS NOT NULL
     """, (geoid, year))
 
+def get_schools(geoid):
+    """The school districts a town belongs to (many-to-many), each with its
+    latest cost-per-pupil and enrollment. Ordered by grade span so K-8 shows
+    before the 9-12 cooperative. Returns [] when the DOE layer isn't loaded."""
+    return query("""
+        SELECT td.district_id, sd.name AS district, td.grade_span,
+               s.sau_id, s.name AS sau,
+               f.cpp_total, f.cpp_elementary, f.cpp_middle, f.cpp_high, f.year AS cpp_year,
+               en.enrollment, en.teacher_fte, en.student_teacher_ratio, en.year AS enroll_year
+        FROM town_district td
+        JOIN school_district sd ON sd.district_id = td.district_id
+        LEFT JOIN sau s ON s.sau_id = sd.sau_id
+        LEFT JOIN LATERAL (
+            SELECT cpp_total, cpp_elementary, cpp_middle, cpp_high, year
+            FROM district_finance df WHERE df.district_id = td.district_id
+            ORDER BY year DESC LIMIT 1
+        ) f ON true
+        LEFT JOIN LATERAL (
+            SELECT enrollment, teacher_fte, student_teacher_ratio, year
+            FROM district_enrollment de WHERE de.district_id = td.district_id
+            ORDER BY year DESC LIMIT 1
+        ) en ON true
+        WHERE td.geoid = %s
+        ORDER BY (CASE
+                    WHEN td.grade_span IS NULL THEN 99
+                    WHEN td.grade_span ~ '^[0-9]' THEN split_part(td.grade_span,'-',1)::int
+                    ELSE 0 END), sd.name
+    """, (geoid,))
+
+# Sortable columns for the school-spending grid (injection-safe whitelist).
+SCHOOL_SORTS = {
+    "town":       "m.name",
+    "county":     "c.name",
+    "district":   "sd.name",
+    "cpp":        "f.cpp_total",
+    "enrollment": "en.enrollment",
+    "ratio":      "en.student_teacher_ratio",
+}
+
+def school_rows(county_fips=None, sort="cpp", direction="desc"):
+    """One row per town-district link (a coop town appears once per district),
+    each with its latest cost-per-pupil, enrollment, and student-teacher ratio.
+    This is the same shape as the town-page Schools box, for every town."""
+    col = SCHOOL_SORTS.get(sort, "f.cpp_total")
+    direction = "ASC" if str(direction).lower() == "asc" else "DESC"
+    where = ["m.entity_type IN ('city','town')"]
+    params = {}
+    if county_fips:
+        where.append("m.county_fips = %(county)s"); params["county"] = county_fips
+    sql = f"""
+        SELECT m.geoid, m.name AS town, c.name AS county,
+               sd.district_id, sd.name AS district, td.grade_span,
+               s.sau_id, s.name AS sau,
+               f.cpp_total, en.enrollment, en.student_teacher_ratio
+        FROM town_district td
+        JOIN municipality m ON m.geoid = td.geoid
+        JOIN county c USING (county_fips)
+        JOIN school_district sd ON sd.district_id = td.district_id
+        LEFT JOIN sau s ON s.sau_id = sd.sau_id
+        LEFT JOIN LATERAL (
+            SELECT cpp_total FROM district_finance df
+            WHERE df.district_id = td.district_id AND df.cpp_total IS NOT NULL
+            ORDER BY df.year DESC LIMIT 1
+        ) f ON true
+        LEFT JOIN LATERAL (
+            SELECT enrollment, student_teacher_ratio FROM district_enrollment de
+            WHERE de.district_id = td.district_id
+            ORDER BY de.year DESC LIMIT 1
+        ) en ON true
+        WHERE {" AND ".join(where)}
+        ORDER BY {col} {direction} NULLS LAST, m.name ASC, sd.name ASC
+    """
+    return query(sql, params)
+
 def compare_rows(year, county_fips=None, entity_type=None,
                  sort="advertised", direction="desc"):
     col = COMPARE_SORTS.get(sort, "t.total_rate")
@@ -94,7 +173,8 @@ def compare_rows(year, county_fips=None, entity_type=None,
         SELECT m.geoid, m.name, m.entity_type, c.name AS county,
                t.total_rate AS advertised,
                e.full_value_rate AS equalized, e.is_official, e.dra_rank,
-               r.ratio_pct AS ratio
+               r.ratio_pct AS ratio,
+               cpp.cpp_total AS cpp_total
         FROM municipality m
         JOIN county c USING (county_fips)
         LEFT JOIN LATERAL (
@@ -105,6 +185,16 @@ def compare_rows(year, county_fips=None, entity_type=None,
         ) e ON true
         LEFT JOIN tax_rate t ON t.geoid = m.geoid AND t.tax_year = %(year)s
         LEFT JOIN equalization_ratio r ON r.geoid = m.geoid AND r.tax_year = %(year)s
+        LEFT JOIN LATERAL (
+            SELECT df.cpp_total
+            FROM town_district td
+            JOIN district_finance df ON df.district_id = td.district_id
+            WHERE td.geoid = m.geoid AND df.cpp_total IS NOT NULL
+            ORDER BY (CASE
+                        WHEN td.grade_span ~ '^[0-9]' THEN split_part(td.grade_span,'-',1)::int
+                        ELSE 0 END), df.year DESC
+            LIMIT 1
+        ) cpp ON true
         WHERE {" AND ".join(where)}
         ORDER BY {col} {direction} NULLS LAST, m.name ASC
     """

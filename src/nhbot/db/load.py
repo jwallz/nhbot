@@ -203,6 +203,83 @@ def load_estimate(cur, g):
             """, (geoid, yr, num(r["equalization_ratio_pct"]), lid))
     return n_rate, n_eq, n_skip
 
+def load_schools(cur):
+    """DOE schools layer: sau -> school_district -> town_district, plus
+    district_finance (cost per pupil) and district_enrollment. Tables only
+    exist when the DOE schema block was applied; skip gracefully if not."""
+    if not has_column(cur, "school_district", "district_id"):
+        print("  (skools tables absent -- run schema with the DOE block; skipping)")
+        return None
+    lid = source_load(cur, "NH DOE schools (structure, cost-per-pupil, enrollment)",
+                      None, "DOE district-town + cost-per-pupil-fy2025 + stud-ratio21-22",
+                      2025, None)
+    # SAUs first (school_district.sau_id references them)
+    for r in rows("nh_school_sau.csv"):
+        if not r["sau_id"]:
+            continue
+        cur.execute("""INSERT INTO nh.sau(sau_id,name) VALUES (%s,%s)
+                       ON CONFLICT (sau_id) DO UPDATE SET name=EXCLUDED.name""",
+                    (int(r["sau_id"]), r["sau"]))
+    # district -> sau_id, recovered from the structure table (district CSV has no SAU)
+    struct = rows("nh_school_structure.csv")
+    dist_sau = {}
+    for r in struct:
+        if r["sau_id"]:
+            dist_sau.setdefault(int(r["district_id"]), int(r["sau_id"]))
+    # districts (before town_district, which FKs to them)
+    valid = set()
+    for r in rows("nh_school_district.csv"):
+        did = int(r["district_id"])
+        cur.execute("""INSERT INTO nh.school_district(district_id,name,sau_id) VALUES (%s,%s,%s)
+                       ON CONFLICT (district_id) DO UPDATE SET
+                         name=EXCLUDED.name, sau_id=EXCLUDED.sau_id""",
+                    (did, r["district"], dist_sau.get(did)))
+        valid.add(did)
+    # town -> district links (many-to-many, with grade span)
+    n_link = 0
+    for r in struct:
+        cur.execute("""INSERT INTO nh.town_district(geoid,district_id,grade_span)
+                       VALUES (%s,%s,%s)
+                       ON CONFLICT (geoid,district_id) DO UPDATE SET
+                         grade_span=EXCLUDED.grade_span""",
+                    (r["geoid"], int(r["district_id"]), r["grade_span"] or None))
+        n_link += 1
+    # cost per pupil
+    n_fin = fin_skip = 0
+    for r in rows("nh_district_finance.csv"):
+        did = int(r["district_id"])
+        if did not in valid:
+            fin_skip += 1; continue
+        cur.execute("""INSERT INTO nh.district_finance
+              (district_id,year,cpp_elementary,cpp_middle,cpp_high,cpp_total,load_id)
+              VALUES (%s,%s,%s,%s,%s,%s,%s)
+              ON CONFLICT (district_id,year) DO UPDATE SET
+                cpp_elementary=EXCLUDED.cpp_elementary, cpp_middle=EXCLUDED.cpp_middle,
+                cpp_high=EXCLUDED.cpp_high, cpp_total=EXCLUDED.cpp_total,
+                load_id=EXCLUDED.load_id""",
+            (did, int(r["year"]), num(r["cpp_elementary"]), num(r["cpp_middle"]),
+             num(r["cpp_high"]), num(r["cpp_total"]), lid))
+        n_fin += 1
+    # enrollment / staffing
+    n_enr = enr_skip = 0
+    for r in rows("nh_district_enrollment.csv"):
+        did = int(r["district_id"])
+        if did not in valid:
+            enr_skip += 1; continue
+        cur.execute("""INSERT INTO nh.district_enrollment
+              (district_id,year,enrollment,teacher_fte,student_teacher_ratio,load_id)
+              VALUES (%s,%s,%s,%s,%s,%s)
+              ON CONFLICT (district_id,year) DO UPDATE SET
+                enrollment=EXCLUDED.enrollment, teacher_fte=EXCLUDED.teacher_fte,
+                student_teacher_ratio=EXCLUDED.student_teacher_ratio,
+                load_id=EXCLUDED.load_id""",
+            (did, int(r["year"]), num(r["enrollment"]), num(r["teacher_fte"]),
+             num(r["student_teacher_ratio"]), lid))
+        n_enr += 1
+    return {"districts": len(valid), "links": n_link,
+            "finance": n_fin, "fin_skip": fin_skip,
+            "enrollment": n_enr, "enr_skip": enr_skip}
+
 def main():
     conn = psycopg2.connect(DSN)
     conn.autocommit = False
@@ -213,10 +290,15 @@ def main():
             g = geoid_by_name(cur)
             off_eq, off_miss = load_official(cur, g)
             est_rate, est_eq, est_skip = load_estimate(cur, g)
+            schools = load_schools(cur)
         conn.commit()
         print(f"municipalities loaded:        {n_muni}")
         print(f"official equalized rows:      {off_eq}  (unmatched names skipped: {off_miss})")
         print(f"2025 estimate: tax_rate={est_rate}  equalized={est_eq}  (non-muni skipped: {est_skip})")
+        if schools:
+            print(f"schools: {schools['districts']} districts, {schools['links']} town links, "
+                  f"finance={schools['finance']} (skip {schools['fin_skip']}), "
+                  f"enrollment={schools['enrollment']} (skip {schools['enr_skip']})")
         print("load committed.")
     except Exception:
         conn.rollback(); raise
