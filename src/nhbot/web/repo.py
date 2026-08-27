@@ -159,6 +159,78 @@ def school_rows(county_fips=None, sort="cpp", direction="desc"):
     """
     return query(sql, params)
 
+# --- DOE-25 finance: group the function lines into display buckets ---------
+# Fixed categorical order (dataviz reference palette). Colors set in CSS by class.
+EXP_GROUPS = [
+    ("instruction",    "Instruction",       {"1100","1200","1300","1400","1500"}),
+    ("support",        "Student & staff support", {"2100","2200","2900"}),
+    ("administration", "Administration",     {"2300&2800","2400","2500"}),
+    ("operations",     "Operations & maintenance", {"2600"}),
+    ("transportation", "Transportation",     {"2700"}),
+    ("other",          "Other",             None),   # residual bucket
+]
+REV_GROUPS = [
+    ("proptax", "Local property tax", {"1100"}),
+    ("localother", "Other local (tuition, fees)", None),   # code-less local row
+    ("state_adequacy", "State adequacy aid", {"3111&3112&3119"}),
+    ("state_other", "Other state aid", {"3120-3900"}),
+    ("federal", "Federal aid", {"4000"}),
+]
+
+def _bucket(rows, groups, key_code, key_name):
+    """Sum DOE lines into fixed display groups; keep only recurring (pct not null)."""
+    named = {code for _, _, codes in groups if codes for code in codes}
+    out = []
+    total = sum(float(r["amount"]) for r in rows if r["pct"] is not None)
+    for slug, label, codes in groups:
+        if codes is None:
+            members = [r for r in rows if r["pct"] is not None and r[key_code] not in named]
+        else:
+            members = [r for r in rows if r[key_code] in codes]
+        amt = sum(float(r["amount"] or 0) for r in members)
+        if amt <= 0:
+            continue
+        out.append({"slug": slug, "label": label, "amount": amt,
+                    "pct": (amt / total * 100) if total else 0})
+    return out, total
+
+def get_finance(geoid):
+    """Per-district 'where the money goes': spending buckets + revenue buckets,
+    with the administration and property-tax shares called out. One entry per
+    district the town belongs to (ordered like the Schools section)."""
+    dists = query("""
+        SELECT td.district_id, sd.name AS district, td.grade_span
+        FROM town_district td JOIN school_district sd ON sd.district_id = td.district_id
+        WHERE td.geoid = %s
+        ORDER BY (CASE WHEN td.grade_span ~ '^[0-9]'
+                       THEN split_part(td.grade_span,'-',1)::int ELSE 0 END), sd.name
+    """, (geoid,))
+    out = []
+    for d in dists:
+        did = d["district_id"]
+        # latest loaded finance year for this district
+        yr = query_one("""SELECT max(year) AS y FROM district_expenditure WHERE district_id=%s""", (did,))
+        yr = yr["y"] if yr else None
+        if yr is None:
+            continue
+        exp = query("""SELECT function_code, function_name, amount, pct
+                       FROM district_expenditure WHERE district_id=%s AND year=%s""", (did, yr))
+        rev = query("""SELECT source_code, source_name, amount, pct
+                       FROM district_revenue WHERE district_id=%s AND year=%s""", (did, yr))
+        if not exp and not rev:
+            continue
+        spend, spend_total = _bucket(exp, EXP_GROUPS, "function_code", "function_name")
+        revb,  rev_total   = _bucket(rev, REV_GROUPS, "source_code", "source_name")
+        admin = next((g["pct"] for g in spend if g["slug"] == "administration"), None)
+        ptax  = next((g["pct"] for g in revb if g["slug"] == "proptax"), None)
+        out.append({
+            "district_id": did, "district": d["district"], "grade_span": d["grade_span"],
+            "year": yr, "spend": spend, "spend_total": spend_total,
+            "revenue": revb, "rev_total": rev_total,
+            "admin_pct": admin, "proptax_pct": ptax,
+        })
+    return out
+
 def compare_rows(year, county_fips=None, entity_type=None,
                  sort="advertised", direction="desc"):
     col = COMPARE_SORTS.get(sort, "t.total_rate")

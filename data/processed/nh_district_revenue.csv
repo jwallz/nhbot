@@ -1,0 +1,1463 @@
+district_id,year,source_code,source_name,amount,pct
+725,2025,1100,Local Property Tax,0.0,0.0
+725,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",520027.0,7.6
+725,2025,3111&3112&3119,State Foundation/Adequacy Aid,6090146.0,88.4
+725,2025,3120-3900,Other State Aid,57082.0,0.8
+725,2025,4000,Federal Aid,218927.0,3.2
+725,2025,5300-5600,Other,0.0,0.0
+725,2025,5110&5140,Sales of Bonds & Notes,0.0,
+5,2025,1100,Local Property Tax,582846.0,40.4
+5,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",10354.75,0.7
+5,2025,3111&3112&3119,State Foundation/Adequacy Aid,749762.0,51.9
+5,2025,3120-3900,Other State Aid,4200.0,0.3
+5,2025,4000,Federal Aid,96696.0,6.7
+5,2025,5300-5600,Other,0.0,0.0
+5,2025,5110&5140,Sales of Bonds & Notes,0.0,
+9,2025,1100,Local Property Tax,7516245.0,29.6
+9,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",7963477.449999999,31.3
+9,2025,3111&3112&3119,State Foundation/Adequacy Aid,5122652.0,20.2
+9,2025,3120-3900,Other State Aid,3929512.0,15.5
+9,2025,4000,Federal Aid,876523.0,3.4
+9,2025,5300-5600,Other,0.0,0.0
+9,2025,5110&5140,Sales of Bonds & Notes,0.0,
+15,2025,1100,Local Property Tax,13092591.0,71.7
+15,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",292455.72000000067,1.6
+15,2025,3111&3112&3119,State Foundation/Adequacy Aid,4256913.0,23.3
+15,2025,3120-3900,Other State Aid,23746.0,0.1
+15,2025,4000,Federal Aid,598837.0,3.3
+15,2025,5300-5600,Other,0.0,0.0
+15,2025,5110&5140,Sales of Bonds & Notes,0.0,
+17,2025,1100,Local Property Tax,24209077.0,71.8
+17,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",2441784.0700000003,7.2
+17,2025,3111&3112&3119,State Foundation/Adequacy Aid,5757899.0,17.1
+17,2025,3120-3900,Other State Aid,462747.0,1.4
+17,2025,4000,Federal Aid,846061.0,2.5
+17,2025,5300-5600,Other,0.0,0.0
+17,2025,5110&5140,Sales of Bonds & Notes,0.0,
+19,2025,1100,Local Property Tax,4724462.0,67.8
+19,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",93889.02000000048,1.3
+19,2025,3111&3112&3119,State Foundation/Adequacy Aid,1625187.0,23.3
+19,2025,3120-3900,Other State Aid,84725.0,1.2
+19,2025,4000,Federal Aid,439193.0,6.3
+19,2025,5300-5600,Other,0.0,0.0
+19,2025,5110&5140,Sales of Bonds & Notes,0.0,
+702,2025,1100,Local Property Tax,0.0,0.0
+702,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",370328.0,26.8
+702,2025,3111&3112&3119,State Foundation/Adequacy Aid,900697.0,65.2
+702,2025,3120-3900,Other State Aid,95444.0,6.9
+702,2025,4000,Federal Aid,14627.0,1.1
+702,2025,5300-5600,Other,0.0,0.0
+702,2025,5110&5140,Sales of Bonds & Notes,0.0,
+23,2025,1100,Local Property Tax,3213681.0,70.4
+23,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",10842.580000000075,0.2
+23,2025,3111&3112&3119,State Foundation/Adequacy Aid,987472.0,21.6
+23,2025,3120-3900,Other State Aid,17549.0,0.4
+23,2025,4000,Federal Aid,332809.0,7.3
+23,2025,5300-5600,Other,0.0,0.0
+23,2025,5110&5140,Sales of Bonds & Notes,0.0,
+29,2025,1100,Local Property Tax,13380798.0,73.8
+29,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",70071.93999999948,0.4
+29,2025,3111&3112&3119,State Foundation/Adequacy Aid,4216402.0,23.3
+29,2025,3120-3900,Other State Aid,118275.0,0.7
+29,2025,4000,Federal Aid,343059.0,1.9
+29,2025,5300-5600,Other,0.0,0.0
+29,2025,5110&5140,Sales of Bonds & Notes,0.0,
+31,2025,1100,Local Property Tax,11271150.0,41.4
+31,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",203032.04000000097,0.7
+31,2025,3111&3112&3119,State Foundation/Adequacy Aid,4288056.0,15.8
+31,2025,3120-3900,Other State Aid,10315320.0,37.9
+31,2025,4000,Federal Aid,1147881.0,4.2
+31,2025,5300-5600,Other,0.0,0.0
+31,2025,5110&5140,Sales of Bonds & Notes,14313939.0,
+33,2025,1100,Local Property Tax,21831167.0,73.1
+33,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",198707.8900000006,0.7
+33,2025,3111&3112&3119,State Foundation/Adequacy Aid,7039239.0,23.6
+33,2025,3120-3900,Other State Aid,76680.0,0.3
+33,2025,4000,Federal Aid,714369.0,2.4
+33,2025,5300-5600,Other,0.0,0.0
+33,2025,5110&5140,Sales of Bonds & Notes,0.0,
+35,2025,1100,Local Property Tax,5203504.0,62.4
+35,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",292051.2300000014,3.5
+35,2025,3111&3112&3119,State Foundation/Adequacy Aid,2467113.0,29.6
+35,2025,3120-3900,Other State Aid,87812.0,1.1
+35,2025,4000,Federal Aid,294204.0,3.5
+35,2025,5300-5600,Other,0.0,0.0
+35,2025,5110&5140,Sales of Bonds & Notes,0.0,
+39,2025,1100,Local Property Tax,2170620.0,67.5
+39,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",32841.0,1.0
+39,2025,3111&3112&3119,State Foundation/Adequacy Aid,875809.0,27.2
+39,2025,3120-3900,Other State Aid,14363.0,0.4
+39,2025,4000,Federal Aid,121610.0,3.8
+39,2025,5300-5600,Other,0.0,0.0
+39,2025,5110&5140,Sales of Bonds & Notes,0.0,
+41,2025,1100,Local Property Tax,63631953.0,72.4
+41,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",2374241.2299999967,2.7
+41,2025,3111&3112&3119,State Foundation/Adequacy Aid,18281626.0,20.8
+41,2025,3120-3900,Other State Aid,1808018.0,2.1
+41,2025,4000,Federal Aid,1835329.0,2.1
+41,2025,5300-5600,Other,0.0,0.0
+41,2025,5110&5140,Sales of Bonds & Notes,0.0,
+726,2025,1100,Local Property Tax,0.0,0.0
+726,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",139795.0,13.4
+726,2025,3111&3112&3119,State Foundation/Adequacy Aid,630507.0,60.2
+726,2025,3120-3900,Other State Aid,16294.0,1.6
+726,2025,4000,Federal Aid,260380.0,24.9
+726,2025,5300-5600,Other,0.0,0.0
+726,2025,5110&5140,Sales of Bonds & Notes,0.0,
+47,2025,1100,Local Property Tax,454071.0,65.0
+47,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",13124.0,1.9
+47,2025,3111&3112&3119,State Foundation/Adequacy Aid,188181.0,27.0
+47,2025,3120-3900,Other State Aid,3856.0,0.6
+47,2025,4000,Federal Aid,38831.0,5.6
+47,2025,5300-5600,Other,0.0,0.0
+47,2025,5110&5140,Sales of Bonds & Notes,0.0,
+51,2025,1100,Local Property Tax,9096331.0,35.3
+51,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",1834652.1899999995,7.1
+51,2025,3111&3112&3119,State Foundation/Adequacy Aid,11531998.0,44.8
+51,2025,3120-3900,Other State Aid,140450.0,0.5
+51,2025,4000,Federal Aid,3163094.0,12.3
+51,2025,5300-5600,Other,0.0,0.0
+51,2025,5110&5140,Sales of Bonds & Notes,0.0,
+53,2025,1100,Local Property Tax,2670098.0,66.3
+53,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",48820.70999999996,1.2
+53,2025,3111&3112&3119,State Foundation/Adequacy Aid,1014210.0,25.2
+53,2025,3120-3900,Other State Aid,115782.0,2.9
+53,2025,4000,Federal Aid,180180.0,4.5
+53,2025,5300-5600,Other,0.0,0.0
+53,2025,5110&5140,Sales of Bonds & Notes,0.0,
+57,2025,1100,Local Property Tax,23508575.0,64.6
+57,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",4779488.699999999,13.1
+57,2025,3111&3112&3119,State Foundation/Adequacy Aid,6725855.0,18.5
+57,2025,3120-3900,Other State Aid,424701.0,1.2
+57,2025,4000,Federal Aid,967239.0,2.7
+57,2025,5300-5600,Other,0.0,0.0
+57,2025,5110&5140,Sales of Bonds & Notes,0.0,
+63,2025,1100,Local Property Tax,5452045.0,76.8
+63,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",136373.419999999,1.9
+63,2025,3111&3112&3119,State Foundation/Adequacy Aid,1373765.0,19.3
+63,2025,3120-3900,Other State Aid,1795.0,0.0
+63,2025,4000,Federal Aid,135646.0,1.9
+63,2025,5300-5600,Other,0.0,0.0
+63,2025,5110&5140,Sales of Bonds & Notes,1278400.0,
+71,2025,1100,Local Property Tax,8586345.0,68.7
+71,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",153983.00999999978,1.2
+71,2025,3111&3112&3119,State Foundation/Adequacy Aid,3033330.0,24.3
+71,2025,3120-3900,Other State Aid,165905.0,1.3
+71,2025,4000,Federal Aid,552595.0,4.4
+71,2025,5300-5600,Other,0.0,0.0
+71,2025,5110&5140,Sales of Bonds & Notes,0.0,
+723,2025,1100,Local Property Tax,0.0,0.0
+723,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",25196.74,6.3
+723,2025,3111&3112&3119,State Foundation/Adequacy Aid,335160.0,83.6
+723,2025,3120-3900,Other State Aid,12364.0,3.1
+723,2025,4000,Federal Aid,28380.0,7.1
+723,2025,5300-5600,Other,0.0,0.0
+723,2025,5110&5140,Sales of Bonds & Notes,0.0,
+75,2025,1100,Local Property Tax,6110500.0,68.2
+75,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",233982.5700000003,2.6
+75,2025,3111&3112&3119,State Foundation/Adequacy Aid,1979054.0,22.1
+75,2025,3120-3900,Other State Aid,71910.0,0.8
+75,2025,4000,Federal Aid,560746.0,6.3
+75,2025,5300-5600,Other,0.0,0.0
+75,2025,5110&5140,Sales of Bonds & Notes,0.0,
+79,2025,1100,Local Property Tax,7754842.0,73.5
+79,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",68704.70999999996,0.7
+79,2025,3111&3112&3119,State Foundation/Adequacy Aid,2007631.0,19.0
+79,2025,3120-3900,Other State Aid,296256.0,2.8
+79,2025,4000,Federal Aid,422028.0,4.0
+79,2025,5300-5600,Other,0.0,0.0
+79,2025,5110&5140,Sales of Bonds & Notes,0.0,
+91,2025,1100,Local Property Tax,465207.0,64.1
+91,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",5128.790000000037,0.7
+91,2025,3111&3112&3119,State Foundation/Adequacy Aid,209508.0,28.9
+91,2025,3120-3900,Other State Aid,2100.0,0.3
+91,2025,4000,Federal Aid,43396.0,6.0
+91,2025,5300-5600,Other,0.0,0.0
+91,2025,5110&5140,Sales of Bonds & Notes,0.0,
+93,2025,1100,Local Property Tax,11127990.0,71.1
+93,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",132987.15000000037,0.9
+93,2025,3111&3112&3119,State Foundation/Adequacy Aid,3828775.0,24.5
+93,2025,3120-3900,Other State Aid,235302.0,1.5
+93,2025,4000,Federal Aid,319803.0,2.0
+93,2025,5300-5600,Other,0.0,0.0
+93,2025,5110&5140,Sales of Bonds & Notes,0.0,
+95,2025,1100,Local Property Tax,7009314.0,75.3
+95,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",203422.02000000048,2.2
+95,2025,3111&3112&3119,State Foundation/Adequacy Aid,1802346.0,19.4
+95,2025,3120-3900,Other State Aid,6956.0,0.1
+95,2025,4000,Federal Aid,285188.0,3.1
+95,2025,5300-5600,Other,0.0,0.0
+95,2025,5110&5140,Sales of Bonds & Notes,0.0,
+99,2025,1100,Local Property Tax,5683455.0,72.5
+99,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",203764.01999999955,2.6
+99,2025,3111&3112&3119,State Foundation/Adequacy Aid,1495310.0,19.1
+99,2025,3120-3900,Other State Aid,153647.0,2.0
+99,2025,4000,Federal Aid,299678.0,3.8
+99,2025,5300-5600,Other,0.0,0.0
+99,2025,5110&5140,Sales of Bonds & Notes,0.0,
+101,2025,1100,Local Property Tax,18228567.0,45.8
+101,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",1063346.9099999964,2.7
+101,2025,3111&3112&3119,State Foundation/Adequacy Aid,15859197.0,39.8
+101,2025,3120-3900,Other State Aid,505492.0,1.3
+101,2025,4000,Federal Aid,4142194.0,10.4
+101,2025,5300-5600,Other,0.0,0.0
+101,2025,5110&5140,Sales of Bonds & Notes,0.0,
+103,2025,1100,Local Property Tax,542373.0,81.4
+103,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",4227.979999999981,0.6
+103,2025,3111&3112&3119,State Foundation/Adequacy Aid,112669.0,16.9
+103,2025,3120-3900,Other State Aid,3311.0,0.5
+103,2025,4000,Federal Aid,3541.0,0.5
+103,2025,5300-5600,Other,0.0,0.0
+103,2025,5110&5140,Sales of Bonds & Notes,0.0,
+105,2025,1100,Local Property Tax,2861241.0,33.6
+105,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",1894086.4800000004,22.2
+105,2025,3111&3112&3119,State Foundation/Adequacy Aid,2450056.0,28.8
+105,2025,3120-3900,Other State Aid,22079.0,0.3
+105,2025,4000,Federal Aid,1291509.0,15.2
+105,2025,5300-5600,Other,0.0,0.0
+105,2025,5110&5140,Sales of Bonds & Notes,0.0,
+107,2025,1100,Local Property Tax,1076762.0,67.1
+107,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",17528.62999999989,1.1
+107,2025,3111&3112&3119,State Foundation/Adequacy Aid,483813.0,30.1
+107,2025,3120-3900,Other State Aid,10736.0,0.7
+107,2025,4000,Federal Aid,16823.0,1.0
+107,2025,5300-5600,Other,0.0,0.0
+107,2025,5110&5140,Sales of Bonds & Notes,0.0,
+743,2025,1100,Local Property Tax,0.0,0.0
+743,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",193739.0,8.1
+743,2025,3111&3112&3119,State Foundation/Adequacy Aid,1515795.0,63.2
+743,2025,3120-3900,Other State Aid,171549.0,7.1
+743,2025,4000,Federal Aid,518695.0,21.6
+743,2025,5300-5600,Other,0.0,0.0
+743,2025,5110&5140,Sales of Bonds & Notes,0.0,
+111,2025,1100,Local Property Tax,66986388.0,59.3
+111,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",8512475.179999992,7.5
+111,2025,3111&3112&3119,State Foundation/Adequacy Aid,25512383.0,22.6
+111,2025,3120-3900,Other State Aid,3329488.0,2.9
+111,2025,4000,Federal Aid,8538519.0,7.6
+111,2025,5300-5600,Other,0.0,0.0
+111,2025,5110&5140,Sales of Bonds & Notes,18555000.0,
+112,2025,1100,Local Property Tax,44181275.0,72.0
+112,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",1161789.0,1.9
+112,2025,3111&3112&3119,State Foundation/Adequacy Aid,12241005.0,19.9
+112,2025,3120-3900,Other State Aid,902001.0,1.5
+112,2025,4000,Federal Aid,2876552.0,4.7
+112,2025,5300-5600,Other,0.0,0.0
+112,2025,5110&5140,Sales of Bonds & Notes,0.0,
+113,2025,1100,Local Property Tax,20356634.0,51.4
+113,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",10358627.190000001,26.2
+113,2025,3111&3112&3119,State Foundation/Adequacy Aid,6206172.0,15.7
+113,2025,3120-3900,Other State Aid,57677.0,0.1
+113,2025,4000,Federal Aid,2622626.0,6.6
+113,2025,5300-5600,Other,0.0,0.0
+113,2025,5110&5140,Sales of Bonds & Notes,0.0,
+114,2025,1100,Local Property Tax,72672.0,71.6
+114,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",0.0,0.0
+114,2025,3111&3112&3119,State Foundation/Adequacy Aid,28790.0,28.4
+114,2025,3120-3900,Other State Aid,0.0,0.0
+114,2025,4000,Federal Aid,0.0,0.0
+114,2025,5300-5600,Other,0.0,0.0
+114,2025,5110&5140,Sales of Bonds & Notes,0.0,
+115,2025,1100,Local Property Tax,3819301.0,73.0
+115,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",100577.3200000003,1.9
+115,2025,3111&3112&3119,State Foundation/Adequacy Aid,1107039.0,21.1
+115,2025,3120-3900,Other State Aid,658.0,0.0
+115,2025,4000,Federal Aid,207182.0,4.0
+115,2025,5300-5600,Other,0.0,0.0
+115,2025,5110&5140,Sales of Bonds & Notes,0.0,
+117,2025,1100,Local Property Tax,1061997.0,63.0
+117,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",8598.270000000019,0.5
+117,2025,3111&3112&3119,State Foundation/Adequacy Aid,560502.0,33.2
+117,2025,3120-3900,Other State Aid,2322.0,0.1
+117,2025,4000,Federal Aid,52948.0,3.1
+117,2025,5300-5600,Other,0.0,0.0
+117,2025,5110&5140,Sales of Bonds & Notes,0.0,
+127,2025,1100,Local Property Tax,14156501.0,76.0
+127,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",168415.26999999955,0.9
+127,2025,3111&3112&3119,State Foundation/Adequacy Aid,3470355.0,18.6
+127,2025,3120-3900,Other State Aid,411829.0,2.2
+127,2025,4000,Federal Aid,409054.0,2.2
+127,2025,5300-5600,Other,0.0,0.0
+127,2025,5110&5140,Sales of Bonds & Notes,0.0,
+131,2025,1100,Local Property Tax,65569945.0,62.4
+131,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",769924.0500000045,0.7
+131,2025,3111&3112&3119,State Foundation/Adequacy Aid,31511354.0,30.0
+131,2025,3120-3900,Other State Aid,1861415.0,1.8
+131,2025,4000,Federal Aid,5365399.0,5.1
+131,2025,5300-5600,Other,0.0,0.0
+131,2025,5110&5140,Sales of Bonds & Notes,0.0,
+141,2025,1100,Local Property Tax,57034234.0,61.9
+141,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",6556699.310000002,7.1
+141,2025,3111&3112&3119,State Foundation/Adequacy Aid,18344078.0,19.9
+141,2025,3120-3900,Other State Aid,2561389.0,2.8
+141,2025,4000,Federal Aid,7573748.0,8.2
+141,2025,5300-5600,Other,0.0,0.0
+141,2025,5110&5140,Sales of Bonds & Notes,0.0,
+142,2025,1100,Local Property Tax,27200279.0,87.5
+142,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",3405025.7699999996,11.0
+142,2025,3111&3112&3119,State Foundation/Adequacy Aid,0.0,0.0
+142,2025,3120-3900,Other State Aid,258660.0,0.8
+142,2025,4000,Federal Aid,224406.0,0.7
+142,2025,5300-5600,Other,0.0,0.0
+142,2025,5110&5140,Sales of Bonds & Notes,0.0,
+147,2025,1100,Local Property Tax,696164.0,76.1
+147,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",20757.119999999995,2.3
+147,2025,3111&3112&3119,State Foundation/Adequacy Aid,180395.0,19.7
+147,2025,3120-3900,Other State Aid,0.0,0.0
+147,2025,4000,Federal Aid,17372.0,1.9
+147,2025,5300-5600,Other,0.0,0.0
+147,2025,5110&5140,Sales of Bonds & Notes,0.0,
+149,2025,1100,Local Property Tax,7449370.0,74.6
+149,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",20296.950000000186,0.2
+149,2025,3111&3112&3119,State Foundation/Adequacy Aid,2263093.0,22.7
+149,2025,3120-3900,Other State Aid,27768.0,0.3
+149,2025,4000,Federal Aid,226819.0,2.3
+149,2025,5300-5600,Other,0.0,0.0
+149,2025,5110&5140,Sales of Bonds & Notes,0.0,
+153,2025,1100,Local Property Tax,2841733.0,79.0
+153,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",65744.28000000026,1.8
+153,2025,3111&3112&3119,State Foundation/Adequacy Aid,575680.0,16.0
+153,2025,3120-3900,Other State Aid,9982.0,0.3
+153,2025,4000,Federal Aid,104118.0,2.9
+153,2025,5300-5600,Other,0.0,0.0
+153,2025,5110&5140,Sales of Bonds & Notes,0.0,
+159,2025,1100,Local Property Tax,630792.0,75.6
+159,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",10605.290000000037,1.3
+159,2025,3111&3112&3119,State Foundation/Adequacy Aid,191433.0,23.0
+159,2025,3120-3900,Other State Aid,1078.0,0.1
+159,2025,4000,Federal Aid,20.0,0.0
+159,2025,5300-5600,Other,0.0,0.0
+159,2025,5110&5140,Sales of Bonds & Notes,0.0,
+162,2025,1100,Local Property Tax,152103.0,60.9
+162,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",5.940000000002328,0.0
+162,2025,3111&3112&3119,State Foundation/Adequacy Aid,86897.0,34.8
+162,2025,3120-3900,Other State Aid,0.0,0.0
+162,2025,4000,Federal Aid,10662.0,4.3
+162,2025,5300-5600,Other,0.0,0.0
+162,2025,5110&5140,Sales of Bonds & Notes,0.0,
+165,2025,1100,Local Property Tax,17739057.0,73.3
+165,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",248728.59999999776,1.0
+165,2025,3111&3112&3119,State Foundation/Adequacy Aid,4907307.0,20.3
+165,2025,3120-3900,Other State Aid,574834.0,2.4
+165,2025,4000,Federal Aid,718166.0,3.0
+165,2025,5300-5600,Other,0.0,0.0
+165,2025,5110&5140,Sales of Bonds & Notes,0.0,
+167,2025,1100,Local Property Tax,9510967.0,68.3
+167,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",249278.75999999978,1.8
+167,2025,3111&3112&3119,State Foundation/Adequacy Aid,3553474.0,25.5
+167,2025,3120-3900,Other State Aid,176510.0,1.3
+167,2025,4000,Federal Aid,443710.0,3.2
+167,2025,5300-5600,Other,0.0,0.0
+167,2025,5110&5140,Sales of Bonds & Notes,0.0,
+171,2025,1100,Local Property Tax,294129.0,55.8
+171,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",17437.679999999993,3.3
+171,2025,3111&3112&3119,State Foundation/Adequacy Aid,166117.0,31.5
+171,2025,3120-3900,Other State Aid,52.0,0.0
+171,2025,4000,Federal Aid,49202.0,9.3
+171,2025,5300-5600,Other,0.0,0.0
+171,2025,5110&5140,Sales of Bonds & Notes,0.0,
+173,2025,1100,Local Property Tax,19033793.0,78.3
+173,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",268206.33999999985,1.1
+173,2025,3111&3112&3119,State Foundation/Adequacy Aid,3907256.0,16.1
+173,2025,3120-3900,Other State Aid,80908.0,0.3
+173,2025,4000,Federal Aid,1020011.0,4.2
+173,2025,5300-5600,Other,0.0,0.0
+173,2025,5110&5140,Sales of Bonds & Notes,0.0,
+172,2025,1100,Local Property Tax,50647339.0,74.8
+172,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",2448109.5000000075,3.6
+172,2025,3111&3112&3119,State Foundation/Adequacy Aid,11219348.0,16.6
+172,2025,3120-3900,Other State Aid,1523424.0,2.2
+172,2025,4000,Federal Aid,1886405.0,2.8
+172,2025,5300-5600,Other,0.0,0.0
+172,2025,5110&5140,Sales of Bonds & Notes,0.0,
+174,2025,1100,Local Property Tax,20939214.0,56.3
+174,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",1037726.5899999999,2.8
+174,2025,3111&3112&3119,State Foundation/Adequacy Aid,11382900.0,30.6
+174,2025,3120-3900,Other State Aid,666038.0,1.8
+174,2025,4000,Federal Aid,3135883.0,8.4
+174,2025,5300-5600,Other,0.0,0.0
+174,2025,5110&5140,Sales of Bonds & Notes,0.0,
+175,2025,1100,Local Property Tax,7924730.0,44.6
+175,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",347122.14999999944,2.0
+175,2025,3111&3112&3119,State Foundation/Adequacy Aid,7219418.0,40.7
+175,2025,3120-3900,Other State Aid,172303.0,1.0
+175,2025,4000,Federal Aid,2087728.0,11.8
+175,2025,5300-5600,Other,0.0,0.0
+175,2025,5110&5140,Sales of Bonds & Notes,0.0,
+185,2025,1100,Local Property Tax,5580239.0,25.0
+185,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",669610.8899999997,3.0
+185,2025,3111&3112&3119,State Foundation/Adequacy Aid,10114233.0,45.3
+185,2025,3120-3900,Other State Aid,654901.0,2.9
+185,2025,4000,Federal Aid,5297893.0,23.7
+185,2025,5300-5600,Other,0.0,0.0
+185,2025,5110&5140,Sales of Bonds & Notes,0.0,
+187,2025,1100,Local Property Tax,3055315.0,67.7
+187,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",84448.15000000037,1.9
+187,2025,3111&3112&3119,State Foundation/Adequacy Aid,1274070.0,28.2
+187,2025,3120-3900,Other State Aid,2100.0,0.0
+187,2025,4000,Federal Aid,96496.0,2.1
+187,2025,5300-5600,Other,0.0,0.0
+187,2025,5110&5140,Sales of Bonds & Notes,0.0,
+189,2025,1100,Local Property Tax,10621303.0,77.4
+189,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",69886.3200000003,0.5
+189,2025,3111&3112&3119,State Foundation/Adequacy Aid,2541557.0,18.5
+189,2025,3120-3900,Other State Aid,175782.0,1.3
+189,2025,4000,Federal Aid,312384.0,2.3
+189,2025,5300-5600,Other,0.0,0.0
+189,2025,5110&5140,Sales of Bonds & Notes,0.0,
+742,2025,1100,Local Property Tax,0.0,0.0
+742,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",255568.03,12.9
+742,2025,3111&3112&3119,State Foundation/Adequacy Aid,1489628.0,75.0
+742,2025,3120-3900,Other State Aid,186184.0,9.4
+742,2025,4000,Federal Aid,54718.0,2.8
+742,2025,5300-5600,Other,0.0,0.0
+742,2025,5110&5140,Sales of Bonds & Notes,0.0,
+750,2025,1100,Local Property Tax,0.0,0.0
+750,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",723692.75,19.5
+750,2025,3111&3112&3119,State Foundation/Adequacy Aid,2514280.0,67.9
+750,2025,3120-3900,Other State Aid,225463.0,6.1
+750,2025,4000,Federal Aid,240763.0,6.5
+750,2025,5300-5600,Other,0.0,0.0
+750,2025,5110&5140,Sales of Bonds & Notes,0.0,
+191,2025,1100,Local Property Tax,18689987.0,64.7
+191,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",4643576.0,16.1
+191,2025,3111&3112&3119,State Foundation/Adequacy Aid,4499636.0,15.6
+191,2025,3120-3900,Other State Aid,215842.0,0.7
+191,2025,4000,Federal Aid,827210.0,2.9
+191,2025,5300-5600,Other,0.0,0.0
+191,2025,5110&5140,Sales of Bonds & Notes,3000000.0,
+195,2025,1100,Local Property Tax,10035995.0,75.2
+195,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",176490.54000000097,1.3
+195,2025,3111&3112&3119,State Foundation/Adequacy Aid,2654693.0,19.9
+195,2025,3120-3900,Other State Aid,37122.0,0.3
+195,2025,4000,Federal Aid,444357.0,3.3
+195,2025,5300-5600,Other,0.0,0.0
+195,2025,5110&5140,Sales of Bonds & Notes,0.0,
+199,2025,1100,Local Property Tax,31367575.0,58.2
+199,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",8924321.46,16.6
+199,2025,3111&3112&3119,State Foundation/Adequacy Aid,11099377.0,20.6
+199,2025,3120-3900,Other State Aid,658660.0,1.2
+199,2025,4000,Federal Aid,1872271.0,3.5
+199,2025,5300-5600,Other,0.0,0.0
+199,2025,5110&5140,Sales of Bonds & Notes,0.0,
+203,2025,1100,Local Property Tax,5796064.0,58.4
+203,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",597594.0199999996,6.0
+203,2025,3111&3112&3119,State Foundation/Adequacy Aid,2813931.0,28.4
+203,2025,3120-3900,Other State Aid,350251.0,3.5
+203,2025,4000,Federal Aid,365175.0,3.7
+203,2025,5300-5600,Other,0.0,0.0
+203,2025,5110&5140,Sales of Bonds & Notes,0.0,
+204,2025,1100,Local Property Tax,931127.0,58.5
+204,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",28551.97999999998,1.8
+204,2025,3111&3112&3119,State Foundation/Adequacy Aid,628018.0,39.4
+204,2025,3120-3900,Other State Aid,0.0,0.0
+204,2025,4000,Federal Aid,5222.0,0.3
+204,2025,5300-5600,Other,0.0,0.0
+204,2025,5110&5140,Sales of Bonds & Notes,0.0,
+208,2025,1100,Local Property Tax,41340653.0,60.3
+208,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",3293370.299999997,4.8
+208,2025,3111&3112&3119,State Foundation/Adequacy Aid,15378868.0,22.4
+208,2025,3120-3900,Other State Aid,1569644.0,2.3
+208,2025,4000,Federal Aid,7001646.0,10.2
+208,2025,5300-5600,Other,0.0,0.0
+208,2025,5110&5140,Sales of Bonds & Notes,0.0,
+211,2025,1100,Local Property Tax,8780108.0,75.9
+211,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",384101.05000000075,3.3
+211,2025,3111&3112&3119,State Foundation/Adequacy Aid,1979886.0,17.1
+211,2025,3120-3900,Other State Aid,236290.0,2.0
+211,2025,4000,Federal Aid,193311.0,1.7
+211,2025,5300-5600,Other,0.0,0.0
+211,2025,5110&5140,Sales of Bonds & Notes,0.0,
+709,2025,1100,Local Property Tax,0.0,0.0
+709,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",607100.9199999999,27.0
+709,2025,3111&3112&3119,State Foundation/Adequacy Aid,1440544.0,64.1
+709,2025,3120-3900,Other State Aid,93058.0,4.1
+709,2025,4000,Federal Aid,107966.0,4.8
+709,2025,5300-5600,Other,0.0,0.0
+709,2025,5110&5140,Sales of Bonds & Notes,0.0,
+215,2025,1100,Local Property Tax,11045597.0,78.6
+215,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",237431.0399999991,1.7
+215,2025,3111&3112&3119,State Foundation/Adequacy Aid,2438030.0,17.4
+215,2025,3120-3900,Other State Aid,112737.0,0.8
+215,2025,4000,Federal Aid,214280.0,1.5
+215,2025,5300-5600,Other,0.0,0.0
+215,2025,5110&5140,Sales of Bonds & Notes,0.0,
+222,2025,1100,Local Property Tax,-18817.0,-17.8
+222,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",0.0,0.0
+222,2025,3111&3112&3119,State Foundation/Adequacy Aid,124784.0,117.8
+222,2025,3120-3900,Other State Aid,0.0,0.0
+222,2025,4000,Federal Aid,0.0,0.0
+222,2025,5300-5600,Other,0.0,0.0
+222,2025,5110&5140,Sales of Bonds & Notes,0.0,
+223,2025,1100,Local Property Tax,28648999.0,79.9
+223,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",359215.2100000009,1.0
+223,2025,3111&3112&3119,State Foundation/Adequacy Aid,5619335.0,15.7
+223,2025,3120-3900,Other State Aid,623896.0,1.7
+223,2025,4000,Federal Aid,609389.0,1.7
+223,2025,5300-5600,Other,0.0,0.0
+223,2025,5110&5140,Sales of Bonds & Notes,0.0,
+225,2025,1100,Local Property Tax,24934575.0,79.5
+225,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",131059.6099999994,0.4
+225,2025,3111&3112&3119,State Foundation/Adequacy Aid,4604955.0,14.7
+225,2025,3120-3900,Other State Aid,250797.0,0.8
+225,2025,4000,Federal Aid,1431142.0,4.6
+225,2025,5300-5600,Other,0.0,0.0
+225,2025,5110&5140,Sales of Bonds & Notes,0.0,
+227,2025,1100,Local Property Tax,6338097.0,84.3
+227,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",134793.86000000034,1.8
+227,2025,3111&3112&3119,State Foundation/Adequacy Aid,861277.0,11.5
+227,2025,3120-3900,Other State Aid,66613.0,0.9
+227,2025,4000,Federal Aid,113544.0,1.5
+227,2025,5300-5600,Other,0.0,0.0
+227,2025,5110&5140,Sales of Bonds & Notes,0.0,
+233,2025,1100,Local Property Tax,8386193.0,57.6
+233,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",600108.6600000001,4.1
+233,2025,3111&3112&3119,State Foundation/Adequacy Aid,4928992.0,33.9
+233,2025,3120-3900,Other State Aid,422505.0,2.9
+233,2025,4000,Federal Aid,211928.0,1.5
+233,2025,5300-5600,Other,0.0,0.0
+233,2025,5110&5140,Sales of Bonds & Notes,0.0,
+235,2025,1100,Local Property Tax,1815751.0,73.0
+235,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",146900.3700000001,5.9
+235,2025,3111&3112&3119,State Foundation/Adequacy Aid,430877.0,17.3
+235,2025,3120-3900,Other State Aid,2403.0,0.1
+235,2025,4000,Federal Aid,90506.0,3.6
+235,2025,5300-5600,Other,0.0,0.0
+235,2025,5110&5140,Sales of Bonds & Notes,0.0,
+236,2025,1100,Local Property Tax,-3480.0,-11.2
+236,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",0.0,0.0
+236,2025,3111&3112&3119,State Foundation/Adequacy Aid,28962.0,93.2
+236,2025,3120-3900,Other State Aid,0.0,0.0
+236,2025,4000,Federal Aid,5580.0,18.0
+236,2025,5300-5600,Other,0.0,0.0
+236,2025,5110&5140,Sales of Bonds & Notes,0.0,
+238,2025,1100,Local Property Tax,8272073.0,50.2
+238,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",1833040.0,11.1
+238,2025,3111&3112&3119,State Foundation/Adequacy Aid,5276240.0,32.0
+238,2025,3120-3900,Other State Aid,178761.0,1.1
+238,2025,4000,Federal Aid,923194.0,5.6
+238,2025,5300-5600,Other,0.0,0.0
+238,2025,5110&5140,Sales of Bonds & Notes,2989200.0,
+718,2025,1100,Local Property Tax,0.0,0.0
+718,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",95018.0,8.6
+718,2025,3111&3112&3119,State Foundation/Adequacy Aid,761617.0,69.2
+718,2025,3120-3900,Other State Aid,85258.0,7.7
+718,2025,4000,Federal Aid,158723.0,14.4
+718,2025,5300-5600,Other,0.0,0.0
+718,2025,5110&5140,Sales of Bonds & Notes,0.0,
+245,2025,1100,Local Property Tax,7194970.0,69.8
+245,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",144146.80000000075,1.4
+245,2025,3111&3112&3119,State Foundation/Adequacy Aid,2348478.0,22.8
+245,2025,3120-3900,Other State Aid,37878.0,0.4
+245,2025,4000,Federal Aid,579951.0,5.6
+245,2025,5300-5600,Other,0.0,0.0
+245,2025,5110&5140,Sales of Bonds & Notes,0.0,
+247,2025,1100,Local Property Tax,1457187.0,56.1
+247,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",54819.55000000005,2.1
+247,2025,3111&3112&3119,State Foundation/Adequacy Aid,841287.0,32.4
+247,2025,3120-3900,Other State Aid,92061.0,3.5
+247,2025,4000,Federal Aid,152520.0,5.9
+247,2025,5300-5600,Other,0.0,0.0
+247,2025,5110&5140,Sales of Bonds & Notes,0.0,
+251,2025,1100,Local Property Tax,14721851.0,56.2
+251,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",1845393.3900000006,7.0
+251,2025,3111&3112&3119,State Foundation/Adequacy Aid,7987408.0,30.5
+251,2025,3120-3900,Other State Aid,194088.0,0.7
+251,2025,4000,Federal Aid,1464606.0,5.6
+251,2025,5300-5600,Other,0.0,0.0
+251,2025,5110&5140,Sales of Bonds & Notes,0.0,
+255,2025,1100,Local Property Tax,8103719.0,52.2
+255,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",242165.0,1.6
+255,2025,3111&3112&3119,State Foundation/Adequacy Aid,5328941.0,34.3
+255,2025,3120-3900,Other State Aid,717446.0,4.6
+255,2025,4000,Federal Aid,1127945.0,7.3
+255,2025,5300-5600,Other,0.0,0.0
+255,2025,5110&5140,Sales of Bonds & Notes,0.0,
+257,2025,1100,Local Property Tax,3820261.0,71.8
+257,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",151709.58000000007,2.8
+257,2025,3111&3112&3119,State Foundation/Adequacy Aid,1134636.0,21.3
+257,2025,3120-3900,Other State Aid,20446.0,0.4
+257,2025,4000,Federal Aid,197301.0,3.7
+257,2025,5300-5600,Other,0.0,0.0
+257,2025,5110&5140,Sales of Bonds & Notes,0.0,
+260,2025,1100,Local Property Tax,23128010.0,76.7
+260,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",424527.02999999747,1.4
+260,2025,3111&3112&3119,State Foundation/Adequacy Aid,5372044.0,17.8
+260,2025,3120-3900,Other State Aid,839177.0,2.8
+260,2025,4000,Federal Aid,394612.0,1.3
+260,2025,5300-5600,Other,0.0,0.0
+260,2025,5110&5140,Sales of Bonds & Notes,0.0,
+259,2025,1100,Local Property Tax,13255935.0,76.6
+259,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",332255.04000000097,1.9
+259,2025,3111&3112&3119,State Foundation/Adequacy Aid,3080490.0,17.8
+259,2025,3120-3900,Other State Aid,270785.0,1.6
+259,2025,4000,Federal Aid,362321.0,2.1
+259,2025,5300-5600,Other,0.0,0.0
+259,2025,5110&5140,Sales of Bonds & Notes,0.0,
+261,2025,1100,Local Property Tax,29477707.0,72.1
+261,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",221999.37000000104,0.5
+261,2025,3111&3112&3119,State Foundation/Adequacy Aid,9473826.0,23.2
+261,2025,3120-3900,Other State Aid,780596.0,1.9
+261,2025,4000,Federal Aid,957636.0,2.3
+261,2025,5300-5600,Other,0.0,0.0
+261,2025,5110&5140,Sales of Bonds & Notes,0.0,
+263,2025,1100,Local Property Tax,20166986.0,77.5
+263,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",511779.90000000224,2.0
+263,2025,3111&3112&3119,State Foundation/Adequacy Aid,4326345.0,16.6
+263,2025,3120-3900,Other State Aid,226246.0,0.9
+263,2025,4000,Federal Aid,802782.0,3.1
+263,2025,5300-5600,Other,0.0,0.0
+263,2025,5110&5140,Sales of Bonds & Notes,0.0,
+267,2025,1100,Local Property Tax,46633002.0,69.4
+267,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",2117606.099999994,3.1
+267,2025,3111&3112&3119,State Foundation/Adequacy Aid,14588460.0,21.7
+267,2025,3120-3900,Other State Aid,1430335.0,2.1
+267,2025,4000,Federal Aid,2463940.0,3.7
+267,2025,5300-5600,Other,0.0,0.0
+267,2025,5110&5140,Sales of Bonds & Notes,0.0,
+269,2025,1100,Local Property Tax,24680861.0,72.0
+269,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",493621.6300000027,1.4
+269,2025,3111&3112&3119,State Foundation/Adequacy Aid,6965028.0,20.3
+269,2025,3120-3900,Other State Aid,254353.0,0.7
+269,2025,4000,Federal Aid,1906591.0,5.6
+269,2025,5300-5600,Other,0.0,0.0
+269,2025,5110&5140,Sales of Bonds & Notes,0.0,
+271,2025,1100,Local Property Tax,1761750.0,64.0
+271,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",48542.87999999989,1.8
+271,2025,3111&3112&3119,State Foundation/Adequacy Aid,877967.0,31.9
+271,2025,3120-3900,Other State Aid,2392.0,0.1
+271,2025,4000,Federal Aid,63774.0,2.3
+271,2025,5300-5600,Other,0.0,0.0
+271,2025,5110&5140,Sales of Bonds & Notes,0.0,
+274,2025,1100,Local Property Tax,20740871.0,68.2
+274,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",602885.870000001,2.0
+274,2025,3111&3112&3119,State Foundation/Adequacy Aid,7327326.0,24.1
+274,2025,3120-3900,Other State Aid,583623.0,1.9
+274,2025,4000,Federal Aid,1142558.0,3.8
+274,2025,5300-5600,Other,0.0,0.0
+274,2025,5110&5140,Sales of Bonds & Notes,0.0,
+275,2025,1100,Local Property Tax,9901824.0,65.0
+275,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",92654.98000000045,0.6
+275,2025,3111&3112&3119,State Foundation/Adequacy Aid,4286023.0,28.1
+275,2025,3120-3900,Other State Aid,167149.0,1.1
+275,2025,4000,Federal Aid,784042.0,5.1
+275,2025,5300-5600,Other,0.0,0.0
+275,2025,5110&5140,Sales of Bonds & Notes,0.0,
+276,2025,1100,Local Property Tax,38473993.0,74.1
+276,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",857977.0599999949,1.7
+276,2025,3111&3112&3119,State Foundation/Adequacy Aid,10379037.0,20.0
+276,2025,3120-3900,Other State Aid,961742.0,1.9
+276,2025,4000,Federal Aid,1223015.0,2.4
+276,2025,5300-5600,Other,0.0,0.0
+276,2025,5110&5140,Sales of Bonds & Notes,9355.0,
+279,2025,1100,Local Property Tax,34255980.0,47.0
+279,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",14779571.980000004,20.3
+279,2025,3111&3112&3119,State Foundation/Adequacy Aid,17826568.0,24.4
+279,2025,3120-3900,Other State Aid,1529262.0,2.1
+279,2025,4000,Federal Aid,4516769.0,6.2
+279,2025,5300-5600,Other,11250.0,0.0
+279,2025,5110&5140,Sales of Bonds & Notes,0.0,
+281,2025,1100,Local Property Tax,3422178.0,79.6
+281,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",48466.64000000013,1.1
+281,2025,3111&3112&3119,State Foundation/Adequacy Aid,685273.0,15.9
+281,2025,3120-3900,Other State Aid,4252.0,0.1
+281,2025,4000,Federal Aid,138785.0,3.2
+281,2025,5300-5600,Other,0.0,0.0
+281,2025,5110&5140,Sales of Bonds & Notes,0.0,
+708,2025,1100,Local Property Tax,0.0,0.0
+708,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",796761.76,30.0
+708,2025,3111&3112&3119,State Foundation/Adequacy Aid,1124813.0,42.4
+708,2025,3120-3900,Other State Aid,287224.0,10.8
+708,2025,4000,Federal Aid,446128.0,16.8
+708,2025,5300-5600,Other,0.0,0.0
+708,2025,5110&5140,Sales of Bonds & Notes,0.0,
+285,2025,1100,Local Property Tax,26830497.0,50.3
+285,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",1874643.240000002,3.5
+285,2025,3111&3112&3119,State Foundation/Adequacy Aid,13823916.0,25.9
+285,2025,3120-3900,Other State Aid,1465875.0,2.8
+285,2025,4000,Federal Aid,9306522.0,17.5
+285,2025,5300-5600,Other,0.0,0.0
+285,2025,5110&5140,Sales of Bonds & Notes,0.0,
+288,2025,1100,Local Property Tax,2471066.0,
+288,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",95147.77000000002,
+288,2025,3120-3900,Other State Aid,902.0,
+288,2025,4000,Federal Aid,245409.0,
+288,2025,5300-5600,Other,0.0,
+288,2025,5110&5140,Sales of Bonds & Notes,0.0,
+291,2025,1100,Local Property Tax,857065.0,71.0
+291,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",60752.5,5.0
+291,2025,3111&3112&3119,State Foundation/Adequacy Aid,239153.0,19.8
+291,2025,3120-3900,Other State Aid,3525.0,0.3
+291,2025,4000,Federal Aid,45871.0,3.8
+291,2025,5300-5600,Other,0.0,0.0
+291,2025,5110&5140,Sales of Bonds & Notes,0.0,
+295,2025,1100,Local Property Tax,37729319.0,69.9
+295,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",6394733.609999999,11.8
+295,2025,3111&3112&3119,State Foundation/Adequacy Aid,7212696.0,13.4
+295,2025,3120-3900,Other State Aid,1120363.0,2.1
+295,2025,4000,Federal Aid,1517092.0,2.8
+295,2025,5300-5600,Other,0.0,0.0
+295,2025,5110&5140,Sales of Bonds & Notes,0.0,
+719,2025,1100,Local Property Tax,0.0,0.0
+719,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",280236.94,32.6
+719,2025,3111&3112&3119,State Foundation/Adequacy Aid,404603.0,47.1
+719,2025,3120-3900,Other State Aid,71581.0,8.3
+719,2025,4000,Federal Aid,102105.0,11.9
+719,2025,5300-5600,Other,0.0,0.0
+719,2025,5110&5140,Sales of Bonds & Notes,0.0,
+299,2025,1100,Local Property Tax,2377998.0,60.2
+299,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",276487.79000000004,7.0
+299,2025,3111&3112&3119,State Foundation/Adequacy Aid,1041146.0,26.4
+299,2025,3120-3900,Other State Aid,3121.0,0.1
+299,2025,4000,Federal Aid,248513.0,6.3
+299,2025,5300-5600,Other,0.0,0.0
+299,2025,5110&5140,Sales of Bonds & Notes,0.0,
+305,2025,1100,Local Property Tax,5384090.0,57.0
+305,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",55927.669999999925,0.6
+305,2025,3111&3112&3119,State Foundation/Adequacy Aid,3119724.0,33.0
+305,2025,3120-3900,Other State Aid,176603.0,1.9
+305,2025,4000,Federal Aid,712149.0,7.5
+305,2025,5300-5600,Other,0.0,0.0
+305,2025,5110&5140,Sales of Bonds & Notes,0.0,
+722,2025,1100,Local Property Tax,0.0,0.0
+722,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",796083.0,19.7
+722,2025,3111&3112&3119,State Foundation/Adequacy Aid,2770947.0,68.4
+722,2025,3120-3900,Other State Aid,104060.0,2.6
+722,2025,4000,Federal Aid,379371.0,9.4
+722,2025,5300-5600,Other,0.0,0.0
+722,2025,5110&5140,Sales of Bonds & Notes,3228000.0,
+306,2025,1100,Local Property Tax,3395960.0,43.7
+306,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",619805.9700000002,8.0
+306,2025,3111&3112&3119,State Foundation/Adequacy Aid,2230940.0,28.7
+306,2025,3120-3900,Other State Aid,443106.0,5.7
+306,2025,4000,Federal Aid,1080363.0,13.9
+306,2025,5300-5600,Other,0.0,0.0
+306,2025,5110&5140,Sales of Bonds & Notes,0.0,
+315,2025,1100,Local Property Tax,16901607.0,66.6
+315,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",88627.12000000104,0.3
+315,2025,3111&3112&3119,State Foundation/Adequacy Aid,7516797.0,29.6
+315,2025,3120-3900,Other State Aid,199873.0,0.8
+315,2025,4000,Federal Aid,687767.0,2.7
+315,2025,5300-5600,Other,0.0,0.0
+315,2025,5110&5140,Sales of Bonds & Notes,0.0,
+317,2025,1100,Local Property Tax,10321787.0,52.8
+317,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",654849.0200000014,3.4
+317,2025,3111&3112&3119,State Foundation/Adequacy Aid,5658976.0,29.0
+317,2025,3120-3900,Other State Aid,566931.0,2.9
+317,2025,4000,Federal Aid,2331459.0,11.9
+317,2025,5300-5600,Other,0.0,0.0
+317,2025,5110&5140,Sales of Bonds & Notes,0.0,
+319,2025,1100,Local Property Tax,66441031.0,72.2
+319,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",2208442.900000006,2.4
+319,2025,3111&3112&3119,State Foundation/Adequacy Aid,19601632.0,21.3
+319,2025,3120-3900,Other State Aid,1248206.0,1.4
+319,2025,4000,Federal Aid,2555996.0,2.8
+319,2025,5300-5600,Other,0.0,0.0
+319,2025,5110&5140,Sales of Bonds & Notes,0.0,
+327,2025,1100,Local Property Tax,7434446.0,79.8
+327,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",284955.8200000003,3.1
+327,2025,3111&3112&3119,State Foundation/Adequacy Aid,1329342.0,14.3
+327,2025,3120-3900,Other State Aid,120700.0,1.3
+327,2025,4000,Federal Aid,143771.0,1.5
+327,2025,5300-5600,Other,0.0,0.0
+327,2025,5110&5140,Sales of Bonds & Notes,2599317.0,
+333,2025,1100,Local Property Tax,5340960.0,66.7
+333,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",162168.54000000004,2.0
+333,2025,3111&3112&3119,State Foundation/Adequacy Aid,1648705.0,20.6
+333,2025,3120-3900,Other State Aid,486802.0,6.1
+333,2025,4000,Federal Aid,374271.0,4.7
+333,2025,5300-5600,Other,0.0,0.0
+333,2025,5110&5140,Sales of Bonds & Notes,0.0,
+733,2025,1100,Local Property Tax,0.0,0.0
+733,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",120987.03,11.9
+733,2025,3111&3112&3119,State Foundation/Adequacy Aid,681390.0,67.0
+733,2025,3120-3900,Other State Aid,77993.0,7.7
+733,2025,4000,Federal Aid,137192.0,13.5
+733,2025,5300-5600,Other,0.0,0.0
+733,2025,5110&5140,Sales of Bonds & Notes,0.0,
+335,2025,1100,Local Property Tax,100848052.0,37.6
+335,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",6255544.98999998,2.3
+335,2025,3111&3112&3119,State Foundation/Adequacy Aid,116114763.0,43.3
+335,2025,3120-3900,Other State Aid,5649514.0,2.1
+335,2025,4000,Federal Aid,39219576.0,14.6
+335,2025,5300-5600,Other,0.0,0.0
+335,2025,5110&5140,Sales of Bonds & Notes,0.0,
+339,2025,1100,Local Property Tax,3983085.0,62.4
+339,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",140412.03000000026,2.2
+339,2025,3111&3112&3119,State Foundation/Adequacy Aid,1691679.0,26.5
+339,2025,3120-3900,Other State Aid,200444.0,3.1
+339,2025,4000,Federal Aid,363301.0,5.7
+339,2025,5300-5600,Other,0.0,0.0
+339,2025,5110&5140,Sales of Bonds & Notes,0.0,
+341,2025,1100,Local Property Tax,1260412.0,57.5
+341,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",26929.709999999963,1.2
+341,2025,3111&3112&3119,State Foundation/Adequacy Aid,844310.0,38.5
+341,2025,3120-3900,Other State Aid,16611.0,0.8
+341,2025,4000,Federal Aid,45111.0,2.1
+341,2025,5300-5600,Other,0.0,0.0
+341,2025,5110&5140,Sales of Bonds & Notes,0.0,
+342,2025,1100,Local Property Tax,11429898.0,55.9
+342,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",495703.9399999995,2.4
+342,2025,3111&3112&3119,State Foundation/Adequacy Aid,6225646.0,30.4
+342,2025,3120-3900,Other State Aid,1149472.0,5.6
+342,2025,4000,Federal Aid,1119963.0,5.5
+342,2025,5300-5600,Other,26264.0,0.1
+342,2025,5110&5140,Sales of Bonds & Notes,0.0,
+343,2025,1100,Local Property Tax,22294409.0,67.5
+343,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",508920.33999999985,1.5
+343,2025,3111&3112&3119,State Foundation/Adequacy Aid,7339409.0,22.2
+343,2025,3120-3900,Other State Aid,382914.0,1.2
+343,2025,4000,Federal Aid,2496759.0,7.6
+343,2025,5300-5600,Other,0.0,0.0
+343,2025,5110&5140,Sales of Bonds & Notes,0.0,
+345,2025,1100,Local Property Tax,2962105.0,75.1
+345,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",50917.00999999978,1.3
+345,2025,3111&3112&3119,State Foundation/Adequacy Aid,725370.0,18.4
+345,2025,3120-3900,Other State Aid,129630.0,3.3
+345,2025,4000,Federal Aid,77861.0,2.0
+345,2025,5300-5600,Other,0.0,0.0
+345,2025,5110&5140,Sales of Bonds & Notes,0.0,
+351,2025,1100,Local Property Tax,69072375.0,77.6
+351,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",523165.8599999994,0.6
+351,2025,3111&3112&3119,State Foundation/Adequacy Aid,16823981.0,18.9
+351,2025,3120-3900,Other State Aid,980110.0,1.1
+351,2025,4000,Federal Aid,1658433.0,1.9
+351,2025,5300-5600,Other,0.0,0.0
+351,2025,5110&5140,Sales of Bonds & Notes,0.0,
+352,2025,1100,Local Property Tax,29318846.0,58.8
+352,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",2047696.1600000039,4.1
+352,2025,3111&3112&3119,State Foundation/Adequacy Aid,15159286.0,30.4
+352,2025,3120-3900,Other State Aid,820434.0,1.6
+352,2025,4000,Federal Aid,2481792.0,5.0
+352,2025,5300-5600,Other,0.0,0.0
+352,2025,5110&5140,Sales of Bonds & Notes,0.0,
+744,2025,1100,Local Property Tax,0.0,0.0
+744,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",240561.0,7.1
+744,2025,3111&3112&3119,State Foundation/Adequacy Aid,2798432.0,82.0
+744,2025,3120-3900,Other State Aid,111278.0,3.3
+744,2025,4000,Federal Aid,260878.0,7.6
+744,2025,5300-5600,Other,0.0,0.0
+744,2025,5110&5140,Sales of Bonds & Notes,6000000.0,
+353,2025,1100,Local Property Tax,3119546.0,54.3
+353,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",238747.48000000045,4.2
+353,2025,3111&3112&3119,State Foundation/Adequacy Aid,1899618.0,33.1
+353,2025,3120-3900,Other State Aid,14793.0,0.3
+353,2025,4000,Federal Aid,468353.0,8.2
+353,2025,5300-5600,Other,0.0,0.0
+353,2025,5110&5140,Sales of Bonds & Notes,0.0,
+355,2025,1100,Local Property Tax,1885144.0,46.9
+355,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",407671.3999999999,10.1
+355,2025,3111&3112&3119,State Foundation/Adequacy Aid,1513628.0,37.6
+355,2025,3120-3900,Other State Aid,3264.0,0.1
+355,2025,4000,Federal Aid,210953.0,5.2
+355,2025,5300-5600,Other,0.0,0.0
+355,2025,5110&5140,Sales of Bonds & Notes,0.0,
+357,2025,1100,Local Property Tax,32188631.0,66.9
+357,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",2107491.180000007,4.4
+357,2025,3111&3112&3119,State Foundation/Adequacy Aid,10884147.0,22.6
+357,2025,3120-3900,Other State Aid,676430.0,1.4
+357,2025,4000,Federal Aid,2233243.0,4.6
+357,2025,5300-5600,Other,0.0,0.0
+357,2025,5110&5140,Sales of Bonds & Notes,0.0,
+729,2025,1100,Local Property Tax,0.0,0.0
+729,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",328090.17,15.7
+729,2025,3111&3112&3119,State Foundation/Adequacy Aid,1539077.0,73.7
+729,2025,3120-3900,Other State Aid,111068.0,5.3
+729,2025,4000,Federal Aid,110918.0,5.3
+729,2025,5300-5600,Other,0.0,0.0
+729,2025,5110&5140,Sales of Bonds & Notes,0.0,
+359,2025,1100,Local Property Tax,6122403.0,51.5
+359,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",299616.8800000008,2.5
+359,2025,3111&3112&3119,State Foundation/Adequacy Aid,4046714.0,34.1
+359,2025,3120-3900,Other State Aid,261950.0,2.2
+359,2025,4000,Federal Aid,1152556.0,9.7
+359,2025,5300-5600,Other,0.0,0.0
+359,2025,5110&5140,Sales of Bonds & Notes,0.0,
+363,2025,1100,Local Property Tax,21494782.0,42.5
+363,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",1397648.570000004,2.8
+363,2025,3111&3112&3119,State Foundation/Adequacy Aid,13351398.0,26.4
+363,2025,3120-3900,Other State Aid,10523339.0,20.8
+363,2025,4000,Federal Aid,3849906.0,7.6
+363,2025,5300-5600,Other,0.0,0.0
+363,2025,5110&5140,Sales of Bonds & Notes,0.0,
+365,2025,1100,Local Property Tax,4060690.0,82.3
+365,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",29507.100000000093,0.6
+365,2025,3111&3112&3119,State Foundation/Adequacy Aid,691060.0,14.0
+365,2025,3120-3900,Other State Aid,10198.0,0.2
+365,2025,4000,Federal Aid,145128.0,2.9
+365,2025,5300-5600,Other,0.0,0.0
+365,2025,5110&5140,Sales of Bonds & Notes,210000.0,
+367,2025,1100,Local Property Tax,4837639.0,72.9
+367,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",73722.61000000034,1.1
+367,2025,3111&3112&3119,State Foundation/Adequacy Aid,1423823.0,21.5
+367,2025,3120-3900,Other State Aid,126913.0,1.9
+367,2025,4000,Federal Aid,170918.0,2.6
+367,2025,5300-5600,Other,0.0,0.0
+367,2025,5110&5140,Sales of Bonds & Notes,0.0,
+369,2025,1100,Local Property Tax,11483635.0,56.0
+369,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",1283693.0,6.3
+369,2025,3111&3112&3119,State Foundation/Adequacy Aid,7230520.0,35.3
+369,2025,3120-3900,Other State Aid,8508.0,0.0
+369,2025,4000,Federal Aid,503677.0,2.5
+369,2025,5300-5600,Other,0.0,0.0
+369,2025,5110&5140,Sales of Bonds & Notes,7344000.0,
+704,2025,1100,Local Property Tax,0.0,0.0
+704,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",173616.56,12.9
+704,2025,3111&3112&3119,State Foundation/Adequacy Aid,1079682.0,80.0
+704,2025,3120-3900,Other State Aid,68806.0,5.1
+704,2025,4000,Federal Aid,28133.0,2.1
+704,2025,5300-5600,Other,0.0,0.0
+704,2025,5110&5140,Sales of Bonds & Notes,0.0,
+371,2025,1100,Local Property Tax,110612099.0,51.8
+371,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",6744512.960000008,3.2
+371,2025,3111&3112&3119,State Foundation/Adequacy Aid,77921232.0,36.5
+371,2025,3120-3900,Other State Aid,1620559.0,0.8
+371,2025,4000,Federal Aid,16609185.0,7.8
+371,2025,5300-5600,Other,0.0,0.0
+371,2025,5110&5140,Sales of Bonds & Notes,27835100.0,
+375,2025,1100,Local Property Tax,1289024.0,48.5
+375,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",842524.0899999999,31.7
+375,2025,3111&3112&3119,State Foundation/Adequacy Aid,346061.0,13.0
+375,2025,3120-3900,Other State Aid,0.0,0.0
+375,2025,4000,Federal Aid,182259.0,6.9
+375,2025,5300-5600,Other,0.0,0.0
+375,2025,5110&5140,Sales of Bonds & Notes,0.0,
+377,2025,1100,Local Property Tax,14572160.0,73.2
+377,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",156651.48000000045,0.8
+377,2025,3111&3112&3119,State Foundation/Adequacy Aid,4477845.0,22.5
+377,2025,3120-3900,Other State Aid,176223.0,0.9
+377,2025,4000,Federal Aid,517345.0,2.6
+377,2025,5300-5600,Other,0.0,0.0
+377,2025,5110&5140,Sales of Bonds & Notes,0.0,
+381,2025,1100,Local Property Tax,269326.0,13.8
+381,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",119929.32999999996,6.1
+381,2025,3111&3112&3119,State Foundation/Adequacy Aid,1476609.0,75.6
+381,2025,3120-3900,Other State Aid,65932.0,3.4
+381,2025,4000,Federal Aid,20923.0,1.1
+381,2025,5300-5600,Other,0.0,0.0
+381,2025,5110&5140,Sales of Bonds & Notes,0.0,
+387,2025,1100,Local Property Tax,2687582.0,79.4
+387,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",37802.78000000026,1.1
+387,2025,3111&3112&3119,State Foundation/Adequacy Aid,578872.0,17.1
+387,2025,3120-3900,Other State Aid,0.0,0.0
+387,2025,4000,Federal Aid,82707.0,2.4
+387,2025,5300-5600,Other,0.0,0.0
+387,2025,5110&5140,Sales of Bonds & Notes,0.0,
+388,2025,1100,Local Property Tax,17006273.0,58.3
+388,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",1361977.259999998,4.7
+388,2025,3111&3112&3119,State Foundation/Adequacy Aid,7696029.0,26.4
+388,2025,3120-3900,Other State Aid,372161.0,1.3
+388,2025,4000,Federal Aid,2739732.0,9.4
+388,2025,5300-5600,Other,0.0,0.0
+388,2025,5110&5140,Sales of Bonds & Notes,0.0,
+391,2025,1100,Local Property Tax,1651768.0,59.0
+391,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",90639.68000000017,3.2
+391,2025,3111&3112&3119,State Foundation/Adequacy Aid,1019237.0,36.4
+391,2025,3120-3900,Other State Aid,298.0,0.0
+391,2025,4000,Federal Aid,39960.0,1.4
+391,2025,5300-5600,Other,0.0,0.0
+391,2025,5110&5140,Sales of Bonds & Notes,0.0,
+399,2025,1100,Local Property Tax,20973151.0,75.7
+399,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",275611.83999999985,1.0
+399,2025,3111&3112&3119,State Foundation/Adequacy Aid,4921147.0,17.8
+399,2025,3120-3900,Other State Aid,420298.0,1.5
+399,2025,4000,Federal Aid,1105763.0,4.0
+399,2025,5300-5600,Other,0.0,0.0
+399,2025,5110&5140,Sales of Bonds & Notes,0.0,
+401,2025,1100,Local Property Tax,9824074.0,32.5
+401,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",1521555.75,5.0
+401,2025,3111&3112&3119,State Foundation/Adequacy Aid,8392689.0,27.8
+401,2025,3120-3900,Other State Aid,7265787.0,24.1
+401,2025,4000,Federal Aid,3200556.0,10.6
+401,2025,5300-5600,Other,0.0,0.0
+401,2025,5110&5140,Sales of Bonds & Notes,0.0,
+740,2025,1100,Local Property Tax,0.0,0.0
+740,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",963007.41,49.2
+740,2025,3111&3112&3119,State Foundation/Adequacy Aid,708110.0,36.2
+740,2025,3120-3900,Other State Aid,186962.0,9.5
+740,2025,4000,Federal Aid,99681.0,5.1
+740,2025,5300-5600,Other,0.0,0.0
+740,2025,5110&5140,Sales of Bonds & Notes,24620.0,
+703,2025,1100,Local Property Tax,0.0,0.0
+703,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",432769.55,40.3
+703,2025,3111&3112&3119,State Foundation/Adequacy Aid,420304.0,39.1
+703,2025,3120-3900,Other State Aid,47038.0,4.4
+703,2025,4000,Federal Aid,175039.0,16.3
+703,2025,5300-5600,Other,0.0,0.0
+703,2025,5110&5140,Sales of Bonds & Notes,0.0,
+405,2025,1100,Local Property Tax,7806872.0,80.0
+405,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",95124.63999999966,1.0
+405,2025,3111&3112&3119,State Foundation/Adequacy Aid,1591358.0,16.3
+405,2025,3120-3900,Other State Aid,34919.0,0.4
+405,2025,4000,Federal Aid,235780.0,2.4
+405,2025,5300-5600,Other,0.0,0.0
+405,2025,5110&5140,Sales of Bonds & Notes,0.0,
+716,2025,1100,Local Property Tax,0.0,0.0
+716,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",1039631.0,40.6
+716,2025,3111&3112&3119,State Foundation/Adequacy Aid,1336160.0,52.1
+716,2025,3120-3900,Other State Aid,81658.0,3.2
+716,2025,4000,Federal Aid,104827.0,4.1
+716,2025,5300-5600,Other,0.0,0.0
+716,2025,5110&5140,Sales of Bonds & Notes,780000.0,
+407,2025,1100,Local Property Tax,2094098.0,28.3
+407,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",1466122.9299999997,19.8
+407,2025,3111&3112&3119,State Foundation/Adequacy Aid,3014798.0,40.8
+407,2025,3120-3900,Other State Aid,209560.0,2.8
+407,2025,4000,Federal Aid,607110.0,8.2
+407,2025,5300-5600,Other,0.0,0.0
+407,2025,5110&5140,Sales of Bonds & Notes,0.0,
+411,2025,1100,Local Property Tax,10664272.0,72.1
+411,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",183888.15000000037,1.2
+411,2025,3111&3112&3119,State Foundation/Adequacy Aid,3207647.0,21.7
+411,2025,3120-3900,Other State Aid,197565.0,1.3
+411,2025,4000,Federal Aid,533091.0,3.6
+411,2025,5300-5600,Other,0.0,0.0
+411,2025,5110&5140,Sales of Bonds & Notes,0.0,
+413,2025,1100,Local Property Tax,11854387.0,73.2
+413,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",108370.86000000127,0.7
+413,2025,3111&3112&3119,State Foundation/Adequacy Aid,3533254.0,21.8
+413,2025,3120-3900,Other State Aid,136057.0,0.8
+413,2025,4000,Federal Aid,553521.0,3.4
+413,2025,5300-5600,Other,0.0,0.0
+413,2025,5110&5140,Sales of Bonds & Notes,0.0,
+423,2025,1100,Local Property Tax,39773193.0,72.4
+423,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",4230797.020000011,7.7
+423,2025,3111&3112&3119,State Foundation/Adequacy Aid,9766213.0,17.8
+423,2025,3120-3900,Other State Aid,265306.0,0.5
+423,2025,4000,Federal Aid,936346.0,1.7
+423,2025,5300-5600,Other,0.0,0.0
+423,2025,5110&5140,Sales of Bonds & Notes,0.0,
+425,2025,1100,Local Property Tax,29647770.0,74.6
+425,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",793352.5799999982,2.0
+425,2025,3111&3112&3119,State Foundation/Adequacy Aid,7732448.0,19.4
+425,2025,3120-3900,Other State Aid,723698.0,1.8
+425,2025,4000,Federal Aid,864516.0,2.2
+425,2025,5300-5600,Other,0.0,0.0
+425,2025,5110&5140,Sales of Bonds & Notes,0.0,
+427,2025,1100,Local Property Tax,14653934.0,46.4
+427,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",7415302.200000003,23.5
+427,2025,3111&3112&3119,State Foundation/Adequacy Aid,7398822.0,23.4
+427,2025,3120-3900,Other State Aid,611922.0,1.9
+427,2025,4000,Federal Aid,1506702.0,4.8
+427,2025,5300-5600,Other,0.0,0.0
+427,2025,5110&5140,Sales of Bonds & Notes,0.0,
+428,2025,1100,Local Property Tax,12001091.0,66.8
+428,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",444605.83999999985,2.5
+428,2025,3111&3112&3119,State Foundation/Adequacy Aid,4441736.0,24.7
+428,2025,3120-3900,Other State Aid,113312.0,0.6
+428,2025,4000,Federal Aid,965939.0,5.4
+428,2025,5300-5600,Other,0.0,0.0
+428,2025,5110&5140,Sales of Bonds & Notes,0.0,
+435,2025,1100,Local Property Tax,1690030.0,67.0
+435,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",86841.0,3.4
+435,2025,3111&3112&3119,State Foundation/Adequacy Aid,519149.0,20.6
+435,2025,3120-3900,Other State Aid,81025.0,3.2
+435,2025,4000,Federal Aid,146379.0,5.8
+435,2025,5300-5600,Other,0.0,0.0
+435,2025,5110&5140,Sales of Bonds & Notes,0.0,
+437,2025,1100,Local Property Tax,2455098.0,61.4
+437,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",687968.8700000001,17.2
+437,2025,3111&3112&3119,State Foundation/Adequacy Aid,651948.0,16.3
+437,2025,3120-3900,Other State Aid,12430.0,0.3
+437,2025,4000,Federal Aid,193144.0,4.8
+437,2025,5300-5600,Other,0.0,0.0
+437,2025,5110&5140,Sales of Bonds & Notes,0.0,
+439,2025,1100,Local Property Tax,5718804.0,45.9
+439,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",58688.94000000041,0.5
+439,2025,3111&3112&3119,State Foundation/Adequacy Aid,5346992.0,43.0
+439,2025,3120-3900,Other State Aid,321923.0,2.6
+439,2025,4000,Federal Aid,1002199.0,8.1
+439,2025,5300-5600,Other,0.0,0.0
+439,2025,5110&5140,Sales of Bonds & Notes,0.0,
+441,2025,1100,Local Property Tax,5896331.0,63.4
+441,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",1623787.1800000006,17.4
+441,2025,3111&3112&3119,State Foundation/Adequacy Aid,1353235.0,14.5
+441,2025,3120-3900,Other State Aid,257110.0,2.8
+441,2025,4000,Federal Aid,175435.0,1.9
+441,2025,5300-5600,Other,0.0,0.0
+441,2025,5110&5140,Sales of Bonds & Notes,0.0,
+447,2025,1100,Local Property Tax,6445944.0,56.2
+447,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",335095.75,2.9
+447,2025,3111&3112&3119,State Foundation/Adequacy Aid,3447017.0,30.0
+447,2025,3120-3900,Other State Aid,16690.0,0.1
+447,2025,4000,Federal Aid,1232331.0,10.7
+447,2025,5300-5600,Other,0.0,0.0
+447,2025,5110&5140,Sales of Bonds & Notes,0.0,
+735,2025,1100,Local Property Tax,0.0,0.0
+735,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",115619.2,8.6
+735,2025,3111&3112&3119,State Foundation/Adequacy Aid,1094192.0,81.6
+735,2025,3120-3900,Other State Aid,85374.0,6.4
+735,2025,4000,Federal Aid,45810.0,3.4
+735,2025,5300-5600,Other,0.0,0.0
+735,2025,5110&5140,Sales of Bonds & Notes,0.0,
+449,2025,1100,Local Property Tax,44276095.0,62.0
+449,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",9326351.660000004,13.1
+449,2025,3111&3112&3119,State Foundation/Adequacy Aid,11062049.0,15.5
+449,2025,3120-3900,Other State Aid,1630991.0,2.3
+449,2025,4000,Federal Aid,5141835.0,7.2
+449,2025,5300-5600,Other,0.0,0.0
+449,2025,5110&5140,Sales of Bonds & Notes,0.0,
+450,2025,1100,Local Property Tax,4746635.0,64.1
+450,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",154953.6299999999,2.1
+450,2025,3111&3112&3119,State Foundation/Adequacy Aid,1438258.0,19.4
+450,2025,3120-3900,Other State Aid,510504.0,6.9
+450,2025,4000,Federal Aid,554647.0,7.5
+450,2025,5300-5600,Other,0.0,0.0
+450,2025,5110&5140,Sales of Bonds & Notes,0.0,
+453,2025,1100,Local Property Tax,20437038.0,65.5
+453,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",478495.01000000164,1.5
+453,2025,3111&3112&3119,State Foundation/Adequacy Aid,7346768.0,23.6
+453,2025,3120-3900,Other State Aid,999132.0,3.2
+453,2025,4000,Federal Aid,1933647.0,6.2
+453,2025,5300-5600,Other,0.0,0.0
+453,2025,5110&5140,Sales of Bonds & Notes,0.0,
+724,2025,1100,Local Property Tax,0.0,0.0
+724,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",0.0,0.0
+724,2025,3111&3112&3119,State Foundation/Adequacy Aid,329326.0,81.6
+724,2025,3120-3900,Other State Aid,61575.0,15.3
+724,2025,4000,Federal Aid,12813.0,3.2
+724,2025,5300-5600,Other,0.0,0.0
+724,2025,5110&5140,Sales of Bonds & Notes,0.0,
+737,2025,1100,Local Property Tax,0.0,0.0
+737,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",53530.0,9.2
+737,2025,3111&3112&3119,State Foundation/Adequacy Aid,352086.0,60.8
+737,2025,3120-3900,Other State Aid,51236.0,8.9
+737,2025,4000,Federal Aid,122013.0,21.1
+737,2025,5300-5600,Other,0.0,0.0
+737,2025,5110&5140,Sales of Bonds & Notes,0.0,
+461,2025,1100,Local Property Tax,37930852.0,40.9
+461,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",16074239.97999999,17.3
+461,2025,3111&3112&3119,State Foundation/Adequacy Aid,29950747.0,32.3
+461,2025,3120-3900,Other State Aid,1248930.0,1.3
+461,2025,4000,Federal Aid,7450940.0,8.0
+461,2025,5300-5600,Other,0.0,0.0
+461,2025,5110&5140,Sales of Bonds & Notes,0.0,
+463,2025,1100,Local Property Tax,4931373.0,74.0
+463,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",107197.56999999937,1.6
+463,2025,3111&3112&3119,State Foundation/Adequacy Aid,1344473.0,20.2
+463,2025,3120-3900,Other State Aid,55374.0,0.8
+463,2025,4000,Federal Aid,222054.0,3.3
+463,2025,5300-5600,Other,0.0,0.0
+463,2025,5110&5140,Sales of Bonds & Notes,0.0,
+467,2025,1100,Local Property Tax,2335591.0,65.3
+467,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",63418.72999999998,1.8
+467,2025,3111&3112&3119,State Foundation/Adequacy Aid,720377.0,20.2
+467,2025,3120-3900,Other State Aid,13642.0,0.4
+467,2025,4000,Federal Aid,449471.0,12.4
+467,2025,5300-5600,Other,0.0,0.0
+467,2025,5110&5140,Sales of Bonds & Notes,0.0,
+471,2025,1100,Local Property Tax,12264084.0,69.7
+471,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",370436.4099999983,2.1
+471,2025,3111&3112&3119,State Foundation/Adequacy Aid,4644090.0,26.4
+471,2025,3120-3900,Other State Aid,84594.0,0.5
+471,2025,4000,Federal Aid,243031.0,1.4
+471,2025,5300-5600,Other,0.0,0.0
+471,2025,5110&5140,Sales of Bonds & Notes,0.0,
+473,2025,1100,Local Property Tax,64773769.0,71.5
+473,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",2488633.3400000036,2.7
+473,2025,3111&3112&3119,State Foundation/Adequacy Aid,16977120.0,18.7
+473,2025,3120-3900,Other State Aid,2228712.0,2.5
+473,2025,4000,Federal Aid,4115054.0,4.5
+473,2025,5300-5600,Other,0.0,0.0
+473,2025,5110&5140,Sales of Bonds & Notes,0.0,
+476,2025,1100,Local Property Tax,26810870.0,68.1
+476,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",4826082.309999999,12.3
+476,2025,3111&3112&3119,State Foundation/Adequacy Aid,5872542.0,14.9
+476,2025,3120-3900,Other State Aid,820560.0,2.1
+476,2025,4000,Federal Aid,1054543.0,2.7
+476,2025,5300-5600,Other,0.0,0.0
+476,2025,5110&5140,Sales of Bonds & Notes,0.0,
+485,2025,1100,Local Property Tax,13684610.0,73.1
+485,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",84725.0,0.5
+485,2025,3111&3112&3119,State Foundation/Adequacy Aid,3492374.0,18.6
+485,2025,3120-3900,Other State Aid,96057.0,0.5
+485,2025,4000,Federal Aid,1369763.0,7.3
+485,2025,5300-5600,Other,0.0,0.0
+485,2025,5110&5140,Sales of Bonds & Notes,0.0,
+705,2025,1100,Local Property Tax,0.0,0.0
+705,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",874047.5599999999,21.9
+705,2025,3111&3112&3119,State Foundation/Adequacy Aid,2627430.0,66.0
+705,2025,3120-3900,Other State Aid,88824.0,2.2
+705,2025,4000,Federal Aid,393210.0,9.9
+705,2025,5300-5600,Other,0.0,0.0
+705,2025,5110&5140,Sales of Bonds & Notes,0.0,
+730,2025,1100,Local Property Tax,0.0,0.0
+730,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",483187.45,15.7
+730,2025,3111&3112&3119,State Foundation/Adequacy Aid,1593971.0,51.6
+730,2025,3120-3900,Other State Aid,39419.0,1.3
+730,2025,4000,Federal Aid,970266.0,31.4
+730,2025,5300-5600,Other,0.0,0.0
+730,2025,5110&5140,Sales of Bonds & Notes,0.0,
+486,2025,1100,Local Property Tax,18665045.0,66.0
+486,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",681486.9200000018,2.4
+486,2025,3111&3112&3119,State Foundation/Adequacy Aid,7217277.0,25.5
+486,2025,3120-3900,Other State Aid,189369.0,0.7
+486,2025,4000,Federal Aid,1506941.0,5.3
+486,2025,5300-5600,Other,0.0,0.0
+486,2025,5110&5140,Sales of Bonds & Notes,0.0,
+491,2025,1100,Local Property Tax,19588512.0,56.4
+491,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",518531.58999999985,1.5
+491,2025,3111&3112&3119,State Foundation/Adequacy Aid,11175615.0,32.2
+491,2025,3120-3900,Other State Aid,1196190.0,3.4
+491,2025,4000,Federal Aid,2251899.0,6.5
+491,2025,5300-5600,Other,0.0,0.0
+491,2025,5110&5140,Sales of Bonds & Notes,0.0,
+493,2025,1100,Local Property Tax,15827566.0,76.7
+493,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",693343.9900000021,3.4
+493,2025,3111&3112&3119,State Foundation/Adequacy Aid,3277481.0,15.9
+493,2025,3120-3900,Other State Aid,432008.0,2.1
+493,2025,4000,Federal Aid,405550.0,2.0
+493,2025,5300-5600,Other,0.0,0.0
+493,2025,5110&5140,Sales of Bonds & Notes,0.0,
+495,2025,1100,Local Property Tax,2546517.0,80.2
+495,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",38947.08999999985,1.2
+495,2025,3111&3112&3119,State Foundation/Adequacy Aid,524842.0,16.5
+495,2025,3120-3900,Other State Aid,0.0,0.0
+495,2025,4000,Federal Aid,64364.0,2.0
+495,2025,5300-5600,Other,0.0,0.0
+495,2025,5110&5140,Sales of Bonds & Notes,0.0,
+714,2025,1100,Local Property Tax,0.0,0.0
+714,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",446616.0,29.0
+714,2025,3111&3112&3119,State Foundation/Adequacy Aid,869553.0,56.4
+714,2025,3120-3900,Other State Aid,15074.0,1.0
+714,2025,4000,Federal Aid,211073.0,13.7
+714,2025,5300-5600,Other,0.0,0.0
+714,2025,5110&5140,Sales of Bonds & Notes,0.0,
+499,2025,1100,Local Property Tax,815760.0,55.9
+499,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",40251.07999999996,2.8
+499,2025,3111&3112&3119,State Foundation/Adequacy Aid,497663.0,34.1
+499,2025,3120-3900,Other State Aid,26606.0,1.8
+499,2025,4000,Federal Aid,78190.0,5.4
+499,2025,5300-5600,Other,0.0,0.0
+499,2025,5110&5140,Sales of Bonds & Notes,0.0,
+501,2025,1100,Local Property Tax,2136856.0,64.9
+501,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",-2029.9499999997206,-0.1
+501,2025,3111&3112&3119,State Foundation/Adequacy Aid,741195.0,22.5
+501,2025,3120-3900,Other State Aid,7075.0,0.2
+501,2025,4000,Federal Aid,410531.0,12.5
+501,2025,5300-5600,Other,0.0,0.0
+501,2025,5110&5140,Sales of Bonds & Notes,0.0,
+503,2025,1100,Local Property Tax,2688569.0,73.7
+503,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",33192.03999999957,0.9
+503,2025,3111&3112&3119,State Foundation/Adequacy Aid,784741.0,21.5
+503,2025,3120-3900,Other State Aid,5258.0,0.1
+503,2025,4000,Federal Aid,135365.0,3.7
+503,2025,5300-5600,Other,0.0,0.0
+503,2025,5110&5140,Sales of Bonds & Notes,0.0,
+507,2025,1100,Local Property Tax,8788794.0,65.9
+507,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",203951.45999999903,1.5
+507,2025,3111&3112&3119,State Foundation/Adequacy Aid,3518918.0,26.4
+507,2025,3120-3900,Other State Aid,136776.0,1.0
+507,2025,4000,Federal Aid,680874.0,5.1
+507,2025,5300-5600,Other,0.0,0.0
+507,2025,5110&5140,Sales of Bonds & Notes,0.0,
+509,2025,1100,Local Property Tax,1379006.0,45.7
+509,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",219885.84000000008,7.3
+509,2025,3111&3112&3119,State Foundation/Adequacy Aid,1043877.0,34.6
+509,2025,3120-3900,Other State Aid,26067.0,0.9
+509,2025,4000,Federal Aid,351276.0,11.6
+509,2025,5300-5600,Other,0.0,0.0
+509,2025,5110&5140,Sales of Bonds & Notes,0.0,
+511,2025,1100,Local Property Tax,11914534.0,80.6
+511,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",205369.58999999985,1.4
+511,2025,3111&3112&3119,State Foundation/Adequacy Aid,2373999.0,16.1
+511,2025,3120-3900,Other State Aid,61864.0,0.4
+511,2025,4000,Federal Aid,227852.0,1.5
+511,2025,5300-5600,Other,0.0,0.0
+511,2025,5110&5140,Sales of Bonds & Notes,0.0,
+721,2025,1100,Local Property Tax,0.0,0.0
+721,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",1139660.0,24.7
+721,2025,3111&3112&3119,State Foundation/Adequacy Aid,3112479.0,67.4
+721,2025,3120-3900,Other State Aid,231464.0,5.0
+721,2025,4000,Federal Aid,136470.0,3.0
+721,2025,5300-5600,Other,0.0,0.0
+721,2025,5110&5140,Sales of Bonds & Notes,0.0,
+513,2025,1100,Local Property Tax,1243709.0,57.5
+513,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",33124.0,1.5
+513,2025,3111&3112&3119,State Foundation/Adequacy Aid,841572.0,38.9
+513,2025,3120-3900,Other State Aid,8093.0,0.4
+513,2025,4000,Federal Aid,35124.0,1.6
+513,2025,5300-5600,Other,0.0,0.0
+513,2025,5110&5140,Sales of Bonds & Notes,0.0,
+515,2025,1100,Local Property Tax,9764964.0,58.1
+515,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",1174594.33,7.0
+515,2025,3111&3112&3119,State Foundation/Adequacy Aid,3229674.0,19.2
+515,2025,3120-3900,Other State Aid,608846.0,3.6
+515,2025,4000,Federal Aid,396048.0,2.4
+515,2025,5300-5600,Other,1645600.0,9.8
+515,2025,5110&5140,Sales of Bonds & Notes,0.0,
+519,2025,1100,Local Property Tax,1771767.0,74.1
+519,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",53878.0,2.3
+519,2025,3111&3112&3119,State Foundation/Adequacy Aid,526498.0,22.0
+519,2025,3120-3900,Other State Aid,14641.0,0.6
+519,2025,4000,Federal Aid,23585.0,1.0
+519,2025,5300-5600,Other,0.0,0.0
+519,2025,5110&5140,Sales of Bonds & Notes,0.0,
+717,2025,1100,Local Property Tax,0.0,0.0
+717,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",302545.66,27.0
+717,2025,3111&3112&3119,State Foundation/Adequacy Aid,708347.0,63.1
+717,2025,3120-3900,Other State Aid,68341.0,6.1
+717,2025,4000,Federal Aid,42684.0,3.8
+717,2025,5300-5600,Other,0.0,0.0
+717,2025,5110&5140,Sales of Bonds & Notes,0.0,
+732,2025,1100,Local Property Tax,0.0,0.0
+732,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",25503.97,3.6
+732,2025,3111&3112&3119,State Foundation/Adequacy Aid,275268.0,39.0
+732,2025,3120-3900,Other State Aid,0.0,0.0
+732,2025,4000,Federal Aid,405422.0,57.4
+732,2025,5300-5600,Other,0.0,0.0
+732,2025,5110&5140,Sales of Bonds & Notes,0.0,
+525,2025,1100,Local Property Tax,6531909.0,71.4
+525,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",72301.44000000041,0.8
+525,2025,3111&3112&3119,State Foundation/Adequacy Aid,1998434.0,21.8
+525,2025,3120-3900,Other State Aid,77601.0,0.8
+525,2025,4000,Federal Aid,468520.0,5.1
+525,2025,5300-5600,Other,0.0,0.0
+525,2025,5110&5140,Sales of Bonds & Notes,0.0,
+731,2025,1100,Local Property Tax,0.0,0.0
+731,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",426223.12000000005,12.5
+731,2025,3111&3112&3119,State Foundation/Adequacy Aid,2639291.0,77.5
+731,2025,3120-3900,Other State Aid,68720.0,2.0
+731,2025,4000,Federal Aid,273334.0,8.0
+731,2025,5300-5600,Other,0.0,0.0
+731,2025,5110&5140,Sales of Bonds & Notes,1406674.0,
+741,2025,1100,Local Property Tax,0.0,0.0
+741,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",184890.0,4.1
+741,2025,3111&3112&3119,State Foundation/Adequacy Aid,3815308.0,84.6
+741,2025,3120-3900,Other State Aid,159574.0,3.5
+741,2025,4000,Federal Aid,350788.0,7.8
+741,2025,5300-5600,Other,0.0,0.0
+741,2025,5110&5140,Sales of Bonds & Notes,0.0,
+531,2025,1100,Local Property Tax,4812007.0,76.5
+531,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",99920.30999999959,1.6
+531,2025,3111&3112&3119,State Foundation/Adequacy Aid,1136918.0,18.1
+531,2025,3120-3900,Other State Aid,4841.0,0.1
+531,2025,4000,Federal Aid,236324.0,3.8
+531,2025,5300-5600,Other,0.0,0.0
+531,2025,5110&5140,Sales of Bonds & Notes,3512376.0,
+534,2025,1100,Local Property Tax,54833476.0,69.4
+534,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",1904132.6199999899,2.4
+534,2025,3111&3112&3119,State Foundation/Adequacy Aid,17150348.0,21.7
+534,2025,3120-3900,Other State Aid,716847.0,0.9
+534,2025,4000,Federal Aid,1833746.0,2.3
+534,2025,5300-5600,Other,2589655.0,3.3
+534,2025,5110&5140,Sales of Bonds & Notes,0.0,
+539,2025,1100,Local Property Tax,2232084.0,54.5
+539,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",305722.56999999983,7.5
+539,2025,3111&3112&3119,State Foundation/Adequacy Aid,1114305.0,27.2
+539,2025,3120-3900,Other State Aid,179450.0,4.4
+539,2025,4000,Federal Aid,264281.0,6.5
+539,2025,5300-5600,Other,0.0,0.0
+539,2025,5110&5140,Sales of Bonds & Notes,0.0,
+727,2025,1100,Local Property Tax,0.0,0.0
+727,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",296452.31,2.0
+727,2025,3111&3112&3119,State Foundation/Adequacy Aid,13919390.0,93.8
+727,2025,3120-3900,Other State Aid,197692.0,1.3
+727,2025,4000,Federal Aid,419613.0,2.8
+727,2025,5300-5600,Other,0.0,0.0
+727,2025,5110&5140,Sales of Bonds & Notes,0.0,
+543,2025,1100,Local Property Tax,8549953.0,65.8
+543,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",66376.58000000007,0.5
+543,2025,3111&3112&3119,State Foundation/Adequacy Aid,3549614.0,27.3
+543,2025,3120-3900,Other State Aid,54766.0,0.4
+543,2025,4000,Federal Aid,782420.0,6.0
+543,2025,5300-5600,Other,0.0,0.0
+543,2025,5110&5140,Sales of Bonds & Notes,0.0,
+549,2025,1100,Local Property Tax,1533650.0,54.3
+549,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",46056.0,1.6
+549,2025,3111&3112&3119,State Foundation/Adequacy Aid,990726.0,35.1
+549,2025,3120-3900,Other State Aid,9238.0,0.3
+549,2025,4000,Federal Aid,242485.0,8.6
+549,2025,5300-5600,Other,0.0,0.0
+549,2025,5110&5140,Sales of Bonds & Notes,0.0,
+551,2025,1100,Local Property Tax,2440292.0,75.6
+551,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",48876.41000000015,1.5
+551,2025,3111&3112&3119,State Foundation/Adequacy Aid,610428.0,18.9
+551,2025,3120-3900,Other State Aid,442.0,0.0
+551,2025,4000,Federal Aid,129071.0,4.0
+551,2025,5300-5600,Other,0.0,0.0
+551,2025,5110&5140,Sales of Bonds & Notes,0.0,
+553,2025,1100,Local Property Tax,862999.0,51.7
+553,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",22223.329999999958,1.3
+553,2025,3111&3112&3119,State Foundation/Adequacy Aid,716594.0,42.9
+553,2025,3120-3900,Other State Aid,15811.0,0.9
+553,2025,4000,Federal Aid,53040.0,3.2
+553,2025,5300-5600,Other,0.0,0.0
+553,2025,5110&5140,Sales of Bonds & Notes,0.0,
+555,2025,1100,Local Property Tax,11269421.0,59.2
+555,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",150254.58999999985,0.8
+555,2025,3111&3112&3119,State Foundation/Adequacy Aid,6324507.0,33.2
+555,2025,3120-3900,Other State Aid,540676.0,2.8
+555,2025,4000,Federal Aid,739027.0,3.9
+555,2025,5300-5600,Other,0.0,0.0
+555,2025,5110&5140,Sales of Bonds & Notes,0.0,
+559,2025,1100,Local Property Tax,1370430.0,55.2
+559,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",5248.310000000056,0.2
+559,2025,3111&3112&3119,State Foundation/Adequacy Aid,628417.0,25.3
+559,2025,3120-3900,Other State Aid,298574.0,12.0
+559,2025,4000,Federal Aid,178676.0,7.2
+559,2025,5300-5600,Other,0.0,0.0
+559,2025,5110&5140,Sales of Bonds & Notes,0.0,
+563,2025,1100,Local Property Tax,2736917.0,66.7
+563,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",99018.58000000007,2.4
+563,2025,3111&3112&3119,State Foundation/Adequacy Aid,1046177.0,25.5
+563,2025,3120-3900,Other State Aid,25299.0,0.6
+563,2025,4000,Federal Aid,198650.0,4.8
+563,2025,5300-5600,Other,0.0,0.0
+563,2025,5110&5140,Sales of Bonds & Notes,0.0,
+568,2025,1100,Local Property Tax,12706219.0,49.4
+568,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",1147940.0700000003,4.5
+568,2025,3111&3112&3119,State Foundation/Adequacy Aid,9174280.0,35.7
+568,2025,3120-3900,Other State Aid,479275.0,1.9
+568,2025,4000,Federal Aid,2224350.0,8.6
+568,2025,5300-5600,Other,0.0,0.0
+568,2025,5110&5140,Sales of Bonds & Notes,0.0,
+572,2025,1100,Local Property Tax,11750585.0,75.1
+572,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",109781.12000000104,0.7
+572,2025,3111&3112&3119,State Foundation/Adequacy Aid,2835890.0,18.1
+572,2025,3120-3900,Other State Aid,67120.0,0.4
+572,2025,4000,Federal Aid,883225.0,5.6
+572,2025,5300-5600,Other,0.0,0.0
+572,2025,5110&5140,Sales of Bonds & Notes,0.0,
+573,2025,1100,Local Property Tax,4935028.0,42.8
+573,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",41393.56000000052,0.4
+573,2025,3111&3112&3119,State Foundation/Adequacy Aid,4874187.0,42.2
+573,2025,3120-3900,Other State Aid,129080.0,1.1
+573,2025,4000,Federal Aid,1560476.0,13.5
+573,2025,5300-5600,Other,0.0,0.0
+573,2025,5110&5140,Sales of Bonds & Notes,0.0,
+575,2025,1100,Local Property Tax,51425748.0,74.9
+575,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",1023142.8699999973,1.5
+575,2025,3111&3112&3119,State Foundation/Adequacy Aid,13750506.0,20.0
+575,2025,3120-3900,Other State Aid,1228473.0,1.8
+575,2025,4000,Federal Aid,1252831.0,1.8
+575,2025,5300-5600,Other,0.0,0.0
+575,2025,5110&5140,Sales of Bonds & Notes,0.0,
+712,2025,1100,Local Property Tax,0.0,0.0
+712,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",673494.0,15.2
+712,2025,3111&3112&3119,State Foundation/Adequacy Aid,3596383.0,81.1
+712,2025,3120-3900,Other State Aid,30056.0,0.7
+712,2025,4000,Federal Aid,136460.0,3.1
+712,2025,5300-5600,Other,0.0,0.0
+712,2025,5110&5140,Sales of Bonds & Notes,0.0,
+579,2025,1100,Local Property Tax,317829.0,73.3
+579,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",43.9199999999837,0.0
+579,2025,3111&3112&3119,State Foundation/Adequacy Aid,115522.0,26.7
+579,2025,3120-3900,Other State Aid,0.0,0.0
+579,2025,4000,Federal Aid,0.0,0.0
+579,2025,5300-5600,Other,0.0,0.0
+579,2025,5110&5140,Sales of Bonds & Notes,0.0,
+581,2025,1100,Local Property Tax,26528382.0,75.1
+581,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",512510.37000000104,1.4
+581,2025,3111&3112&3119,State Foundation/Adequacy Aid,5561540.0,15.7
+581,2025,3120-3900,Other State Aid,1712175.0,4.8
+581,2025,4000,Federal Aid,1032972.0,2.9
+581,2025,5300-5600,Other,0.0,0.0
+581,2025,5110&5140,Sales of Bonds & Notes,0.0,
+582,2025,1100,Local Property Tax,14732892.0,40.9
+582,2025,R_tuition_food_other_local,"Tuition, Food & Other Local Services",1083131.0,3.0
+582,2025,3111&3112&3119,State Foundation/Adequacy Aid,10065740.0,28.0
+582,2025,3120-3900,Other State Aid,5650633.0,15.7
+582,2025,4000,Federal Aid,4471505.0,12.4
+582,2025,5300-5600,Other,0.0,0.0
+582,2025,5110&5140,Sales of Bonds & Notes,0.0,

@@ -280,6 +280,53 @@ def load_schools(cur):
             "finance": n_fin, "fin_skip": fin_skip,
             "enrollment": n_enr, "enr_skip": enr_skip}
 
+def load_finance(cur):
+    """DOE-25 District Profile: expenditure-by-function + revenue-by-source.
+    Skips gracefully if the tables or CSVs are absent. Rows for districts not in
+    school_district are skipped (FK safety)."""
+    if not has_column(cur, "district_expenditure", "function_code"):
+        print("  (finance tables absent -- run schema with the finance block; skipping)")
+        return None
+    try:
+        exp = rows("nh_district_expenditure.csv")
+        rev = rows("nh_district_revenue.csv")
+    except FileNotFoundError:
+        print("  (finance CSVs absent -- run 'nhbot doe-finance'; skipping)")
+        return None
+    cur.execute("SELECT district_id FROM nh.school_district")
+    valid = {r[0] for r in cur.fetchall()}
+    lid = source_load(cur, "NH DOE-25 Annual Financial Report (District Profile)",
+                      None, "iPlatform DOE25 xlsx", 2025, None)
+    n_e = e_skip = 0
+    for r in exp:
+        did = int(r["district_id"])
+        if did not in valid:
+            e_skip += 1; continue
+        cur.execute("""INSERT INTO nh.district_expenditure
+              (district_id,year,function_code,function_name,amount,pct,load_id)
+              VALUES (%s,%s,%s,%s,%s,%s,%s)
+              ON CONFLICT (district_id,year,function_code) DO UPDATE SET
+                function_name=EXCLUDED.function_name, amount=EXCLUDED.amount,
+                pct=EXCLUDED.pct, load_id=EXCLUDED.load_id""",
+            (did, int(r["year"]), r["function_code"], r["function_name"],
+             num(r["amount"]), num(r["pct"]), lid))
+        n_e += 1
+    n_r = r_skip = 0
+    for r in rev:
+        did = int(r["district_id"])
+        if did not in valid:
+            r_skip += 1; continue
+        cur.execute("""INSERT INTO nh.district_revenue
+              (district_id,year,source_code,source_name,amount,pct,load_id)
+              VALUES (%s,%s,%s,%s,%s,%s,%s)
+              ON CONFLICT (district_id,year,source_code) DO UPDATE SET
+                source_name=EXCLUDED.source_name, amount=EXCLUDED.amount,
+                pct=EXCLUDED.pct, load_id=EXCLUDED.load_id""",
+            (did, int(r["year"]), r["source_code"], r["source_name"],
+             num(r["amount"]), num(r["pct"]), lid))
+        n_r += 1
+    return {"exp": n_e, "exp_skip": e_skip, "rev": n_r, "rev_skip": r_skip}
+
 def main():
     conn = psycopg2.connect(DSN)
     conn.autocommit = False
@@ -291,6 +338,7 @@ def main():
             off_eq, off_miss = load_official(cur, g)
             est_rate, est_eq, est_skip = load_estimate(cur, g)
             schools = load_schools(cur)
+            finance = load_finance(cur)
         conn.commit()
         print(f"municipalities loaded:        {n_muni}")
         print(f"official equalized rows:      {off_eq}  (unmatched names skipped: {off_miss})")
@@ -299,6 +347,9 @@ def main():
             print(f"schools: {schools['districts']} districts, {schools['links']} town links, "
                   f"finance={schools['finance']} (skip {schools['fin_skip']}), "
                   f"enrollment={schools['enrollment']} (skip {schools['enr_skip']})")
+        if finance:
+            print(f"DOE-25 finance: expenditure={finance['exp']} (skip {finance['exp_skip']}), "
+                  f"revenue={finance['rev']} (skip {finance['rev_skip']})")
         print("load committed.")
     except Exception:
         conn.rollback(); raise

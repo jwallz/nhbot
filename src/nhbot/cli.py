@@ -27,7 +27,11 @@ def _doe_schools():
     from nhbot.ingest import doe_schools
     doe_schools.main()
 
-EXTRA = {"boundaries": _boundaries, "doe-schools": _doe_schools}
+def _doe_finance():
+    from nhbot.ingest import doe_finance
+    doe_finance.main()
+
+EXTRA = {"boundaries": _boundaries, "doe-schools": _doe_schools, "doe-finance": _doe_finance}
 STEPS = {**CORE, **EXTRA}
 
 def main(argv=None):

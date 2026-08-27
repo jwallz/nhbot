@@ -1,0 +1,3972 @@
+district_id,year,function_code,function_name,amount,pct
+725,2025,1100,Regular Education,2227194.0,38.0
+725,2025,1200,Special Programs,0.0,0.0
+725,2025,1300,Vocational Programs,0.0,0.0
+725,2025,1400,Other Instructional Programs,13475.0,0.2
+725,2025,2100,Student Support Services,449210.0,7.7
+725,2025,2200,Instructional Staff Support,149173.0,2.5
+725,2025,2300&2800,Genral Administration & Business,670.0,0.0
+725,2025,2400,School Administration,1188959.0,20.3
+725,2025,2500,Business Services,0.0,0.0
+725,2025,2600,Plant Operations,1346791.0,23.0
+725,2025,2700,Transportation,21592.0,0.4
+725,2025,2900,Other Support Services,0.0,0.0
+725,2025,1500,Non-public Programs,0.0,0.0
+725,2025,"1600-1800,2750",Community Programs,0.0,0.0
+725,2025,5120,Bond Interest,466477.0,7.9
+725,2025,5310+5390,Charter Schools/Other Agencies,0.0,0.0
+725,2025,3100,Food Service,4581.0,0.1
+725,2025,4000,Facility Construction,0.0,
+725,2025,5100,Bonds & Notes Principal Repayment,114872.0,
+5,2025,1100,Regular Education,1114018.0,77.3
+5,2025,1200,Special Programs,124210.0,8.6
+5,2025,1300,Vocational Programs,0.0,0.0
+5,2025,1400,Other Instructional Programs,0.0,0.0
+5,2025,2100,Student Support Services,4874.0,0.3
+5,2025,2200,Instructional Staff Support,0.0,0.0
+5,2025,2300&2800,Genral Administration & Business,37681.0,2.6
+5,2025,2400,School Administration,0.0,0.0
+5,2025,2500,Business Services,0.0,0.0
+5,2025,2600,Plant Operations,0.0,0.0
+5,2025,2700,Transportation,160213.0,11.1
+5,2025,2900,Other Support Services,0.0,0.0
+5,2025,1500,Non-public Programs,0.0,0.0
+5,2025,"1600-1800,2750",Community Programs,0.0,0.0
+5,2025,5120,Bond Interest,0.0,0.0
+5,2025,5310+5390,Charter Schools/Other Agencies,0.0,0.0
+5,2025,3100,Food Service,0.0,0.0
+5,2025,4000,Facility Construction,0.0,
+5,2025,5100,Bonds & Notes Principal Repayment,0.0,
+9,2025,1100,Regular Education,5472263.0,39.2
+9,2025,1200,Special Programs,2761242.0,19.8
+9,2025,1300,Vocational Programs,0.0,0.0
+9,2025,1400,Other Instructional Programs,76108.0,0.5
+9,2025,2100,Student Support Services,1668530.0,11.9
+9,2025,2200,Instructional Staff Support,130549.0,0.9
+9,2025,2300&2800,Genral Administration & Business,411976.0,2.9
+9,2025,2400,School Administration,689138.0,4.9
+9,2025,2500,Business Services,0.0,0.0
+9,2025,2600,Plant Operations,1559796.0,11.2
+9,2025,2700,Transportation,610587.0,4.4
+9,2025,2900,Other Support Services,0.0,0.0
+9,2025,1500,Non-public Programs,0.0,0.0
+9,2025,"1600-1800,2750",Community Programs,0.0,0.0
+9,2025,5120,Bond Interest,401028.0,2.9
+9,2025,5310+5390,Charter Schools/Other Agencies,0.0,0.0
+9,2025,3100,Food Service,184605.65,1.3
+9,2025,4000,Facility Construction,8072354.0,
+9,2025,5100,Bonds & Notes Principal Repayment,409800.0,
+15,2025,1100,Regular Education,9755988.0,54.9
+15,2025,1200,Special Programs,3426308.0,19.3
+15,2025,1300,Vocational Programs,0.0,0.0
+15,2025,1400,Other Instructional Programs,110477.0,0.6
+15,2025,2100,Student Support Services,802693.0,4.5
+15,2025,2200,Instructional Staff Support,196599.0,1.1
+15,2025,2300&2800,Genral Administration & Business,348985.0,2.0
+15,2025,2400,School Administration,520225.0,2.9
+15,2025,2500,Business Services,223280.0,1.3
+15,2025,2600,Plant Operations,1364932.0,7.7
+15,2025,2700,Transportation,807838.0,4.5
+15,2025,2900,Other Support Services,0.0,0.0
+15,2025,1500,Non-public Programs,0.0,0.0
+15,2025,"1600-1800,2750",Community Programs,0.0,0.0
+15,2025,5120,Bond Interest,0.0,0.0
+15,2025,5310+5390,Charter Schools/Other Agencies,0.0,0.0
+15,2025,3100,Food Service,216883.69,1.2
+15,2025,4000,Facility Construction,1426.0,
+15,2025,5100,Bonds & Notes Principal Repayment,0.0,
+17,2025,1100,Regular Education,13423669.0,40.8
+17,2025,1200,Special Programs,6633252.0,20.1
+17,2025,1300,Vocational Programs,0.0,0.0
+17,2025,1400,Other Instructional Programs,346460.0,1.1
+17,2025,2100,Student Support Services,4095071.0,12.4
+17,2025,2200,Instructional Staff Support,690903.0,2.1
+17,2025,2300&2800,Genral Administration & Business,2608621.0,7.9
+17,2025,2400,School Administration,1574957.0,4.8
+17,2025,2500,Business Services,36154.0,0.1
+17,2025,2600,Plant Operations,2238056.0,6.8
+17,2025,2700,Transportation,1021164.0,3.1
+17,2025,2900,Other Support Services,0.0,0.0
+17,2025,1500,Non-public Programs,0.0,0.0
+17,2025,"1600-1800,2750",Community Programs,0.0,0.0
+17,2025,5120,Bond Interest,23910.0,0.1
+17,2025,5310+5390,Charter Schools/Other Agencies,0.0,0.0
+17,2025,3100,Food Service,231197.58000000007,0.7
+17,2025,4000,Facility Construction,30858.0,
+17,2025,5100,Bonds & Notes Principal Repayment,195000.0,
+19,2025,1100,Regular Education,2740580.0,42.9
+19,2025,1200,Special Programs,1410464.0,22.1
+19,2025,1300,Vocational Programs,0.0,0.0
+19,2025,1400,Other Instructional Programs,26089.0,0.4
+19,2025,2100,Student Support Services,541343.0,8.5
+19,2025,2200,Instructional Staff Support,93045.0,1.5
+19,2025,2300&2800,Genral Administration & Business,231585.0,3.6
+19,2025,2400,School Administration,228892.0,3.6
+19,2025,2500,Business Services,1497.0,0.0
+19,2025,2600,Plant Operations,363339.0,5.7
+19,2025,2700,Transportation,547902.0,8.6
+19,2025,2900,Other Support Services,0.0,0.0
+19,2025,1500,Non-public Programs,0.0,0.0
+19,2025,"1600-1800,2750",Community Programs,0.0,0.0
+19,2025,5120,Bond Interest,57940.0,0.9
+19,2025,5310+5390,Charter Schools/Other Agencies,0.0,0.0
+19,2025,3100,Food Service,141467.26,2.2
+19,2025,4000,Facility Construction,134109.0,
+19,2025,5100,Bonds & Notes Principal Repayment,240000.0,
+702,2025,1100,Regular Education,587937.0,40.4
+702,2025,1200,Special Programs,93159.0,6.4
+702,2025,1300,Vocational Programs,0.0,0.0
+702,2025,1400,Other Instructional Programs,14150.0,1.0
+702,2025,2100,Student Support Services,18269.0,1.3
+702,2025,2200,Instructional Staff Support,37.0,0.0
+702,2025,2300&2800,Genral Administration & Business,393962.0,27.1
+702,2025,2400,School Administration,0.0,0.0
+702,2025,2500,Business Services,30882.0,2.1
+702,2025,2600,Plant Operations,314862.0,21.6
+702,2025,2700,Transportation,1826.0,0.1
+702,2025,2900,Other Support Services,0.0,0.0
+702,2025,1500,Non-public Programs,0.0,0.0
+702,2025,"1600-1800,2750",Community Programs,0.0,0.0
+702,2025,5120,Bond Interest,0.0,0.0
+702,2025,5310+5390,Charter Schools/Other Agencies,0.0,0.0
+702,2025,3100,Food Service,0.0,0.0
+702,2025,4000,Facility Construction,0.0,
+702,2025,5100,Bonds & Notes Principal Repayment,0.0,
+23,2025,1100,Regular Education,1997631.0,43.4
+23,2025,1200,Special Programs,602855.0,13.1
+23,2025,1300,Vocational Programs,0.0,0.0
+23,2025,1400,Other Instructional Programs,60697.0,1.3
+23,2025,2100,Student Support Services,457554.0,9.9
+23,2025,2200,Instructional Staff Support,279500.0,6.1
+23,2025,2300&2800,Genral Administration & Business,181124.0,3.9
+23,2025,2400,School Administration,302732.0,6.6
+23,2025,2500,Business Services,0.0,0.0
+23,2025,2600,Plant Operations,552587.0,12.0
+23,2025,2700,Transportation,75541.0,1.6
+23,2025,2900,Other Support Services,0.0,0.0
+23,2025,1500,Non-public Programs,0.0,0.0
+23,2025,"1600-1800,2750",Community Programs,0.0,0.0
+23,2025,5120,Bond Interest,0.0,0.0
+23,2025,5310+5390,Charter Schools/Other Agencies,0.0,0.0
+23,2025,3100,Food Service,91340.7,2.0
+23,2025,4000,Facility Construction,0.0,
+23,2025,5100,Bonds & Notes Principal Repayment,0.0,
+29,2025,1100,Regular Education,8591449.0,51.7
+29,2025,1200,Special Programs,3067588.0,18.4
+29,2025,1300,Vocational Programs,0.0,0.0
+29,2025,1400,Other Instructional Programs,79766.0,0.5
+29,2025,2100,Student Support Services,891774.0,5.4
+29,2025,2200,Instructional Staff Support,289247.0,1.7
+29,2025,2300&2800,Genral Administration & Business,731027.0,4.4
+29,2025,2400,School Administration,662731.0,4.0
+29,2025,2500,Business Services,2176.0,0.0
+29,2025,2600,Plant Operations,784197.0,4.7
+29,2025,2700,Transportation,1071025.0,6.4
+29,2025,2900,Other Support Services,0.0,0.0
+29,2025,1500,Non-public Programs,0.0,0.0
+29,2025,"1600-1800,2750",Community Programs,0.0,0.0
+29,2025,5120,Bond Interest,393095.0,2.4
+29,2025,5310+5390,Charter Schools/Other Agencies,0.0,0.0
+29,2025,3100,Food Service,67323.73000000001,0.4
+29,2025,4000,Facility Construction,0.0,
+29,2025,5100,Bonds & Notes Principal Repayment,785000.0,
+31,2025,1100,Regular Education,7321759.0,46.3
+31,2025,1200,Special Programs,3191810.0,20.2
+31,2025,1300,Vocational Programs,0.0,0.0
+31,2025,1400,Other Instructional Programs,146888.0,0.9
+31,2025,2100,Student Support Services,1053547.0,6.7
+31,2025,2200,Instructional Staff Support,555601.0,3.5
+31,2025,2300&2800,Genral Administration & Business,411603.0,2.6
+31,2025,2400,School Administration,624462.0,4.0
+31,2025,2500,Business Services,210927.0,1.3
+31,2025,2600,Plant Operations,859795.0,5.4
+31,2025,2700,Transportation,1212107.0,7.7
+31,2025,2900,Other Support Services,0.0,0.0
+31,2025,1500,Non-public Programs,0.0,0.0
+31,2025,"1600-1800,2750",Community Programs,0.0,0.0
+31,2025,5120,Bond Interest,41824.0,0.3
+31,2025,5310+5390,Charter Schools/Other Agencies,0.0,0.0
+31,2025,3100,Food Service,167235.46000000002,1.1
+31,2025,4000,Facility Construction,2320980.0,
+31,2025,5100,Bonds & Notes Principal Repayment,0.0,
+33,2025,1100,Regular Education,15969973.0,53.3
+33,2025,1200,Special Programs,4734364.0,15.8
+33,2025,1300,Vocational Programs,0.0,0.0
+33,2025,1400,Other Instructional Programs,83581.0,0.3
+33,2025,2100,Student Support Services,2208886.0,7.4
+33,2025,2200,Instructional Staff Support,1040201.0,3.5
+33,2025,2300&2800,Genral Administration & Business,959335.0,3.2
+33,2025,2400,School Administration,1091334.0,3.6
+33,2025,2500,Business Services,263608.0,0.9
+33,2025,2600,Plant Operations,2106215.0,7.0
+33,2025,2700,Transportation,1340980.0,4.5
+33,2025,2900,Other Support Services,0.0,0.0
+33,2025,1500,Non-public Programs,0.0,0.0
+33,2025,"1600-1800,2750",Community Programs,0.0,0.0
+33,2025,5120,Bond Interest,0.0,0.0
+33,2025,5310+5390,Charter Schools/Other Agencies,0.0,0.0
+33,2025,3100,Food Service,181495.76,0.6
+33,2025,4000,Facility Construction,0.0,
+33,2025,5100,Bonds & Notes Principal Repayment,0.0,
+35,2025,1100,Regular Education,3556096.0,45.9
+35,2025,1200,Special Programs,1210876.0,15.6
+35,2025,1300,Vocational Programs,0.0,0.0
+35,2025,1400,Other Instructional Programs,76390.0,1.0
+35,2025,2100,Student Support Services,542090.0,7.0
+35,2025,2200,Instructional Staff Support,320824.0,4.1
+35,2025,2300&2800,Genral Administration & Business,559851.0,7.2
+35,2025,2400,School Administration,369001.0,4.8
+35,2025,2500,Business Services,0.0,0.0
+35,2025,2600,Plant Operations,580578.0,7.5
+35,2025,2700,Transportation,421981.0,5.4
+35,2025,2900,Other Support Services,0.0,0.0
+35,2025,1500,Non-public Programs,0.0,0.0
+35,2025,"1600-1800,2750",Community Programs,0.0,0.0
+35,2025,5120,Bond Interest,0.0,0.0
+35,2025,5310+5390,Charter Schools/Other Agencies,0.0,0.0
+35,2025,3100,Food Service,116795.48999999999,1.5
+35,2025,4000,Facility Construction,307876.0,
+35,2025,5100,Bonds & Notes Principal Repayment,0.0,
+39,2025,1100,Regular Education,1860259.0,58.8
+39,2025,1200,Special Programs,221414.0,7.0
+39,2025,1300,Vocational Programs,22455.0,0.7
+39,2025,1400,Other Instructional Programs,21529.0,0.7
+39,2025,2100,Student Support Services,188228.0,6.0
+39,2025,2200,Instructional Staff Support,55884.0,1.8
+39,2025,2300&2800,Genral Administration & Business,228272.0,7.2
+39,2025,2400,School Administration,172224.0,5.4
+39,2025,2500,Business Services,0.0,0.0
+39,2025,2600,Plant Operations,215020.0,6.8
+39,2025,2700,Transportation,127847.0,4.0
+39,2025,2900,Other Support Services,0.0,0.0
+39,2025,1500,Non-public Programs,0.0,0.0
+39,2025,"1600-1800,2750",Community Programs,0.0,0.0
+39,2025,5120,Bond Interest,0.0,0.0
+39,2025,5310+5390,Charter Schools/Other Agencies,6628.0,0.2
+39,2025,3100,Food Service,43494.0,1.4
+39,2025,4000,Facility Construction,0.0,
+39,2025,5100,Bonds & Notes Principal Repayment,0.0,
+41,2025,1100,Regular Education,35406809.0,42.5
+41,2025,1200,Special Programs,16073860.0,19.3
+41,2025,1300,Vocational Programs,172262.0,0.2
+41,2025,1400,Other Instructional Programs,1459559.0,1.8
+41,2025,2100,Student Support Services,7308996.0,8.8
+41,2025,2200,Instructional Staff Support,2007629.0,2.4
+41,2025,2300&2800,Genral Administration & Business,1919780.0,2.3
+41,2025,2400,School Administration,6160332.0,7.4
+41,2025,2500,Business Services,1085183.0,1.3
+41,2025,2600,Plant Operations,6277406.0,7.5
+41,2025,2700,Transportation,3915480.0,4.7
+41,2025,2900,Other Support Services,0.0,0.0
+41,2025,1500,Non-public Programs,0.0,0.0
+41,2025,"1600-1800,2750",Community Programs,375005.0,0.5
+41,2025,5120,Bond Interest,751648.0,0.9
+41,2025,5310+5390,Charter Schools/Other Agencies,11143.08,0.0
+41,2025,3100,Food Service,344214.1300000001,0.4
+41,2025,4000,Facility Construction,993722.0,
+41,2025,5100,Bonds & Notes Principal Repayment,2499384.0,
+726,2025,1100,Regular Education,644378.0,53.6
+726,2025,1200,Special Programs,0.0,0.0
+726,2025,1300,Vocational Programs,0.0,0.0
+726,2025,1400,Other Instructional Programs,4221.0,0.4
+726,2025,2100,Student Support Services,217.0,0.0
+726,2025,2200,Instructional Staff Support,33719.0,2.8
+726,2025,2300&2800,Genral Administration & Business,22160.0,1.8
+726,2025,2400,School Administration,265261.0,22.1
+726,2025,2500,Business Services,0.0,0.0
+726,2025,2600,Plant Operations,231937.0,19.3
+726,2025,2700,Transportation,0.0,0.0
+726,2025,2900,Other Support Services,0.0,0.0
+726,2025,1500,Non-public Programs,0.0,0.0
+726,2025,"1600-1800,2750",Community Programs,0.0,0.0
+726,2025,5120,Bond Interest,0.0,0.0
+726,2025,5310+5390,Charter Schools/Other Agencies,0.0,0.0
+726,2025,3100,Food Service,0.0,0.0
+726,2025,4000,Facility Construction,0.0,
+726,2025,5100,Bonds & Notes Principal Repayment,0.0,
+47,2025,1100,Regular Education,290991.0,47.2
+47,2025,1200,Special Programs,180213.0,29.2
+47,2025,1300,Vocational Programs,22455.0,3.6
+47,2025,1400,Other Instructional Programs,10564.0,1.7
+47,2025,2100,Student Support Services,32302.0,5.2
+47,2025,2200,Instructional Staff Support,0.0,0.0
+47,2025,2300&2800,Genral Administration & Business,36640.0,5.9
+47,2025,2400,School Administration,0.0,0.0
+47,2025,2500,Business Services,0.0,0.0
+47,2025,2600,Plant Operations,0.0,0.0
+47,2025,2700,Transportation,43767.0,7.1
+47,2025,2900,Other Support Services,0.0,0.0
+47,2025,1500,Non-public Programs,0.0,0.0
+47,2025,"1600-1800,2750",Community Programs,0.0,0.0
+47,2025,5120,Bond Interest,0.0,0.0
+47,2025,5310+5390,Charter Schools/Other Agencies,0.0,0.0
+47,2025,3100,Food Service,0.0,0.0
+47,2025,4000,Facility Construction,0.0,
+47,2025,5100,Bonds & Notes Principal Repayment,0.0,
+51,2025,1100,Regular Education,10164049.0,39.5
+51,2025,1200,Special Programs,4489529.0,17.4
+51,2025,1300,Vocational Programs,1050967.0,4.1
+51,2025,1400,Other Instructional Programs,680055.0,2.6
+51,2025,2100,Student Support Services,2286657.0,8.9
+51,2025,2200,Instructional Staff Support,357982.0,1.4
+51,2025,2300&2800,Genral Administration & Business,911817.0,3.5
+51,2025,2400,School Administration,1150253.0,4.5
+51,2025,2500,Business Services,394551.0,1.5
+51,2025,2600,Plant Operations,2947736.0,11.4
+51,2025,2700,Transportation,735602.0,2.9
+51,2025,2900,Other Support Services,0.0,0.0
+51,2025,1500,Non-public Programs,0.0,0.0
+51,2025,"1600-1800,2750",Community Programs,0.0,0.0
+51,2025,5120,Bond Interest,1233.0,0.0
+51,2025,5310+5390,Charter Schools/Other Agencies,0.0,0.0
+51,2025,3100,Food Service,588305.1699999999,2.3
+51,2025,4000,Facility Construction,0.0,
+51,2025,5100,Bonds & Notes Principal Repayment,54448.0,
+53,2025,1100,Regular Education,1368704.0,37.8
+53,2025,1200,Special Programs,693645.0,19.2
+53,2025,1300,Vocational Programs,0.0,0.0
+53,2025,1400,Other Instructional Programs,17628.0,0.5
+53,2025,2100,Student Support Services,310468.0,8.6
+53,2025,2200,Instructional Staff Support,108462.0,3.0
+53,2025,2300&2800,Genral Administration & Business,207640.0,5.7
+53,2025,2400,School Administration,303889.0,8.4
+53,2025,2500,Business Services,0.0,0.0
+53,2025,2600,Plant Operations,332843.0,9.2
+53,2025,2700,Transportation,172194.0,4.8
+53,2025,2900,Other Support Services,0.0,0.0
+53,2025,1500,Non-public Programs,0.0,0.0
+53,2025,"1600-1800,2750",Community Programs,3446.0,0.1
+53,2025,5120,Bond Interest,0.0,0.0
+53,2025,5310+5390,Charter Schools/Other Agencies,0.0,0.0
+53,2025,3100,Food Service,103174.76000000001,2.8
+53,2025,4000,Facility Construction,0.0,
+53,2025,5100,Bonds & Notes Principal Repayment,0.0,
+57,2025,1100,Regular Education,14660645.0,41.9
+57,2025,1200,Special Programs,6305420.0,18.0
+57,2025,1300,Vocational Programs,441401.0,1.3
+57,2025,1400,Other Instructional Programs,877008.0,2.5
+57,2025,2100,Student Support Services,3171041.0,9.1
+57,2025,2200,Instructional Staff Support,1665499.0,4.8
+57,2025,2300&2800,Genral Administration & Business,1056637.0,3.0
+57,2025,2400,School Administration,1687603.0,4.8
+57,2025,2500,Business Services,0.0,0.0
+57,2025,2600,Plant Operations,2489672.0,7.1
+57,2025,2700,Transportation,1702120.0,4.9
+57,2025,2900,Other Support Services,0.0,0.0
+57,2025,1500,Non-public Programs,0.0,0.0
+57,2025,"1600-1800,2750",Community Programs,0.0,0.0
+57,2025,5120,Bond Interest,564024.0,1.6
+57,2025,5310+5390,Charter Schools/Other Agencies,0.0,0.0
+57,2025,3100,Food Service,379886.54999999993,1.1
+57,2025,4000,Facility Construction,8612003.0,
+57,2025,5100,Bonds & Notes Principal Repayment,767339.0,
+63,2025,1100,Regular Education,3171948.0,46.3
+63,2025,1200,Special Programs,1163851.0,17.0
+63,2025,1300,Vocational Programs,5707.0,0.1
+63,2025,1400,Other Instructional Programs,22512.0,0.3
+63,2025,2100,Student Support Services,652092.0,9.5
+63,2025,2200,Instructional Staff Support,302802.0,4.4
+63,2025,2300&2800,Genral Administration & Business,209478.0,3.1
+63,2025,2400,School Administration,481824.0,7.0
+63,2025,2500,Business Services,0.0,0.0
+63,2025,2600,Plant Operations,571466.0,8.3
+63,2025,2700,Transportation,197771.0,2.9
+63,2025,2900,Other Support Services,0.0,0.0
+63,2025,1500,Non-public Programs,0.0,0.0
+63,2025,"1600-1800,2750",Community Programs,0.0,0.0
+63,2025,5120,Bond Interest,13902.0,0.2
+63,2025,5310+5390,Charter Schools/Other Agencies,0.0,0.0
+63,2025,3100,Food Service,51588.270000000004,0.8
+63,2025,4000,Facility Construction,1334280.0,
+63,2025,5100,Bonds & Notes Principal Repayment,0.0,
+71,2025,1100,Regular Education,4309271.0,34.0
+71,2025,1200,Special Programs,3212766.0,25.3
+71,2025,1300,Vocational Programs,0.0,0.0
+71,2025,1400,Other Instructional Programs,90398.0,0.7
+71,2025,2100,Student Support Services,1120393.0,8.8
+71,2025,2200,Instructional Staff Support,382313.0,3.0
+71,2025,2300&2800,Genral Administration & Business,525230.0,4.1
+71,2025,2400,School Administration,913002.0,7.2
+71,2025,2500,Business Services,3074.0,0.0
+71,2025,2600,Plant Operations,1078997.0,8.5
+71,2025,2700,Transportation,907244.0,7.2
+71,2025,2900,Other Support Services,0.0,0.0
+71,2025,1500,Non-public Programs,0.0,0.0
+71,2025,"1600-1800,2750",Community Programs,0.0,0.0
+71,2025,5120,Bond Interest,49538.0,0.4
+71,2025,5310+5390,Charter Schools/Other Agencies,0.0,0.0
+71,2025,3100,Food Service,82709.25,0.7
+71,2025,4000,Facility Construction,0.0,
+71,2025,5100,Bonds & Notes Principal Repayment,78841.0,
+723,2025,1100,Regular Education,159759.0,44.3
+723,2025,1200,Special Programs,0.0,0.0
+723,2025,1300,Vocational Programs,0.0,0.0
+723,2025,1400,Other Instructional Programs,2372.0,0.7
+723,2025,2100,Student Support Services,3808.0,1.1
+723,2025,2200,Instructional Staff Support,5658.0,1.6
+723,2025,2300&2800,Genral Administration & Business,96208.0,26.7
+723,2025,2400,School Administration,48827.0,13.5
+723,2025,2500,Business Services,10000.0,2.8
+723,2025,2600,Plant Operations,33784.0,9.4
+723,2025,2700,Transportation,0.0,0.0
+723,2025,2900,Other Support Services,0.0,0.0
+723,2025,1500,Non-public Programs,0.0,0.0
+723,2025,"1600-1800,2750",Community Programs,0.0,0.0
+723,2025,5120,Bond Interest,0.0,0.0
+723,2025,5310+5390,Charter Schools/Other Agencies,0.0,0.0
+723,2025,3100,Food Service,0.0,0.0
+723,2025,4000,Facility Construction,0.0,
+723,2025,5100,Bonds & Notes Principal Repayment,0.0,
+75,2025,1100,Regular Education,3771702.0,43.9
+75,2025,1200,Special Programs,1511541.0,17.6
+75,2025,1300,Vocational Programs,106.0,0.0
+75,2025,1400,Other Instructional Programs,125503.0,1.5
+75,2025,2100,Student Support Services,784724.0,9.1
+75,2025,2200,Instructional Staff Support,169919.0,2.0
+75,2025,2300&2800,Genral Administration & Business,353168.0,4.1
+75,2025,2400,School Administration,452456.0,5.3
+75,2025,2500,Business Services,8771.0,0.1
+75,2025,2600,Plant Operations,597872.0,7.0
+75,2025,2700,Transportation,462544.0,5.4
+75,2025,2900,Other Support Services,0.0,0.0
+75,2025,1500,Non-public Programs,0.0,0.0
+75,2025,"1600-1800,2750",Community Programs,188426.0,2.2
+75,2025,5120,Bond Interest,27580.0,0.3
+75,2025,5310+5390,Charter Schools/Other Agencies,0.0,0.0
+75,2025,3100,Food Service,134310.29,1.6
+75,2025,4000,Facility Construction,175580.0,
+75,2025,5100,Bonds & Notes Principal Repayment,50000.0,
+79,2025,1100,Regular Education,4720214.0,45.1
+79,2025,1200,Special Programs,2288973.0,21.9
+79,2025,1300,Vocational Programs,0.0,0.0
+79,2025,1400,Other Instructional Programs,73946.0,0.7
+79,2025,2100,Student Support Services,579733.0,5.5
+79,2025,2200,Instructional Staff Support,181674.0,1.7
+79,2025,2300&2800,Genral Administration & Business,463141.0,4.4
+79,2025,2400,School Administration,411795.0,3.9
+79,2025,2500,Business Services,11660.0,0.1
+79,2025,2600,Plant Operations,784865.0,7.5
+79,2025,2700,Transportation,825256.0,7.9
+79,2025,2900,Other Support Services,0.0,0.0
+79,2025,1500,Non-public Programs,0.0,0.0
+79,2025,"1600-1800,2750",Community Programs,0.0,0.0
+79,2025,5120,Bond Interest,73483.0,0.7
+79,2025,5310+5390,Charter Schools/Other Agencies,0.0,0.0
+79,2025,3100,Food Service,59414.18999999999,0.6
+79,2025,4000,Facility Construction,0.0,
+79,2025,5100,Bonds & Notes Principal Repayment,118161.0,
+91,2025,1100,Regular Education,630311.0,68.3
+91,2025,1200,Special Programs,174408.0,18.9
+91,2025,1300,Vocational Programs,0.0,0.0
+91,2025,1400,Other Instructional Programs,0.0,0.0
+91,2025,2100,Student Support Services,24732.0,2.7
+91,2025,2200,Instructional Staff Support,0.0,0.0
+91,2025,2300&2800,Genral Administration & Business,15629.0,1.7
+91,2025,2400,School Administration,0.0,0.0
+91,2025,2500,Business Services,0.0,0.0
+91,2025,2600,Plant Operations,0.0,0.0
+91,2025,2700,Transportation,77298.0,8.4
+91,2025,2900,Other Support Services,0.0,0.0
+91,2025,1500,Non-public Programs,0.0,0.0
+91,2025,"1600-1800,2750",Community Programs,0.0,0.0
+91,2025,5120,Bond Interest,0.0,0.0
+91,2025,5310+5390,Charter Schools/Other Agencies,0.0,0.0
+91,2025,3100,Food Service,0.0,0.0
+91,2025,4000,Facility Construction,0.0,
+91,2025,5100,Bonds & Notes Principal Repayment,0.0,
+93,2025,1100,Regular Education,8255681.0,51.9
+93,2025,1200,Special Programs,2553273.0,16.1
+93,2025,1300,Vocational Programs,0.0,0.0
+93,2025,1400,Other Instructional Programs,94494.0,0.6
+93,2025,2100,Student Support Services,921448.0,5.8
+93,2025,2200,Instructional Staff Support,574656.0,3.6
+93,2025,2300&2800,Genral Administration & Business,745916.0,4.7
+93,2025,2400,School Administration,519809.0,3.3
+93,2025,2500,Business Services,0.0,0.0
+93,2025,2600,Plant Operations,1173350.0,7.4
+93,2025,2700,Transportation,1014275.0,6.4
+93,2025,2900,Other Support Services,0.0,0.0
+93,2025,1500,Non-public Programs,0.0,0.0
+93,2025,"1600-1800,2750",Community Programs,0.0,0.0
+93,2025,5120,Bond Interest,0.0,0.0
+93,2025,5310+5390,Charter Schools/Other Agencies,0.0,0.0
+93,2025,3100,Food Service,51428.859999999986,0.3
+93,2025,4000,Facility Construction,0.0,
+93,2025,5100,Bonds & Notes Principal Repayment,0.0,
+95,2025,1100,Regular Education,4352850.0,48.1
+95,2025,1200,Special Programs,1516159.0,16.8
+95,2025,1300,Vocational Programs,0.0,0.0
+95,2025,1400,Other Instructional Programs,94784.0,1.0
+95,2025,2100,Student Support Services,625512.0,6.9
+95,2025,2200,Instructional Staff Support,276032.0,3.1
+95,2025,2300&2800,Genral Administration & Business,607414.0,6.7
+95,2025,2400,School Administration,264873.0,2.9
+95,2025,2500,Business Services,10497.0,0.1
+95,2025,2600,Plant Operations,780020.0,8.6
+95,2025,2700,Transportation,442043.0,4.9
+95,2025,2900,Other Support Services,0.0,0.0
+95,2025,1500,Non-public Programs,0.0,0.0
+95,2025,"1600-1800,2750",Community Programs,0.0,0.0
+95,2025,5120,Bond Interest,0.0,0.0
+95,2025,5310+5390,Charter Schools/Other Agencies,0.0,0.0
+95,2025,3100,Food Service,73922.37999999999,0.8
+95,2025,4000,Facility Construction,2450.0,
+95,2025,5100,Bonds & Notes Principal Repayment,0.0,
+99,2025,1100,Regular Education,3579985.0,47.8
+99,2025,1200,Special Programs,1448731.0,19.3
+99,2025,1300,Vocational Programs,0.0,0.0
+99,2025,1400,Other Instructional Programs,41394.0,0.6
+99,2025,2100,Student Support Services,463909.0,6.2
+99,2025,2200,Instructional Staff Support,290278.0,3.9
+99,2025,2300&2800,Genral Administration & Business,264401.0,3.5
+99,2025,2400,School Administration,334395.0,4.5
+99,2025,2500,Business Services,0.0,0.0
+99,2025,2600,Plant Operations,418064.0,5.6
+99,2025,2700,Transportation,554534.0,7.4
+99,2025,2900,Other Support Services,0.0,0.0
+99,2025,1500,Non-public Programs,0.0,0.0
+99,2025,"1600-1800,2750",Community Programs,0.0,0.0
+99,2025,5120,Bond Interest,0.0,0.0
+99,2025,5310+5390,Charter Schools/Other Agencies,0.0,0.0
+99,2025,3100,Food Service,91462.37,1.2
+99,2025,4000,Facility Construction,100000.0,
+99,2025,5100,Bonds & Notes Principal Repayment,0.0,
+101,2025,1100,Regular Education,14680179.0,31.8
+101,2025,1200,Special Programs,12235199.0,26.5
+101,2025,1300,Vocational Programs,1066353.0,2.3
+101,2025,1400,Other Instructional Programs,898272.0,1.9
+101,2025,2100,Student Support Services,2815519.0,6.1
+101,2025,2200,Instructional Staff Support,1495059.0,3.2
+101,2025,2300&2800,Genral Administration & Business,2695149.0,5.8
+101,2025,2400,School Administration,3473793.0,7.5
+101,2025,2500,Business Services,0.0,0.0
+101,2025,2600,Plant Operations,3644696.0,7.9
+101,2025,2700,Transportation,1883651.0,4.1
+101,2025,2900,Other Support Services,0.0,0.0
+101,2025,1500,Non-public Programs,0.0,0.0
+101,2025,"1600-1800,2750",Community Programs,131102.0,0.3
+101,2025,5120,Bond Interest,338319.0,0.7
+101,2025,5310+5390,Charter Schools/Other Agencies,0.0,0.0
+101,2025,3100,Food Service,837649.27,1.8
+101,2025,4000,Facility Construction,509606.0,
+101,2025,5100,Bonds & Notes Principal Repayment,878391.0,
+103,2025,1100,Regular Education,341899.0,67.0
+103,2025,1200,Special Programs,36203.0,7.1
+103,2025,1300,Vocational Programs,0.0,0.0
+103,2025,1400,Other Instructional Programs,0.0,0.0
+103,2025,2100,Student Support Services,12121.0,2.4
+103,2025,2200,Instructional Staff Support,0.0,0.0
+103,2025,2300&2800,Genral Administration & Business,62163.0,12.2
+103,2025,2400,School Administration,0.0,0.0
+103,2025,2500,Business Services,0.0,0.0
+103,2025,2600,Plant Operations,0.0,0.0
+103,2025,2700,Transportation,50938.0,10.0
+103,2025,2900,Other Support Services,0.0,0.0
+103,2025,1500,Non-public Programs,0.0,0.0
+103,2025,"1600-1800,2750",Community Programs,0.0,0.0
+103,2025,5120,Bond Interest,0.0,0.0
+103,2025,5310+5390,Charter Schools/Other Agencies,6628.13,1.3
+103,2025,3100,Food Service,0.0,0.0
+103,2025,4000,Facility Construction,0.0,
+103,2025,5100,Bonds & Notes Principal Repayment,0.0,
+105,2025,1100,Regular Education,2502410.0,34.3
+105,2025,1200,Special Programs,704638.0,9.7
+105,2025,1300,Vocational Programs,143661.0,2.0
+105,2025,1400,Other Instructional Programs,194547.0,2.7
+105,2025,2100,Student Support Services,747763.0,10.3
+105,2025,2200,Instructional Staff Support,293381.0,4.0
+105,2025,2300&2800,Genral Administration & Business,883225.0,12.1
+105,2025,2400,School Administration,435057.0,6.0
+105,2025,2500,Business Services,5806.0,0.1
+105,2025,2600,Plant Operations,932981.0,12.8
+105,2025,2700,Transportation,288223.0,4.0
+105,2025,2900,Other Support Services,0.0,0.0
+105,2025,1500,Non-public Programs,0.0,0.0
+105,2025,"1600-1800,2750",Community Programs,0.0,0.0
+105,2025,5120,Bond Interest,0.0,0.0
+105,2025,5310+5390,Charter Schools/Other Agencies,26512.52,0.4
+105,2025,3100,Food Service,136466.7,1.9
+105,2025,4000,Facility Construction,831250.0,
+105,2025,5100,Bonds & Notes Principal Repayment,0.0,
+107,2025,1100,Regular Education,1072656.0,79.7
+107,2025,1200,Special Programs,51966.0,3.9
+107,2025,1300,Vocational Programs,23000.0,1.7
+107,2025,1400,Other Instructional Programs,0.0,0.0
+107,2025,2100,Student Support Services,14449.0,1.1
+107,2025,2200,Instructional Staff Support,0.0,0.0
+107,2025,2300&2800,Genral Administration & Business,107099.0,8.0
+107,2025,2400,School Administration,0.0,0.0
+107,2025,2500,Business Services,0.0,0.0
+107,2025,2600,Plant Operations,0.0,0.0
+107,2025,2700,Transportation,76111.0,5.7
+107,2025,2900,Other Support Services,0.0,0.0
+107,2025,1500,Non-public Programs,0.0,0.0
+107,2025,"1600-1800,2750",Community Programs,0.0,0.0
+107,2025,5120,Bond Interest,0.0,0.0
+107,2025,5310+5390,Charter Schools/Other Agencies,0.0,0.0
+107,2025,3100,Food Service,0.0,0.0
+107,2025,4000,Facility Construction,0.0,
+107,2025,5100,Bonds & Notes Principal Repayment,0.0,
+743,2025,1100,Regular Education,949882.0,46.0
+743,2025,1200,Special Programs,111345.0,5.4
+743,2025,1300,Vocational Programs,33114.0,1.6
+743,2025,1400,Other Instructional Programs,1739.0,0.1
+743,2025,2100,Student Support Services,21306.0,1.0
+743,2025,2200,Instructional Staff Support,176163.0,8.5
+743,2025,2300&2800,Genral Administration & Business,89221.0,4.3
+743,2025,2400,School Administration,221489.0,10.7
+743,2025,2500,Business Services,1052.0,0.1
+743,2025,2600,Plant Operations,340235.0,16.5
+743,2025,2700,Transportation,0.0,0.0
+743,2025,2900,Other Support Services,0.0,0.0
+743,2025,1500,Non-public Programs,0.0,0.0
+743,2025,"1600-1800,2750",Community Programs,0.0,0.0
+743,2025,5120,Bond Interest,120926.0,5.9
+743,2025,5310+5390,Charter Schools/Other Agencies,0.0,0.0
+743,2025,3100,Food Service,0.0,0.0
+743,2025,4000,Facility Construction,0.0,
+743,2025,5100,Bonds & Notes Principal Repayment,85589.0,
+111,2025,1100,Regular Education,37816646.0,35.1
+111,2025,1200,Special Programs,20964007.0,19.5
+111,2025,1300,Vocational Programs,2626033.0,2.4
+111,2025,1400,Other Instructional Programs,2006107.0,1.9
+111,2025,2100,Student Support Services,11009897.0,10.2
+111,2025,2200,Instructional Staff Support,5258125.0,4.9
+111,2025,2300&2800,Genral Administration & Business,3350603.0,3.1
+111,2025,2400,School Administration,5879973.0,5.5
+111,2025,2500,Business Services,1255232.0,1.2
+111,2025,2600,Plant Operations,8162152.0,7.6
+111,2025,2700,Transportation,5516573.0,5.1
+111,2025,2900,Other Support Services,0.0,0.0
+111,2025,1500,Non-public Programs,57335.0,0.1
+111,2025,"1600-1800,2750",Community Programs,439024.0,0.4
+111,2025,5120,Bond Interest,1657572.0,1.5
+111,2025,5310+5390,Charter Schools/Other Agencies,324564.21,0.3
+111,2025,3100,Food Service,1267440.05,1.2
+111,2025,4000,Facility Construction,21016514.0,
+111,2025,5100,Bonds & Notes Principal Repayment,2985000.0,
+112,2025,1100,Regular Education,16765966.0,29.4
+112,2025,1200,Special Programs,15497792.0,27.2
+112,2025,1300,Vocational Programs,1278163.0,2.2
+112,2025,1400,Other Instructional Programs,1050061.0,1.8
+112,2025,2100,Student Support Services,3583944.0,6.3
+112,2025,2200,Instructional Staff Support,1438079.0,2.5
+112,2025,2300&2800,Genral Administration & Business,3604801.0,6.3
+112,2025,2400,School Administration,4309937.0,7.6
+112,2025,2500,Business Services,1936.0,0.0
+112,2025,2600,Plant Operations,4727327.0,8.3
+112,2025,2700,Transportation,3321054.0,5.8
+112,2025,2900,Other Support Services,0.0,0.0
+112,2025,1500,Non-public Programs,0.0,0.0
+112,2025,"1600-1800,2750",Community Programs,590484.0,1.0
+112,2025,5120,Bond Interest,0.0,0.0
+112,2025,5310+5390,Charter Schools/Other Agencies,0.0,0.0
+112,2025,3100,Food Service,770693.0,1.4
+112,2025,4000,Facility Construction,38643.0,
+112,2025,5100,Bonds & Notes Principal Repayment,0.0,
+113,2025,1100,Regular Education,12297873.0,30.8
+113,2025,1200,Special Programs,5269205.0,13.2
+113,2025,1300,Vocational Programs,1498914.0,3.8
+113,2025,1400,Other Instructional Programs,1138371.0,2.8
+113,2025,2100,Student Support Services,3359386.0,8.4
+113,2025,2200,Instructional Staff Support,849140.0,2.1
+113,2025,2300&2800,Genral Administration & Business,5516449.0,13.8
+113,2025,2400,School Administration,2097510.0,5.2
+113,2025,2500,Business Services,0.0,0.0
+113,2025,2600,Plant Operations,6140361.0,15.4
+113,2025,2700,Transportation,1246456.0,3.1
+113,2025,2900,Other Support Services,0.0,0.0
+113,2025,1500,Non-public Programs,0.0,0.0
+113,2025,"1600-1800,2750",Community Programs,0.0,0.0
+113,2025,5120,Bond Interest,121413.0,0.3
+113,2025,5310+5390,Charter Schools/Other Agencies,0.0,0.0
+113,2025,3100,Food Service,418413.24,1.0
+113,2025,4000,Facility Construction,0.0,
+113,2025,5100,Bonds & Notes Principal Repayment,245000.0,
+114,2025,1100,Regular Education,0.0,0.0
+114,2025,1200,Special Programs,0.0,0.0
+114,2025,1300,Vocational Programs,0.0,0.0
+114,2025,1400,Other Instructional Programs,0.0,0.0
+114,2025,2100,Student Support Services,0.0,0.0
+114,2025,2200,Instructional Staff Support,0.0,0.0
+114,2025,2300&2800,Genral Administration & Business,0.0,0.0
+114,2025,2400,School Administration,0.0,0.0
+114,2025,2500,Business Services,0.0,0.0
+114,2025,2600,Plant Operations,0.0,0.0
+114,2025,2700,Transportation,24746.0,24.4
+114,2025,2900,Other Support Services,0.0,0.0
+114,2025,1500,Non-public Programs,0.0,0.0
+114,2025,"1600-1800,2750",Community Programs,0.0,0.0
+114,2025,5120,Bond Interest,0.0,0.0
+114,2025,5310+5390,Charter Schools/Other Agencies,76716.01,75.6
+114,2025,3100,Food Service,0.0,0.0
+114,2025,4000,Facility Construction,0.0,
+114,2025,5100,Bonds & Notes Principal Repayment,0.0,
+115,2025,1100,Regular Education,2397246.0,47.4
+115,2025,1200,Special Programs,798162.0,15.8
+115,2025,1300,Vocational Programs,0.0,0.0
+115,2025,1400,Other Instructional Programs,12601.0,0.2
+115,2025,2100,Student Support Services,444294.0,8.8
+115,2025,2200,Instructional Staff Support,46592.0,0.9
+115,2025,2300&2800,Genral Administration & Business,435733.0,8.6
+115,2025,2400,School Administration,255510.0,5.1
+115,2025,2500,Business Services,0.0,0.0
+115,2025,2600,Plant Operations,396816.0,7.8
+115,2025,2700,Transportation,197391.0,3.9
+115,2025,2900,Other Support Services,0.0,0.0
+115,2025,1500,Non-public Programs,0.0,0.0
+115,2025,"1600-1800,2750",Community Programs,0.0,0.0
+115,2025,5120,Bond Interest,0.0,0.0
+115,2025,5310+5390,Charter Schools/Other Agencies,0.0,0.0
+115,2025,3100,Food Service,72898.76999999999,1.4
+115,2025,4000,Facility Construction,101573.0,
+115,2025,5100,Bonds & Notes Principal Repayment,0.0,
+117,2025,1100,Regular Education,1008153.0,54.8
+117,2025,1200,Special Programs,417237.0,22.7
+117,2025,1300,Vocational Programs,0.0,0.0
+117,2025,1400,Other Instructional Programs,0.0,0.0
+117,2025,2100,Student Support Services,4846.0,0.3
+117,2025,2200,Instructional Staff Support,12126.0,0.7
+117,2025,2300&2800,Genral Administration & Business,201101.0,10.9
+117,2025,2400,School Administration,56884.0,3.1
+117,2025,2500,Business Services,0.0,0.0
+117,2025,2600,Plant Operations,41552.0,2.3
+117,2025,2700,Transportation,85746.0,4.7
+117,2025,2900,Other Support Services,0.0,0.0
+117,2025,1500,Non-public Programs,0.0,0.0
+117,2025,"1600-1800,2750",Community Programs,0.0,0.0
+117,2025,5120,Bond Interest,0.0,0.0
+117,2025,5310+5390,Charter Schools/Other Agencies,0.0,0.0
+117,2025,3100,Food Service,10612.5,0.6
+117,2025,4000,Facility Construction,2000.0,
+117,2025,5100,Bonds & Notes Principal Repayment,0.0,
+127,2025,1100,Regular Education,8768116.0,48.1
+127,2025,1200,Special Programs,4035988.0,22.1
+127,2025,1300,Vocational Programs,0.0,0.0
+127,2025,1400,Other Instructional Programs,72365.0,0.4
+127,2025,2100,Student Support Services,1634218.0,9.0
+127,2025,2200,Instructional Staff Support,246691.0,1.4
+127,2025,2300&2800,Genral Administration & Business,521761.0,2.9
+127,2025,2400,School Administration,676099.0,3.7
+127,2025,2500,Business Services,0.0,0.0
+127,2025,2600,Plant Operations,870180.0,4.8
+127,2025,2700,Transportation,1292385.0,7.1
+127,2025,2900,Other Support Services,0.0,0.0
+127,2025,1500,Non-public Programs,0.0,0.0
+127,2025,"1600-1800,2750",Community Programs,0.0,0.0
+127,2025,5120,Bond Interest,0.0,0.0
+127,2025,5310+5390,Charter Schools/Other Agencies,0.0,0.0
+127,2025,3100,Food Service,127541.92,0.7
+127,2025,4000,Facility Construction,4000.0,
+127,2025,5100,Bonds & Notes Principal Repayment,0.0,
+131,2025,1100,Regular Education,49183179.0,47.9
+131,2025,1200,Special Programs,24484281.0,23.8
+131,2025,1300,Vocational Programs,0.0,0.0
+131,2025,1400,Other Instructional Programs,411395.0,0.4
+131,2025,2100,Student Support Services,8484405.0,8.3
+131,2025,2200,Instructional Staff Support,1942845.0,1.9
+131,2025,2300&2800,Genral Administration & Business,1463223.0,1.4
+131,2025,2400,School Administration,3555433.0,3.5
+131,2025,2500,Business Services,702111.0,0.7
+131,2025,2600,Plant Operations,6404727.0,6.2
+131,2025,2700,Transportation,4796682.0,4.7
+131,2025,2900,Other Support Services,0.0,0.0
+131,2025,1500,Non-public Programs,0.0,0.0
+131,2025,"1600-1800,2750",Community Programs,174510.0,0.2
+131,2025,5120,Bond Interest,170557.0,0.2
+131,2025,5310+5390,Charter Schools/Other Agencies,0.0,0.0
+131,2025,3100,Food Service,1005043.77,1.0
+131,2025,4000,Facility Construction,0.0,
+131,2025,5100,Bonds & Notes Principal Repayment,649051.0,
+141,2025,1100,Regular Education,26335523.0,31.6
+141,2025,1200,Special Programs,20183267.0,24.2
+141,2025,1300,Vocational Programs,3485519.0,4.2
+141,2025,1400,Other Instructional Programs,820100.0,1.0
+141,2025,2100,Student Support Services,5859153.0,7.0
+141,2025,2200,Instructional Staff Support,2935156.0,3.5
+141,2025,2300&2800,Genral Administration & Business,3883198.0,4.7
+141,2025,2400,School Administration,3507730.0,4.2
+141,2025,2500,Business Services,0.0,0.0
+141,2025,2600,Plant Operations,6155210.0,7.4
+141,2025,2700,Transportation,5713481.0,6.8
+141,2025,2900,Other Support Services,0.0,0.0
+141,2025,1500,Non-public Programs,33547.0,0.0
+141,2025,"1600-1800,2750",Community Programs,782643.0,0.9
+141,2025,5120,Bond Interest,2677658.0,3.2
+141,2025,5310+5390,Charter Schools/Other Agencies,0.0,0.0
+141,2025,3100,Food Service,1075923.29,1.3
+141,2025,4000,Facility Construction,5956684.0,
+141,2025,5100,Bonds & Notes Principal Repayment,3544466.0,
+142,2025,1100,Regular Education,14254751.0,47.6
+142,2025,1200,Special Programs,3859570.0,12.9
+142,2025,1300,Vocational Programs,152093.0,0.5
+142,2025,1400,Other Instructional Programs,1356915.0,4.5
+142,2025,2100,Student Support Services,1899930.0,6.3
+142,2025,2200,Instructional Staff Support,929665.0,3.1
+142,2025,2300&2800,Genral Administration & Business,1429289.0,4.8
+142,2025,2400,School Administration,2536860.0,8.5
+142,2025,2500,Business Services,0.0,0.0
+142,2025,2600,Plant Operations,2706422.0,9.0
+142,2025,2700,Transportation,305567.0,1.0
+142,2025,2900,Other Support Services,0.0,0.0
+142,2025,1500,Non-public Programs,0.0,0.0
+142,2025,"1600-1800,2750",Community Programs,0.0,0.0
+142,2025,5120,Bond Interest,359194.0,1.2
+142,2025,5310+5390,Charter Schools/Other Agencies,0.0,0.0
+142,2025,3100,Food Service,179410.15000000002,0.6
+142,2025,4000,Facility Construction,379337.0,
+142,2025,5100,Bonds & Notes Principal Repayment,1255814.0,
+147,2025,1100,Regular Education,704839.0,75.5
+147,2025,1200,Special Programs,15454.0,1.7
+147,2025,1300,Vocational Programs,0.0,0.0
+147,2025,1400,Other Instructional Programs,0.0,0.0
+147,2025,2100,Student Support Services,13000.0,1.4
+147,2025,2200,Instructional Staff Support,0.0,0.0
+147,2025,2300&2800,Genral Administration & Business,55596.0,6.0
+147,2025,2400,School Administration,0.0,0.0
+147,2025,2500,Business Services,0.0,0.0
+147,2025,2600,Plant Operations,0.0,0.0
+147,2025,2700,Transportation,143316.0,15.4
+147,2025,2900,Other Support Services,0.0,0.0
+147,2025,1500,Non-public Programs,0.0,0.0
+147,2025,"1600-1800,2750",Community Programs,0.0,0.0
+147,2025,5120,Bond Interest,0.0,0.0
+147,2025,5310+5390,Charter Schools/Other Agencies,908.6500000000001,0.1
+147,2025,3100,Food Service,0.0,0.0
+147,2025,4000,Facility Construction,0.0,
+147,2025,5100,Bonds & Notes Principal Repayment,0.0,
+149,2025,1100,Regular Education,6517228.0,66.2
+149,2025,1200,Special Programs,1187598.0,12.1
+149,2025,1300,Vocational Programs,0.0,0.0
+149,2025,1400,Other Instructional Programs,7464.0,0.1
+149,2025,2100,Student Support Services,539971.0,5.5
+149,2025,2200,Instructional Staff Support,156586.0,1.6
+149,2025,2300&2800,Genral Administration & Business,229929.0,2.3
+149,2025,2400,School Administration,281998.0,2.9
+149,2025,2500,Business Services,0.0,0.0
+149,2025,2600,Plant Operations,381050.0,3.9
+149,2025,2700,Transportation,440920.0,4.5
+149,2025,2900,Other Support Services,0.0,0.0
+149,2025,1500,Non-public Programs,0.0,0.0
+149,2025,"1600-1800,2750",Community Programs,3178.0,0.0
+149,2025,5120,Bond Interest,35955.0,0.4
+149,2025,5310+5390,Charter Schools/Other Agencies,0.0,0.0
+149,2025,3100,Food Service,56268.8,0.6
+149,2025,4000,Facility Construction,0.0,
+149,2025,5100,Bonds & Notes Principal Repayment,160000.0,
+153,2025,1100,Regular Education,1585920.0,43.4
+153,2025,1200,Special Programs,623707.0,17.1
+153,2025,1300,Vocational Programs,0.0,0.0
+153,2025,1400,Other Instructional Programs,10467.0,0.3
+153,2025,2100,Student Support Services,427581.0,11.7
+153,2025,2200,Instructional Staff Support,94568.0,2.6
+153,2025,2300&2800,Genral Administration & Business,125330.0,3.4
+153,2025,2400,School Administration,300600.0,8.2
+153,2025,2500,Business Services,0.0,0.0
+153,2025,2600,Plant Operations,327780.0,9.0
+153,2025,2700,Transportation,114137.0,3.1
+153,2025,2900,Other Support Services,0.0,0.0
+153,2025,1500,Non-public Programs,0.0,0.0
+153,2025,"1600-1800,2750",Community Programs,0.0,0.0
+153,2025,5120,Bond Interest,0.0,0.0
+153,2025,5310+5390,Charter Schools/Other Agencies,0.0,0.0
+153,2025,3100,Food Service,41939.35,1.1
+153,2025,4000,Facility Construction,0.0,
+153,2025,5100,Bonds & Notes Principal Repayment,0.0,
+159,2025,1100,Regular Education,629618.0,83.0
+159,2025,1200,Special Programs,37780.0,5.0
+159,2025,1300,Vocational Programs,0.0,0.0
+159,2025,1400,Other Instructional Programs,0.0,0.0
+159,2025,2100,Student Support Services,0.0,0.0
+159,2025,2200,Instructional Staff Support,0.0,0.0
+159,2025,2300&2800,Genral Administration & Business,38469.0,5.1
+159,2025,2400,School Administration,0.0,0.0
+159,2025,2500,Business Services,0.0,0.0
+159,2025,2600,Plant Operations,0.0,0.0
+159,2025,2700,Transportation,52672.0,6.9
+159,2025,2900,Other Support Services,0.0,0.0
+159,2025,1500,Non-public Programs,0.0,0.0
+159,2025,"1600-1800,2750",Community Programs,0.0,0.0
+159,2025,5120,Bond Interest,0.0,0.0
+159,2025,5310+5390,Charter Schools/Other Agencies,0.0,0.0
+159,2025,3100,Food Service,0.0,0.0
+159,2025,4000,Facility Construction,0.0,
+159,2025,5100,Bonds & Notes Principal Repayment,0.0,
+162,2025,1100,Regular Education,206920.0,82.1
+162,2025,1200,Special Programs,23540.0,9.3
+162,2025,1300,Vocational Programs,0.0,0.0
+162,2025,1400,Other Instructional Programs,0.0,0.0
+162,2025,2100,Student Support Services,0.0,0.0
+162,2025,2200,Instructional Staff Support,0.0,0.0
+162,2025,2300&2800,Genral Administration & Business,16568.0,6.6
+162,2025,2400,School Administration,0.0,0.0
+162,2025,2500,Business Services,195.0,0.1
+162,2025,2600,Plant Operations,0.0,0.0
+162,2025,2700,Transportation,4695.0,1.9
+162,2025,2900,Other Support Services,0.0,0.0
+162,2025,1500,Non-public Programs,0.0,0.0
+162,2025,"1600-1800,2750",Community Programs,0.0,0.0
+162,2025,5120,Bond Interest,0.0,0.0
+162,2025,5310+5390,Charter Schools/Other Agencies,0.0,0.0
+162,2025,3100,Food Service,0.0,0.0
+162,2025,4000,Facility Construction,0.0,
+162,2025,5100,Bonds & Notes Principal Repayment,0.0,
+165,2025,1100,Regular Education,8111187.0,36.3
+165,2025,1200,Special Programs,4937277.0,22.1
+165,2025,1300,Vocational Programs,234684.0,1.1
+165,2025,1400,Other Instructional Programs,513046.0,2.3
+165,2025,2100,Student Support Services,1697171.0,7.6
+165,2025,2200,Instructional Staff Support,1235750.0,5.5
+165,2025,2300&2800,Genral Administration & Business,740353.0,3.3
+165,2025,2400,School Administration,1374447.0,6.2
+165,2025,2500,Business Services,0.0,0.0
+165,2025,2600,Plant Operations,2035852.0,9.1
+165,2025,2700,Transportation,1086927.0,4.9
+165,2025,2900,Other Support Services,0.0,0.0
+165,2025,1500,Non-public Programs,0.0,0.0
+165,2025,"1600-1800,2750",Community Programs,0.0,0.0
+165,2025,5120,Bond Interest,79399.0,0.4
+165,2025,5310+5390,Charter Schools/Other Agencies,0.0,0.0
+165,2025,3100,Food Service,297101.81,1.3
+165,2025,4000,Facility Construction,0.0,
+165,2025,5100,Bonds & Notes Principal Repayment,1040000.0,
+167,2025,1100,Regular Education,6520319.0,46.4
+167,2025,1200,Special Programs,3133201.0,22.3
+167,2025,1300,Vocational Programs,0.0,0.0
+167,2025,1400,Other Instructional Programs,142394.0,1.0
+167,2025,2100,Student Support Services,1173424.0,8.4
+167,2025,2200,Instructional Staff Support,166042.0,1.2
+167,2025,2300&2800,Genral Administration & Business,423744.0,3.0
+167,2025,2400,School Administration,820635.0,5.8
+167,2025,2500,Business Services,0.0,0.0
+167,2025,2600,Plant Operations,664838.0,4.7
+167,2025,2700,Transportation,866251.0,6.2
+167,2025,2900,Other Support Services,0.0,0.0
+167,2025,1500,Non-public Programs,0.0,0.0
+167,2025,"1600-1800,2750",Community Programs,0.0,0.0
+167,2025,5120,Bond Interest,0.0,0.0
+167,2025,5310+5390,Charter Schools/Other Agencies,0.0,0.0
+167,2025,3100,Food Service,138516.45,1.0
+167,2025,4000,Facility Construction,0.0,
+167,2025,5100,Bonds & Notes Principal Repayment,0.0,
+171,2025,1100,Regular Education,294944.0,44.2
+171,2025,1200,Special Programs,105023.0,15.7
+171,2025,1300,Vocational Programs,0.0,0.0
+171,2025,1400,Other Instructional Programs,1631.0,0.2
+171,2025,2100,Student Support Services,11531.0,1.7
+171,2025,2200,Instructional Staff Support,4245.0,0.6
+171,2025,2300&2800,Genral Administration & Business,70898.0,10.6
+171,2025,2400,School Administration,36443.0,5.5
+171,2025,2500,Business Services,0.0,0.0
+171,2025,2600,Plant Operations,54937.0,8.2
+171,2025,2700,Transportation,54901.0,8.2
+171,2025,2900,Other Support Services,0.0,0.0
+171,2025,1500,Non-public Programs,0.0,0.0
+171,2025,"1600-1800,2750",Community Programs,355.0,0.1
+171,2025,5120,Bond Interest,0.0,0.0
+171,2025,5310+5390,Charter Schools/Other Agencies,1733.55,0.3
+171,2025,3100,Food Service,31365.45,4.7
+171,2025,4000,Facility Construction,0.0,
+171,2025,5100,Bonds & Notes Principal Repayment,0.0,
+173,2025,1100,Regular Education,10074239.0,40.5
+173,2025,1200,Special Programs,6886442.0,27.7
+173,2025,1300,Vocational Programs,0.0,0.0
+173,2025,1400,Other Instructional Programs,56060.0,0.2
+173,2025,2100,Student Support Services,2376092.0,9.5
+173,2025,2200,Instructional Staff Support,1148712.0,4.6
+173,2025,2300&2800,Genral Administration & Business,613130.0,2.5
+173,2025,2400,School Administration,1109343.0,4.5
+173,2025,2500,Business Services,0.0,0.0
+173,2025,2600,Plant Operations,1514239.0,6.1
+173,2025,2700,Transportation,775853.0,3.1
+173,2025,2900,Other Support Services,0.0,0.0
+173,2025,1500,Non-public Programs,0.0,0.0
+173,2025,"1600-1800,2750",Community Programs,0.0,0.0
+173,2025,5120,Bond Interest,56033.0,0.2
+173,2025,5310+5390,Charter Schools/Other Agencies,0.0,0.0
+173,2025,3100,Food Service,277777.8,1.1
+173,2025,4000,Facility Construction,0.0,
+173,2025,5100,Bonds & Notes Principal Repayment,465000.0,
+172,2025,1100,Regular Education,23592901.0,35.4
+172,2025,1200,Special Programs,14093760.0,21.1
+172,2025,1300,Vocational Programs,3437769.0,5.2
+172,2025,1400,Other Instructional Programs,1436941.0,2.2
+172,2025,2100,Student Support Services,5119303.0,7.7
+172,2025,2200,Instructional Staff Support,3305809.0,5.0
+172,2025,2300&2800,Genral Administration & Business,1847943.0,2.8
+172,2025,2400,School Administration,2999248.0,4.5
+172,2025,2500,Business Services,0.0,0.0
+172,2025,2600,Plant Operations,5780660.0,8.7
+172,2025,2700,Transportation,3550863.0,5.3
+172,2025,2900,Other Support Services,0.0,0.0
+172,2025,1500,Non-public Programs,0.0,0.0
+172,2025,"1600-1800,2750",Community Programs,584416.0,0.9
+172,2025,5120,Bond Interest,465330.0,0.7
+172,2025,5310+5390,Charter Schools/Other Agencies,63750.0,0.1
+172,2025,3100,Food Service,395761.99,0.6
+172,2025,4000,Facility Construction,0.0,
+172,2025,5100,Bonds & Notes Principal Repayment,40097.0,
+174,2025,1100,Regular Education,12849283.0,36.0
+174,2025,1200,Special Programs,8111681.0,22.7
+174,2025,1300,Vocational Programs,866854.0,2.4
+174,2025,1400,Other Instructional Programs,575181.0,1.6
+174,2025,2100,Student Support Services,2680300.0,7.5
+174,2025,2200,Instructional Staff Support,1897032.0,5.3
+174,2025,2300&2800,Genral Administration & Business,899040.0,2.5
+174,2025,2400,School Administration,1863846.0,5.2
+174,2025,2500,Business Services,531152.0,1.5
+174,2025,2600,Plant Operations,3307218.0,9.3
+174,2025,2700,Transportation,1571682.0,4.4
+174,2025,2900,Other Support Services,0.0,0.0
+174,2025,1500,Non-public Programs,0.0,0.0
+174,2025,"1600-1800,2750",Community Programs,0.0,0.0
+174,2025,5120,Bond Interest,427.0,0.0
+174,2025,5310+5390,Charter Schools/Other Agencies,0.0,0.0
+174,2025,3100,Food Service,582110.92,1.6
+174,2025,4000,Facility Construction,420286.0,
+174,2025,5100,Bonds & Notes Principal Repayment,100000.0,
+175,2025,1100,Regular Education,6759417.0,34.2
+175,2025,1200,Special Programs,4430346.0,22.4
+175,2025,1300,Vocational Programs,144767.0,0.7
+175,2025,1400,Other Instructional Programs,301954.0,1.5
+175,2025,2100,Student Support Services,1292035.0,6.5
+175,2025,2200,Instructional Staff Support,351653.0,1.8
+175,2025,2300&2800,Genral Administration & Business,1647055.0,8.3
+175,2025,2400,School Administration,1264030.0,6.4
+175,2025,2500,Business Services,401099.0,2.0
+175,2025,2600,Plant Operations,2021293.0,10.2
+175,2025,2700,Transportation,833473.0,4.2
+175,2025,2900,Other Support Services,0.0,0.0
+175,2025,1500,Non-public Programs,0.0,0.0
+175,2025,"1600-1800,2750",Community Programs,0.0,0.0
+175,2025,5120,Bond Interest,0.0,0.0
+175,2025,5310+5390,Charter Schools/Other Agencies,0.0,0.0
+175,2025,3100,Food Service,292471.14,1.5
+175,2025,4000,Facility Construction,0.0,
+175,2025,5100,Bonds & Notes Principal Repayment,0.0,
+185,2025,1100,Regular Education,6135945.0,27.2
+185,2025,1200,Special Programs,5122986.0,22.7
+185,2025,1300,Vocational Programs,83812.0,0.4
+185,2025,1400,Other Instructional Programs,427404.0,1.9
+185,2025,2100,Student Support Services,2434505.0,10.8
+185,2025,2200,Instructional Staff Support,834095.0,3.7
+185,2025,2300&2800,Genral Administration & Business,1218360.0,5.4
+185,2025,2400,School Administration,1234305.0,5.5
+185,2025,2500,Business Services,368824.0,1.6
+185,2025,2600,Plant Operations,3042111.0,13.5
+185,2025,2700,Transportation,885382.0,3.9
+185,2025,2900,Other Support Services,0.0,0.0
+185,2025,1500,Non-public Programs,0.0,0.0
+185,2025,"1600-1800,2750",Community Programs,52012.0,0.2
+185,2025,5120,Bond Interest,68506.0,0.3
+185,2025,5310+5390,Charter Schools/Other Agencies,0.0,0.0
+185,2025,3100,Food Service,610858.3,2.7
+185,2025,4000,Facility Construction,120735.0,
+185,2025,5100,Bonds & Notes Principal Repayment,225935.0,
+187,2025,1100,Regular Education,2539186.0,58.4
+187,2025,1200,Special Programs,388695.0,8.9
+187,2025,1300,Vocational Programs,0.0,0.0
+187,2025,1400,Other Instructional Programs,13374.0,0.3
+187,2025,2100,Student Support Services,137599.0,3.2
+187,2025,2200,Instructional Staff Support,19182.0,0.4
+187,2025,2300&2800,Genral Administration & Business,385058.0,8.9
+187,2025,2400,School Administration,227537.0,5.2
+187,2025,2500,Business Services,3113.0,0.1
+187,2025,2600,Plant Operations,304514.0,7.0
+187,2025,2700,Transportation,282432.0,6.5
+187,2025,2900,Other Support Services,0.0,0.0
+187,2025,1500,Non-public Programs,0.0,0.0
+187,2025,"1600-1800,2750",Community Programs,0.0,0.0
+187,2025,5120,Bond Interest,0.0,0.0
+187,2025,5310+5390,Charter Schools/Other Agencies,0.0,0.0
+187,2025,3100,Food Service,47656.0,1.1
+187,2025,4000,Facility Construction,0.0,
+187,2025,5100,Bonds & Notes Principal Repayment,0.0,
+189,2025,1100,Regular Education,7142705.0,52.6
+189,2025,1200,Special Programs,2371683.0,17.5
+189,2025,1300,Vocational Programs,0.0,0.0
+189,2025,1400,Other Instructional Programs,87615.0,0.6
+189,2025,2100,Student Support Services,959867.0,7.1
+189,2025,2200,Instructional Staff Support,257296.0,1.9
+189,2025,2300&2800,Genral Administration & Business,736620.0,5.4
+189,2025,2400,School Administration,506446.0,3.7
+189,2025,2500,Business Services,0.0,0.0
+189,2025,2600,Plant Operations,609194.0,4.5
+189,2025,2700,Transportation,835245.0,6.1
+189,2025,2900,Other Support Services,0.0,0.0
+189,2025,1500,Non-public Programs,0.0,0.0
+189,2025,"1600-1800,2750",Community Programs,0.0,0.0
+189,2025,5120,Bond Interest,0.0,0.0
+189,2025,5310+5390,Charter Schools/Other Agencies,0.0,0.0
+189,2025,3100,Food Service,79251.17000000001,0.6
+189,2025,4000,Facility Construction,0.0,
+189,2025,5100,Bonds & Notes Principal Repayment,0.0,
+742,2025,1100,Regular Education,847711.0,43.6
+742,2025,1200,Special Programs,109503.0,5.6
+742,2025,1300,Vocational Programs,0.0,0.0
+742,2025,1400,Other Instructional Programs,0.0,0.0
+742,2025,2100,Student Support Services,155735.0,8.0
+742,2025,2200,Instructional Staff Support,0.0,0.0
+742,2025,2300&2800,Genral Administration & Business,500.0,0.0
+742,2025,2400,School Administration,290189.0,14.9
+742,2025,2500,Business Services,126700.0,6.5
+742,2025,2600,Plant Operations,414438.0,21.3
+742,2025,2700,Transportation,0.0,0.0
+742,2025,2900,Other Support Services,0.0,0.0
+742,2025,1500,Non-public Programs,0.0,0.0
+742,2025,"1600-1800,2750",Community Programs,0.0,0.0
+742,2025,5120,Bond Interest,0.0,0.0
+742,2025,5310+5390,Charter Schools/Other Agencies,0.0,0.0
+742,2025,3100,Food Service,0.0,0.0
+742,2025,4000,Facility Construction,0.0,
+742,2025,5100,Bonds & Notes Principal Repayment,0.0,
+750,2025,1100,Regular Education,2226552.0,58.2
+750,2025,1200,Special Programs,239352.0,6.3
+750,2025,1300,Vocational Programs,0.0,0.0
+750,2025,1400,Other Instructional Programs,34710.0,0.9
+750,2025,2100,Student Support Services,44857.0,1.2
+750,2025,2200,Instructional Staff Support,38012.0,1.0
+750,2025,2300&2800,Genral Administration & Business,0.0,0.0
+750,2025,2400,School Administration,511673.0,13.4
+750,2025,2500,Business Services,2015.0,0.1
+750,2025,2600,Plant Operations,673562.0,17.6
+750,2025,2700,Transportation,21770.0,0.6
+750,2025,2900,Other Support Services,0.0,0.0
+750,2025,1500,Non-public Programs,0.0,0.0
+750,2025,"1600-1800,2750",Community Programs,0.0,0.0
+750,2025,5120,Bond Interest,36308.0,0.9
+750,2025,5310+5390,Charter Schools/Other Agencies,0.0,0.0
+750,2025,3100,Food Service,0.0,0.0
+750,2025,4000,Facility Construction,0.0,
+750,2025,5100,Bonds & Notes Principal Repayment,81059.0,
+191,2025,1100,Regular Education,11501559.0,41.2
+191,2025,1200,Special Programs,4707571.0,16.9
+191,2025,1300,Vocational Programs,482193.0,1.7
+191,2025,1400,Other Instructional Programs,1106713.0,4.0
+191,2025,2100,Student Support Services,1548435.0,5.5
+191,2025,2200,Instructional Staff Support,1360346.0,4.9
+191,2025,2300&2800,Genral Administration & Business,434362.0,1.6
+191,2025,2400,School Administration,1870919.0,6.7
+191,2025,2500,Business Services,534176.0,1.9
+191,2025,2600,Plant Operations,3228994.0,11.6
+191,2025,2700,Transportation,737373.0,2.6
+191,2025,2900,Other Support Services,0.0,0.0
+191,2025,1500,Non-public Programs,0.0,0.0
+191,2025,"1600-1800,2750",Community Programs,0.0,0.0
+191,2025,5120,Bond Interest,106831.0,0.4
+191,2025,5310+5390,Charter Schools/Other Agencies,0.0,0.0
+191,2025,3100,Food Service,315220.0,1.1
+191,2025,4000,Facility Construction,3018509.0,
+191,2025,5100,Bonds & Notes Principal Repayment,135000.0,
+195,2025,1100,Regular Education,8280208.0,63.4
+195,2025,1200,Special Programs,1021339.0,7.8
+195,2025,1300,Vocational Programs,0.0,0.0
+195,2025,1400,Other Instructional Programs,80461.0,0.6
+195,2025,2100,Student Support Services,606085.0,4.6
+195,2025,2200,Instructional Staff Support,415510.0,3.2
+195,2025,2300&2800,Genral Administration & Business,487205.0,3.7
+195,2025,2400,School Administration,436567.0,3.3
+195,2025,2500,Business Services,213016.0,1.6
+195,2025,2600,Plant Operations,733254.0,5.6
+195,2025,2700,Transportation,642396.0,4.9
+195,2025,2900,Other Support Services,0.0,0.0
+195,2025,1500,Non-public Programs,0.0,0.0
+195,2025,"1600-1800,2750",Community Programs,0.0,0.0
+195,2025,5120,Bond Interest,33690.0,0.3
+195,2025,5310+5390,Charter Schools/Other Agencies,0.0,0.0
+195,2025,3100,Food Service,120478.34,0.9
+195,2025,4000,Facility Construction,0.0,
+195,2025,5100,Bonds & Notes Principal Repayment,80000.0,
+199,2025,1100,Regular Education,21023839.0,40.3
+199,2025,1200,Special Programs,12272395.0,23.5
+199,2025,1300,Vocational Programs,323601.0,0.6
+199,2025,1400,Other Instructional Programs,1028880.0,2.0
+199,2025,2100,Student Support Services,3123846.0,6.0
+199,2025,2200,Instructional Staff Support,1528687.0,2.9
+199,2025,2300&2800,Genral Administration & Business,2215991.0,4.2
+199,2025,2400,School Administration,3533334.0,6.8
+199,2025,2500,Business Services,56373.0,0.1
+199,2025,2600,Plant Operations,3856564.0,7.4
+199,2025,2700,Transportation,2634088.0,5.0
+199,2025,2900,Other Support Services,0.0,0.0
+199,2025,1500,Non-public Programs,0.0,0.0
+199,2025,"1600-1800,2750",Community Programs,119730.0,0.2
+199,2025,5120,Bond Interest,0.0,0.0
+199,2025,5310+5390,Charter Schools/Other Agencies,0.0,0.0
+199,2025,3100,Food Service,466378.61,0.9
+199,2025,4000,Facility Construction,153954.0,
+199,2025,5100,Bonds & Notes Principal Repayment,0.0,
+203,2025,1100,Regular Education,3323729.0,32.5
+203,2025,1200,Special Programs,2518196.0,24.6
+203,2025,1300,Vocational Programs,44871.0,0.4
+203,2025,1400,Other Instructional Programs,222532.0,2.2
+203,2025,2100,Student Support Services,947926.0,9.3
+203,2025,2200,Instructional Staff Support,468167.0,4.6
+203,2025,2300&2800,Genral Administration & Business,722064.0,7.1
+203,2025,2400,School Administration,575410.0,5.6
+203,2025,2500,Business Services,0.0,0.0
+203,2025,2600,Plant Operations,849637.0,8.3
+203,2025,2700,Transportation,284054.0,2.8
+203,2025,2900,Other Support Services,0.0,0.0
+203,2025,1500,Non-public Programs,12875.0,0.1
+203,2025,"1600-1800,2750",Community Programs,2938.0,0.0
+203,2025,5120,Bond Interest,0.0,0.0
+203,2025,5310+5390,Charter Schools/Other Agencies,18807.52,0.2
+203,2025,3100,Food Service,227490.16999999998,2.2
+203,2025,4000,Facility Construction,179973.0,
+203,2025,5100,Bonds & Notes Principal Repayment,0.0,
+204,2025,1100,Regular Education,1105432.0,82.6
+204,2025,1200,Special Programs,96834.0,7.2
+204,2025,1300,Vocational Programs,0.0,0.0
+204,2025,1400,Other Instructional Programs,0.0,0.0
+204,2025,2100,Student Support Services,4813.0,0.4
+204,2025,2200,Instructional Staff Support,0.0,0.0
+204,2025,2300&2800,Genral Administration & Business,117093.0,8.7
+204,2025,2400,School Administration,0.0,0.0
+204,2025,2500,Business Services,14273.0,1.1
+204,2025,2600,Plant Operations,0.0,0.0
+204,2025,2700,Transportation,223.0,0.0
+204,2025,2900,Other Support Services,0.0,0.0
+204,2025,1500,Non-public Programs,0.0,0.0
+204,2025,"1600-1800,2750",Community Programs,0.0,0.0
+204,2025,5120,Bond Interest,0.0,0.0
+204,2025,5310+5390,Charter Schools/Other Agencies,0.0,0.0
+204,2025,3100,Food Service,0.0,0.0
+204,2025,4000,Facility Construction,0.0,
+204,2025,5100,Bonds & Notes Principal Repayment,0.0,
+208,2025,1100,Regular Education,24322002.0,38.8
+208,2025,1200,Special Programs,11761201.0,18.8
+208,2025,1300,Vocational Programs,2282185.0,3.6
+208,2025,1400,Other Instructional Programs,859478.0,1.4
+208,2025,2100,Student Support Services,2714927.0,4.3
+208,2025,2200,Instructional Staff Support,4165003.0,6.6
+208,2025,2300&2800,Genral Administration & Business,1410663.0,2.3
+208,2025,2400,School Administration,3575083.0,5.7
+208,2025,2500,Business Services,892789.0,1.4
+208,2025,2600,Plant Operations,4956220.0,7.9
+208,2025,2700,Transportation,3138949.0,5.0
+208,2025,2900,Other Support Services,0.0,0.0
+208,2025,1500,Non-public Programs,0.0,0.0
+208,2025,"1600-1800,2750",Community Programs,161017.0,0.3
+208,2025,5120,Bond Interest,1688182.0,2.7
+208,2025,5310+5390,Charter Schools/Other Agencies,0.0,0.0
+208,2025,3100,Food Service,704333.06,1.1
+208,2025,4000,Facility Construction,3120937.0,
+208,2025,5100,Bonds & Notes Principal Repayment,1948396.0,
+211,2025,1100,Regular Education,5882210.0,55.6
+211,2025,1200,Special Programs,1822471.0,17.2
+211,2025,1300,Vocational Programs,0.0,0.0
+211,2025,1400,Other Instructional Programs,0.0,0.0
+211,2025,2100,Student Support Services,580731.0,5.5
+211,2025,2200,Instructional Staff Support,330139.0,3.1
+211,2025,2300&2800,Genral Administration & Business,465788.0,4.4
+211,2025,2400,School Administration,280181.0,2.6
+211,2025,2500,Business Services,0.0,0.0
+211,2025,2600,Plant Operations,705133.0,6.7
+211,2025,2700,Transportation,372597.0,3.5
+211,2025,2900,Other Support Services,0.0,0.0
+211,2025,1500,Non-public Programs,0.0,0.0
+211,2025,"1600-1800,2750",Community Programs,0.0,0.0
+211,2025,5120,Bond Interest,95890.0,0.9
+211,2025,5310+5390,Charter Schools/Other Agencies,0.0,0.0
+211,2025,3100,Food Service,50095.399999999994,0.5
+211,2025,4000,Facility Construction,16341.0,
+211,2025,5100,Bonds & Notes Principal Repayment,417300.0,
+709,2025,1100,Regular Education,1152466.0,45.8
+709,2025,1200,Special Programs,596130.0,23.7
+709,2025,1300,Vocational Programs,0.0,0.0
+709,2025,1400,Other Instructional Programs,7115.0,0.3
+709,2025,2100,Student Support Services,161697.0,6.4
+709,2025,2200,Instructional Staff Support,11838.0,0.5
+709,2025,2300&2800,Genral Administration & Business,30094.0,1.2
+709,2025,2400,School Administration,443693.0,17.6
+709,2025,2500,Business Services,62659.0,2.5
+709,2025,2600,Plant Operations,64577.0,2.6
+709,2025,2700,Transportation,4699.0,0.2
+709,2025,2900,Other Support Services,0.0,0.0
+709,2025,1500,Non-public Programs,0.0,0.0
+709,2025,"1600-1800,2750",Community Programs,0.0,0.0
+709,2025,5120,Bond Interest,0.0,0.0
+709,2025,5310+5390,Charter Schools/Other Agencies,0.0,0.0
+709,2025,3100,Food Service,-17876.15,-0.7
+709,2025,4000,Facility Construction,0.0,
+709,2025,5100,Bonds & Notes Principal Repayment,0.0,
+215,2025,1100,Regular Education,7826290.0,56.8
+215,2025,1200,Special Programs,1552226.0,11.3
+215,2025,1300,Vocational Programs,0.0,0.0
+215,2025,1400,Other Instructional Programs,122779.0,0.9
+215,2025,2100,Student Support Services,1042716.0,7.6
+215,2025,2200,Instructional Staff Support,454566.0,3.3
+215,2025,2300&2800,Genral Administration & Business,801829.0,5.8
+215,2025,2400,School Administration,542632.0,3.9
+215,2025,2500,Business Services,0.0,0.0
+215,2025,2600,Plant Operations,766883.0,5.6
+215,2025,2700,Transportation,559425.0,4.1
+215,2025,2900,Other Support Services,0.0,0.0
+215,2025,1500,Non-public Programs,0.0,0.0
+215,2025,"1600-1800,2750",Community Programs,0.0,0.0
+215,2025,5120,Bond Interest,51244.0,0.4
+215,2025,5310+5390,Charter Schools/Other Agencies,0.0,0.0
+215,2025,3100,Food Service,59699.08,0.4
+215,2025,4000,Facility Construction,131503.0,
+215,2025,5100,Bonds & Notes Principal Repayment,61470.0,
+222,2025,1100,Regular Education,94463.0,90.7
+222,2025,1200,Special Programs,0.0,0.0
+222,2025,1300,Vocational Programs,0.0,0.0
+222,2025,1400,Other Instructional Programs,0.0,0.0
+222,2025,2100,Student Support Services,0.0,0.0
+222,2025,2200,Instructional Staff Support,0.0,0.0
+222,2025,2300&2800,Genral Administration & Business,9692.0,9.3
+222,2025,2400,School Administration,0.0,0.0
+222,2025,2500,Business Services,0.0,0.0
+222,2025,2600,Plant Operations,0.0,0.0
+222,2025,2700,Transportation,0.0,0.0
+222,2025,2900,Other Support Services,0.0,0.0
+222,2025,1500,Non-public Programs,0.0,0.0
+222,2025,"1600-1800,2750",Community Programs,0.0,0.0
+222,2025,5120,Bond Interest,0.0,0.0
+222,2025,5310+5390,Charter Schools/Other Agencies,0.0,0.0
+222,2025,3100,Food Service,0.0,0.0
+222,2025,4000,Facility Construction,0.0,
+222,2025,5100,Bonds & Notes Principal Repayment,0.0,
+223,2025,1100,Regular Education,15461321.0,45.6
+223,2025,1200,Special Programs,9587404.0,28.2
+223,2025,1300,Vocational Programs,0.0,0.0
+223,2025,1400,Other Instructional Programs,133882.0,0.4
+223,2025,2100,Student Support Services,1541325.0,4.5
+223,2025,2200,Instructional Staff Support,547721.0,1.6
+223,2025,2300&2800,Genral Administration & Business,796681.0,2.3
+223,2025,2400,School Administration,1299449.0,3.8
+223,2025,2500,Business Services,337109.0,1.0
+223,2025,2600,Plant Operations,2125263.0,6.3
+223,2025,2700,Transportation,1938327.0,5.7
+223,2025,2900,Other Support Services,0.0,0.0
+223,2025,1500,Non-public Programs,0.0,0.0
+223,2025,"1600-1800,2750",Community Programs,17645.0,0.1
+223,2025,5120,Bond Interest,0.0,0.0
+223,2025,5310+5390,Charter Schools/Other Agencies,0.0,0.0
+223,2025,3100,Food Service,157255.36,0.5
+223,2025,4000,Facility Construction,1252186.0,
+223,2025,5100,Bonds & Notes Principal Repayment,0.0,
+225,2025,1100,Regular Education,10651308.0,37.9
+225,2025,1200,Special Programs,5330671.0,19.0
+225,2025,1300,Vocational Programs,0.0,0.0
+225,2025,1400,Other Instructional Programs,229238.0,0.8
+225,2025,2100,Student Support Services,1988666.0,7.1
+225,2025,2200,Instructional Staff Support,1961950.0,7.0
+225,2025,2300&2800,Genral Administration & Business,866254.0,3.1
+225,2025,2400,School Administration,1607878.0,5.7
+225,2025,2500,Business Services,0.0,0.0
+225,2025,2600,Plant Operations,3236189.0,11.5
+225,2025,2700,Transportation,1231888.0,4.4
+225,2025,2900,Other Support Services,0.0,0.0
+225,2025,1500,Non-public Programs,0.0,0.0
+225,2025,"1600-1800,2750",Community Programs,0.0,0.0
+225,2025,5120,Bond Interest,789610.0,2.8
+225,2025,5310+5390,Charter Schools/Other Agencies,0.0,0.0
+225,2025,3100,Food Service,222242.0,0.8
+225,2025,4000,Facility Construction,300000.0,
+225,2025,5100,Bonds & Notes Principal Repayment,710000.0,
+227,2025,1100,Regular Education,2851191.0,38.7
+227,2025,1200,Special Programs,1955468.0,26.5
+227,2025,1300,Vocational Programs,0.0,0.0
+227,2025,1400,Other Instructional Programs,65099.0,0.9
+227,2025,2100,Student Support Services,227786.0,3.1
+227,2025,2200,Instructional Staff Support,456549.0,6.2
+227,2025,2300&2800,Genral Administration & Business,271258.0,3.7
+227,2025,2400,School Administration,281356.0,3.8
+227,2025,2500,Business Services,0.0,0.0
+227,2025,2600,Plant Operations,670853.0,9.1
+227,2025,2700,Transportation,369660.0,5.0
+227,2025,2900,Other Support Services,0.0,0.0
+227,2025,1500,Non-public Programs,0.0,0.0
+227,2025,"1600-1800,2750",Community Programs,0.0,0.0
+227,2025,5120,Bond Interest,122359.0,1.7
+227,2025,5310+5390,Charter Schools/Other Agencies,0.0,0.0
+227,2025,3100,Food Service,105144.86,1.4
+227,2025,4000,Facility Construction,0.0,
+227,2025,5100,Bonds & Notes Principal Repayment,240000.0,
+233,2025,1100,Regular Education,6000646.0,42.6
+233,2025,1200,Special Programs,4318048.0,30.6
+233,2025,1300,Vocational Programs,0.0,0.0
+233,2025,1400,Other Instructional Programs,0.0,0.0
+233,2025,2100,Student Support Services,365861.0,2.6
+233,2025,2200,Instructional Staff Support,332554.0,2.4
+233,2025,2300&2800,Genral Administration & Business,667772.0,4.7
+233,2025,2400,School Administration,684666.0,4.9
+233,2025,2500,Business Services,0.0,0.0
+233,2025,2600,Plant Operations,769845.0,5.5
+233,2025,2700,Transportation,797639.0,5.7
+233,2025,2900,Other Support Services,0.0,0.0
+233,2025,1500,Non-public Programs,0.0,0.0
+233,2025,"1600-1800,2750",Community Programs,0.0,0.0
+233,2025,5120,Bond Interest,128944.0,0.9
+233,2025,5310+5390,Charter Schools/Other Agencies,0.0,0.0
+233,2025,3100,Food Service,35481.75,0.3
+233,2025,4000,Facility Construction,340735.0,
+233,2025,5100,Bonds & Notes Principal Repayment,265000.0,
+235,2025,1100,Regular Education,1111129.0,43.3
+235,2025,1200,Special Programs,382215.0,14.9
+235,2025,1300,Vocational Programs,0.0,0.0
+235,2025,1400,Other Instructional Programs,9513.0,0.4
+235,2025,2100,Student Support Services,223954.0,8.7
+235,2025,2200,Instructional Staff Support,38764.0,1.5
+235,2025,2300&2800,Genral Administration & Business,201916.0,7.9
+235,2025,2400,School Administration,232490.0,9.1
+235,2025,2500,Business Services,4961.0,0.2
+235,2025,2600,Plant Operations,174396.0,6.8
+235,2025,2700,Transportation,151377.0,5.9
+235,2025,2900,Other Support Services,0.0,0.0
+235,2025,1500,Non-public Programs,0.0,0.0
+235,2025,"1600-1800,2750",Community Programs,0.0,0.0
+235,2025,5120,Bond Interest,0.0,0.0
+235,2025,5310+5390,Charter Schools/Other Agencies,0.0,0.0
+235,2025,3100,Food Service,33615.149999999994,1.3
+235,2025,4000,Facility Construction,0.0,
+235,2025,5100,Bonds & Notes Principal Repayment,0.0,
+236,2025,1100,Regular Education,27682.0,81.9
+236,2025,1200,Special Programs,0.0,0.0
+236,2025,1300,Vocational Programs,0.0,0.0
+236,2025,1400,Other Instructional Programs,0.0,0.0
+236,2025,2100,Student Support Services,0.0,0.0
+236,2025,2200,Instructional Staff Support,0.0,0.0
+236,2025,2300&2800,Genral Administration & Business,6118.0,18.1
+236,2025,2400,School Administration,0.0,0.0
+236,2025,2500,Business Services,0.0,0.0
+236,2025,2600,Plant Operations,0.0,0.0
+236,2025,2700,Transportation,0.0,0.0
+236,2025,2900,Other Support Services,0.0,0.0
+236,2025,1500,Non-public Programs,0.0,0.0
+236,2025,"1600-1800,2750",Community Programs,0.0,0.0
+236,2025,5120,Bond Interest,0.0,0.0
+236,2025,5310+5390,Charter Schools/Other Agencies,0.0,0.0
+236,2025,3100,Food Service,0.0,0.0
+236,2025,4000,Facility Construction,0.0,
+236,2025,5100,Bonds & Notes Principal Repayment,0.0,
+238,2025,1100,Regular Education,5362027.0,33.3
+238,2025,1200,Special Programs,3056857.0,19.0
+238,2025,1300,Vocational Programs,399206.0,2.5
+238,2025,1400,Other Instructional Programs,400044.0,2.5
+238,2025,2100,Student Support Services,1467390.0,9.1
+238,2025,2200,Instructional Staff Support,543398.0,3.4
+238,2025,2300&2800,Genral Administration & Business,1120231.0,7.0
+238,2025,2400,School Administration,1178475.0,7.3
+238,2025,2500,Business Services,0.0,0.0
+238,2025,2600,Plant Operations,1324450.0,8.2
+238,2025,2700,Transportation,736056.0,4.6
+238,2025,2900,Other Support Services,0.0,0.0
+238,2025,1500,Non-public Programs,0.0,0.0
+238,2025,"1600-1800,2750",Community Programs,12384.0,0.1
+238,2025,5120,Bond Interest,186227.0,1.2
+238,2025,5310+5390,Charter Schools/Other Agencies,13256.0,0.1
+238,2025,3100,Food Service,285618.0,1.8
+238,2025,4000,Facility Construction,3247065.0,
+238,2025,5100,Bonds & Notes Principal Repayment,140000.0,
+718,2025,1100,Regular Education,576947.0,50.7
+718,2025,1200,Special Programs,73048.0,6.4
+718,2025,1300,Vocational Programs,0.0,0.0
+718,2025,1400,Other Instructional Programs,6579.0,0.6
+718,2025,2100,Student Support Services,698.0,0.1
+718,2025,2200,Instructional Staff Support,22113.0,1.9
+718,2025,2300&2800,Genral Administration & Business,26790.0,2.4
+718,2025,2400,School Administration,148105.0,13.0
+718,2025,2500,Business Services,0.0,0.0
+718,2025,2600,Plant Operations,249750.0,21.9
+718,2025,2700,Transportation,3324.0,0.3
+718,2025,2900,Other Support Services,0.0,0.0
+718,2025,1500,Non-public Programs,0.0,0.0
+718,2025,"1600-1800,2750",Community Programs,0.0,0.0
+718,2025,5120,Bond Interest,31433.0,2.8
+718,2025,5310+5390,Charter Schools/Other Agencies,0.0,0.0
+718,2025,3100,Food Service,0.0,0.0
+718,2025,4000,Facility Construction,0.0,
+718,2025,5100,Bonds & Notes Principal Repayment,13535.0,
+245,2025,1100,Regular Education,3635851.0,37.1
+245,2025,1200,Special Programs,2422476.0,24.7
+245,2025,1300,Vocational Programs,0.0,0.0
+245,2025,1400,Other Instructional Programs,52668.0,0.5
+245,2025,2100,Student Support Services,719384.0,7.3
+245,2025,2200,Instructional Staff Support,447865.0,4.6
+245,2025,2300&2800,Genral Administration & Business,460071.0,4.7
+245,2025,2400,School Administration,601985.0,6.1
+245,2025,2500,Business Services,0.0,0.0
+245,2025,2600,Plant Operations,833711.0,8.5
+245,2025,2700,Transportation,452964.0,4.6
+245,2025,2900,Other Support Services,0.0,0.0
+245,2025,1500,Non-public Programs,0.0,0.0
+245,2025,"1600-1800,2750",Community Programs,0.0,0.0
+245,2025,5120,Bond Interest,53782.0,0.5
+245,2025,5310+5390,Charter Schools/Other Agencies,0.0,0.0
+245,2025,3100,Food Service,113290.33,1.2
+245,2025,4000,Facility Construction,0.0,
+245,2025,5100,Bonds & Notes Principal Repayment,140513.0,
+247,2025,1100,Regular Education,1440137.0,54.3
+247,2025,1200,Special Programs,306318.0,11.5
+247,2025,1300,Vocational Programs,0.0,0.0
+247,2025,1400,Other Instructional Programs,30034.0,1.1
+247,2025,2100,Student Support Services,133965.0,5.1
+247,2025,2200,Instructional Staff Support,14808.0,0.6
+247,2025,2300&2800,Genral Administration & Business,177824.0,6.7
+247,2025,2400,School Administration,140153.0,5.3
+247,2025,2500,Business Services,0.0,0.0
+247,2025,2600,Plant Operations,260650.0,9.8
+247,2025,2700,Transportation,93056.0,3.5
+247,2025,2900,Other Support Services,0.0,0.0
+247,2025,1500,Non-public Programs,0.0,0.0
+247,2025,"1600-1800,2750",Community Programs,0.0,0.0
+247,2025,5120,Bond Interest,0.0,0.0
+247,2025,5310+5390,Charter Schools/Other Agencies,0.0,0.0
+247,2025,3100,Food Service,55612.65,2.1
+247,2025,4000,Facility Construction,15929.0,
+247,2025,5100,Bonds & Notes Principal Repayment,0.0,
+251,2025,1100,Regular Education,10252453.0,38.9
+251,2025,1200,Special Programs,4824380.0,18.3
+251,2025,1300,Vocational Programs,107696.0,0.4
+251,2025,1400,Other Instructional Programs,402585.0,1.5
+251,2025,2100,Student Support Services,2544758.0,9.6
+251,2025,2200,Instructional Staff Support,1430102.0,5.4
+251,2025,2300&2800,Genral Administration & Business,1192355.0,4.5
+251,2025,2400,School Administration,1380266.0,5.2
+251,2025,2500,Business Services,40752.0,0.2
+251,2025,2600,Plant Operations,2526571.0,9.6
+251,2025,2700,Transportation,1247774.0,4.7
+251,2025,2900,Other Support Services,0.0,0.0
+251,2025,1500,Non-public Programs,0.0,0.0
+251,2025,"1600-1800,2750",Community Programs,0.0,0.0
+251,2025,5120,Bond Interest,0.0,0.0
+251,2025,5310+5390,Charter Schools/Other Agencies,0.0,0.0
+251,2025,3100,Food Service,431167.93,1.6
+251,2025,4000,Facility Construction,0.0,
+251,2025,5100,Bonds & Notes Principal Repayment,0.0,
+255,2025,1100,Regular Education,4774863.0,32.3
+255,2025,1200,Special Programs,2929518.0,19.8
+255,2025,1300,Vocational Programs,33592.0,0.2
+255,2025,1400,Other Instructional Programs,217104.0,1.5
+255,2025,2100,Student Support Services,1419940.0,9.6
+255,2025,2200,Instructional Staff Support,652913.0,4.4
+255,2025,2300&2800,Genral Administration & Business,1161471.0,7.9
+255,2025,2400,School Administration,890537.0,6.0
+255,2025,2500,Business Services,344520.0,2.3
+255,2025,2600,Plant Operations,1332336.0,9.0
+255,2025,2700,Transportation,762712.0,5.2
+255,2025,2900,Other Support Services,0.0,0.0
+255,2025,1500,Non-public Programs,0.0,0.0
+255,2025,"1600-1800,2750",Community Programs,0.0,0.0
+255,2025,5120,Bond Interest,64546.0,0.4
+255,2025,5310+5390,Charter Schools/Other Agencies,0.0,0.0
+255,2025,3100,Food Service,183775.0,1.2
+255,2025,4000,Facility Construction,0.0,
+255,2025,5100,Bonds & Notes Principal Repayment,720000.0,
+257,2025,1100,Regular Education,2185460.0,42.7
+257,2025,1200,Special Programs,729208.0,14.2
+257,2025,1300,Vocational Programs,0.0,0.0
+257,2025,1400,Other Instructional Programs,85697.0,1.7
+257,2025,2100,Student Support Services,415138.0,8.1
+257,2025,2200,Instructional Staff Support,198266.0,3.9
+257,2025,2300&2800,Genral Administration & Business,342456.0,6.7
+257,2025,2400,School Administration,264854.0,5.2
+257,2025,2500,Business Services,6349.0,0.1
+257,2025,2600,Plant Operations,558745.0,10.9
+257,2025,2700,Transportation,285007.0,5.6
+257,2025,2900,Other Support Services,0.0,0.0
+257,2025,1500,Non-public Programs,0.0,0.0
+257,2025,"1600-1800,2750",Community Programs,0.0,0.0
+257,2025,5120,Bond Interest,2820.0,0.1
+257,2025,5310+5390,Charter Schools/Other Agencies,0.0,0.0
+257,2025,3100,Food Service,49674.81,1.0
+257,2025,4000,Facility Construction,119774.0,
+257,2025,5100,Bonds & Notes Principal Repayment,13600.0,
+260,2025,1100,Regular Education,10772578.0,37.4
+260,2025,1200,Special Programs,5623951.0,19.5
+260,2025,1300,Vocational Programs,58924.0,0.2
+260,2025,1400,Other Instructional Programs,1394165.0,4.8
+260,2025,2100,Student Support Services,2515212.0,8.7
+260,2025,2200,Instructional Staff Support,1013924.0,3.5
+260,2025,2300&2800,Genral Administration & Business,1266529.0,4.4
+260,2025,2400,School Administration,1714311.0,6.0
+260,2025,2500,Business Services,9763.0,0.0
+260,2025,2600,Plant Operations,2788152.0,9.7
+260,2025,2700,Transportation,1371048.0,4.8
+260,2025,2900,Other Support Services,0.0,0.0
+260,2025,1500,Non-public Programs,0.0,0.0
+260,2025,"1600-1800,2750",Community Programs,0.0,0.0
+260,2025,5120,Bond Interest,98621.0,0.3
+260,2025,5310+5390,Charter Schools/Other Agencies,0.0,0.0
+260,2025,3100,Food Service,145050.5299999999,0.5
+260,2025,4000,Facility Construction,2500.0,
+260,2025,5100,Bonds & Notes Principal Repayment,920241.0,
+259,2025,1100,Regular Education,6547785.0,39.3
+259,2025,1200,Special Programs,3953447.0,23.8
+259,2025,1300,Vocational Programs,0.0,0.0
+259,2025,1400,Other Instructional Programs,38812.0,0.2
+259,2025,2100,Student Support Services,1448439.0,8.7
+259,2025,2200,Instructional Staff Support,597899.0,3.6
+259,2025,2300&2800,Genral Administration & Business,781991.0,4.7
+259,2025,2400,School Administration,1008593.0,6.1
+259,2025,2500,Business Services,2505.0,0.0
+259,2025,2600,Plant Operations,1384113.0,8.3
+259,2025,2700,Transportation,603964.0,3.6
+259,2025,2900,Other Support Services,0.0,0.0
+259,2025,1500,Non-public Programs,0.0,0.0
+259,2025,"1600-1800,2750",Community Programs,0.0,0.0
+259,2025,5120,Bond Interest,178466.0,1.1
+259,2025,5310+5390,Charter Schools/Other Agencies,0.0,0.0
+259,2025,3100,Food Service,95211.28,0.6
+259,2025,4000,Facility Construction,170522.0,
+259,2025,5100,Bonds & Notes Principal Repayment,886757.0,
+261,2025,1100,Regular Education,17524388.0,43.7
+261,2025,1200,Special Programs,10419796.0,26.0
+261,2025,1300,Vocational Programs,0.0,0.0
+261,2025,1400,Other Instructional Programs,172657.0,0.4
+261,2025,2100,Student Support Services,2731975.0,6.8
+261,2025,2200,Instructional Staff Support,672899.0,1.7
+261,2025,2300&2800,Genral Administration & Business,1375715.0,3.4
+261,2025,2400,School Administration,1429681.0,3.6
+261,2025,2500,Business Services,18453.0,0.0
+261,2025,2600,Plant Operations,2251509.0,5.6
+261,2025,2700,Transportation,2986242.0,7.4
+261,2025,2900,Other Support Services,0.0,0.0
+261,2025,1500,Non-public Programs,0.0,0.0
+261,2025,"1600-1800,2750",Community Programs,0.0,0.0
+261,2025,5120,Bond Interest,0.0,0.0
+261,2025,5310+5390,Charter Schools/Other Agencies,142450.16,0.4
+261,2025,3100,Food Service,375006.68,0.9
+261,2025,4000,Facility Construction,0.0,
+261,2025,5100,Bonds & Notes Principal Repayment,0.0,
+263,2025,1100,Regular Education,8830662.0,35.4
+263,2025,1200,Special Programs,5414381.0,21.7
+263,2025,1300,Vocational Programs,166762.0,0.7
+263,2025,1400,Other Instructional Programs,461211.0,1.8
+263,2025,2100,Student Support Services,2020761.0,8.1
+263,2025,2200,Instructional Staff Support,1340156.0,5.4
+263,2025,2300&2800,Genral Administration & Business,1168451.0,4.7
+263,2025,2400,School Administration,1128905.0,4.5
+263,2025,2500,Business Services,567272.0,2.3
+263,2025,2600,Plant Operations,2107273.0,8.4
+263,2025,2700,Transportation,1256947.0,5.0
+263,2025,2900,Other Support Services,0.0,0.0
+263,2025,1500,Non-public Programs,0.0,0.0
+263,2025,"1600-1800,2750",Community Programs,0.0,0.0
+263,2025,5120,Bond Interest,268760.0,1.1
+263,2025,5310+5390,Charter Schools/Other Agencies,0.0,0.0
+263,2025,3100,Food Service,248586.47999999992,1.0
+263,2025,4000,Facility Construction,0.0,
+263,2025,5100,Bonds & Notes Principal Repayment,310000.0,
+267,2025,1100,Regular Education,23882320.0,36.8
+267,2025,1200,Special Programs,10842382.0,16.7
+267,2025,1300,Vocational Programs,3154630.0,4.9
+267,2025,1400,Other Instructional Programs,844024.0,1.3
+267,2025,2100,Student Support Services,5165419.0,8.0
+267,2025,2200,Instructional Staff Support,2442050.0,3.8
+267,2025,2300&2800,Genral Administration & Business,2178011.0,3.4
+267,2025,2400,School Administration,3543168.0,5.5
+267,2025,2500,Business Services,1228909.0,1.9
+267,2025,2600,Plant Operations,6799107.0,10.5
+267,2025,2700,Transportation,3519390.0,5.4
+267,2025,2900,Other Support Services,0.0,0.0
+267,2025,1500,Non-public Programs,9567.0,0.0
+267,2025,"1600-1800,2750",Community Programs,58437.0,0.1
+267,2025,5120,Bond Interest,230077.0,0.4
+267,2025,5310+5390,Charter Schools/Other Agencies,0.0,0.0
+267,2025,3100,Food Service,923247.79,1.4
+267,2025,4000,Facility Construction,656471.0,
+267,2025,5100,Bonds & Notes Principal Repayment,385000.0,
+269,2025,1100,Regular Education,10822555.0,32.3
+269,2025,1200,Special Programs,5834641.0,17.4
+269,2025,1300,Vocational Programs,216599.0,0.6
+269,2025,1400,Other Instructional Programs,800165.0,2.4
+269,2025,2100,Student Support Services,2659201.0,7.9
+269,2025,2200,Instructional Staff Support,2077632.0,6.2
+269,2025,2300&2800,Genral Administration & Business,2967469.0,8.9
+269,2025,2400,School Administration,1825672.0,5.4
+269,2025,2500,Business Services,25980.0,0.1
+269,2025,2600,Plant Operations,4358656.0,13.0
+269,2025,2700,Transportation,1756127.0,5.2
+269,2025,2900,Other Support Services,0.0,0.0
+269,2025,1500,Non-public Programs,0.0,0.0
+269,2025,"1600-1800,2750",Community Programs,0.0,0.0
+269,2025,5120,Bond Interest,0.0,0.0
+269,2025,5310+5390,Charter Schools/Other Agencies,0.0,0.0
+269,2025,3100,Food Service,180708.69,0.5
+269,2025,4000,Facility Construction,420690.0,
+269,2025,5100,Bonds & Notes Principal Repayment,0.0,
+271,2025,1100,Regular Education,1546892.0,45.7
+271,2025,1200,Special Programs,389254.0,11.5
+271,2025,1300,Vocational Programs,0.0,0.0
+271,2025,1400,Other Instructional Programs,37378.0,1.1
+271,2025,2100,Student Support Services,193819.0,5.7
+271,2025,2200,Instructional Staff Support,47102.0,1.4
+271,2025,2300&2800,Genral Administration & Business,281741.0,8.3
+271,2025,2400,School Administration,253765.0,7.5
+271,2025,2500,Business Services,0.0,0.0
+271,2025,2600,Plant Operations,295341.0,8.7
+271,2025,2700,Transportation,304155.0,9.0
+271,2025,2900,Other Support Services,0.0,0.0
+271,2025,1500,Non-public Programs,0.0,0.0
+271,2025,"1600-1800,2750",Community Programs,0.0,0.0
+271,2025,5120,Bond Interest,0.0,0.0
+271,2025,5310+5390,Charter Schools/Other Agencies,0.0,0.0
+271,2025,3100,Food Service,33499.3,1.0
+271,2025,4000,Facility Construction,0.0,
+271,2025,5100,Bonds & Notes Principal Repayment,0.0,
+274,2025,1100,Regular Education,9402978.0,30.7
+274,2025,1200,Special Programs,7440204.0,24.3
+274,2025,1300,Vocational Programs,683892.0,2.2
+274,2025,1400,Other Instructional Programs,699652.0,2.3
+274,2025,2100,Student Support Services,2293067.0,7.5
+274,2025,2200,Instructional Staff Support,803022.0,2.6
+274,2025,2300&2800,Genral Administration & Business,1730320.0,5.7
+274,2025,2400,School Administration,1781323.0,5.8
+274,2025,2500,Business Services,622702.0,2.0
+274,2025,2600,Plant Operations,2824145.0,9.2
+274,2025,2700,Transportation,1735267.0,5.7
+274,2025,2900,Other Support Services,0.0,0.0
+274,2025,1500,Non-public Programs,0.0,0.0
+274,2025,"1600-1800,2750",Community Programs,191819.0,0.6
+274,2025,5120,Bond Interest,25883.0,0.1
+274,2025,5310+5390,Charter Schools/Other Agencies,0.0,0.0
+274,2025,3100,Food Service,388707.80000000005,1.3
+274,2025,4000,Facility Construction,585479.0,
+274,2025,5100,Bonds & Notes Principal Repayment,145000.0,
+275,2025,1100,Regular Education,5688580.0,38.8
+275,2025,1200,Special Programs,2412736.0,16.4
+275,2025,1300,Vocational Programs,302935.0,2.1
+275,2025,1400,Other Instructional Programs,591195.0,4.0
+275,2025,2100,Student Support Services,1128666.0,7.7
+275,2025,2200,Instructional Staff Support,631544.0,4.3
+275,2025,2300&2800,Genral Administration & Business,628351.0,4.3
+275,2025,2400,School Administration,901745.0,6.1
+275,2025,2500,Business Services,0.0,0.0
+275,2025,2600,Plant Operations,1346484.0,9.2
+275,2025,2700,Transportation,780338.0,5.3
+275,2025,2900,Other Support Services,0.0,0.0
+275,2025,1500,Non-public Programs,0.0,0.0
+275,2025,"1600-1800,2750",Community Programs,0.0,0.0
+275,2025,5120,Bond Interest,22635.0,0.2
+275,2025,5310+5390,Charter Schools/Other Agencies,0.0,0.0
+275,2025,3100,Food Service,232890.96000000002,1.6
+275,2025,4000,Facility Construction,623006.0,
+275,2025,5100,Bonds & Notes Principal Repayment,84693.0,
+276,2025,1100,Regular Education,20916128.0,41.7
+276,2025,1200,Special Programs,9066423.0,18.1
+276,2025,1300,Vocational Programs,181099.0,0.4
+276,2025,1400,Other Instructional Programs,632432.0,1.3
+276,2025,2100,Student Support Services,2087799.0,4.2
+276,2025,2200,Instructional Staff Support,840774.0,1.7
+276,2025,2300&2800,Genral Administration & Business,3435645.0,6.8
+276,2025,2400,School Administration,3032651.0,6.0
+276,2025,2500,Business Services,0.0,0.0
+276,2025,2600,Plant Operations,6437861.0,12.8
+276,2025,2700,Transportation,2247958.0,4.5
+276,2025,2900,Other Support Services,0.0,0.0
+276,2025,1500,Non-public Programs,0.0,0.0
+276,2025,"1600-1800,2750",Community Programs,45648.0,0.1
+276,2025,5120,Bond Interest,990237.0,2.0
+276,2025,5310+5390,Charter Schools/Other Agencies,0.0,0.0
+276,2025,3100,Food Service,253594.18999999994,0.5
+276,2025,4000,Facility Construction,0.0,
+276,2025,5100,Bonds & Notes Principal Repayment,1048378.0,
+279,2025,1100,Regular Education,23787025.0,34.4
+279,2025,1200,Special Programs,13453616.0,19.5
+279,2025,1300,Vocational Programs,1717030.0,2.5
+279,2025,1400,Other Instructional Programs,1087548.0,1.6
+279,2025,2100,Student Support Services,6821562.0,9.9
+279,2025,2200,Instructional Staff Support,1867816.0,2.7
+279,2025,2300&2800,Genral Administration & Business,5168812.0,7.5
+279,2025,2400,School Administration,3440122.0,5.0
+279,2025,2500,Business Services,162212.0,0.2
+279,2025,2600,Plant Operations,6678117.0,9.7
+279,2025,2700,Transportation,2388498.0,3.5
+279,2025,2900,Other Support Services,0.0,0.0
+279,2025,1500,Non-public Programs,15729.0,0.0
+279,2025,"1600-1800,2750",Community Programs,387657.0,0.6
+279,2025,5120,Bond Interest,1087146.0,1.6
+279,2025,5310+5390,Charter Schools/Other Agencies,0.0,0.0
+279,2025,3100,Food Service,1043003.7799999998,1.5
+279,2025,4000,Facility Construction,3739142.0,
+279,2025,5100,Bonds & Notes Principal Repayment,1208244.0,
+281,2025,1100,Regular Education,1747683.0,40.7
+281,2025,1200,Special Programs,696432.0,16.2
+281,2025,1300,Vocational Programs,0.0,0.0
+281,2025,1400,Other Instructional Programs,28723.0,0.7
+281,2025,2100,Student Support Services,533685.0,12.4
+281,2025,2200,Instructional Staff Support,262846.0,6.1
+281,2025,2300&2800,Genral Administration & Business,114443.0,2.7
+281,2025,2400,School Administration,319189.0,7.4
+281,2025,2500,Business Services,0.0,0.0
+281,2025,2600,Plant Operations,420970.0,9.8
+281,2025,2700,Transportation,141676.0,3.3
+281,2025,2900,Other Support Services,0.0,0.0
+281,2025,1500,Non-public Programs,0.0,0.0
+281,2025,"1600-1800,2750",Community Programs,0.0,0.0
+281,2025,5120,Bond Interest,0.0,0.0
+281,2025,5310+5390,Charter Schools/Other Agencies,0.0,0.0
+281,2025,3100,Food Service,33396.33,0.8
+281,2025,4000,Facility Construction,0.0,
+281,2025,5100,Bonds & Notes Principal Repayment,0.0,
+708,2025,1100,Regular Education,792283.0,35.1
+708,2025,1200,Special Programs,253259.0,11.2
+708,2025,1300,Vocational Programs,0.0,0.0
+708,2025,1400,Other Instructional Programs,11298.0,0.5
+708,2025,2100,Student Support Services,196514.0,8.7
+708,2025,2200,Instructional Staff Support,82410.0,3.6
+708,2025,2300&2800,Genral Administration & Business,163923.0,7.3
+708,2025,2400,School Administration,125436.0,5.5
+708,2025,2500,Business Services,92.0,0.0
+708,2025,2600,Plant Operations,606423.0,26.8
+708,2025,2700,Transportation,16166.0,0.7
+708,2025,2900,Other Support Services,0.0,0.0
+708,2025,1500,Non-public Programs,0.0,0.0
+708,2025,"1600-1800,2750",Community Programs,12505.0,0.6
+708,2025,5120,Bond Interest,99.0,0.0
+708,2025,5310+5390,Charter Schools/Other Agencies,0.0,0.0
+708,2025,3100,Food Service,0.0,0.0
+708,2025,4000,Facility Construction,0.0,
+708,2025,5100,Bonds & Notes Principal Repayment,0.0,
+285,2025,1100,Regular Education,17680406.0,37.0
+285,2025,1200,Special Programs,10274359.0,21.5
+285,2025,1300,Vocational Programs,1789391.0,3.7
+285,2025,1400,Other Instructional Programs,555258.0,1.2
+285,2025,2100,Student Support Services,3326480.0,7.0
+285,2025,2200,Instructional Staff Support,2359562.0,4.9
+285,2025,2300&2800,Genral Administration & Business,982903.0,2.1
+285,2025,2400,School Administration,2670179.0,5.6
+285,2025,2500,Business Services,494388.0,1.0
+285,2025,2600,Plant Operations,4110540.0,8.6
+285,2025,2700,Transportation,1288078.0,2.7
+285,2025,2900,Other Support Services,0.0,0.0
+285,2025,1500,Non-public Programs,0.0,0.0
+285,2025,"1600-1800,2750",Community Programs,305426.0,0.6
+285,2025,5120,Bond Interest,827830.0,1.7
+285,2025,5310+5390,Charter Schools/Other Agencies,0.0,0.0
+285,2025,3100,Food Service,1155175.16,2.4
+285,2025,4000,Facility Construction,4851093.0,
+285,2025,5100,Bonds & Notes Principal Repayment,1093516.0,
+288,2025,1100,Regular Education,1221699.0,36.2
+288,2025,1200,Special Programs,484140.0,14.3
+288,2025,1300,Vocational Programs,0.0,0.0
+288,2025,1400,Other Instructional Programs,28248.0,0.8
+288,2025,2100,Student Support Services,367422.0,10.9
+288,2025,2200,Instructional Staff Support,181000.0,5.4
+288,2025,2300&2800,Genral Administration & Business,11779.0,0.3
+288,2025,2400,School Administration,276499.0,8.2
+288,2025,2500,Business Services,222071.0,6.6
+288,2025,2600,Plant Operations,347948.0,10.3
+288,2025,2700,Transportation,166440.0,4.9
+288,2025,2900,Other Support Services,0.0,0.0
+288,2025,1500,Non-public Programs,0.0,0.0
+288,2025,"1600-1800,2750",Community Programs,32829.0,1.0
+288,2025,5120,Bond Interest,0.0,0.0
+288,2025,5310+5390,Charter Schools/Other Agencies,0.0,0.0
+288,2025,3100,Food Service,36329.35,1.1
+288,2025,4000,Facility Construction,0.0,
+288,2025,5100,Bonds & Notes Principal Repayment,0.0,
+291,2025,1100,Regular Education,669553.0,59.0
+291,2025,1200,Special Programs,135569.0,11.9
+291,2025,1300,Vocational Programs,0.0,0.0
+291,2025,1400,Other Instructional Programs,1949.0,0.2
+291,2025,2100,Student Support Services,61992.0,5.5
+291,2025,2200,Instructional Staff Support,19233.0,1.7
+291,2025,2300&2800,Genral Administration & Business,66232.0,5.8
+291,2025,2400,School Administration,4314.0,0.4
+291,2025,2500,Business Services,0.0,0.0
+291,2025,2600,Plant Operations,43168.0,3.8
+291,2025,2700,Transportation,62092.0,5.5
+291,2025,2900,Other Support Services,0.0,0.0
+291,2025,1500,Non-public Programs,0.0,0.0
+291,2025,"1600-1800,2750",Community Programs,71070.0,6.3
+291,2025,5120,Bond Interest,0.0,0.0
+291,2025,5310+5390,Charter Schools/Other Agencies,0.0,0.0
+291,2025,3100,Food Service,0.0,0.0
+291,2025,4000,Facility Construction,0.0,
+291,2025,5100,Bonds & Notes Principal Repayment,0.0,
+295,2025,1100,Regular Education,21145973.0,41.6
+295,2025,1200,Special Programs,11672001.0,22.9
+295,2025,1300,Vocational Programs,797190.0,1.6
+295,2025,1400,Other Instructional Programs,1106633.0,2.2
+295,2025,2100,Student Support Services,1896053.0,3.7
+295,2025,2200,Instructional Staff Support,2908041.0,5.7
+295,2025,2300&2800,Genral Administration & Business,2219328.0,4.4
+295,2025,2400,School Administration,2454364.0,4.8
+295,2025,2500,Business Services,0.0,0.0
+295,2025,2600,Plant Operations,3978819.0,7.8
+295,2025,2700,Transportation,1246814.0,2.5
+295,2025,2900,Other Support Services,0.0,0.0
+295,2025,1500,Non-public Programs,0.0,0.0
+295,2025,"1600-1800,2750",Community Programs,119395.0,0.2
+295,2025,5120,Bond Interest,984402.0,1.9
+295,2025,5310+5390,Charter Schools/Other Agencies,0.0,0.0
+295,2025,3100,Food Service,348224.11000000004,0.7
+295,2025,4000,Facility Construction,2128655.0,
+295,2025,5100,Bonds & Notes Principal Repayment,1384281.0,
+719,2025,1100,Regular Education,600522.0,59.3
+719,2025,1200,Special Programs,0.0,0.0
+719,2025,1300,Vocational Programs,0.0,0.0
+719,2025,1400,Other Instructional Programs,8451.0,0.8
+719,2025,2100,Student Support Services,0.0,0.0
+719,2025,2200,Instructional Staff Support,2471.0,0.2
+719,2025,2300&2800,Genral Administration & Business,0.0,0.0
+719,2025,2400,School Administration,151795.0,15.0
+719,2025,2500,Business Services,608.0,0.1
+719,2025,2600,Plant Operations,178109.0,17.6
+719,2025,2700,Transportation,0.0,0.0
+719,2025,2900,Other Support Services,0.0,0.0
+719,2025,1500,Non-public Programs,0.0,0.0
+719,2025,"1600-1800,2750",Community Programs,0.0,0.0
+719,2025,5120,Bond Interest,70337.0,6.9
+719,2025,5310+5390,Charter Schools/Other Agencies,0.0,0.0
+719,2025,3100,Food Service,0.0,0.0
+719,2025,4000,Facility Construction,0.0,
+719,2025,5100,Bonds & Notes Principal Repayment,0.0,
+299,2025,1100,Regular Education,1952250.0,47.2
+299,2025,1200,Special Programs,653557.0,15.8
+299,2025,1300,Vocational Programs,0.0,0.0
+299,2025,1400,Other Instructional Programs,31835.0,0.8
+299,2025,2100,Student Support Services,279519.0,6.8
+299,2025,2200,Instructional Staff Support,133930.0,3.2
+299,2025,2300&2800,Genral Administration & Business,366224.0,8.9
+299,2025,2400,School Administration,240237.0,5.8
+299,2025,2500,Business Services,86832.0,2.1
+299,2025,2600,Plant Operations,211943.0,5.1
+299,2025,2700,Transportation,108427.0,2.6
+299,2025,2900,Other Support Services,0.0,0.0
+299,2025,1500,Non-public Programs,0.0,0.0
+299,2025,"1600-1800,2750",Community Programs,0.0,0.0
+299,2025,5120,Bond Interest,0.0,0.0
+299,2025,5310+5390,Charter Schools/Other Agencies,0.0,0.0
+299,2025,3100,Food Service,72709.04000000001,1.8
+299,2025,4000,Facility Construction,0.0,
+299,2025,5100,Bonds & Notes Principal Repayment,0.0,
+305,2025,1100,Regular Education,3926937.0,42.1
+305,2025,1200,Special Programs,1353161.0,14.5
+305,2025,1300,Vocational Programs,7488.0,0.1
+305,2025,1400,Other Instructional Programs,180940.0,1.9
+305,2025,2100,Student Support Services,873747.0,9.4
+305,2025,2200,Instructional Staff Support,284723.0,3.1
+305,2025,2300&2800,Genral Administration & Business,880333.0,9.4
+305,2025,2400,School Administration,492658.0,5.3
+305,2025,2500,Business Services,0.0,0.0
+305,2025,2600,Plant Operations,861150.0,9.2
+305,2025,2700,Transportation,239892.0,2.6
+305,2025,2900,Other Support Services,0.0,0.0
+305,2025,1500,Non-public Programs,0.0,0.0
+305,2025,"1600-1800,2750",Community Programs,0.0,0.0
+305,2025,5120,Bond Interest,38698.0,0.4
+305,2025,5310+5390,Charter Schools/Other Agencies,39768.78,0.4
+305,2025,3100,Food Service,146556.69,1.6
+305,2025,4000,Facility Construction,525061.0,
+305,2025,5100,Bonds & Notes Principal Repayment,197360.0,
+722,2025,1100,Regular Education,1671530.0,47.9
+722,2025,1200,Special Programs,83114.0,2.4
+722,2025,1300,Vocational Programs,0.0,0.0
+722,2025,1400,Other Instructional Programs,10775.0,0.3
+722,2025,2100,Student Support Services,111543.0,3.2
+722,2025,2200,Instructional Staff Support,0.0,0.0
+722,2025,2300&2800,Genral Administration & Business,419244.0,12.0
+722,2025,2400,School Administration,354535.0,10.2
+722,2025,2500,Business Services,121122.0,3.5
+722,2025,2600,Plant Operations,708300.0,20.3
+722,2025,2700,Transportation,7187.0,0.2
+722,2025,2900,Other Support Services,0.0,0.0
+722,2025,1500,Non-public Programs,0.0,0.0
+722,2025,"1600-1800,2750",Community Programs,0.0,0.0
+722,2025,5120,Bond Interest,0.0,0.0
+722,2025,5310+5390,Charter Schools/Other Agencies,0.0,0.0
+722,2025,3100,Food Service,0.0,0.0
+722,2025,4000,Facility Construction,1389498.0,
+722,2025,5100,Bonds & Notes Principal Repayment,0.0,
+306,2025,1100,Regular Education,2625400.0,38.8
+306,2025,1200,Special Programs,1035856.0,15.3
+306,2025,1300,Vocational Programs,195729.0,2.9
+306,2025,1400,Other Instructional Programs,120456.0,1.8
+306,2025,2100,Student Support Services,647702.0,9.6
+306,2025,2200,Instructional Staff Support,178546.0,2.6
+306,2025,2300&2800,Genral Administration & Business,607855.0,9.0
+306,2025,2400,School Administration,422661.0,6.3
+306,2025,2500,Business Services,0.0,0.0
+306,2025,2600,Plant Operations,519671.0,7.7
+306,2025,2700,Transportation,275989.0,4.1
+306,2025,2900,Other Support Services,0.0,0.0
+306,2025,1500,Non-public Programs,0.0,0.0
+306,2025,"1600-1800,2750",Community Programs,0.0,0.0
+306,2025,5120,Bond Interest,9452.0,0.1
+306,2025,5310+5390,Charter Schools/Other Agencies,6628.13,0.1
+306,2025,3100,Food Service,116609.08,1.7
+306,2025,4000,Facility Construction,450938.0,
+306,2025,5100,Bonds & Notes Principal Repayment,57274.0,
+315,2025,1100,Regular Education,9777957.0,39.3
+315,2025,1200,Special Programs,3996754.0,16.1
+315,2025,1300,Vocational Programs,109849.0,0.4
+315,2025,1400,Other Instructional Programs,678810.0,2.7
+315,2025,2100,Student Support Services,2120931.0,8.5
+315,2025,2200,Instructional Staff Support,894787.0,3.6
+315,2025,2300&2800,Genral Administration & Business,1763651.0,7.1
+315,2025,2400,School Administration,1564199.0,6.3
+315,2025,2500,Business Services,375177.0,1.5
+315,2025,2600,Plant Operations,2129189.0,8.6
+315,2025,2700,Transportation,1264447.0,5.1
+315,2025,2900,Other Support Services,0.0,0.0
+315,2025,1500,Non-public Programs,0.0,0.0
+315,2025,"1600-1800,2750",Community Programs,0.0,0.0
+315,2025,5120,Bond Interest,0.0,0.0
+315,2025,5310+5390,Charter Schools/Other Agencies,0.0,0.0
+315,2025,3100,Food Service,219708.28999999998,0.9
+315,2025,4000,Facility Construction,363037.0,
+315,2025,5100,Bonds & Notes Principal Repayment,0.0,
+317,2025,1100,Regular Education,5731063.0,30.2
+317,2025,1200,Special Programs,3330680.0,17.6
+317,2025,1300,Vocational Programs,1495684.0,7.9
+317,2025,1400,Other Instructional Programs,241674.0,1.3
+317,2025,2100,Student Support Services,1797494.0,9.5
+317,2025,2200,Instructional Staff Support,580378.0,3.1
+317,2025,2300&2800,Genral Administration & Business,644614.0,3.4
+317,2025,2400,School Administration,1156169.0,6.1
+317,2025,2500,Business Services,826740.0,4.4
+317,2025,2600,Plant Operations,2133013.0,11.2
+317,2025,2700,Transportation,354524.0,1.9
+317,2025,2900,Other Support Services,0.0,0.0
+317,2025,1500,Non-public Programs,0.0,0.0
+317,2025,"1600-1800,2750",Community Programs,378416.0,2.0
+317,2025,5120,Bond Interest,35035.0,0.2
+317,2025,5310+5390,Charter Schools/Other Agencies,0.0,0.0
+317,2025,3100,Food Service,255265.98,1.3
+317,2025,4000,Facility Construction,581106.0,
+317,2025,5100,Bonds & Notes Principal Repayment,260000.0,
+319,2025,1100,Regular Education,32656375.0,36.7
+319,2025,1200,Special Programs,17592825.0,19.8
+319,2025,1300,Vocational Programs,348279.0,0.4
+319,2025,1400,Other Instructional Programs,2415872.0,2.7
+319,2025,2100,Student Support Services,8660596.0,9.7
+319,2025,2200,Instructional Staff Support,2358456.0,2.6
+319,2025,2300&2800,Genral Administration & Business,3876180.0,4.4
+319,2025,2400,School Administration,4491435.0,5.0
+319,2025,2500,Business Services,1129573.0,1.3
+319,2025,2600,Plant Operations,8493741.0,9.5
+319,2025,2700,Transportation,5442792.0,6.1
+319,2025,2900,Other Support Services,0.0,0.0
+319,2025,1500,Non-public Programs,0.0,0.0
+319,2025,"1600-1800,2750",Community Programs,170451.0,0.2
+319,2025,5120,Bond Interest,582539.0,0.7
+319,2025,5310+5390,Charter Schools/Other Agencies,0.0,0.0
+319,2025,3100,Food Service,858329.96,1.0
+319,2025,4000,Facility Construction,2418170.0,
+319,2025,5100,Bonds & Notes Principal Repayment,1217501.0,
+327,2025,1100,Regular Education,5272143.0,59.8
+327,2025,1200,Special Programs,771035.0,8.8
+327,2025,1300,Vocational Programs,0.0,0.0
+327,2025,1400,Other Instructional Programs,0.0,0.0
+327,2025,2100,Student Support Services,404065.0,4.6
+327,2025,2200,Instructional Staff Support,151130.0,1.7
+327,2025,2300&2800,Genral Administration & Business,548646.0,6.2
+327,2025,2400,School Administration,457660.0,5.2
+327,2025,2500,Business Services,0.0,0.0
+327,2025,2600,Plant Operations,746827.0,8.5
+327,2025,2700,Transportation,154648.0,1.8
+327,2025,2900,Other Support Services,0.0,0.0
+327,2025,1500,Non-public Programs,0.0,0.0
+327,2025,"1600-1800,2750",Community Programs,0.0,0.0
+327,2025,5120,Bond Interest,130657.0,1.5
+327,2025,5310+5390,Charter Schools/Other Agencies,0.0,0.0
+327,2025,3100,Food Service,173097.06,2.0
+327,2025,4000,Facility Construction,1008592.0,
+327,2025,5100,Bonds & Notes Principal Repayment,175257.0,
+333,2025,1100,Regular Education,3639940.0,48.7
+333,2025,1200,Special Programs,859444.0,11.5
+333,2025,1300,Vocational Programs,0.0,0.0
+333,2025,1400,Other Instructional Programs,36530.0,0.5
+333,2025,2100,Student Support Services,468831.0,6.3
+333,2025,2200,Instructional Staff Support,180250.0,2.4
+333,2025,2300&2800,Genral Administration & Business,503718.0,6.7
+333,2025,2400,School Administration,289914.0,3.9
+333,2025,2500,Business Services,8564.0,0.1
+333,2025,2600,Plant Operations,888988.0,11.9
+333,2025,2700,Transportation,477458.0,6.4
+333,2025,2900,Other Support Services,0.0,0.0
+333,2025,1500,Non-public Programs,0.0,0.0
+333,2025,"1600-1800,2750",Community Programs,0.0,0.0
+333,2025,5120,Bond Interest,20248.0,0.3
+333,2025,5310+5390,Charter Schools/Other Agencies,0.0,0.0
+333,2025,3100,Food Service,94667.23999999999,1.3
+333,2025,4000,Facility Construction,0.0,
+333,2025,5100,Bonds & Notes Principal Repayment,65000.0,
+733,2025,1100,Regular Education,366994.0,38.9
+733,2025,1200,Special Programs,109779.0,11.6
+733,2025,1300,Vocational Programs,0.0,0.0
+733,2025,1400,Other Instructional Programs,0.0,0.0
+733,2025,2100,Student Support Services,5460.0,0.6
+733,2025,2200,Instructional Staff Support,49317.0,5.2
+733,2025,2300&2800,Genral Administration & Business,110881.0,11.8
+733,2025,2400,School Administration,59063.0,6.3
+733,2025,2500,Business Services,102954.0,10.9
+733,2025,2600,Plant Operations,116028.0,12.3
+733,2025,2700,Transportation,20952.0,2.2
+733,2025,2900,Other Support Services,0.0,0.0
+733,2025,1500,Non-public Programs,0.0,0.0
+733,2025,"1600-1800,2750",Community Programs,0.0,0.0
+733,2025,5120,Bond Interest,949.0,0.1
+733,2025,5310+5390,Charter Schools/Other Agencies,0.0,0.0
+733,2025,3100,Food Service,0.0,0.0
+733,2025,4000,Facility Construction,0.0,
+733,2025,5100,Bonds & Notes Principal Repayment,20216.0,
+335,2025,1100,Regular Education,90517010.0,35.4
+335,2025,1200,Special Programs,54129472.0,21.2
+335,2025,1300,Vocational Programs,3552840.0,1.4
+335,2025,1400,Other Instructional Programs,4342595.0,1.7
+335,2025,2100,Student Support Services,22029749.0,8.6
+335,2025,2200,Instructional Staff Support,4935817.0,1.9
+335,2025,2300&2800,Genral Administration & Business,8304205.0,3.2
+335,2025,2400,School Administration,12744784.0,5.0
+335,2025,2500,Business Services,2161071.0,0.8
+335,2025,2600,Plant Operations,21918480.0,8.6
+335,2025,2700,Transportation,21086212.0,8.2
+335,2025,2900,Other Support Services,0.0,0.0
+335,2025,1500,Non-public Programs,921220.0,0.4
+335,2025,"1600-1800,2750",Community Programs,361093.0,0.1
+335,2025,5120,Bond Interest,2308100.0,0.9
+335,2025,5310+5390,Charter Schools/Other Agencies,1419372.54,0.6
+335,2025,3100,Food Service,5167223.41,2.0
+335,2025,4000,Facility Construction,16418261.0,
+335,2025,5100,Bonds & Notes Principal Repayment,9099148.0,
+339,2025,1100,Regular Education,2578162.0,43.4
+339,2025,1200,Special Programs,917253.0,15.4
+339,2025,1300,Vocational Programs,0.0,0.0
+339,2025,1400,Other Instructional Programs,49618.0,0.8
+339,2025,2100,Student Support Services,433756.0,7.3
+339,2025,2200,Instructional Staff Support,225792.0,3.8
+339,2025,2300&2800,Genral Administration & Business,297565.0,5.0
+339,2025,2400,School Administration,257309.0,4.3
+339,2025,2500,Business Services,11129.0,0.2
+339,2025,2600,Plant Operations,431105.0,7.3
+339,2025,2700,Transportation,242843.0,4.1
+339,2025,2900,Other Support Services,0.0,0.0
+339,2025,1500,Non-public Programs,0.0,0.0
+339,2025,"1600-1800,2750",Community Programs,0.0,0.0
+339,2025,5120,Bond Interest,372774.0,6.3
+339,2025,5310+5390,Charter Schools/Other Agencies,0.0,0.0
+339,2025,3100,Food Service,125651.6,2.1
+339,2025,4000,Facility Construction,0.0,
+339,2025,5100,Bonds & Notes Principal Repayment,395735.0,
+341,2025,1100,Regular Education,915592.0,43.6
+341,2025,1200,Special Programs,428551.0,20.4
+341,2025,1300,Vocational Programs,0.0,0.0
+341,2025,1400,Other Instructional Programs,1300.0,0.1
+341,2025,2100,Student Support Services,81740.0,3.9
+341,2025,2200,Instructional Staff Support,44321.0,2.1
+341,2025,2300&2800,Genral Administration & Business,112338.0,5.3
+341,2025,2400,School Administration,195140.0,9.3
+341,2025,2500,Business Services,1155.0,0.1
+341,2025,2600,Plant Operations,136059.0,6.5
+341,2025,2700,Transportation,161667.0,7.7
+341,2025,2900,Other Support Services,0.0,0.0
+341,2025,1500,Non-public Programs,600.0,0.0
+341,2025,"1600-1800,2750",Community Programs,0.0,0.0
+341,2025,5120,Bond Interest,0.0,0.0
+341,2025,5310+5390,Charter Schools/Other Agencies,0.0,0.0
+341,2025,3100,Food Service,22706.0,1.1
+341,2025,4000,Facility Construction,0.0,
+341,2025,5100,Bonds & Notes Principal Repayment,0.0,
+342,2025,1100,Regular Education,7402900.0,39.3
+342,2025,1200,Special Programs,2158671.0,11.5
+342,2025,1300,Vocational Programs,162334.0,0.9
+342,2025,1400,Other Instructional Programs,283518.0,1.5
+342,2025,2100,Student Support Services,1882966.0,10.0
+342,2025,2200,Instructional Staff Support,398366.0,2.1
+342,2025,2300&2800,Genral Administration & Business,1260955.0,6.7
+342,2025,2400,School Administration,1386695.0,7.4
+342,2025,2500,Business Services,386910.0,2.1
+342,2025,2600,Plant Operations,2042789.0,10.8
+342,2025,2700,Transportation,1023648.0,5.4
+342,2025,2900,Other Support Services,0.0,0.0
+342,2025,1500,Non-public Programs,0.0,0.0
+342,2025,"1600-1800,2750",Community Programs,0.0,0.0
+342,2025,5120,Bond Interest,198756.0,1.1
+342,2025,5310+5390,Charter Schools/Other Agencies,0.0,0.0
+342,2025,3100,Food Service,256529.33,1.4
+342,2025,4000,Facility Construction,0.0,
+342,2025,5100,Bonds & Notes Principal Repayment,1475000.0,
+343,2025,1100,Regular Education,10792638.0,34.6
+343,2025,1200,Special Programs,7035131.0,22.5
+343,2025,1300,Vocational Programs,531775.0,1.7
+343,2025,1400,Other Instructional Programs,551156.0,1.8
+343,2025,2100,Student Support Services,2064917.0,6.6
+343,2025,2200,Instructional Staff Support,696554.0,2.2
+343,2025,2300&2800,Genral Administration & Business,2218301.0,7.1
+343,2025,2400,School Administration,1715926.0,5.5
+343,2025,2500,Business Services,0.0,0.0
+343,2025,2600,Plant Operations,2738198.0,8.8
+343,2025,2700,Transportation,1966867.0,6.3
+343,2025,2900,Other Support Services,0.0,0.0
+343,2025,1500,Non-public Programs,0.0,0.0
+343,2025,"1600-1800,2750",Community Programs,9969.0,0.0
+343,2025,5120,Bond Interest,648985.0,2.1
+343,2025,5310+5390,Charter Schools/Other Agencies,0.0,0.0
+343,2025,3100,Food Service,251588.09000000003,0.8
+343,2025,4000,Facility Construction,1765096.0,
+343,2025,5100,Bonds & Notes Principal Repayment,894330.0,
+345,2025,1100,Regular Education,1879803.0,55.6
+345,2025,1200,Special Programs,327162.0,9.7
+345,2025,1300,Vocational Programs,0.0,0.0
+345,2025,1400,Other Instructional Programs,0.0,0.0
+345,2025,2100,Student Support Services,267179.0,7.9
+345,2025,2200,Instructional Staff Support,9932.0,0.3
+345,2025,2300&2800,Genral Administration & Business,191519.0,5.7
+345,2025,2400,School Administration,192850.0,5.7
+345,2025,2500,Business Services,41659.0,1.2
+345,2025,2600,Plant Operations,200198.0,5.9
+345,2025,2700,Transportation,145589.0,4.3
+345,2025,2900,Other Support Services,0.0,0.0
+345,2025,1500,Non-public Programs,0.0,0.0
+345,2025,"1600-1800,2750",Community Programs,0.0,0.0
+345,2025,5120,Bond Interest,45151.0,1.3
+345,2025,5310+5390,Charter Schools/Other Agencies,0.0,0.0
+345,2025,3100,Food Service,82622.85,2.4
+345,2025,4000,Facility Construction,0.0,
+345,2025,5100,Bonds & Notes Principal Repayment,245000.0,
+351,2025,1100,Regular Education,31009055.0,34.7
+351,2025,1200,Special Programs,23304898.0,26.1
+351,2025,1300,Vocational Programs,211846.0,0.2
+351,2025,1400,Other Instructional Programs,1369677.0,1.5
+351,2025,2100,Student Support Services,10136670.0,11.4
+351,2025,2200,Instructional Staff Support,2455060.0,2.7
+351,2025,2300&2800,Genral Administration & Business,3407535.0,3.8
+351,2025,2400,School Administration,4354539.0,4.9
+351,2025,2500,Business Services,767261.0,0.9
+351,2025,2600,Plant Operations,6465162.0,7.2
+351,2025,2700,Transportation,5302438.0,5.9
+351,2025,2900,Other Support Services,0.0,0.0
+351,2025,1500,Non-public Programs,0.0,0.0
+351,2025,"1600-1800,2750",Community Programs,22021.0,0.0
+351,2025,5120,Bond Interest,0.0,0.0
+351,2025,5310+5390,Charter Schools/Other Agencies,0.0,0.0
+351,2025,3100,Food Service,501097.0,0.6
+351,2025,4000,Facility Construction,1896588.0,
+351,2025,5100,Bonds & Notes Principal Repayment,0.0,
+352,2025,1100,Regular Education,16167218.0,33.5
+352,2025,1200,Special Programs,10403790.0,21.5
+352,2025,1300,Vocational Programs,483765.0,1.0
+352,2025,1400,Other Instructional Programs,880883.0,1.8
+352,2025,2100,Student Support Services,6986013.0,14.5
+352,2025,2200,Instructional Staff Support,1645308.0,3.4
+352,2025,2300&2800,Genral Administration & Business,1494973.0,3.1
+352,2025,2400,School Administration,2410059.0,5.0
+352,2025,2500,Business Services,4046.0,0.0
+352,2025,2600,Plant Operations,4249607.0,8.8
+352,2025,2700,Transportation,2986955.0,6.2
+352,2025,2900,Other Support Services,0.0,0.0
+352,2025,1500,Non-public Programs,0.0,0.0
+352,2025,"1600-1800,2750",Community Programs,0.0,0.0
+352,2025,5120,Bond Interest,0.0,0.0
+352,2025,5310+5390,Charter Schools/Other Agencies,0.0,0.0
+352,2025,3100,Food Service,617449.09,1.3
+352,2025,4000,Facility Construction,1063844.0,
+352,2025,5100,Bonds & Notes Principal Repayment,0.0,
+744,2025,1100,Regular Education,1633708.0,47.1
+744,2025,1200,Special Programs,271295.0,7.8
+744,2025,1300,Vocational Programs,0.0,0.0
+744,2025,1400,Other Instructional Programs,0.0,0.0
+744,2025,2100,Student Support Services,58065.0,1.7
+744,2025,2200,Instructional Staff Support,0.0,0.0
+744,2025,2300&2800,Genral Administration & Business,137057.0,3.9
+744,2025,2400,School Administration,519077.0,15.0
+744,2025,2500,Business Services,0.0,0.0
+744,2025,2600,Plant Operations,574799.0,16.6
+744,2025,2700,Transportation,0.0,0.0
+744,2025,2900,Other Support Services,0.0,0.0
+744,2025,1500,Non-public Programs,0.0,0.0
+744,2025,"1600-1800,2750",Community Programs,0.0,0.0
+744,2025,5120,Bond Interest,288815.0,8.3
+744,2025,5310+5390,Charter Schools/Other Agencies,0.0,0.0
+744,2025,3100,Food Service,-12888.0,-0.4
+744,2025,4000,Facility Construction,2651711.0,
+744,2025,5100,Bonds & Notes Principal Repayment,3554288.0,
+353,2025,1100,Regular Education,2702311.0,49.7
+353,2025,1200,Special Programs,1068017.0,19.6
+353,2025,1300,Vocational Programs,0.0,0.0
+353,2025,1400,Other Instructional Programs,38142.0,0.7
+353,2025,2100,Student Support Services,214181.0,3.9
+353,2025,2200,Instructional Staff Support,49802.0,0.9
+353,2025,2300&2800,Genral Administration & Business,326150.0,6.0
+353,2025,2400,School Administration,275298.0,5.1
+353,2025,2500,Business Services,2880.0,0.1
+353,2025,2600,Plant Operations,263721.0,4.8
+353,2025,2700,Transportation,318227.0,5.9
+353,2025,2900,Other Support Services,0.0,0.0
+353,2025,1500,Non-public Programs,0.0,0.0
+353,2025,"1600-1800,2750",Community Programs,0.0,0.0
+353,2025,5120,Bond Interest,124650.0,2.3
+353,2025,5310+5390,Charter Schools/Other Agencies,0.0,0.0
+353,2025,3100,Food Service,56075.96,1.0
+353,2025,4000,Facility Construction,6494.0,
+353,2025,5100,Bonds & Notes Principal Repayment,300000.0,
+355,2025,1100,Regular Education,2223211.0,52.6
+355,2025,1200,Special Programs,443191.0,10.5
+355,2025,1300,Vocational Programs,0.0,0.0
+355,2025,1400,Other Instructional Programs,10764.0,0.3
+355,2025,2100,Student Support Services,288446.0,6.8
+355,2025,2200,Instructional Staff Support,109414.0,2.6
+355,2025,2300&2800,Genral Administration & Business,257046.0,6.1
+355,2025,2400,School Administration,210368.0,5.0
+355,2025,2500,Business Services,0.0,0.0
+355,2025,2600,Plant Operations,277878.0,6.6
+355,2025,2700,Transportation,248599.0,5.9
+355,2025,2900,Other Support Services,0.0,0.0
+355,2025,1500,Non-public Programs,0.0,0.0
+355,2025,"1600-1800,2750",Community Programs,8072.0,0.2
+355,2025,5120,Bond Interest,0.0,0.0
+355,2025,5310+5390,Charter Schools/Other Agencies,4083.38,0.1
+355,2025,3100,Food Service,148400.58000000002,3.5
+355,2025,4000,Facility Construction,138771.0,
+355,2025,5100,Bonds & Notes Principal Repayment,0.0,
+357,2025,1100,Regular Education,17275908.0,36.2
+357,2025,1200,Special Programs,7297422.0,15.3
+357,2025,1300,Vocational Programs,1749962.0,3.7
+357,2025,1400,Other Instructional Programs,804865.0,1.7
+357,2025,2100,Student Support Services,4664865.0,9.8
+357,2025,2200,Instructional Staff Support,954550.0,2.0
+357,2025,2300&2800,Genral Administration & Business,3951214.0,8.3
+357,2025,2400,School Administration,2681628.0,5.6
+357,2025,2500,Business Services,941611.0,2.0
+357,2025,2600,Plant Operations,4787037.0,10.0
+357,2025,2700,Transportation,2302935.0,4.8
+357,2025,2900,Other Support Services,0.0,0.0
+357,2025,1500,Non-public Programs,0.0,0.0
+357,2025,"1600-1800,2750",Community Programs,0.0,0.0
+357,2025,5120,Bond Interest,70974.0,0.1
+357,2025,5310+5390,Charter Schools/Other Agencies,0.0,0.0
+357,2025,3100,Food Service,251784.88,0.5
+357,2025,4000,Facility Construction,0.0,
+357,2025,5100,Bonds & Notes Principal Repayment,475000.0,
+729,2025,1100,Regular Education,968740.0,48.2
+729,2025,1200,Special Programs,176696.0,8.8
+729,2025,1300,Vocational Programs,0.0,0.0
+729,2025,1400,Other Instructional Programs,36697.0,1.8
+729,2025,2100,Student Support Services,301223.0,15.0
+729,2025,2200,Instructional Staff Support,0.0,0.0
+729,2025,2300&2800,Genral Administration & Business,214635.0,10.7
+729,2025,2400,School Administration,104959.0,5.2
+729,2025,2500,Business Services,15011.0,0.7
+729,2025,2600,Plant Operations,192028.0,9.6
+729,2025,2700,Transportation,0.0,0.0
+729,2025,2900,Other Support Services,0.0,0.0
+729,2025,1500,Non-public Programs,0.0,0.0
+729,2025,"1600-1800,2750",Community Programs,0.0,0.0
+729,2025,5120,Bond Interest,0.0,0.0
+729,2025,5310+5390,Charter Schools/Other Agencies,0.0,0.0
+729,2025,3100,Food Service,0.0,0.0
+729,2025,4000,Facility Construction,0.0,
+729,2025,5100,Bonds & Notes Principal Repayment,0.0,
+359,2025,1100,Regular Education,3785259.0,29.8
+359,2025,1200,Special Programs,3688821.0,29.1
+359,2025,1300,Vocational Programs,99181.0,0.8
+359,2025,1400,Other Instructional Programs,233997.0,1.8
+359,2025,2100,Student Support Services,720933.0,5.7
+359,2025,2200,Instructional Staff Support,222415.0,1.8
+359,2025,2300&2800,Genral Administration & Business,946580.0,7.5
+359,2025,2400,School Administration,932984.0,7.4
+359,2025,2500,Business Services,26440.0,0.2
+359,2025,2600,Plant Operations,1102505.0,8.7
+359,2025,2700,Transportation,646862.0,5.1
+359,2025,2900,Other Support Services,0.0,0.0
+359,2025,1500,Non-public Programs,0.0,0.0
+359,2025,"1600-1800,2750",Community Programs,0.0,0.0
+359,2025,5120,Bond Interest,0.0,0.0
+359,2025,5310+5390,Charter Schools/Other Agencies,0.0,0.0
+359,2025,3100,Food Service,285268.66000000003,2.2
+359,2025,4000,Facility Construction,99997.0,
+359,2025,5100,Bonds & Notes Principal Repayment,0.0,
+363,2025,1100,Regular Education,12976050.0,33.0
+363,2025,1200,Special Programs,9321066.0,23.7
+363,2025,1300,Vocational Programs,44680.0,0.1
+363,2025,1400,Other Instructional Programs,1156753.0,2.9
+363,2025,2100,Student Support Services,2654155.0,6.8
+363,2025,2200,Instructional Staff Support,1273561.0,3.2
+363,2025,2300&2800,Genral Administration & Business,1851878.0,4.7
+363,2025,2400,School Administration,2197856.0,5.6
+363,2025,2500,Business Services,947903.0,2.4
+363,2025,2600,Plant Operations,2756070.0,7.0
+363,2025,2700,Transportation,2505280.0,6.4
+363,2025,2900,Other Support Services,0.0,0.0
+363,2025,1500,Non-public Programs,0.0,0.0
+363,2025,"1600-1800,2750",Community Programs,0.0,0.0
+363,2025,5120,Bond Interest,937287.0,2.4
+363,2025,5310+5390,Charter Schools/Other Agencies,0.0,0.0
+363,2025,3100,Food Service,682899.32,1.7
+363,2025,4000,Facility Construction,17634712.0,
+363,2025,5100,Bonds & Notes Principal Repayment,593331.0,
+365,2025,1100,Regular Education,2375736.0,48.4
+365,2025,1200,Special Programs,886647.0,18.1
+365,2025,1300,Vocational Programs,11227.0,0.2
+365,2025,1400,Other Instructional Programs,36440.0,0.7
+365,2025,2100,Student Support Services,344883.0,7.0
+365,2025,2200,Instructional Staff Support,167543.0,3.4
+365,2025,2300&2800,Genral Administration & Business,279366.0,5.7
+365,2025,2400,School Administration,165487.0,3.4
+365,2025,2500,Business Services,114183.0,2.3
+365,2025,2600,Plant Operations,168839.0,3.4
+365,2025,2700,Transportation,234168.0,4.8
+365,2025,2900,Other Support Services,0.0,0.0
+365,2025,1500,Non-public Programs,0.0,0.0
+365,2025,"1600-1800,2750",Community Programs,0.0,0.0
+365,2025,5120,Bond Interest,12691.0,0.3
+365,2025,5310+5390,Charter Schools/Other Agencies,0.0,0.0
+365,2025,3100,Food Service,114307.24,2.3
+365,2025,4000,Facility Construction,1897.0,
+365,2025,5100,Bonds & Notes Principal Repayment,20329.0,
+367,2025,1100,Regular Education,3505066.0,55.2
+367,2025,1200,Special Programs,835198.0,13.2
+367,2025,1300,Vocational Programs,0.0,0.0
+367,2025,1400,Other Instructional Programs,41696.0,0.7
+367,2025,2100,Student Support Services,544177.0,8.6
+367,2025,2200,Instructional Staff Support,115340.0,1.8
+367,2025,2300&2800,Genral Administration & Business,394559.0,6.2
+367,2025,2400,School Administration,282080.0,4.4
+367,2025,2500,Business Services,8160.0,0.1
+367,2025,2600,Plant Operations,382437.0,6.0
+367,2025,2700,Transportation,191310.0,3.0
+367,2025,2900,Other Support Services,0.0,0.0
+367,2025,1500,Non-public Programs,0.0,0.0
+367,2025,"1600-1800,2750",Community Programs,0.0,0.0
+367,2025,5120,Bond Interest,0.0,0.0
+367,2025,5310+5390,Charter Schools/Other Agencies,0.0,0.0
+367,2025,3100,Food Service,50948.06000000001,0.8
+367,2025,4000,Facility Construction,24700.0,
+367,2025,5100,Bonds & Notes Principal Repayment,0.0,
+369,2025,1100,Regular Education,6284831.0,32.9
+369,2025,1200,Special Programs,3345903.0,17.5
+369,2025,1300,Vocational Programs,43258.0,0.2
+369,2025,1400,Other Instructional Programs,629082.0,3.3
+369,2025,2100,Student Support Services,1081952.0,5.7
+369,2025,2200,Instructional Staff Support,1405934.0,7.4
+369,2025,2300&2800,Genral Administration & Business,744958.0,3.9
+369,2025,2400,School Administration,905118.0,4.7
+369,2025,2500,Business Services,0.0,0.0
+369,2025,2600,Plant Operations,3473151.0,18.2
+369,2025,2700,Transportation,972247.0,5.1
+369,2025,2900,Other Support Services,0.0,0.0
+369,2025,1500,Non-public Programs,0.0,0.0
+369,2025,"1600-1800,2750",Community Programs,60029.0,0.3
+369,2025,5120,Bond Interest,0.0,0.0
+369,2025,5310+5390,Charter Schools/Other Agencies,0.0,0.0
+369,2025,3100,Food Service,134761.0,0.7
+369,2025,4000,Facility Construction,0.0,
+369,2025,5100,Bonds & Notes Principal Repayment,0.0,
+704,2025,1100,Regular Education,945960.0,75.7
+704,2025,1200,Special Programs,0.0,0.0
+704,2025,1300,Vocational Programs,0.0,0.0
+704,2025,1400,Other Instructional Programs,11778.0,0.9
+704,2025,2100,Student Support Services,0.0,0.0
+704,2025,2200,Instructional Staff Support,4428.0,0.4
+704,2025,2300&2800,Genral Administration & Business,68063.0,5.4
+704,2025,2400,School Administration,121.0,0.0
+704,2025,2500,Business Services,46452.0,3.7
+704,2025,2600,Plant Operations,172777.0,13.8
+704,2025,2700,Transportation,0.0,0.0
+704,2025,2900,Other Support Services,0.0,0.0
+704,2025,1500,Non-public Programs,0.0,0.0
+704,2025,"1600-1800,2750",Community Programs,0.0,0.0
+704,2025,5120,Bond Interest,0.0,0.0
+704,2025,5310+5390,Charter Schools/Other Agencies,0.0,0.0
+704,2025,3100,Food Service,0.0,0.0
+704,2025,4000,Facility Construction,0.0,
+704,2025,5100,Bonds & Notes Principal Repayment,0.0,
+371,2025,1100,Regular Education,67514149.0,33.2
+371,2025,1200,Special Programs,41770543.0,20.5
+371,2025,1300,Vocational Programs,6328964.0,3.1
+371,2025,1400,Other Instructional Programs,2500852.0,1.2
+371,2025,2100,Student Support Services,19206337.0,9.4
+371,2025,2200,Instructional Staff Support,9440466.0,4.6
+371,2025,2300&2800,Genral Administration & Business,5318167.0,2.6
+371,2025,2400,School Administration,9144618.0,4.5
+371,2025,2500,Business Services,1621832.0,0.8
+371,2025,2600,Plant Operations,18597300.0,9.1
+371,2025,2700,Transportation,10524933.0,5.2
+371,2025,2900,Other Support Services,0.0,0.0
+371,2025,1500,Non-public Programs,19500.0,0.0
+371,2025,"1600-1800,2750",Community Programs,426622.0,0.2
+371,2025,5120,Bond Interest,6553550.0,3.2
+371,2025,5310+5390,Charter Schools/Other Agencies,0.0,0.0
+371,2025,3100,Food Service,4437449.05,2.2
+371,2025,4000,Facility Construction,17091415.0,
+371,2025,5100,Bonds & Notes Principal Repayment,4234000.0,
+375,2025,1100,Regular Education,1310398.0,51.4
+375,2025,1200,Special Programs,433650.0,17.0
+375,2025,1300,Vocational Programs,0.0,0.0
+375,2025,1400,Other Instructional Programs,7013.0,0.3
+375,2025,2100,Student Support Services,98357.0,3.9
+375,2025,2200,Instructional Staff Support,25465.0,1.0
+375,2025,2300&2800,Genral Administration & Business,125654.0,4.9
+375,2025,2400,School Administration,233436.0,9.2
+375,2025,2500,Business Services,8546.0,0.3
+375,2025,2600,Plant Operations,134364.0,5.3
+375,2025,2700,Transportation,141557.0,5.6
+375,2025,2900,Other Support Services,0.0,0.0
+375,2025,1500,Non-public Programs,0.0,0.0
+375,2025,"1600-1800,2750",Community Programs,0.0,0.0
+375,2025,5120,Bond Interest,15173.0,0.6
+375,2025,5310+5390,Charter Schools/Other Agencies,0.0,0.0
+375,2025,3100,Food Service,15324.0,0.6
+375,2025,4000,Facility Construction,0.0,
+375,2025,5100,Bonds & Notes Principal Repayment,85000.0,
+377,2025,1100,Regular Education,11788619.0,62.3
+377,2025,1200,Special Programs,3305317.0,17.5
+377,2025,1300,Vocational Programs,0.0,0.0
+377,2025,1400,Other Instructional Programs,97718.0,0.5
+377,2025,2100,Student Support Services,457442.0,2.4
+377,2025,2200,Instructional Staff Support,283464.0,1.5
+377,2025,2300&2800,Genral Administration & Business,632866.0,3.3
+377,2025,2400,School Administration,550995.0,2.9
+377,2025,2500,Business Services,6451.0,0.0
+377,2025,2600,Plant Operations,665744.0,3.5
+377,2025,2700,Transportation,1035312.0,5.5
+377,2025,2900,Other Support Services,0.0,0.0
+377,2025,1500,Non-public Programs,0.0,0.0
+377,2025,"1600-1800,2750",Community Programs,0.0,0.0
+377,2025,5120,Bond Interest,0.0,0.0
+377,2025,5310+5390,Charter Schools/Other Agencies,0.0,0.0
+377,2025,3100,Food Service,91520.84,0.5
+377,2025,4000,Facility Construction,0.0,
+377,2025,5100,Bonds & Notes Principal Repayment,0.0,
+381,2025,1100,Regular Education,894841.0,48.4
+381,2025,1200,Special Programs,91075.0,4.9
+381,2025,1300,Vocational Programs,0.0,0.0
+381,2025,1400,Other Instructional Programs,32036.0,1.7
+381,2025,2100,Student Support Services,165817.0,9.0
+381,2025,2200,Instructional Staff Support,59140.0,3.2
+381,2025,2300&2800,Genral Administration & Business,227538.0,12.3
+381,2025,2400,School Administration,193118.0,10.4
+381,2025,2500,Business Services,0.0,0.0
+381,2025,2600,Plant Operations,105365.0,5.7
+381,2025,2700,Transportation,77690.0,4.2
+381,2025,2900,Other Support Services,0.0,0.0
+381,2025,1500,Non-public Programs,0.0,0.0
+381,2025,"1600-1800,2750",Community Programs,0.0,0.0
+381,2025,5120,Bond Interest,3652.0,0.2
+381,2025,5310+5390,Charter Schools/Other Agencies,0.0,0.0
+381,2025,3100,Food Service,0.0,0.0
+381,2025,4000,Facility Construction,61420.0,
+381,2025,5100,Bonds & Notes Principal Repayment,100000.0,
+387,2025,1100,Regular Education,1464911.0,44.4
+387,2025,1200,Special Programs,470688.0,14.3
+387,2025,1300,Vocational Programs,0.0,0.0
+387,2025,1400,Other Instructional Programs,18551.0,0.6
+387,2025,2100,Student Support Services,381395.0,11.6
+387,2025,2200,Instructional Staff Support,167769.0,5.1
+387,2025,2300&2800,Genral Administration & Business,101717.0,3.1
+387,2025,2400,School Administration,294024.0,8.9
+387,2025,2500,Business Services,0.0,0.0
+387,2025,2600,Plant Operations,286563.0,8.7
+387,2025,2700,Transportation,78860.0,2.4
+387,2025,2900,Other Support Services,0.0,0.0
+387,2025,1500,Non-public Programs,0.0,0.0
+387,2025,"1600-1800,2750",Community Programs,0.0,0.0
+387,2025,5120,Bond Interest,0.0,0.0
+387,2025,5310+5390,Charter Schools/Other Agencies,0.0,0.0
+387,2025,3100,Food Service,31950.25,1.0
+387,2025,4000,Facility Construction,0.0,
+387,2025,5100,Bonds & Notes Principal Repayment,0.0,
+388,2025,1100,Regular Education,9745937.0,34.6
+388,2025,1200,Special Programs,5211533.0,18.5
+388,2025,1300,Vocational Programs,104517.0,0.4
+388,2025,1400,Other Instructional Programs,623955.0,2.2
+388,2025,2100,Student Support Services,3347435.0,11.9
+388,2025,2200,Instructional Staff Support,1292343.0,4.6
+388,2025,2300&2800,Genral Administration & Business,1412634.0,5.0
+388,2025,2400,School Administration,1773616.0,6.3
+388,2025,2500,Business Services,0.0,0.0
+388,2025,2600,Plant Operations,2654663.0,9.4
+388,2025,2700,Transportation,1523331.0,5.4
+388,2025,2900,Other Support Services,0.0,0.0
+388,2025,1500,Non-public Programs,0.0,0.0
+388,2025,"1600-1800,2750",Community Programs,129.0,0.0
+388,2025,5120,Bond Interest,32408.0,0.1
+388,2025,5310+5390,Charter Schools/Other Agencies,0.0,0.0
+388,2025,3100,Food Service,418644.81,1.5
+388,2025,4000,Facility Construction,715.0,
+388,2025,5100,Bonds & Notes Principal Repayment,403031.0,
+391,2025,1100,Regular Education,1348975.0,51.9
+391,2025,1200,Special Programs,190618.0,7.3
+391,2025,1300,Vocational Programs,0.0,0.0
+391,2025,1400,Other Instructional Programs,23385.0,0.9
+391,2025,2100,Student Support Services,119470.0,4.6
+391,2025,2200,Instructional Staff Support,59223.0,2.3
+391,2025,2300&2800,Genral Administration & Business,262303.0,10.1
+391,2025,2400,School Administration,238406.0,9.2
+391,2025,2500,Business Services,0.0,0.0
+391,2025,2600,Plant Operations,145572.0,5.6
+391,2025,2700,Transportation,174596.0,6.7
+391,2025,2900,Other Support Services,0.0,0.0
+391,2025,1500,Non-public Programs,0.0,0.0
+391,2025,"1600-1800,2750",Community Programs,0.0,0.0
+391,2025,5120,Bond Interest,0.0,0.0
+391,2025,5310+5390,Charter Schools/Other Agencies,0.0,0.0
+391,2025,3100,Food Service,36060.45,1.4
+391,2025,4000,Facility Construction,0.0,
+391,2025,5100,Bonds & Notes Principal Repayment,0.0,
+399,2025,1100,Regular Education,8984521.0,34.5
+399,2025,1200,Special Programs,5509594.0,21.2
+399,2025,1300,Vocational Programs,262258.0,1.0
+399,2025,1400,Other Instructional Programs,376559.0,1.4
+399,2025,2100,Student Support Services,1901563.0,7.3
+399,2025,2200,Instructional Staff Support,1540292.0,5.9
+399,2025,2300&2800,Genral Administration & Business,1317987.0,5.1
+399,2025,2400,School Administration,1365218.0,5.2
+399,2025,2500,Business Services,504627.0,1.9
+399,2025,2600,Plant Operations,1807529.0,6.9
+399,2025,2700,Transportation,966821.0,3.7
+399,2025,2900,Other Support Services,0.0,0.0
+399,2025,1500,Non-public Programs,0.0,0.0
+399,2025,"1600-1800,2750",Community Programs,0.0,0.0
+399,2025,5120,Bond Interest,1251903.0,4.8
+399,2025,5310+5390,Charter Schools/Other Agencies,0.0,0.0
+399,2025,3100,Food Service,239473.03,0.9
+399,2025,4000,Facility Construction,303648.0,
+399,2025,5100,Bonds & Notes Principal Repayment,845000.0,
+401,2025,1100,Regular Education,5675154.0,25.6
+401,2025,1200,Special Programs,4277089.0,19.3
+401,2025,1300,Vocational Programs,1216941.0,5.5
+401,2025,1400,Other Instructional Programs,491978.0,2.2
+401,2025,2100,Student Support Services,2584891.0,11.6
+401,2025,2200,Instructional Staff Support,1068460.0,4.8
+401,2025,2300&2800,Genral Administration & Business,1159856.0,5.2
+401,2025,2400,School Administration,1579091.0,7.1
+401,2025,2500,Business Services,415956.0,1.9
+401,2025,2600,Plant Operations,2519862.0,11.3
+401,2025,2700,Transportation,783215.0,3.5
+401,2025,2900,Other Support Services,0.0,0.0
+401,2025,1500,Non-public Programs,11730.0,0.1
+401,2025,"1600-1800,2750",Community Programs,14300.0,0.1
+401,2025,5120,Bond Interest,114822.0,0.5
+401,2025,5310+5390,Charter Schools/Other Agencies,0.0,0.0
+401,2025,3100,Food Service,291500.53,1.3
+401,2025,4000,Facility Construction,7821874.0,
+401,2025,5100,Bonds & Notes Principal Repayment,593200.0,
+740,2025,1100,Regular Education,913551.0,54.8
+740,2025,1200,Special Programs,189289.0,11.4
+740,2025,1300,Vocational Programs,0.0,0.0
+740,2025,1400,Other Instructional Programs,17360.0,1.0
+740,2025,2100,Student Support Services,10160.0,0.6
+740,2025,2200,Instructional Staff Support,11449.0,0.7
+740,2025,2300&2800,Genral Administration & Business,348706.0,20.9
+740,2025,2400,School Administration,63698.0,3.8
+740,2025,2500,Business Services,0.0,0.0
+740,2025,2600,Plant Operations,34283.0,2.1
+740,2025,2700,Transportation,73358.0,4.4
+740,2025,2900,Other Support Services,0.0,0.0
+740,2025,1500,Non-public Programs,0.0,0.0
+740,2025,"1600-1800,2750",Community Programs,0.0,0.0
+740,2025,5120,Bond Interest,4439.0,0.3
+740,2025,5310+5390,Charter Schools/Other Agencies,0.0,0.0
+740,2025,3100,Food Service,0.0,0.0
+740,2025,4000,Facility Construction,0.0,
+740,2025,5100,Bonds & Notes Principal Repayment,24620.0,
+703,2025,1100,Regular Education,277142.0,24.4
+703,2025,1200,Special Programs,0.0,0.0
+703,2025,1300,Vocational Programs,0.0,0.0
+703,2025,1400,Other Instructional Programs,5565.0,0.5
+703,2025,2100,Student Support Services,92384.0,8.1
+703,2025,2200,Instructional Staff Support,320.0,0.0
+703,2025,2300&2800,Genral Administration & Business,356758.0,31.4
+703,2025,2400,School Administration,21610.0,1.9
+703,2025,2500,Business Services,190822.0,16.8
+703,2025,2600,Plant Operations,66626.0,5.9
+703,2025,2700,Transportation,123881.0,10.9
+703,2025,2900,Other Support Services,0.0,0.0
+703,2025,1500,Non-public Programs,0.0,0.0
+703,2025,"1600-1800,2750",Community Programs,0.0,0.0
+703,2025,5120,Bond Interest,0.0,0.0
+703,2025,5310+5390,Charter Schools/Other Agencies,0.0,0.0
+703,2025,3100,Food Service,0.0,0.0
+703,2025,4000,Facility Construction,0.0,
+703,2025,5100,Bonds & Notes Principal Repayment,0.0,
+405,2025,1100,Regular Education,3837900.0,38.0
+405,2025,1200,Special Programs,2454290.0,24.3
+405,2025,1300,Vocational Programs,0.0,0.0
+405,2025,1400,Other Instructional Programs,153148.0,1.5
+405,2025,2100,Student Support Services,460844.0,4.6
+405,2025,2200,Instructional Staff Support,780834.0,7.7
+405,2025,2300&2800,Genral Administration & Business,326348.0,3.2
+405,2025,2400,School Administration,458183.0,4.5
+405,2025,2500,Business Services,0.0,0.0
+405,2025,2600,Plant Operations,923363.0,9.1
+405,2025,2700,Transportation,590976.0,5.9
+405,2025,2900,Other Support Services,0.0,0.0
+405,2025,1500,Non-public Programs,0.0,0.0
+405,2025,"1600-1800,2750",Community Programs,0.0,0.0
+405,2025,5120,Bond Interest,0.0,0.0
+405,2025,5310+5390,Charter Schools/Other Agencies,0.0,0.0
+405,2025,3100,Food Service,114747.71,1.1
+405,2025,4000,Facility Construction,145218.0,
+405,2025,5100,Bonds & Notes Principal Repayment,0.0,
+716,2025,1100,Regular Education,1430210.0,62.9
+716,2025,1200,Special Programs,79943.0,3.5
+716,2025,1300,Vocational Programs,0.0,0.0
+716,2025,1400,Other Instructional Programs,4496.0,0.2
+716,2025,2100,Student Support Services,19120.0,0.8
+716,2025,2200,Instructional Staff Support,0.0,0.0
+716,2025,2300&2800,Genral Administration & Business,407539.0,17.9
+716,2025,2400,School Administration,0.0,0.0
+716,2025,2500,Business Services,0.0,0.0
+716,2025,2600,Plant Operations,296406.0,13.0
+716,2025,2700,Transportation,5063.0,0.2
+716,2025,2900,Other Support Services,0.0,0.0
+716,2025,1500,Non-public Programs,0.0,0.0
+716,2025,"1600-1800,2750",Community Programs,0.0,0.0
+716,2025,5120,Bond Interest,32617.0,1.4
+716,2025,5310+5390,Charter Schools/Other Agencies,0.0,0.0
+716,2025,3100,Food Service,0.0,0.0
+716,2025,4000,Facility Construction,975000.0,
+716,2025,5100,Bonds & Notes Principal Repayment,374707.0,
+407,2025,1100,Regular Education,2564823.0,35.2
+407,2025,1200,Special Programs,1263956.0,17.3
+407,2025,1300,Vocational Programs,34250.0,0.5
+407,2025,1400,Other Instructional Programs,154528.0,2.1
+407,2025,2100,Student Support Services,829466.0,11.4
+407,2025,2200,Instructional Staff Support,236810.0,3.2
+407,2025,2300&2800,Genral Administration & Business,577447.0,7.9
+407,2025,2400,School Administration,733949.0,10.1
+407,2025,2500,Business Services,0.0,0.0
+407,2025,2600,Plant Operations,572735.0,7.9
+407,2025,2700,Transportation,143731.0,2.0
+407,2025,2900,Other Support Services,0.0,0.0
+407,2025,1500,Non-public Programs,0.0,0.0
+407,2025,"1600-1800,2750",Community Programs,1100.0,0.0
+407,2025,5120,Bond Interest,0.0,0.0
+407,2025,5310+5390,Charter Schools/Other Agencies,0.0,0.0
+407,2025,3100,Food Service,175452.16999999998,2.4
+407,2025,4000,Facility Construction,222450.0,
+407,2025,5100,Bonds & Notes Principal Repayment,0.0,
+411,2025,1100,Regular Education,6622744.0,46.2
+411,2025,1200,Special Programs,3251172.0,22.7
+411,2025,1300,Vocational Programs,0.0,0.0
+411,2025,1400,Other Instructional Programs,56737.0,0.4
+411,2025,2100,Student Support Services,550695.0,3.8
+411,2025,2200,Instructional Staff Support,701508.0,4.9
+411,2025,2300&2800,Genral Administration & Business,438394.0,3.1
+411,2025,2400,School Administration,439267.0,3.1
+411,2025,2500,Business Services,280167.0,2.0
+411,2025,2600,Plant Operations,1198519.0,8.4
+411,2025,2700,Transportation,700745.0,4.9
+411,2025,2900,Other Support Services,0.0,0.0
+411,2025,1500,Non-public Programs,0.0,0.0
+411,2025,"1600-1800,2750",Community Programs,0.0,0.0
+411,2025,5120,Bond Interest,0.0,0.0
+411,2025,5310+5390,Charter Schools/Other Agencies,0.0,0.0
+411,2025,3100,Food Service,92072.54,0.6
+411,2025,4000,Facility Construction,0.0,
+411,2025,5100,Bonds & Notes Principal Repayment,0.0,
+413,2025,1100,Regular Education,9263761.0,55.1
+413,2025,1200,Special Programs,2751048.0,16.4
+413,2025,1300,Vocational Programs,9950.0,0.1
+413,2025,1400,Other Instructional Programs,72159.0,0.4
+413,2025,2100,Student Support Services,1019020.0,6.1
+413,2025,2200,Instructional Staff Support,596138.0,3.5
+413,2025,2300&2800,Genral Administration & Business,615160.0,3.7
+413,2025,2400,School Administration,381978.0,2.3
+413,2025,2500,Business Services,204217.0,1.2
+413,2025,2600,Plant Operations,814277.0,4.8
+413,2025,2700,Transportation,981839.0,5.8
+413,2025,2900,Other Support Services,0.0,0.0
+413,2025,1500,Non-public Programs,0.0,0.0
+413,2025,"1600-1800,2750",Community Programs,0.0,0.0
+413,2025,5120,Bond Interest,0.0,0.0
+413,2025,5310+5390,Charter Schools/Other Agencies,0.0,0.0
+413,2025,3100,Food Service,101113.82,0.6
+413,2025,4000,Facility Construction,0.0,
+413,2025,5100,Bonds & Notes Principal Repayment,0.0,
+423,2025,1100,Regular Education,21491698.0,40.1
+423,2025,1200,Special Programs,7970563.0,14.9
+423,2025,1300,Vocational Programs,162727.0,0.3
+423,2025,1400,Other Instructional Programs,981095.0,1.8
+423,2025,2100,Student Support Services,5513338.0,10.3
+423,2025,2200,Instructional Staff Support,1214891.0,2.3
+423,2025,2300&2800,Genral Administration & Business,4073728.0,7.6
+423,2025,2400,School Administration,2241655.0,4.2
+423,2025,2500,Business Services,734472.0,1.4
+423,2025,2600,Plant Operations,5235419.0,9.8
+423,2025,2700,Transportation,2252309.0,4.2
+423,2025,2900,Other Support Services,0.0,0.0
+423,2025,1500,Non-public Programs,0.0,0.0
+423,2025,"1600-1800,2750",Community Programs,0.0,0.0
+423,2025,5120,Bond Interest,1379175.0,2.6
+423,2025,5310+5390,Charter Schools/Other Agencies,0.0,0.0
+423,2025,3100,Food Service,382924.20999999996,0.7
+423,2025,4000,Facility Construction,418857.0,
+423,2025,5100,Bonds & Notes Principal Repayment,1428950.0,
+425,2025,1100,Regular Education,13181565.0,34.9
+425,2025,1200,Special Programs,6380735.0,16.9
+425,2025,1300,Vocational Programs,164966.0,0.4
+425,2025,1400,Other Instructional Programs,716589.0,1.9
+425,2025,2100,Student Support Services,3273583.0,8.7
+425,2025,2200,Instructional Staff Support,1205103.0,3.2
+425,2025,2300&2800,Genral Administration & Business,2433221.0,6.5
+425,2025,2400,School Administration,2055435.0,5.4
+425,2025,2500,Business Services,513986.0,1.4
+425,2025,2600,Plant Operations,3567323.0,9.5
+425,2025,2700,Transportation,2500752.0,6.6
+425,2025,2900,Other Support Services,0.0,0.0
+425,2025,1500,Non-public Programs,0.0,0.0
+425,2025,"1600-1800,2750",Community Programs,0.0,0.0
+425,2025,5120,Bond Interest,1368270.0,3.6
+425,2025,5310+5390,Charter Schools/Other Agencies,0.0,0.0
+425,2025,3100,Food Service,360960.27000000014,1.0
+425,2025,4000,Facility Construction,617404.0,
+425,2025,5100,Bonds & Notes Principal Repayment,2410000.0,
+427,2025,1100,Regular Education,11290965.0,37.9
+427,2025,1200,Special Programs,7516292.0,25.2
+427,2025,1300,Vocational Programs,1206413.0,4.1
+427,2025,1400,Other Instructional Programs,778197.0,2.6
+427,2025,2100,Student Support Services,1270558.0,4.3
+427,2025,2200,Instructional Staff Support,370770.0,1.2
+427,2025,2300&2800,Genral Administration & Business,957360.0,3.2
+427,2025,2400,School Administration,2331764.0,7.8
+427,2025,2500,Business Services,0.0,0.0
+427,2025,2600,Plant Operations,2176741.0,7.3
+427,2025,2700,Transportation,1549960.0,5.2
+427,2025,2900,Other Support Services,0.0,0.0
+427,2025,1500,Non-public Programs,0.0,0.0
+427,2025,"1600-1800,2750",Community Programs,0.0,0.0
+427,2025,5120,Bond Interest,0.0,0.0
+427,2025,5310+5390,Charter Schools/Other Agencies,0.0,0.0
+427,2025,3100,Food Service,338403.03,1.1
+427,2025,4000,Facility Construction,788108.0,
+427,2025,5100,Bonds & Notes Principal Repayment,0.0,
+428,2025,1100,Regular Education,5696419.0,34.9
+428,2025,1200,Special Programs,2409533.0,14.8
+428,2025,1300,Vocational Programs,1274761.0,7.8
+428,2025,1400,Other Instructional Programs,742542.0,4.5
+428,2025,2100,Student Support Services,1202073.0,7.4
+428,2025,2200,Instructional Staff Support,326805.0,2.0
+428,2025,2300&2800,Genral Administration & Business,1045615.0,6.4
+428,2025,2400,School Administration,785967.0,4.8
+428,2025,2500,Business Services,49788.0,0.3
+428,2025,2600,Plant Operations,1639436.0,10.0
+428,2025,2700,Transportation,962827.0,5.9
+428,2025,2900,Other Support Services,0.0,0.0
+428,2025,1500,Non-public Programs,721.0,0.0
+428,2025,"1600-1800,2750",Community Programs,1025.0,0.0
+428,2025,5120,Bond Interest,110156.0,0.7
+428,2025,5310+5390,Charter Schools/Other Agencies,0.0,0.0
+428,2025,3100,Food Service,80011.10999999999,0.5
+428,2025,4000,Facility Construction,1012544.0,
+428,2025,5100,Bonds & Notes Principal Repayment,429034.0,
+435,2025,1100,Regular Education,991872.0,39.6
+435,2025,1200,Special Programs,436010.0,17.4
+435,2025,1300,Vocational Programs,44909.0,1.8
+435,2025,1400,Other Instructional Programs,15730.0,0.6
+435,2025,2100,Student Support Services,158601.0,6.3
+435,2025,2200,Instructional Staff Support,31192.0,1.2
+435,2025,2300&2800,Genral Administration & Business,177903.0,7.1
+435,2025,2400,School Administration,150854.0,6.0
+435,2025,2500,Business Services,0.0,0.0
+435,2025,2600,Plant Operations,289521.0,11.5
+435,2025,2700,Transportation,174819.0,7.0
+435,2025,2900,Other Support Services,0.0,0.0
+435,2025,1500,Non-public Programs,0.0,0.0
+435,2025,"1600-1800,2750",Community Programs,0.0,0.0
+435,2025,5120,Bond Interest,0.0,0.0
+435,2025,5310+5390,Charter Schools/Other Agencies,0.0,0.0
+435,2025,3100,Food Service,35434.0,1.4
+435,2025,4000,Facility Construction,0.0,
+435,2025,5100,Bonds & Notes Principal Repayment,0.0,
+437,2025,1100,Regular Education,1165415.0,34.6
+437,2025,1200,Special Programs,263080.0,7.8
+437,2025,1300,Vocational Programs,0.0,0.0
+437,2025,1400,Other Instructional Programs,150322.0,4.5
+437,2025,2100,Student Support Services,327648.0,9.7
+437,2025,2200,Instructional Staff Support,100759.0,3.0
+437,2025,2300&2800,Genral Administration & Business,490303.0,14.5
+437,2025,2400,School Administration,261697.0,7.8
+437,2025,2500,Business Services,18046.0,0.5
+437,2025,2600,Plant Operations,427851.0,12.7
+437,2025,2700,Transportation,110033.0,3.3
+437,2025,2900,Other Support Services,0.0,0.0
+437,2025,1500,Non-public Programs,0.0,0.0
+437,2025,"1600-1800,2750",Community Programs,0.0,0.0
+437,2025,5120,Bond Interest,0.0,0.0
+437,2025,5310+5390,Charter Schools/Other Agencies,0.0,0.0
+437,2025,3100,Food Service,55278.93,1.6
+437,2025,4000,Facility Construction,177130.0,
+437,2025,5100,Bonds & Notes Principal Repayment,0.0,
+439,2025,1100,Regular Education,3656858.0,28.1
+439,2025,1200,Special Programs,3569321.0,27.5
+439,2025,1300,Vocational Programs,65004.0,0.5
+439,2025,1400,Other Instructional Programs,105660.0,0.8
+439,2025,2100,Student Support Services,1243991.0,9.6
+439,2025,2200,Instructional Staff Support,619500.0,4.8
+439,2025,2300&2800,Genral Administration & Business,590330.0,4.5
+439,2025,2400,School Administration,953067.0,7.3
+439,2025,2500,Business Services,0.0,0.0
+439,2025,2600,Plant Operations,1157036.0,8.9
+439,2025,2700,Transportation,841214.0,6.5
+439,2025,2900,Other Support Services,0.0,0.0
+439,2025,1500,Non-public Programs,0.0,0.0
+439,2025,"1600-1800,2750",Community Programs,0.0,0.0
+439,2025,5120,Bond Interest,0.0,0.0
+439,2025,5310+5390,Charter Schools/Other Agencies,0.0,0.0
+439,2025,3100,Food Service,188836.16999999998,1.5
+439,2025,4000,Facility Construction,0.0,
+439,2025,5100,Bonds & Notes Principal Repayment,0.0,
+441,2025,1100,Regular Education,3896464.0,48.9
+441,2025,1200,Special Programs,1528506.0,19.2
+441,2025,1300,Vocational Programs,0.0,0.0
+441,2025,1400,Other Instructional Programs,42924.0,0.5
+441,2025,2100,Student Support Services,477736.0,6.0
+441,2025,2200,Instructional Staff Support,120131.0,1.5
+441,2025,2300&2800,Genral Administration & Business,781511.0,9.8
+441,2025,2400,School Administration,432942.0,5.4
+441,2025,2500,Business Services,0.0,0.0
+441,2025,2600,Plant Operations,424311.0,5.3
+441,2025,2700,Transportation,244819.0,3.1
+441,2025,2900,Other Support Services,0.0,0.0
+441,2025,1500,Non-public Programs,0.0,0.0
+441,2025,"1600-1800,2750",Community Programs,0.0,0.0
+441,2025,5120,Bond Interest,0.0,0.0
+441,2025,5310+5390,Charter Schools/Other Agencies,0.0,0.0
+441,2025,3100,Food Service,19556.01,0.2
+441,2025,4000,Facility Construction,16922.0,
+441,2025,5100,Bonds & Notes Principal Repayment,0.0,
+447,2025,1100,Regular Education,4282746.0,39.1
+447,2025,1200,Special Programs,2309961.0,21.1
+447,2025,1300,Vocational Programs,0.0,0.0
+447,2025,1400,Other Instructional Programs,308706.0,2.8
+447,2025,2100,Student Support Services,875052.0,8.0
+447,2025,2200,Instructional Staff Support,248998.0,2.3
+447,2025,2300&2800,Genral Administration & Business,550773.0,5.0
+447,2025,2400,School Administration,519610.0,4.7
+447,2025,2500,Business Services,37875.0,0.3
+447,2025,2600,Plant Operations,855120.0,7.8
+447,2025,2700,Transportation,445074.0,4.1
+447,2025,2900,Other Support Services,0.0,0.0
+447,2025,1500,Non-public Programs,6095.0,0.1
+447,2025,"1600-1800,2750",Community Programs,354570.0,3.2
+447,2025,5120,Bond Interest,5334.0,0.0
+447,2025,5310+5390,Charter Schools/Other Agencies,0.0,0.0
+447,2025,3100,Food Service,143072.38,1.3
+447,2025,4000,Facility Construction,416328.0,
+447,2025,5100,Bonds & Notes Principal Repayment,26628.0,
+735,2025,1100,Regular Education,682693.0,53.7
+735,2025,1200,Special Programs,9204.0,0.7
+735,2025,1300,Vocational Programs,0.0,0.0
+735,2025,1400,Other Instructional Programs,0.0,0.0
+735,2025,2100,Student Support Services,13856.0,1.1
+735,2025,2200,Instructional Staff Support,9510.0,0.7
+735,2025,2300&2800,Genral Administration & Business,20015.0,1.6
+735,2025,2400,School Administration,315530.0,24.8
+735,2025,2500,Business Services,28403.0,2.2
+735,2025,2600,Plant Operations,147573.0,11.6
+735,2025,2700,Transportation,6832.0,0.5
+735,2025,2900,Other Support Services,0.0,0.0
+735,2025,1500,Non-public Programs,0.0,0.0
+735,2025,"1600-1800,2750",Community Programs,0.0,0.0
+735,2025,5120,Bond Interest,38099.0,3.0
+735,2025,5310+5390,Charter Schools/Other Agencies,0.0,0.0
+735,2025,3100,Food Service,0.0,0.0
+735,2025,4000,Facility Construction,0.0,
+735,2025,5100,Bonds & Notes Principal Repayment,18386.0,
+449,2025,1100,Regular Education,25811417.0,35.9
+449,2025,1200,Special Programs,14374750.0,20.0
+449,2025,1300,Vocational Programs,1901894.0,2.6
+449,2025,1400,Other Instructional Programs,1163503.0,1.6
+449,2025,2100,Student Support Services,6591359.0,9.2
+449,2025,2200,Instructional Staff Support,1175826.0,1.6
+449,2025,2300&2800,Genral Administration & Business,3383624.0,4.7
+449,2025,2400,School Administration,2646926.0,3.7
+449,2025,2500,Business Services,720792.0,1.0
+449,2025,2600,Plant Operations,11141905.0,15.5
+449,2025,2700,Transportation,2612763.0,3.6
+449,2025,2900,Other Support Services,0.0,0.0
+449,2025,1500,Non-public Programs,2185.0,0.0
+449,2025,"1600-1800,2750",Community Programs,0.0,0.0
+449,2025,5120,Bond Interest,0.0,0.0
+449,2025,5310+5390,Charter Schools/Other Agencies,0.0,0.0
+449,2025,3100,Food Service,344016.23,0.5
+449,2025,4000,Facility Construction,0.0,
+449,2025,5100,Bonds & Notes Principal Repayment,0.0,
+450,2025,1100,Regular Education,2832871.0,42.5
+450,2025,1200,Special Programs,744996.0,11.2
+450,2025,1300,Vocational Programs,136967.0,2.1
+450,2025,1400,Other Instructional Programs,235584.0,3.5
+450,2025,2100,Student Support Services,415906.0,6.2
+450,2025,2200,Instructional Staff Support,302861.0,4.5
+450,2025,2300&2800,Genral Administration & Business,596654.0,9.0
+450,2025,2400,School Administration,602802.0,9.0
+450,2025,2500,Business Services,0.0,0.0
+450,2025,2600,Plant Operations,593560.0,8.9
+450,2025,2700,Transportation,96561.0,1.4
+450,2025,2900,Other Support Services,0.0,0.0
+450,2025,1500,Non-public Programs,0.0,0.0
+450,2025,"1600-1800,2750",Community Programs,0.0,0.0
+450,2025,5120,Bond Interest,39900.0,0.6
+450,2025,5310+5390,Charter Schools/Other Agencies,0.0,0.0
+450,2025,3100,Food Service,63563.41,1.0
+450,2025,4000,Facility Construction,0.0,
+450,2025,5100,Bonds & Notes Principal Repayment,645000.0,
+453,2025,1100,Regular Education,9514767.0,32.4
+453,2025,1200,Special Programs,5842868.0,19.9
+453,2025,1300,Vocational Programs,222461.0,0.8
+453,2025,1400,Other Instructional Programs,847679.0,2.9
+453,2025,2100,Student Support Services,2894561.0,9.8
+453,2025,2200,Instructional Staff Support,1128652.0,3.8
+453,2025,2300&2800,Genral Administration & Business,1521899.0,5.2
+453,2025,2400,School Administration,1763607.0,6.0
+453,2025,2500,Business Services,381354.0,1.3
+453,2025,2600,Plant Operations,2451469.0,8.3
+453,2025,2700,Transportation,1859515.0,6.3
+453,2025,2900,Other Support Services,0.0,0.0
+453,2025,1500,Non-public Programs,0.0,0.0
+453,2025,"1600-1800,2750",Community Programs,29454.0,0.1
+453,2025,5120,Bond Interest,573956.0,2.0
+453,2025,5310+5390,Charter Schools/Other Agencies,44070.48,0.1
+453,2025,3100,Food Service,330443.52999999997,1.1
+453,2025,4000,Facility Construction,315124.0,
+453,2025,5100,Bonds & Notes Principal Repayment,529278.0,
+724,2025,1100,Regular Education,153977.0,43.6
+724,2025,1200,Special Programs,0.0,0.0
+724,2025,1300,Vocational Programs,0.0,0.0
+724,2025,1400,Other Instructional Programs,0.0,0.0
+724,2025,2100,Student Support Services,23667.0,6.7
+724,2025,2200,Instructional Staff Support,12813.0,3.6
+724,2025,2300&2800,Genral Administration & Business,13632.0,3.9
+724,2025,2400,School Administration,31082.0,8.8
+724,2025,2500,Business Services,83533.0,23.6
+724,2025,2600,Plant Operations,30192.0,8.5
+724,2025,2700,Transportation,4647.0,1.3
+724,2025,2900,Other Support Services,0.0,0.0
+724,2025,1500,Non-public Programs,0.0,0.0
+724,2025,"1600-1800,2750",Community Programs,0.0,0.0
+724,2025,5120,Bond Interest,0.0,0.0
+724,2025,5310+5390,Charter Schools/Other Agencies,0.0,0.0
+724,2025,3100,Food Service,0.0,0.0
+724,2025,4000,Facility Construction,0.0,
+724,2025,5100,Bonds & Notes Principal Repayment,0.0,
+737,2025,1100,Regular Education,257372.0,46.3
+737,2025,1200,Special Programs,0.0,0.0
+737,2025,1300,Vocational Programs,0.0,0.0
+737,2025,1400,Other Instructional Programs,1724.0,0.3
+737,2025,2100,Student Support Services,0.0,0.0
+737,2025,2200,Instructional Staff Support,0.0,0.0
+737,2025,2300&2800,Genral Administration & Business,20564.0,3.7
+737,2025,2400,School Administration,153058.0,27.5
+737,2025,2500,Business Services,10664.0,1.9
+737,2025,2600,Plant Operations,110675.0,19.9
+737,2025,2700,Transportation,2300.0,0.4
+737,2025,2900,Other Support Services,0.0,0.0
+737,2025,1500,Non-public Programs,0.0,0.0
+737,2025,"1600-1800,2750",Community Programs,0.0,0.0
+737,2025,5120,Bond Interest,0.0,0.0
+737,2025,5310+5390,Charter Schools/Other Agencies,0.0,0.0
+737,2025,3100,Food Service,0.0,0.0
+737,2025,4000,Facility Construction,0.0,
+737,2025,5100,Bonds & Notes Principal Repayment,0.0,
+461,2025,1100,Regular Education,26270494.0,32.7
+461,2025,1200,Special Programs,19780052.0,24.6
+461,2025,1300,Vocational Programs,2236602.0,2.8
+461,2025,1400,Other Instructional Programs,803699.0,1.0
+461,2025,2100,Student Support Services,3795012.0,4.7
+461,2025,2200,Instructional Staff Support,2749946.0,3.4
+461,2025,2300&2800,Genral Administration & Business,4218848.0,5.2
+461,2025,2400,School Administration,4103005.0,5.1
+461,2025,2500,Business Services,712732.0,0.9
+461,2025,2600,Plant Operations,8858439.0,11.0
+461,2025,2700,Transportation,4604146.0,5.7
+461,2025,2900,Other Support Services,0.0,0.0
+461,2025,1500,Non-public Programs,0.0,0.0
+461,2025,"1600-1800,2750",Community Programs,284222.0,0.4
+461,2025,5120,Bond Interest,669839.0,0.8
+461,2025,5310+5390,Charter Schools/Other Agencies,0.0,0.0
+461,2025,3100,Food Service,1291039.05,1.6
+461,2025,4000,Facility Construction,35248550.0,
+461,2025,5100,Bonds & Notes Principal Repayment,1362134.0,
+463,2025,1100,Regular Education,3358262.0,51.5
+463,2025,1200,Special Programs,1211240.0,18.6
+463,2025,1300,Vocational Programs,0.0,0.0
+463,2025,1400,Other Instructional Programs,79942.0,1.2
+463,2025,2100,Student Support Services,382010.0,5.9
+463,2025,2200,Instructional Staff Support,86235.0,1.3
+463,2025,2300&2800,Genral Administration & Business,352314.0,5.4
+463,2025,2400,School Administration,230025.0,3.5
+463,2025,2500,Business Services,161.0,0.0
+463,2025,2600,Plant Operations,368258.0,5.6
+463,2025,2700,Transportation,409798.0,6.3
+463,2025,2900,Other Support Services,0.0,0.0
+463,2025,1500,Non-public Programs,0.0,0.0
+463,2025,"1600-1800,2750",Community Programs,0.0,0.0
+463,2025,5120,Bond Interest,0.0,0.0
+463,2025,5310+5390,Charter Schools/Other Agencies,0.0,0.0
+463,2025,3100,Food Service,47620.999999999985,0.7
+463,2025,4000,Facility Construction,0.0,
+463,2025,5100,Bonds & Notes Principal Repayment,0.0,
+467,2025,1100,Regular Education,1195272.0,35.9
+467,2025,1200,Special Programs,509999.0,15.3
+467,2025,1300,Vocational Programs,0.0,0.0
+467,2025,1400,Other Instructional Programs,252886.0,7.6
+467,2025,2100,Student Support Services,383497.0,11.5
+467,2025,2200,Instructional Staff Support,34016.0,1.0
+467,2025,2300&2800,Genral Administration & Business,135958.0,4.1
+467,2025,2400,School Administration,266240.0,8.0
+467,2025,2500,Business Services,8544.0,0.3
+467,2025,2600,Plant Operations,290039.0,8.7
+467,2025,2700,Transportation,125204.0,3.8
+467,2025,2900,Other Support Services,0.0,0.0
+467,2025,1500,Non-public Programs,0.0,0.0
+467,2025,"1600-1800,2750",Community Programs,220.0,0.0
+467,2025,5120,Bond Interest,51563.0,1.6
+467,2025,5310+5390,Charter Schools/Other Agencies,0.0,0.0
+467,2025,3100,Food Service,72207.17,2.2
+467,2025,4000,Facility Construction,4825.0,
+467,2025,5100,Bonds & Notes Principal Repayment,95000.0,
+471,2025,1100,Regular Education,9195151.0,53.3
+471,2025,1200,Special Programs,1999753.0,11.6
+471,2025,1300,Vocational Programs,0.0,0.0
+471,2025,1400,Other Instructional Programs,212405.0,1.2
+471,2025,2100,Student Support Services,1038606.0,6.0
+471,2025,2200,Instructional Staff Support,752473.0,4.4
+471,2025,2300&2800,Genral Administration & Business,1208993.0,7.0
+471,2025,2400,School Administration,732911.0,4.2
+471,2025,2500,Business Services,0.0,0.0
+471,2025,2600,Plant Operations,1356765.0,7.9
+471,2025,2700,Transportation,696130.0,4.0
+471,2025,2900,Other Support Services,0.0,0.0
+471,2025,1500,Non-public Programs,0.0,0.0
+471,2025,"1600-1800,2750",Community Programs,0.0,0.0
+471,2025,5120,Bond Interest,0.0,0.0
+471,2025,5310+5390,Charter Schools/Other Agencies,0.0,0.0
+471,2025,3100,Food Service,68115.63,0.4
+471,2025,4000,Facility Construction,356252.0,
+471,2025,5100,Bonds & Notes Principal Repayment,0.0,
+473,2025,1100,Regular Education,31991308.0,39.4
+473,2025,1200,Special Programs,13470834.0,16.6
+473,2025,1300,Vocational Programs,2363251.0,2.9
+473,2025,1400,Other Instructional Programs,1414693.0,1.7
+473,2025,2100,Student Support Services,8085832.0,10.0
+473,2025,2200,Instructional Staff Support,3701491.0,4.6
+473,2025,2300&2800,Genral Administration & Business,1418431.0,1.7
+473,2025,2400,School Administration,3605691.0,4.4
+473,2025,2500,Business Services,622468.0,0.8
+473,2025,2600,Plant Operations,6686038.0,8.2
+473,2025,2700,Transportation,4193145.0,5.2
+473,2025,2900,Other Support Services,0.0,0.0
+473,2025,1500,Non-public Programs,11593.0,0.0
+473,2025,"1600-1800,2750",Community Programs,369307.0,0.5
+473,2025,5120,Bond Interest,2540319.0,3.1
+473,2025,5310+5390,Charter Schools/Other Agencies,0.0,0.0
+473,2025,3100,Food Service,755641.9299999999,0.9
+473,2025,4000,Facility Construction,6568040.0,
+473,2025,5100,Bonds & Notes Principal Repayment,6623900.0,
+476,2025,1100,Regular Education,12712079.0,34.0
+476,2025,1200,Special Programs,7124960.0,19.1
+476,2025,1300,Vocational Programs,317258.0,0.8
+476,2025,1400,Other Instructional Programs,588256.0,1.6
+476,2025,2100,Student Support Services,2935581.0,7.9
+476,2025,2200,Instructional Staff Support,657232.0,1.8
+476,2025,2300&2800,Genral Administration & Business,3471457.0,9.3
+476,2025,2400,School Administration,2281284.0,6.1
+476,2025,2500,Business Services,556252.0,1.5
+476,2025,2600,Plant Operations,3436112.0,9.2
+476,2025,2700,Transportation,1579061.0,4.2
+476,2025,2900,Other Support Services,0.0,0.0
+476,2025,1500,Non-public Programs,1335.0,0.0
+476,2025,"1600-1800,2750",Community Programs,46142.0,0.1
+476,2025,5120,Bond Interest,1440342.0,3.9
+476,2025,5310+5390,Charter Schools/Other Agencies,0.0,0.0
+476,2025,3100,Food Service,244773.14999999997,0.7
+476,2025,4000,Facility Construction,70090.0,
+476,2025,5100,Bonds & Notes Principal Repayment,871417.0,
+485,2025,1100,Regular Education,7850324.0,42.5
+485,2025,1200,Special Programs,3983291.0,21.6
+485,2025,1300,Vocational Programs,0.0,0.0
+485,2025,1400,Other Instructional Programs,139857.0,0.8
+485,2025,2100,Student Support Services,844958.0,4.6
+485,2025,2200,Instructional Staff Support,1121832.0,6.1
+485,2025,2300&2800,Genral Administration & Business,810472.0,4.4
+485,2025,2400,School Administration,962569.0,5.2
+485,2025,2500,Business Services,0.0,0.0
+485,2025,2600,Plant Operations,1311547.0,7.1
+485,2025,2700,Transportation,1000188.0,5.4
+485,2025,2900,Other Support Services,0.0,0.0
+485,2025,1500,Non-public Programs,14451.0,0.1
+485,2025,"1600-1800,2750",Community Programs,16172.0,0.1
+485,2025,5120,Bond Interest,5128.0,0.0
+485,2025,5310+5390,Charter Schools/Other Agencies,0.0,0.0
+485,2025,3100,Food Service,403388.31,2.2
+485,2025,4000,Facility Construction,379995.0,
+485,2025,5100,Bonds & Notes Principal Repayment,144037.0,
+705,2025,1100,Regular Education,2039283.0,57.7
+705,2025,1200,Special Programs,333363.0,9.4
+705,2025,1300,Vocational Programs,0.0,0.0
+705,2025,1400,Other Instructional Programs,45160.0,1.3
+705,2025,2100,Student Support Services,32794.0,0.9
+705,2025,2200,Instructional Staff Support,97046.0,2.7
+705,2025,2300&2800,Genral Administration & Business,15060.0,0.4
+705,2025,2400,School Administration,486172.0,13.7
+705,2025,2500,Business Services,26748.0,0.8
+705,2025,2600,Plant Operations,312927.0,8.8
+705,2025,2700,Transportation,3739.0,0.1
+705,2025,2900,Other Support Services,0.0,0.0
+705,2025,1500,Non-public Programs,0.0,0.0
+705,2025,"1600-1800,2750",Community Programs,101956.0,2.9
+705,2025,5120,Bond Interest,32844.0,0.9
+705,2025,5310+5390,Charter Schools/Other Agencies,0.0,0.0
+705,2025,3100,Food Service,9085.93,0.3
+705,2025,4000,Facility Construction,46305.0,
+705,2025,5100,Bonds & Notes Principal Repayment,2354.0,
+730,2025,1100,Regular Education,1191143.0,35.6
+730,2025,1200,Special Programs,72187.0,2.2
+730,2025,1300,Vocational Programs,0.0,0.0
+730,2025,1400,Other Instructional Programs,126415.0,3.8
+730,2025,2100,Student Support Services,128134.0,3.8
+730,2025,2200,Instructional Staff Support,0.0,0.0
+730,2025,2300&2800,Genral Administration & Business,560044.0,16.7
+730,2025,2400,School Administration,0.0,0.0
+730,2025,2500,Business Services,0.0,0.0
+730,2025,2600,Plant Operations,1267863.0,37.9
+730,2025,2700,Transportation,0.0,0.0
+730,2025,2900,Other Support Services,0.0,0.0
+730,2025,1500,Non-public Programs,0.0,0.0
+730,2025,"1600-1800,2750",Community Programs,0.0,0.0
+730,2025,5120,Bond Interest,0.0,0.0
+730,2025,5310+5390,Charter Schools/Other Agencies,0.0,0.0
+730,2025,3100,Food Service,0.0,0.0
+730,2025,4000,Facility Construction,0.0,
+730,2025,5100,Bonds & Notes Principal Repayment,0.0,
+486,2025,1100,Regular Education,10652904.0,39.2
+486,2025,1200,Special Programs,4473320.0,16.4
+486,2025,1300,Vocational Programs,304837.0,1.1
+486,2025,1400,Other Instructional Programs,659652.0,2.4
+486,2025,2100,Student Support Services,2975048.0,10.9
+486,2025,2200,Instructional Staff Support,1509090.0,5.5
+486,2025,2300&2800,Genral Administration & Business,470344.0,1.7
+486,2025,2400,School Administration,1554586.0,5.7
+486,2025,2500,Business Services,433814.0,1.6
+486,2025,2600,Plant Operations,2303677.0,8.5
+486,2025,2700,Transportation,1450938.0,5.3
+486,2025,2900,Other Support Services,0.0,0.0
+486,2025,1500,Non-public Programs,0.0,0.0
+486,2025,"1600-1800,2750",Community Programs,4027.0,0.0
+486,2025,5120,Bond Interest,0.0,0.0
+486,2025,5310+5390,Charter Schools/Other Agencies,0.0,0.0
+486,2025,3100,Food Service,407706.78,1.5
+486,2025,4000,Facility Construction,375838.0,
+486,2025,5100,Bonds & Notes Principal Repayment,0.0,
+491,2025,1100,Regular Education,9812588.0,29.3
+491,2025,1200,Special Programs,8634293.0,25.8
+491,2025,1300,Vocational Programs,1085284.0,3.2
+491,2025,1400,Other Instructional Programs,452513.0,1.4
+491,2025,2100,Student Support Services,2056544.0,6.2
+491,2025,2200,Instructional Staff Support,561896.0,1.7
+491,2025,2300&2800,Genral Administration & Business,2368939.0,7.1
+491,2025,2400,School Administration,2230028.0,6.7
+491,2025,2500,Business Services,86094.0,0.3
+491,2025,2600,Plant Operations,3035705.0,9.1
+491,2025,2700,Transportation,1873019.0,5.6
+491,2025,2900,Other Support Services,0.0,0.0
+491,2025,1500,Non-public Programs,0.0,0.0
+491,2025,"1600-1800,2750",Community Programs,0.0,0.0
+491,2025,5120,Bond Interest,732458.0,2.2
+491,2025,5310+5390,Charter Schools/Other Agencies,0.0,0.0
+491,2025,3100,Food Service,507210.57,1.5
+491,2025,4000,Facility Construction,0.0,
+491,2025,5100,Bonds & Notes Principal Repayment,1081477.0,
+493,2025,1100,Regular Education,7766166.0,38.9
+493,2025,1200,Special Programs,3890368.0,19.5
+493,2025,1300,Vocational Programs,69899.0,0.3
+493,2025,1400,Other Instructional Programs,805034.0,4.0
+493,2025,2100,Student Support Services,1808413.0,9.0
+493,2025,2200,Instructional Staff Support,570855.0,2.9
+493,2025,2300&2800,Genral Administration & Business,1611238.0,8.1
+493,2025,2400,School Administration,762299.0,3.8
+493,2025,2500,Business Services,17083.0,0.1
+493,2025,2600,Plant Operations,1771722.0,8.9
+493,2025,2700,Transportation,790817.0,4.0
+493,2025,2900,Other Support Services,0.0,0.0
+493,2025,1500,Non-public Programs,0.0,0.0
+493,2025,"1600-1800,2750",Community Programs,0.0,0.0
+493,2025,5120,Bond Interest,0.0,0.0
+493,2025,5310+5390,Charter Schools/Other Agencies,0.0,0.0
+493,2025,3100,Food Service,119819.04999999999,0.6
+493,2025,4000,Facility Construction,4260.0,
+493,2025,5100,Bonds & Notes Principal Repayment,0.0,
+495,2025,1100,Regular Education,1486989.0,47.9
+495,2025,1200,Special Programs,561840.0,18.1
+495,2025,1300,Vocational Programs,0.0,0.0
+495,2025,1400,Other Instructional Programs,26282.0,0.8
+495,2025,2100,Student Support Services,277746.0,8.9
+495,2025,2200,Instructional Staff Support,112302.0,3.6
+495,2025,2300&2800,Genral Administration & Business,94457.0,3.0
+495,2025,2400,School Administration,230588.0,7.4
+495,2025,2500,Business Services,0.0,0.0
+495,2025,2600,Plant Operations,225330.0,7.3
+495,2025,2700,Transportation,81058.0,2.6
+495,2025,2900,Other Support Services,0.0,0.0
+495,2025,1500,Non-public Programs,0.0,0.0
+495,2025,"1600-1800,2750",Community Programs,0.0,0.0
+495,2025,5120,Bond Interest,0.0,0.0
+495,2025,5310+5390,Charter Schools/Other Agencies,0.0,0.0
+495,2025,3100,Food Service,9969.0,0.3
+495,2025,4000,Facility Construction,0.0,
+495,2025,5100,Bonds & Notes Principal Repayment,0.0,
+714,2025,1100,Regular Education,572874.0,34.4
+714,2025,1200,Special Programs,0.0,0.0
+714,2025,1300,Vocational Programs,0.0,0.0
+714,2025,1400,Other Instructional Programs,37712.0,2.3
+714,2025,2100,Student Support Services,119212.0,7.2
+714,2025,2200,Instructional Staff Support,0.0,0.0
+714,2025,2300&2800,Genral Administration & Business,144821.0,8.7
+714,2025,2400,School Administration,374959.0,22.5
+714,2025,2500,Business Services,0.0,0.0
+714,2025,2600,Plant Operations,416941.0,25.0
+714,2025,2700,Transportation,0.0,0.0
+714,2025,2900,Other Support Services,0.0,0.0
+714,2025,1500,Non-public Programs,0.0,0.0
+714,2025,"1600-1800,2750",Community Programs,0.0,0.0
+714,2025,5120,Bond Interest,0.0,0.0
+714,2025,5310+5390,Charter Schools/Other Agencies,0.0,0.0
+714,2025,3100,Food Service,0.0,0.0
+714,2025,4000,Facility Construction,0.0,
+714,2025,5100,Bonds & Notes Principal Repayment,0.0,
+499,2025,1100,Regular Education,808451.0,58.2
+499,2025,1200,Special Programs,56856.0,4.1
+499,2025,1300,Vocational Programs,0.0,0.0
+499,2025,1400,Other Instructional Programs,10355.0,0.7
+499,2025,2100,Student Support Services,29362.0,2.1
+499,2025,2200,Instructional Staff Support,22201.0,1.6
+499,2025,2300&2800,Genral Administration & Business,157530.0,11.3
+499,2025,2400,School Administration,141826.0,10.2
+499,2025,2500,Business Services,0.0,0.0
+499,2025,2600,Plant Operations,64831.0,4.7
+499,2025,2700,Transportation,48439.0,3.5
+499,2025,2900,Other Support Services,0.0,0.0
+499,2025,1500,Non-public Programs,0.0,0.0
+499,2025,"1600-1800,2750",Community Programs,0.0,0.0
+499,2025,5120,Bond Interest,0.0,0.0
+499,2025,5310+5390,Charter Schools/Other Agencies,0.0,0.0
+499,2025,3100,Food Service,49619.2,3.6
+499,2025,4000,Facility Construction,0.0,
+499,2025,5100,Bonds & Notes Principal Repayment,0.0,
+501,2025,1100,Regular Education,1444384.0,50.0
+501,2025,1200,Special Programs,300372.0,10.4
+501,2025,1300,Vocational Programs,23894.0,0.8
+501,2025,1400,Other Instructional Programs,16067.0,0.6
+501,2025,2100,Student Support Services,236228.0,8.2
+501,2025,2200,Instructional Staff Support,78252.0,2.7
+501,2025,2300&2800,Genral Administration & Business,253683.0,8.8
+501,2025,2400,School Administration,197242.0,6.8
+501,2025,2500,Business Services,572.0,0.0
+501,2025,2600,Plant Operations,160523.0,5.6
+501,2025,2700,Transportation,100537.0,3.5
+501,2025,2900,Other Support Services,0.0,0.0
+501,2025,1500,Non-public Programs,0.0,0.0
+501,2025,"1600-1800,2750",Community Programs,0.0,0.0
+501,2025,5120,Bond Interest,0.0,0.0
+501,2025,5310+5390,Charter Schools/Other Agencies,6628.13,0.2
+501,2025,3100,Food Service,72022.23,2.5
+501,2025,4000,Facility Construction,198423.0,
+501,2025,5100,Bonds & Notes Principal Repayment,0.0,
+503,2025,1100,Regular Education,1567839.0,44.9
+503,2025,1200,Special Programs,803789.0,23.0
+503,2025,1300,Vocational Programs,0.0,0.0
+503,2025,1400,Other Instructional Programs,204.0,0.0
+503,2025,2100,Student Support Services,181922.0,5.2
+503,2025,2200,Instructional Staff Support,46120.0,1.3
+503,2025,2300&2800,Genral Administration & Business,209487.0,6.0
+503,2025,2400,School Administration,208748.0,6.0
+503,2025,2500,Business Services,0.0,0.0
+503,2025,2600,Plant Operations,261537.0,7.5
+503,2025,2700,Transportation,148704.0,4.3
+503,2025,2900,Other Support Services,0.0,0.0
+503,2025,1500,Non-public Programs,0.0,0.0
+503,2025,"1600-1800,2750",Community Programs,0.0,0.0
+503,2025,5120,Bond Interest,0.0,0.0
+503,2025,5310+5390,Charter Schools/Other Agencies,0.0,0.0
+503,2025,3100,Food Service,62826.55,1.8
+503,2025,4000,Facility Construction,0.0,
+503,2025,5100,Bonds & Notes Principal Repayment,0.0,
+507,2025,1100,Regular Education,6217136.0,48.8
+507,2025,1200,Special Programs,2360336.0,18.5
+507,2025,1300,Vocational Programs,0.0,0.0
+507,2025,1400,Other Instructional Programs,39548.0,0.3
+507,2025,2100,Student Support Services,692262.0,5.4
+507,2025,2200,Instructional Staff Support,471196.0,3.7
+507,2025,2300&2800,Genral Administration & Business,528950.0,4.2
+507,2025,2400,School Administration,435924.0,3.4
+507,2025,2500,Business Services,151920.0,1.2
+507,2025,2600,Plant Operations,733789.0,5.8
+507,2025,2700,Transportation,924389.0,7.3
+507,2025,2900,Other Support Services,0.0,0.0
+507,2025,1500,Non-public Programs,0.0,0.0
+507,2025,"1600-1800,2750",Community Programs,0.0,0.0
+507,2025,5120,Bond Interest,91551.0,0.7
+507,2025,5310+5390,Charter Schools/Other Agencies,0.0,0.0
+507,2025,3100,Food Service,86548.55,0.7
+507,2025,4000,Facility Construction,3069.0,
+507,2025,5100,Bonds & Notes Principal Repayment,295000.0,
+509,2025,1100,Regular Education,1259666.0,45.8
+509,2025,1200,Special Programs,269886.0,9.8
+509,2025,1300,Vocational Programs,0.0,0.0
+509,2025,1400,Other Instructional Programs,29065.0,1.1
+509,2025,2100,Student Support Services,251250.0,9.1
+509,2025,2200,Instructional Staff Support,89615.0,3.3
+509,2025,2300&2800,Genral Administration & Business,212115.0,7.7
+509,2025,2400,School Administration,236149.0,8.6
+509,2025,2500,Business Services,0.0,0.0
+509,2025,2600,Plant Operations,244903.0,8.9
+509,2025,2700,Transportation,85050.0,3.1
+509,2025,2900,Other Support Services,0.0,0.0
+509,2025,1500,Non-public Programs,0.0,0.0
+509,2025,"1600-1800,2750",Community Programs,0.0,0.0
+509,2025,5120,Bond Interest,0.0,0.0
+509,2025,5310+5390,Charter Schools/Other Agencies,0.0,0.0
+509,2025,3100,Food Service,73695.25,2.7
+509,2025,4000,Facility Construction,0.0,
+509,2025,5100,Bonds & Notes Principal Repayment,0.0,
+511,2025,1100,Regular Education,6912065.0,46.3
+511,2025,1200,Special Programs,3215245.0,21.6
+511,2025,1300,Vocational Programs,0.0,0.0
+511,2025,1400,Other Instructional Programs,27897.0,0.2
+511,2025,2100,Student Support Services,1751884.0,11.7
+511,2025,2200,Instructional Staff Support,557137.0,3.7
+511,2025,2300&2800,Genral Administration & Business,471949.0,3.2
+511,2025,2400,School Administration,690759.0,4.6
+511,2025,2500,Business Services,0.0,0.0
+511,2025,2600,Plant Operations,757031.0,5.1
+511,2025,2700,Transportation,468007.0,3.1
+511,2025,2900,Other Support Services,0.0,0.0
+511,2025,1500,Non-public Programs,0.0,0.0
+511,2025,"1600-1800,2750",Community Programs,0.0,0.0
+511,2025,5120,Bond Interest,0.0,0.0
+511,2025,5310+5390,Charter Schools/Other Agencies,0.0,0.0
+511,2025,3100,Food Service,62058.79999999999,0.4
+511,2025,4000,Facility Construction,0.0,
+511,2025,5100,Bonds & Notes Principal Repayment,0.0,
+721,2025,1100,Regular Education,1928364.0,44.4
+721,2025,1200,Special Programs,950269.0,21.9
+721,2025,1300,Vocational Programs,0.0,0.0
+721,2025,1400,Other Instructional Programs,106620.0,2.5
+721,2025,2100,Student Support Services,139726.0,3.2
+721,2025,2200,Instructional Staff Support,89310.0,2.1
+721,2025,2300&2800,Genral Administration & Business,0.0,0.0
+721,2025,2400,School Administration,305175.0,7.0
+721,2025,2500,Business Services,66796.0,1.5
+721,2025,2600,Plant Operations,747803.0,17.2
+721,2025,2700,Transportation,0.0,0.0
+721,2025,2900,Other Support Services,0.0,0.0
+721,2025,1500,Non-public Programs,0.0,0.0
+721,2025,"1600-1800,2750",Community Programs,0.0,0.0
+721,2025,5120,Bond Interest,7416.0,0.2
+721,2025,5310+5390,Charter Schools/Other Agencies,0.0,0.0
+721,2025,3100,Food Service,0.0,0.0
+721,2025,4000,Facility Construction,0.0,
+721,2025,5100,Bonds & Notes Principal Repayment,9365.0,
+513,2025,1100,Regular Education,999569.0,52.4
+513,2025,1200,Special Programs,653360.0,34.2
+513,2025,1300,Vocational Programs,0.0,0.0
+513,2025,1400,Other Instructional Programs,0.0,0.0
+513,2025,2100,Student Support Services,0.0,0.0
+513,2025,2200,Instructional Staff Support,0.0,0.0
+513,2025,2300&2800,Genral Administration & Business,51491.0,2.7
+513,2025,2400,School Administration,0.0,0.0
+513,2025,2500,Business Services,12682.0,0.7
+513,2025,2600,Plant Operations,0.0,0.0
+513,2025,2700,Transportation,190976.0,10.0
+513,2025,2900,Other Support Services,0.0,0.0
+513,2025,1500,Non-public Programs,0.0,0.0
+513,2025,"1600-1800,2750",Community Programs,0.0,0.0
+513,2025,5120,Bond Interest,0.0,0.0
+513,2025,5310+5390,Charter Schools/Other Agencies,0.0,0.0
+513,2025,3100,Food Service,0.0,0.0
+513,2025,4000,Facility Construction,0.0,
+513,2025,5100,Bonds & Notes Principal Repayment,0.0,
+515,2025,1100,Regular Education,5031373.0,35.6
+515,2025,1200,Special Programs,2334319.0,16.5
+515,2025,1300,Vocational Programs,9529.0,0.1
+515,2025,1400,Other Instructional Programs,357203.0,2.5
+515,2025,2100,Student Support Services,1543649.0,10.9
+515,2025,2200,Instructional Staff Support,1071640.0,7.6
+515,2025,2300&2800,Genral Administration & Business,745963.0,5.3
+515,2025,2400,School Administration,669958.0,4.7
+515,2025,2500,Business Services,0.0,0.0
+515,2025,2600,Plant Operations,1453490.0,10.3
+515,2025,2700,Transportation,666614.0,4.7
+515,2025,2900,Other Support Services,0.0,0.0
+515,2025,1500,Non-public Programs,0.0,0.0
+515,2025,"1600-1800,2750",Community Programs,0.0,0.0
+515,2025,5120,Bond Interest,183578.0,1.3
+515,2025,5310+5390,Charter Schools/Other Agencies,0.0,0.0
+515,2025,3100,Food Service,84858.88,0.6
+515,2025,4000,Facility Construction,1645600.0,
+515,2025,5100,Bonds & Notes Principal Repayment,555995.0,
+519,2025,1100,Regular Education,1294590.0,58.4
+519,2025,1200,Special Programs,706721.0,31.9
+519,2025,1300,Vocational Programs,0.0,0.0
+519,2025,1400,Other Instructional Programs,0.0,0.0
+519,2025,2100,Student Support Services,0.0,0.0
+519,2025,2200,Instructional Staff Support,0.0,0.0
+519,2025,2300&2800,Genral Administration & Business,34491.0,1.6
+519,2025,2400,School Administration,20576.0,0.9
+519,2025,2500,Business Services,9633.0,0.4
+519,2025,2600,Plant Operations,251.0,0.0
+519,2025,2700,Transportation,150125.0,6.8
+519,2025,2900,Other Support Services,0.0,0.0
+519,2025,1500,Non-public Programs,0.0,0.0
+519,2025,"1600-1800,2750",Community Programs,0.0,0.0
+519,2025,5120,Bond Interest,0.0,0.0
+519,2025,5310+5390,Charter Schools/Other Agencies,0.0,0.0
+519,2025,3100,Food Service,0.0,0.0
+519,2025,4000,Facility Construction,0.0,
+519,2025,5100,Bonds & Notes Principal Repayment,0.0,
+717,2025,1100,Regular Education,539647.0,42.4
+717,2025,1200,Special Programs,157653.0,12.4
+717,2025,1300,Vocational Programs,0.0,0.0
+717,2025,1400,Other Instructional Programs,22027.0,1.7
+717,2025,2100,Student Support Services,359.0,0.0
+717,2025,2200,Instructional Staff Support,5202.0,0.4
+717,2025,2300&2800,Genral Administration & Business,0.0,0.0
+717,2025,2400,School Administration,338203.0,26.6
+717,2025,2500,Business Services,0.0,0.0
+717,2025,2600,Plant Operations,196864.0,15.5
+717,2025,2700,Transportation,13295.0,1.0
+717,2025,2900,Other Support Services,0.0,0.0
+717,2025,1500,Non-public Programs,0.0,0.0
+717,2025,"1600-1800,2750",Community Programs,0.0,0.0
+717,2025,5120,Bond Interest,0.0,0.0
+717,2025,5310+5390,Charter Schools/Other Agencies,0.0,0.0
+717,2025,3100,Food Service,0.0,0.0
+717,2025,4000,Facility Construction,0.0,
+717,2025,5100,Bonds & Notes Principal Repayment,0.0,
+732,2025,1100,Regular Education,206468.0,32.1
+732,2025,1200,Special Programs,0.0,0.0
+732,2025,1300,Vocational Programs,0.0,0.0
+732,2025,1400,Other Instructional Programs,0.0,0.0
+732,2025,2100,Student Support Services,260.0,0.0
+732,2025,2200,Instructional Staff Support,22086.0,3.4
+732,2025,2300&2800,Genral Administration & Business,16872.0,2.6
+732,2025,2400,School Administration,142159.0,22.1
+732,2025,2500,Business Services,94484.0,14.7
+732,2025,2600,Plant Operations,155482.0,24.1
+732,2025,2700,Transportation,2584.0,0.4
+732,2025,2900,Other Support Services,0.0,0.0
+732,2025,1500,Non-public Programs,0.0,0.0
+732,2025,"1600-1800,2750",Community Programs,0.0,0.0
+732,2025,5120,Bond Interest,3600.0,0.6
+732,2025,5310+5390,Charter Schools/Other Agencies,0.0,0.0
+732,2025,3100,Food Service,0.0,0.0
+732,2025,4000,Facility Construction,0.0,
+732,2025,5100,Bonds & Notes Principal Repayment,0.0,
+525,2025,1100,Regular Education,4064553.0,47.0
+525,2025,1200,Special Programs,1559902.0,18.0
+525,2025,1300,Vocational Programs,0.0,0.0
+525,2025,1400,Other Instructional Programs,24689.0,0.3
+525,2025,2100,Student Support Services,527200.0,6.1
+525,2025,2200,Instructional Staff Support,207325.0,2.4
+525,2025,2300&2800,Genral Administration & Business,540998.0,6.3
+525,2025,2400,School Administration,282379.0,3.3
+525,2025,2500,Business Services,10243.0,0.1
+525,2025,2600,Plant Operations,781251.0,9.0
+525,2025,2700,Transportation,438690.0,5.1
+525,2025,2900,Other Support Services,0.0,0.0
+525,2025,1500,Non-public Programs,0.0,0.0
+525,2025,"1600-1800,2750",Community Programs,0.0,0.0
+525,2025,5120,Bond Interest,0.0,0.0
+525,2025,5310+5390,Charter Schools/Other Agencies,0.0,0.0
+525,2025,3100,Food Service,205670.75,2.4
+525,2025,4000,Facility Construction,0.0,
+525,2025,5100,Bonds & Notes Principal Repayment,0.0,
+731,2025,1100,Regular Education,1836491.0,66.3
+731,2025,1200,Special Programs,0.0,0.0
+731,2025,1300,Vocational Programs,0.0,0.0
+731,2025,1400,Other Instructional Programs,0.0,0.0
+731,2025,2100,Student Support Services,1369.0,0.0
+731,2025,2200,Instructional Staff Support,0.0,0.0
+731,2025,2300&2800,Genral Administration & Business,109978.0,4.0
+731,2025,2400,School Administration,776533.0,28.0
+731,2025,2500,Business Services,957.0,0.0
+731,2025,2600,Plant Operations,17088.0,0.6
+731,2025,2700,Transportation,27951.0,1.0
+731,2025,2900,Other Support Services,0.0,0.0
+731,2025,1500,Non-public Programs,0.0,0.0
+731,2025,"1600-1800,2750",Community Programs,0.0,0.0
+731,2025,5120,Bond Interest,0.0,0.0
+731,2025,5310+5390,Charter Schools/Other Agencies,0.0,0.0
+731,2025,3100,Food Service,0.0,0.0
+731,2025,4000,Facility Construction,2043876.0,
+731,2025,5100,Bonds & Notes Principal Repayment,0.0,
+741,2025,1100,Regular Education,2095652.0,48.0
+741,2025,1200,Special Programs,110697.0,2.5
+741,2025,1300,Vocational Programs,0.0,0.0
+741,2025,1400,Other Instructional Programs,5535.0,0.1
+741,2025,2100,Student Support Services,352958.0,8.1
+741,2025,2200,Instructional Staff Support,384395.0,8.8
+741,2025,2300&2800,Genral Administration & Business,675515.0,15.5
+741,2025,2400,School Administration,72019.0,1.6
+741,2025,2500,Business Services,83273.0,1.9
+741,2025,2600,Plant Operations,578170.0,13.2
+741,2025,2700,Transportation,11317.0,0.3
+741,2025,2900,Other Support Services,0.0,0.0
+741,2025,1500,Non-public Programs,0.0,0.0
+741,2025,"1600-1800,2750",Community Programs,0.0,0.0
+741,2025,5120,Bond Interest,0.0,0.0
+741,2025,5310+5390,Charter Schools/Other Agencies,0.0,0.0
+741,2025,3100,Food Service,0.0,0.0
+741,2025,4000,Facility Construction,0.0,
+741,2025,5100,Bonds & Notes Principal Repayment,0.0,
+531,2025,1100,Regular Education,2767318.0,44.8
+531,2025,1200,Special Programs,1047046.0,17.0
+531,2025,1300,Vocational Programs,0.0,0.0
+531,2025,1400,Other Instructional Programs,114612.0,1.9
+531,2025,2100,Student Support Services,459297.0,7.4
+531,2025,2200,Instructional Staff Support,95484.0,1.5
+531,2025,2300&2800,Genral Administration & Business,286605.0,4.6
+531,2025,2400,School Administration,383091.0,6.2
+531,2025,2500,Business Services,4639.0,0.1
+531,2025,2600,Plant Operations,595919.0,9.6
+531,2025,2700,Transportation,263432.0,4.3
+531,2025,2900,Other Support Services,0.0,0.0
+531,2025,1500,Non-public Programs,0.0,0.0
+531,2025,"1600-1800,2750",Community Programs,0.0,0.0
+531,2025,5120,Bond Interest,101917.0,1.7
+531,2025,5310+5390,Charter Schools/Other Agencies,0.0,0.0
+531,2025,3100,Food Service,56789.77,0.9
+531,2025,4000,Facility Construction,3567090.0,
+531,2025,5100,Bonds & Notes Principal Repayment,0.0,
+534,2025,1100,Regular Education,32174463.0,40.3
+534,2025,1200,Special Programs,16836862.0,21.1
+534,2025,1300,Vocational Programs,266162.0,0.3
+534,2025,1400,Other Instructional Programs,1406695.0,1.8
+534,2025,2100,Student Support Services,6189621.0,7.7
+534,2025,2200,Instructional Staff Support,1648710.0,2.1
+534,2025,2300&2800,Genral Administration & Business,3251078.0,4.1
+534,2025,2400,School Administration,5277739.0,6.6
+534,2025,2500,Business Services,741871.0,0.9
+534,2025,2600,Plant Operations,6114153.0,7.7
+534,2025,2700,Transportation,4742077.0,5.9
+534,2025,2900,Other Support Services,0.0,0.0
+534,2025,1500,Non-public Programs,0.0,0.0
+534,2025,"1600-1800,2750",Community Programs,253725.0,0.3
+534,2025,5120,Bond Interest,651160.0,0.8
+534,2025,5310+5390,Charter Schools/Other Agencies,0.0,0.0
+534,2025,3100,Food Service,364861.1200000001,0.5
+534,2025,4000,Facility Construction,6304581.0,
+534,2025,5100,Bonds & Notes Principal Repayment,3212957.0,
+539,2025,1100,Regular Education,2466926.0,54.5
+539,2025,1200,Special Programs,600039.0,13.3
+539,2025,1300,Vocational Programs,0.0,0.0
+539,2025,1400,Other Instructional Programs,9708.0,0.2
+539,2025,2100,Student Support Services,146368.0,3.2
+539,2025,2200,Instructional Staff Support,170569.0,3.8
+539,2025,2300&2800,Genral Administration & Business,269823.0,6.0
+539,2025,2400,School Administration,236323.0,5.2
+539,2025,2500,Business Services,0.0,0.0
+539,2025,2600,Plant Operations,312925.0,6.9
+539,2025,2700,Transportation,122281.0,2.7
+539,2025,2900,Other Support Services,0.0,0.0
+539,2025,1500,Non-public Programs,0.0,0.0
+539,2025,"1600-1800,2750",Community Programs,0.0,0.0
+539,2025,5120,Bond Interest,95284.0,2.1
+539,2025,5310+5390,Charter Schools/Other Agencies,0.0,0.0
+539,2025,3100,Food Service,92213.3,2.0
+539,2025,4000,Facility Construction,24437.0,
+539,2025,5100,Bonds & Notes Principal Repayment,384431.0,
+727,2025,1100,Regular Education,7817082.0,56.1
+727,2025,1200,Special Programs,0.0,0.0
+727,2025,1300,Vocational Programs,0.0,0.0
+727,2025,1400,Other Instructional Programs,0.0,0.0
+727,2025,2100,Student Support Services,1318399.0,9.5
+727,2025,2200,Instructional Staff Support,2927333.0,21.0
+727,2025,2300&2800,Genral Administration & Business,933494.0,6.7
+727,2025,2400,School Administration,285235.0,2.0
+727,2025,2500,Business Services,489379.0,3.5
+727,2025,2600,Plant Operations,110017.0,0.8
+727,2025,2700,Transportation,0.0,0.0
+727,2025,2900,Other Support Services,0.0,0.0
+727,2025,1500,Non-public Programs,19129.0,0.1
+727,2025,"1600-1800,2750",Community Programs,36301.0,0.3
+727,2025,5120,Bond Interest,0.0,0.0
+727,2025,5310+5390,Charter Schools/Other Agencies,0.0,0.0
+727,2025,3100,Food Service,0.0,0.0
+727,2025,4000,Facility Construction,0.0,
+727,2025,5100,Bonds & Notes Principal Repayment,0.0,
+543,2025,1100,Regular Education,6156240.0,48.6
+543,2025,1200,Special Programs,3118955.0,24.6
+543,2025,1300,Vocational Programs,0.0,0.0
+543,2025,1400,Other Instructional Programs,26483.0,0.2
+543,2025,2100,Student Support Services,397391.0,3.1
+543,2025,2200,Instructional Staff Support,112044.0,0.9
+543,2025,2300&2800,Genral Administration & Business,588407.0,4.6
+543,2025,2400,School Administration,413798.0,3.3
+543,2025,2500,Business Services,294554.0,2.3
+543,2025,2600,Plant Operations,640404.0,5.1
+543,2025,2700,Transportation,827014.0,6.5
+543,2025,2900,Other Support Services,0.0,0.0
+543,2025,1500,Non-public Programs,0.0,0.0
+543,2025,"1600-1800,2750",Community Programs,0.0,0.0
+543,2025,5120,Bond Interest,0.0,0.0
+543,2025,5310+5390,Charter Schools/Other Agencies,0.0,0.0
+543,2025,3100,Food Service,93973.03999999998,0.7
+543,2025,4000,Facility Construction,0.0,
+543,2025,5100,Bonds & Notes Principal Repayment,0.0,
+549,2025,1100,Regular Education,1165980.0,40.6
+549,2025,1200,Special Programs,360281.0,12.5
+549,2025,1300,Vocational Programs,72977.0,2.5
+549,2025,1400,Other Instructional Programs,10769.0,0.4
+549,2025,2100,Student Support Services,271705.0,9.5
+549,2025,2200,Instructional Staff Support,94235.0,3.3
+549,2025,2300&2800,Genral Administration & Business,192033.0,6.7
+549,2025,2400,School Administration,179298.0,6.2
+549,2025,2500,Business Services,0.0,0.0
+549,2025,2600,Plant Operations,241679.0,8.4
+549,2025,2700,Transportation,228806.0,8.0
+549,2025,2900,Other Support Services,0.0,0.0
+549,2025,1500,Non-public Programs,0.0,0.0
+549,2025,"1600-1800,2750",Community Programs,0.0,0.0
+549,2025,5120,Bond Interest,0.0,0.0
+549,2025,5310+5390,Charter Schools/Other Agencies,0.0,0.0
+549,2025,3100,Food Service,56837.0,2.0
+549,2025,4000,Facility Construction,0.0,
+549,2025,5100,Bonds & Notes Principal Repayment,0.0,
+551,2025,1100,Regular Education,1849438.0,61.9
+551,2025,1200,Special Programs,155140.0,5.2
+551,2025,1300,Vocational Programs,0.0,0.0
+551,2025,1400,Other Instructional Programs,1163.0,0.0
+551,2025,2100,Student Support Services,156495.0,5.2
+551,2025,2200,Instructional Staff Support,54188.0,1.8
+551,2025,2300&2800,Genral Administration & Business,210429.0,7.0
+551,2025,2400,School Administration,99790.0,3.3
+551,2025,2500,Business Services,5387.0,0.2
+551,2025,2600,Plant Operations,185444.0,6.2
+551,2025,2700,Transportation,237116.0,7.9
+551,2025,2900,Other Support Services,0.0,0.0
+551,2025,1500,Non-public Programs,0.0,0.0
+551,2025,"1600-1800,2750",Community Programs,0.0,0.0
+551,2025,5120,Bond Interest,0.0,0.0
+551,2025,5310+5390,Charter Schools/Other Agencies,0.0,0.0
+551,2025,3100,Food Service,32570.8,1.1
+551,2025,4000,Facility Construction,0.0,
+551,2025,5100,Bonds & Notes Principal Repayment,0.0,
+553,2025,1100,Regular Education,750208.0,45.2
+553,2025,1200,Special Programs,206900.0,12.5
+553,2025,1300,Vocational Programs,0.0,0.0
+553,2025,1400,Other Instructional Programs,10505.0,0.6
+553,2025,2100,Student Support Services,68518.0,4.1
+553,2025,2200,Instructional Staff Support,31951.0,1.9
+553,2025,2300&2800,Genral Administration & Business,138056.0,8.3
+553,2025,2400,School Administration,221776.0,13.4
+553,2025,2500,Business Services,556.0,0.0
+553,2025,2600,Plant Operations,196387.0,11.8
+553,2025,2700,Transportation,10211.0,0.6
+553,2025,2900,Other Support Services,0.0,0.0
+553,2025,1500,Non-public Programs,0.0,0.0
+553,2025,"1600-1800,2750",Community Programs,0.0,0.0
+553,2025,5120,Bond Interest,23982.0,1.4
+553,2025,5310+5390,Charter Schools/Other Agencies,0.0,0.0
+553,2025,3100,Food Service,379.0,0.0
+553,2025,4000,Facility Construction,77928.0,
+553,2025,5100,Bonds & Notes Principal Repayment,17000.0,
+555,2025,1100,Regular Education,7324212.0,39.8
+555,2025,1200,Special Programs,3776455.0,20.5
+555,2025,1300,Vocational Programs,116767.0,0.6
+555,2025,1400,Other Instructional Programs,110494.0,0.6
+555,2025,2100,Student Support Services,1522221.0,8.3
+555,2025,2200,Instructional Staff Support,763770.0,4.2
+555,2025,2300&2800,Genral Administration & Business,868475.0,4.7
+555,2025,2400,School Administration,1114846.0,6.1
+555,2025,2500,Business Services,0.0,0.0
+555,2025,2600,Plant Operations,1459612.0,7.9
+555,2025,2700,Transportation,1134063.0,6.2
+555,2025,2900,Other Support Services,0.0,0.0
+555,2025,1500,Non-public Programs,0.0,0.0
+555,2025,"1600-1800,2750",Community Programs,0.0,0.0
+555,2025,5120,Bond Interest,45782.0,0.2
+555,2025,5310+5390,Charter Schools/Other Agencies,0.0,0.0
+555,2025,3100,Food Service,150307.26,0.8
+555,2025,4000,Facility Construction,0.0,
+555,2025,5100,Bonds & Notes Principal Repayment,950725.0,
+559,2025,1100,Regular Education,636522.0,26.0
+559,2025,1200,Special Programs,895433.0,36.6
+559,2025,1300,Vocational Programs,0.0,0.0
+559,2025,1400,Other Instructional Programs,8942.0,0.4
+559,2025,2100,Student Support Services,212645.0,8.7
+559,2025,2200,Instructional Staff Support,32604.0,1.3
+559,2025,2300&2800,Genral Administration & Business,91211.0,3.7
+559,2025,2400,School Administration,178640.0,7.3
+559,2025,2500,Business Services,3245.0,0.1
+559,2025,2600,Plant Operations,163174.0,6.7
+559,2025,2700,Transportation,153902.0,6.3
+559,2025,2900,Other Support Services,0.0,0.0
+559,2025,1500,Non-public Programs,0.0,0.0
+559,2025,"1600-1800,2750",Community Programs,0.0,0.0
+559,2025,5120,Bond Interest,4442.0,0.2
+559,2025,5310+5390,Charter Schools/Other Agencies,0.0,0.0
+559,2025,3100,Food Service,65124.78,2.7
+559,2025,4000,Facility Construction,0.0,
+559,2025,5100,Bonds & Notes Principal Repayment,22172.0,
+563,2025,1100,Regular Education,2005039.0,49.2
+563,2025,1200,Special Programs,639346.0,15.7
+563,2025,1300,Vocational Programs,0.0,0.0
+563,2025,1400,Other Instructional Programs,35337.0,0.9
+563,2025,2100,Student Support Services,232567.0,5.7
+563,2025,2200,Instructional Staff Support,143975.0,3.5
+563,2025,2300&2800,Genral Administration & Business,198994.0,4.9
+563,2025,2400,School Administration,260280.0,6.4
+563,2025,2500,Business Services,6967.0,0.2
+563,2025,2600,Plant Operations,226831.0,5.6
+563,2025,2700,Transportation,260832.0,6.4
+563,2025,2900,Other Support Services,0.0,0.0
+563,2025,1500,Non-public Programs,0.0,0.0
+563,2025,"1600-1800,2750",Community Programs,0.0,0.0
+563,2025,5120,Bond Interest,0.0,0.0
+563,2025,5310+5390,Charter Schools/Other Agencies,0.0,0.0
+563,2025,3100,Food Service,66791.64,1.6
+563,2025,4000,Facility Construction,0.0,
+563,2025,5100,Bonds & Notes Principal Repayment,0.0,
+568,2025,1100,Regular Education,8035106.0,32.0
+568,2025,1200,Special Programs,3958101.0,15.8
+568,2025,1300,Vocational Programs,976703.0,3.9
+568,2025,1400,Other Instructional Programs,393615.0,1.6
+568,2025,2100,Student Support Services,2850426.0,11.4
+568,2025,2200,Instructional Staff Support,563346.0,2.2
+568,2025,2300&2800,Genral Administration & Business,1744746.0,6.9
+568,2025,2400,School Administration,1695930.0,6.8
+568,2025,2500,Business Services,341090.0,1.4
+568,2025,2600,Plant Operations,2562257.0,10.2
+568,2025,2700,Transportation,1517454.0,6.0
+568,2025,2900,Other Support Services,0.0,0.0
+568,2025,1500,Non-public Programs,13132.0,0.1
+568,2025,"1600-1800,2750",Community Programs,3842.0,0.0
+568,2025,5120,Bond Interest,0.0,0.0
+568,2025,5310+5390,Charter Schools/Other Agencies,26512.52,0.1
+568,2025,3100,Food Service,426182.42000000004,1.7
+568,2025,4000,Facility Construction,277830.0,
+568,2025,5100,Bonds & Notes Principal Repayment,0.0,
+572,2025,1100,Regular Education,4758951.0,31.8
+572,2025,1200,Special Programs,1932180.0,12.9
+572,2025,1300,Vocational Programs,10039.0,0.1
+572,2025,1400,Other Instructional Programs,283410.0,1.9
+572,2025,2100,Student Support Services,2627030.0,17.5
+572,2025,2200,Instructional Staff Support,364467.0,2.4
+572,2025,2300&2800,Genral Administration & Business,907770.0,6.1
+572,2025,2400,School Administration,843085.0,5.6
+572,2025,2500,Business Services,341501.0,2.3
+572,2025,2600,Plant Operations,1396635.0,9.3
+572,2025,2700,Transportation,923542.0,6.2
+572,2025,2900,Other Support Services,0.0,0.0
+572,2025,1500,Non-public Programs,34973.0,0.2
+572,2025,"1600-1800,2750",Community Programs,0.0,0.0
+572,2025,5120,Bond Interest,204700.0,1.4
+572,2025,5310+5390,Charter Schools/Other Agencies,0.0,0.0
+572,2025,3100,Food Service,349025.21,2.3
+572,2025,4000,Facility Construction,0.0,
+572,2025,5100,Bonds & Notes Principal Repayment,400000.0,
+573,2025,1100,Regular Education,4495544.0,38.0
+573,2025,1200,Special Programs,2711890.0,22.9
+573,2025,1300,Vocational Programs,0.0,0.0
+573,2025,1400,Other Instructional Programs,70157.0,0.6
+573,2025,2100,Student Support Services,846795.0,7.2
+573,2025,2200,Instructional Staff Support,306200.0,2.6
+573,2025,2300&2800,Genral Administration & Business,452751.0,3.8
+573,2025,2400,School Administration,438260.0,3.7
+573,2025,2500,Business Services,148574.0,1.3
+573,2025,2600,Plant Operations,1268977.0,10.7
+573,2025,2700,Transportation,827552.0,7.0
+573,2025,2900,Other Support Services,0.0,0.0
+573,2025,1500,Non-public Programs,0.0,0.0
+573,2025,"1600-1800,2750",Community Programs,0.0,0.0
+573,2025,5120,Bond Interest,0.0,0.0
+573,2025,5310+5390,Charter Schools/Other Agencies,0.0,0.0
+573,2025,3100,Food Service,260577.05,2.2
+573,2025,4000,Facility Construction,0.0,
+573,2025,5100,Bonds & Notes Principal Repayment,0.0,
+575,2025,1100,Regular Education,23733807.0,36.9
+575,2025,1200,Special Programs,12628343.0,19.6
+575,2025,1300,Vocational Programs,531013.0,0.8
+575,2025,1400,Other Instructional Programs,1311569.0,2.0
+575,2025,2100,Student Support Services,5543641.0,8.6
+575,2025,2200,Instructional Staff Support,3408743.0,5.3
+575,2025,2300&2800,Genral Administration & Business,2604881.0,4.0
+575,2025,2400,School Administration,2736149.0,4.3
+575,2025,2500,Business Services,905424.0,1.4
+575,2025,2600,Plant Operations,5663621.0,8.8
+575,2025,2700,Transportation,3765965.0,5.8
+575,2025,2900,Other Support Services,0.0,0.0
+575,2025,1500,Non-public Programs,0.0,0.0
+575,2025,"1600-1800,2750",Community Programs,0.0,0.0
+575,2025,5120,Bond Interest,1059950.0,1.6
+575,2025,5310+5390,Charter Schools/Other Agencies,0.0,0.0
+575,2025,3100,Food Service,485397.48,0.8
+575,2025,4000,Facility Construction,589147.0,
+575,2025,5100,Bonds & Notes Principal Repayment,3400000.0,
+712,2025,1100,Regular Education,2157376.0,48.1
+712,2025,1200,Special Programs,222180.0,5.0
+712,2025,1300,Vocational Programs,0.0,0.0
+712,2025,1400,Other Instructional Programs,142722.0,3.2
+712,2025,2100,Student Support Services,182669.0,4.1
+712,2025,2200,Instructional Staff Support,72425.0,1.6
+712,2025,2300&2800,Genral Administration & Business,34536.0,0.8
+712,2025,2400,School Administration,635240.0,14.2
+712,2025,2500,Business Services,0.0,0.0
+712,2025,2600,Plant Operations,1019779.0,22.8
+712,2025,2700,Transportation,12020.0,0.3
+712,2025,2900,Other Support Services,0.0,0.0
+712,2025,1500,Non-public Programs,0.0,0.0
+712,2025,"1600-1800,2750",Community Programs,0.0,0.0
+712,2025,5120,Bond Interest,1750.0,0.0
+712,2025,5310+5390,Charter Schools/Other Agencies,0.0,0.0
+712,2025,3100,Food Service,0.0,0.0
+712,2025,4000,Facility Construction,0.0,
+712,2025,5100,Bonds & Notes Principal Repayment,20444.0,
+579,2025,1100,Regular Education,205444.0,88.5
+579,2025,1200,Special Programs,0.0,0.0
+579,2025,1300,Vocational Programs,0.0,0.0
+579,2025,1400,Other Instructional Programs,0.0,0.0
+579,2025,2100,Student Support Services,0.0,0.0
+579,2025,2200,Instructional Staff Support,0.0,0.0
+579,2025,2300&2800,Genral Administration & Business,16814.0,7.2
+579,2025,2400,School Administration,0.0,0.0
+579,2025,2500,Business Services,0.0,0.0
+579,2025,2600,Plant Operations,0.0,0.0
+579,2025,2700,Transportation,9960.0,4.3
+579,2025,2900,Other Support Services,0.0,0.0
+579,2025,1500,Non-public Programs,0.0,0.0
+579,2025,"1600-1800,2750",Community Programs,0.0,0.0
+579,2025,5120,Bond Interest,0.0,0.0
+579,2025,5310+5390,Charter Schools/Other Agencies,0.0,0.0
+579,2025,3100,Food Service,0.0,0.0
+579,2025,4000,Facility Construction,0.0,
+579,2025,5100,Bonds & Notes Principal Repayment,0.0,
+581,2025,1100,Regular Education,12511533.0,39.4
+581,2025,1200,Special Programs,5603883.0,17.6
+581,2025,1300,Vocational Programs,395486.0,1.2
+581,2025,1400,Other Instructional Programs,1335145.0,4.2
+581,2025,2100,Student Support Services,2242702.0,7.1
+581,2025,2200,Instructional Staff Support,1609557.0,5.1
+581,2025,2300&2800,Genral Administration & Business,1245519.0,3.9
+581,2025,2400,School Administration,1523741.0,4.8
+581,2025,2500,Business Services,0.0,0.0
+581,2025,2600,Plant Operations,3042935.0,9.6
+581,2025,2700,Transportation,1874148.0,5.9
+581,2025,2900,Other Support Services,0.0,0.0
+581,2025,1500,Non-public Programs,0.0,0.0
+581,2025,"1600-1800,2750",Community Programs,185929.0,0.6
+581,2025,5120,Bond Interest,18187.0,0.1
+581,2025,5310+5390,Charter Schools/Other Agencies,0.0,0.0
+581,2025,3100,Food Service,170932.46000000002,0.5
+581,2025,4000,Facility Construction,1339693.0,
+581,2025,5100,Bonds & Notes Principal Repayment,1960000.0,
+582,2025,1100,Regular Education,8282496.0,28.2
+582,2025,1200,Special Programs,6112080.0,20.8
+582,2025,1300,Vocational Programs,401589.0,1.4
+582,2025,1400,Other Instructional Programs,616025.0,2.1
+582,2025,2100,Student Support Services,1809910.0,6.2
+582,2025,2200,Instructional Staff Support,1105968.0,3.8
+582,2025,2300&2800,Genral Administration & Business,2658709.0,9.0
+582,2025,2400,School Administration,1655411.0,5.6
+582,2025,2500,Business Services,379678.0,1.3
+582,2025,2600,Plant Operations,4599363.0,15.6
+582,2025,2700,Transportation,1384998.0,4.7
+582,2025,2900,Other Support Services,0.0,0.0
+582,2025,1500,Non-public Programs,4000.0,0.0
+582,2025,"1600-1800,2750",Community Programs,0.0,0.0
+582,2025,5120,Bond Interest,3264.0,0.0
+582,2025,5310+5390,Charter Schools/Other Agencies,0.0,0.0
+582,2025,3100,Food Service,386621.0,1.3
+582,2025,4000,Facility Construction,7428667.0,
+582,2025,5100,Bonds & Notes Principal Repayment,233593.0,

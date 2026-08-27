@@ -58,9 +58,10 @@ def town(request: Request, geoid: str):
     current = history[0] if history else None
     split = repo.tax_split(geoid, current["tax_year"]) if current else None
     schools = repo.get_schools(geoid)
+    finance = repo.get_finance(geoid)
     return templates.TemplateResponse(request=request, name="town.html", context={
         "m": m, "history": history, "current": current, "split": split,
-        "schools": schools, "state_cpp": repo.STATE_CPP_TOTAL,
+        "schools": schools, "state_cpp": repo.STATE_CPP_TOTAL, "finance": finance,
     })
 
 

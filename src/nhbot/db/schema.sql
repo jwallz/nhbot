@@ -181,3 +181,28 @@ CREATE TABLE IF NOT EXISTS district_enrollment (
     load_id               int REFERENCES source_load(load_id),
     PRIMARY KEY (district_id, year)
 );
+
+-- DOE-25 finance: expenditure-by-function and revenue-by-source (District Profile rollup)
+CREATE TABLE IF NOT EXISTS district_expenditure (
+    district_id   int  NOT NULL REFERENCES school_district(district_id),
+    year          int  NOT NULL,
+    function_code text NOT NULL,
+    function_name text,
+    amount        numeric,
+    pct           numeric,          -- DOE's own share of recurring expenditures (null = non-recurring line)
+    load_id       int REFERENCES source_load(load_id),
+    PRIMARY KEY (district_id, year, function_code)
+);
+CREATE INDEX IF NOT EXISTS district_expenditure_dy_idx ON district_expenditure(district_id, year);
+
+CREATE TABLE IF NOT EXISTS district_revenue (
+    district_id  int  NOT NULL REFERENCES school_district(district_id),
+    year         int  NOT NULL,
+    source_code  text NOT NULL,
+    source_name  text,
+    amount       numeric,
+    pct          numeric,
+    load_id      int REFERENCES source_load(load_id),
+    PRIMARY KEY (district_id, year, source_code)
+);
+CREATE INDEX IF NOT EXISTS district_revenue_dy_idx ON district_revenue(district_id, year);

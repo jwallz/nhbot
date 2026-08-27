@@ -92,6 +92,66 @@
 </section>
 {% endif %}
 
+{% if finance %}
+<section class="panel">
+  <h2>Where the money goes</h2>
+  <p class="sub">Each school district's operating budget, from its DOE-25 annual
+    financial report — what it spends by function, and where the revenue comes from.
+    The administration and local-property-tax shares are called out because those are
+    the numbers residents ask about most.</p>
+  {% for f in finance %}
+  <div class="fin-block">
+    <h3>{{ f.district }}</h3>
+    <p class="dist-meta">{% if f.grade_span %}{{ f.grade_span }} · {% endif %}FY{{ f.year }}
+      · ${{ "{:,.0f}".format(f.spend_total) }} in recurring operating expenditures</p>
+
+    <div class="fin-callouts">
+      {% if f.admin_pct is not none %}
+      <div class="fin-callout">
+        <div class="big">{{ "%.1f"|format(f.admin_pct) }}%</div>
+        <div class="cap">goes to administration</div>
+      </div>{% endif %}
+      {% if f.proptax_pct is not none %}
+      <div class="fin-callout">
+        <div class="big">{{ "%.1f"|format(f.proptax_pct) }}%</div>
+        <div class="cap">of revenue is local property tax</div>
+      </div>{% endif %}
+    </div>
+
+    <div class="fin-barlabel"><span>Spending by function</span>
+      <strong>${{ "{:,.0f}".format(f.spend_total) }}</strong></div>
+    <div class="moneybar">
+      {% for g in f.spend %}<div class="seg c-{{ g.slug }}" style="flex:{{ g.pct }} {{ g.pct }} 0"
+        title="{{ g.label }}: {{ '%.1f'|format(g.pct) }}% (${{ '{:,.0f}'.format(g.amount) }})"></div>{% endfor %}
+    </div>
+    <div class="fin-legend">
+      {% for g in f.spend %}<span class="item"><span class="sw c-{{ g.slug }}"></span>
+        <span class="lab">{{ g.label }}</span> <span class="val">{{ "%.0f"|format(g.pct) }}%</span></span>{% endfor %}
+    </div>
+
+    <div class="fin-barlabel"><span>Revenue by source</span>
+      <strong>${{ "{:,.0f}".format(f.rev_total) }}</strong></div>
+    <div class="moneybar">
+      {% for g in f.revenue %}<div class="seg c-{{ g.slug }}" style="flex:{{ g.pct }} {{ g.pct }} 0"
+        title="{{ g.label }}: {{ '%.1f'|format(g.pct) }}% (${{ '{:,.0f}'.format(g.amount) }})"></div>{% endfor %}
+    </div>
+    <div class="fin-legend">
+      {% for g in f.revenue %}<span class="item"><span class="sw c-{{ g.slug }}"></span>
+        <span class="lab">{{ g.label }}</span> <span class="val">{{ "%.0f"|format(g.pct) }}%</span></span>{% endfor %}
+    </div>
+  </div>
+  {% endfor %}
+  <p class="src" style="color:var(--faint);font-size:12px;margin-top:16px">
+    Source: NH DOE-25 Annual Financial Report (District Profile), the district's own
+    certified filing. <strong>Administration</strong> combines general administration
+    (school board and the SAU / superintendent's office) with school administration
+    (principals) and business services. Shares are of recurring current expenditures;
+    facility construction and debt principal are excluded, as in DOE's own cost-per-pupil
+    method. District-level figures are shared by every town in a cooperative.
+  </p>
+</section>
+{% endif %}
+
 <section class="panel">
   <h2>History</h2>
   <table class="grid">
