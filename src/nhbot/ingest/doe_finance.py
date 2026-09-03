@@ -56,40 +56,45 @@ def parse_ids(path):
     did = int(m_did.group(1)) if m_did else None
     return did, year
 
+CPP_LEVELS = {"elementary": "cpp_elementary", "middle/junior": "cpp_middle",
+              "middle": "cpp_middle", "high": "cpp_high", "district total": "cpp_total"}
+
 def parse_profile(ws):
-    """Return (expenditures[list], revenues[list]) of dicts {code,name,amount,pct}.
-    Rows are read by section; totals and blank rows are skipped."""
-    rows = []
-    for r in range(1, ws.max_row + 1):
-        rows.append([ws.cell(r, c).value for c in range(1, 5)])  # cols A-D
+    """Return (expenditures, revenues, cpp) — the two function/source lists of
+    {code,name,amount,pct}, plus a cpp dict of per-level cost-per-pupil. Rows are
+    read by section; totals/blank rows skipped. Works on read-only worksheets."""
+    rows = [list(r[:4]) for r in ws.iter_rows(values_only=True)]  # cols A-D
 
     exp, rev = [], []
-    section = None  # 'exp' | 'rev'
+    cpp = {}
+    section = None  # None -> (pre-tables, where cpp lives) | 'exp' | 'rev'
     for a, b, c, d in rows:
         na, nb = norm(a), norm(b)
         low = (na + " " + nb).lower()
-        # section switches on the two "Function" header rows
         if na.lower() == "function":
             section = "rev" if "revenue" in low else "exp"
             continue
         if section is None:
+            # per-pupil block sits above the first Function header:
+            # label in col B ("Elementary"/"District Total"), value in col C
+            key = CPP_LEVELS.get(nb.lower())
+            if key and num(c) is not None:
+                cpp.setdefault(key, num(c))
             continue
-        # skip subtotal/total lines (their label sits in col A OR col B)
         label = na or nb
         if label.lower().startswith("total"):
             continue
-        amount, pct = num(c), num(d)   # $ always in col C, % in col D
+        amount, pct = num(c), num(d)   # $ in col C, % in col D
         if amount is None:
             continue
-        # coded rows carry the code in col A + name in col B; code-less rows
-        # (e.g. "Tuition, Food & Other Local Services") leave col A empty, name in col B
+        # coded rows: code in A + name in B; code-less rows: name in B, A empty
         if is_code(a):
             code, name = na, nb
         else:
             code, name = "", (nb or na)
-        rec = {"code": code, "name": name, "amount": amount, "pct": pct}
-        (rev if section == "rev" else exp).append(rec)
-    return exp, rev
+        (rev if section == "rev" else exp).append(
+            {"code": code, "name": name, "amount": amount, "pct": pct})
+    return exp, rev, cpp
 
 def synth_codes(rows, prefix):
     """Ensure every row has a non-empty, unique code (PK safety)."""
@@ -106,17 +111,27 @@ def synth_codes(rows, prefix):
 def main():
     files = sorted(glob.glob(str(DOE25_DIR / "**" / "*.xlsx"), recursive=True))
     PROCESSED_DIR.mkdir(parents=True, exist_ok=True)
-    exp_rows, rev_rows = [], []
+    exp_rows, rev_rows, cpp_rows = [], [], []
     n_ok = n_skip = 0
     skipped = []
     for path in files:
         did, year = parse_ids(path)
         if did is None or year is None:
             skipped.append(os.path.basename(path) + " (no id/year)"); n_skip += 1; continue
-        wb = openpyxl.load_workbook(path, data_only=True, read_only=False)
-        if PROFILE_SHEET not in wb.sheetnames:
-            skipped.append(os.path.basename(path) + " (no District Profile)"); n_skip += 1; continue
-        exp, rev = parse_profile(wb[PROFILE_SHEET])
+        try:
+            wb = openpyxl.load_workbook(path, data_only=True, read_only=True)
+        except Exception as ex:
+            skipped.append(os.path.basename(path) + f" (unreadable: {type(ex).__name__})")
+            n_skip += 1; continue
+        try:
+            if PROFILE_SHEET not in wb.sheetnames:
+                skipped.append(os.path.basename(path) + " (no District Profile)"); n_skip += 1; continue
+            exp, rev, cpp = parse_profile(wb[PROFILE_SHEET])
+        except Exception as ex:
+            skipped.append(os.path.basename(path) + f" (parse error: {type(ex).__name__})")
+            n_skip += 1; continue
+        finally:
+            wb.close()
         exp = synth_codes(exp, "E_"); rev = synth_codes(rev, "R_")
         for e in exp:
             exp_rows.append({"district_id": did, "year": year, "function_code": e["code"],
@@ -124,6 +139,12 @@ def main():
         for v in rev:
             rev_rows.append({"district_id": did, "year": year, "source_code": v["code"],
                              "source_name": v["name"], "amount": v["amount"], "pct": v["pct"]})
+        if cpp:
+            cpp_rows.append({"district_id": did, "year": year,
+                             "cpp_elementary": cpp.get("cpp_elementary"),
+                             "cpp_middle": cpp.get("cpp_middle"),
+                             "cpp_high": cpp.get("cpp_high"),
+                             "cpp_total": cpp.get("cpp_total")})
         n_ok += 1
 
     def write(name, rows, cols):
@@ -134,11 +155,14 @@ def main():
           ["district_id", "year", "function_code", "function_name", "amount", "pct"])
     write("nh_district_revenue.csv", rev_rows,
           ["district_id", "year", "source_code", "source_name", "amount", "pct"])
+    write("nh_district_cpp.csv", cpp_rows,
+          ["district_id", "year", "cpp_elementary", "cpp_middle", "cpp_high", "cpp_total"])
 
-    print(f"DOE-25 finance: parsed {n_ok} files, skipped {n_skip}")
+    years = sorted({r["year"] for r in exp_rows})
+    print(f"DOE-25 finance: parsed {n_ok} files, skipped {n_skip}; years {years[:3]}..{years[-3:]}")
     if skipped:
-        print("  skipped:", skipped[:20])
-    print(f"  expenditure rows: {len(exp_rows)}  revenue rows: {len(rev_rows)}")
+        print("  skipped:", skipped[:10], "..." if len(skipped) > 10 else "")
+    print(f"  expenditure rows: {len(exp_rows)}  revenue rows: {len(rev_rows)}  cpp rows: {len(cpp_rows)}")
 
 if __name__ == "__main__":
     main()

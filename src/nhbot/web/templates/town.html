@@ -1,159 +1,411 @@
 {% extends "base.html" %}
-{% block title %}{{ m.name }}, NH — NHbot{% endblock %}
+{% block title %}{{ m.name }}, NH — NHDataHub{% endblock %}
 {% block content %}
 <nav class="crumbs"><a href="/">Map</a> / <span>{{ m.name }}</span></nav>
 
 <header class="town-head">
   <h1>{{ m.name }}</h1>
   <p class="meta">{{ m.county }} County · {{ m.entity_type|capitalize }}
-     {% if m.aland_sqmi %}· {{ "%.0f"|format(m.aland_sqmi|float) }} sq mi{% endif %}</p>
+     {% if m.website %}· <a class="gov-link" href="{{ m.website }}" target="_blank" rel="noopener">Official website ↗</a>{% endif %}</p>
 </header>
 
-{% if current and current.advertised %}
-<section class="hero-stat">
-  <div class="figure">{{ "%.2f"|format(current.advertised|float) }}</div>
-  <div class="cap">total tax rate, {{ current.tax_year }} — per $1,000 of assessed value
-    <span class="sub">the rate on your bill</span></div>
-</section>
-{% endif %}
-
-{% if split %}
-<section class="panel">
-  <h2>{{ split.tax_year }} advertised rate — where the money goes</h2>
-  <table class="kv">
-    <tr><th>Municipal</th><td>{{ "%.2f"|format(split.municipal_rate|float) }}</td></tr>
-    <tr><th>County</th><td>{{ "%.2f"|format(split.county_rate|float) }}</td></tr>
-    <tr><th>Local education</th><td>{{ "%.2f"|format(split.local_ed_rate|float) }}</td></tr>
-    <tr><th>State education</th><td>{{ "%.2f"|format(split.state_ed_rate|float) }}</td></tr>
-    <tr class="total"><th>Total</th><td>{{ "%.2f"|format(split.total_rate|float) }}</td></tr>
-  </table>
-</section>
-{% endif %}
-
-{% if current and current.equalized %}
-<section class="panel compare-card">
-  <div class="row">
-    <div>
-      <h2>Equalized rate <span class="badge {{ 'official' if current.is_official else 'estimate' }}">{{ 'DRA official' if current.is_official else 'estimate' }}</span></h2>
-      <p class="sub">for comparing {{ m.name }} with other towns{% if current.dra_rank %} · rank {{ current.dra_rank }} of 234{% endif %}</p>
-    </div>
-    <div class="figure sm">{{ "%.2f"|format(current.equalized|float) }}</div>
+{# ===== 1. General info ===== #}
+{% if m.form_of_government or m.population_2020 or m.year_incorporated or m.history or locator %}
+<section class="panel about">
+  <h2>General info</h2>
+  {% if locator %}
+  <figure class="locator-wrap">{{ locator|safe }}<figcaption>Where {{ m.name }} sits in NH</figcaption></figure>
+  {% endif %}
+  <div class="facts">
+    {% if m.form_of_government %}<div><span class="k">Government</span><span class="v">{{ m.form_of_government }}{% if m.governing_body %} <span class="sub">· {{ m.governing_body }}</span>{% endif %}</span></div>{% endif %}
+    {% if m.population_2020 %}<div><span class="k">Population</span><span class="v">{{ "{:,}".format(m.population_2020) }} <span class="sub">(2020)</span></span></div>{% endif %}
+    {% if m.year_incorporated %}<div><span class="k">Incorporated</span><span class="v">{{ m.year_incorporated }}</span></div>{% endif %}
+    {% if m.aland_sqmi %}<div><span class="k">Land area</span><span class="v">{{ "%.1f"|format(m.aland_sqmi|float) }} sq mi</span></div>{% endif %}
   </div>
-  {% if current.ratio_pct and current.advertised %}
-  <p class="explain">
-    {{ m.name }} assesses property at about <strong>{{ "%.0f"|format(current.ratio_pct|float) }}%</strong>
-    of market value. The advertised <strong>{{ "%.2f"|format(current.advertised|float) }}</strong> is
-    charged on that assessed value. Restated as if everything were assessed at full market value, it
-    becomes the equalized <strong>{{ "%.2f"|format(current.equalized|float) }}</strong> — the honest
-    number for comparing towns. Same tax bill, different denominator.
-    <a href="/about/equalized-rates">Why this matters →</a>
-  </p>
+  {% if m.history %}
+  <p class="town-history">{{ m.history }}</p>
+  {% if m.history_source %}<p class="src">History via <a href="{{ m.history_source }}" target="_blank" rel="noopener">Wikipedia</a>.</p>{% endif %}
   {% endif %}
 </section>
 {% endif %}
 
-{% if schools %}
-<section class="panel">
-  <h2>Schools <a href="/schools" style="font-size:13px;font-weight:400">compare all towns →</a></h2>
-  <p class="sub">{{ m.name }} belongs to
-    {% if schools|length == 1 %}one school district{% else %}{{ schools|length }} school districts{% endif %}.
-    Cost per pupil and enrollment are reported at the district level, so towns
-    that share a cooperative share its figures.</p>
-  <table class="grid">
-    <thead><tr>
-      <th>District</th><th>Grades</th>
-      <th class="num">Cost / pupil</th><th class="num">vs state</th>
-      <th class="num">Enrollment</th><th class="num">Students / teacher</th>
-    </tr></thead>
-    <tbody>
-    {% for d in schools %}
-      <tr>
-        <td>{{ d.district }}{% if d.sau %}<br><span class="muted" style="font-size:12px">SAU {{ d.sau_id }} · {{ d.sau }}</span>{% endif %}</td>
-        <td>{{ d.grade_span or "—" }}</td>
-        <td class="num">{{ "$%s"|format("{:,.0f}".format(d.cpp_total|float)) if d.cpp_total else "—" }}</td>
-        <td class="num">
-          {%- if d.cpp_total and state_cpp -%}
-            {% set pct = ((d.cpp_total|float - state_cpp) / state_cpp * 100) %}
-            <span class="{{ 'est' if pct > 0 else '' }}">{{ "%+.0f%%"|format(pct) }}</span>
-          {%- else -%}—{%- endif -%}
-        </td>
-        <td class="num">{{ "{:,.0f}".format(d.enrollment|float) if d.enrollment else "—" }}</td>
-        <td class="num">{{ "%.1f"|format(d.student_teacher_ratio|float) if d.student_teacher_ratio else "—" }}</td>
-      </tr>
+{# ===== 1a. Select board / governing body ===== #}
+{% if select_board %}
+<section class="panel legislators">
+  <h2>{{ select_board.label }}</h2>
+  <p class="sub">{{ m.name }}'s local governing board.</p>
+  <ul class="leg-list">
+    {% for mem in select_board.members %}
+    <li><span class="nm">{{ mem.name }}</span>
+        {% if mem.is_chair %}<span class="chair">Chair</span>{% endif %}
+        {% if mem.email %}<a class="lem" href="mailto:{{ mem.email }}" style="margin-left:auto">✉</a>{% endif %}</li>
     {% endfor %}
-    </tbody>
-  </table>
-  <p class="src" style="color:var(--faint);font-size:12px;margin-top:12px">
-    Cost per pupil: NH DOE, FY2025 (operating), statewide average
-    ${{ "{:,.0f}".format(state_cpp) }}. Enrollment &amp; student-teacher ratio: NH DOE,
-    fall 2021&ndash;22. District-level figures apply to every town in a shared district
-    or cooperative.
-  </p>
+  </ul>
+  <p class="src">Source: NH DOT “City and Town Officials” directory, September 2025.</p>
 </section>
 {% endif %}
 
-{% if finance %}
+{# ===== 1b. State legislators ===== #}
+{% if legislators %}
+<section class="panel legislators">
+  <h2>State legislators</h2>
+  <p class="sub">{{ m.name }}'s representation in the New Hampshire General Court — its
+    {% if legislators.senators|length > 1 %}senators{% else %}senator{% endif %} and
+    {{ legislators.reps|length }} state representative{{ 's' if legislators.reps|length != 1 }}
+    (a town's reps come from its district plus any floterial district it shares).</p>
+
+  {% if legislators.senators %}
+  <h3 class="sub-title">Senate</h3>
+  <ul class="leg-list">
+    {% for s in legislators.senators %}
+    <li><span class="pty p-{{ s.party }}" title="{{ s.party_label }}">{{ s.party or '—' }}</span>
+        <span class="nm">{{ s.name }}</span>
+        <span class="dist">{{ s.district }}</span>
+        {% if s.email %}<a class="lem" href="mailto:{{ s.email }}">✉</a>{% endif %}</li>
+    {% endfor %}
+  </ul>
+  {% endif %}
+
+  {% if legislators.reps %}
+  <h3 class="sub-title">House of Representatives <span class="cnt">{{ legislators.reps|length }}</span></h3>
+  <ul class="leg-list">
+    {% for r in legislators.reps %}
+    <li><span class="pty p-{{ r.party }}" title="{{ r.party_label }}">{{ r.party or '—' }}</span>
+        <span class="nm">{{ r.name }}</span>
+        <span class="dist">{{ r.district }}</span>
+        {% if r.email %}<a class="lem" href="mailto:{{ r.email }}">✉</a>{% endif %}</li>
+    {% endfor %}
+  </ul>
+  {% endif %}
+  <p class="src">Source: NH General Court member roster; town→district per RSA 662:3 (Senate) &amp; 662:5 (House), 2022 plan.</p>
+</section>
+{% endif %}
+
+{# ===== 2. Property taxes ===== #}
+{% if (current and current.advertised) or (current and current.equalized) or tax_dollar or split or valuation %}
 <section class="panel">
-  <h2>Where the money goes</h2>
-  <p class="sub">Each school district's operating budget, from its DOE-25 annual
-    financial report — what it spends by function, and where the revenue comes from.
-    The administration and local-property-tax shares are called out because those are
-    the numbers residents ask about most.</p>
-  {% for f in finance %}
-  <div class="fin-block">
-    <h3>{{ f.district }}</h3>
-    <p class="dist-meta">{% if f.grade_span %}{{ f.grade_span }} · {% endif %}FY{{ f.year }}
-      · ${{ "{:,.0f}".format(f.spend_total) }} in recurring operating expenditures</p>
+  <h2>Property taxes
+    <a class="compare-link" href="/compare#town-{{ m.name|slugify }}">Compare with other towns →</a></h2>
 
-    <div class="fin-callouts">
-      {% if f.admin_pct is not none %}
-      <div class="fin-callout">
-        <div class="big">{{ "%.1f"|format(f.admin_pct) }}%</div>
-        <div class="cap">goes to administration</div>
-      </div>{% endif %}
-      {% if f.proptax_pct is not none %}
-      <div class="fin-callout">
-        <div class="big">{{ "%.1f"|format(f.proptax_pct) }}%</div>
-        <div class="cap">of revenue is local property tax</div>
-      </div>{% endif %}
-    </div>
-
-    <div class="fin-barlabel"><span>Spending by function</span>
-      <strong>${{ "{:,.0f}".format(f.spend_total) }}</strong></div>
-    <div class="moneybar">
-      {% for g in f.spend %}<div class="seg c-{{ g.slug }}" style="flex:{{ g.pct }} {{ g.pct }} 0"
-        title="{{ g.label }}: {{ '%.1f'|format(g.pct) }}% (${{ '{:,.0f}'.format(g.amount) }})"></div>{% endfor %}
-    </div>
-    <div class="fin-legend">
-      {% for g in f.spend %}<span class="item"><span class="sw c-{{ g.slug }}"></span>
-        <span class="lab">{{ g.label }}</span> <span class="val">{{ "%.0f"|format(g.pct) }}%</span></span>{% endfor %}
-    </div>
-
-    <div class="fin-barlabel"><span>Revenue by source</span>
-      <strong>${{ "{:,.0f}".format(f.rev_total) }}</strong></div>
-    <div class="moneybar">
-      {% for g in f.revenue %}<div class="seg c-{{ g.slug }}" style="flex:{{ g.pct }} {{ g.pct }} 0"
-        title="{{ g.label }}: {{ '%.1f'|format(g.pct) }}% (${{ '{:,.0f}'.format(g.amount) }})"></div>{% endfor %}
-    </div>
-    <div class="fin-legend">
-      {% for g in f.revenue %}<span class="item"><span class="sw c-{{ g.slug }}"></span>
-        <span class="lab">{{ g.label }}</span> <span class="val">{{ "%.0f"|format(g.pct) }}%</span></span>{% endfor %}
+  {% if current and current.advertised %}
+  <div class="subsection">
+    <div class="hero-stat">
+      <div class="figure">{{ "%.2f"|format(current.advertised|float) }}</div>
+      <div class="cap">total tax rate, {{ current.tax_year }} — per $1,000 of assessed value
+        <span class="sub">the rate on your bill</span></div>
     </div>
   </div>
-  {% endfor %}
-  <p class="src" style="color:var(--faint);font-size:12px;margin-top:16px">
-    Source: NH DOE-25 Annual Financial Report (District Profile), the district's own
-    certified filing. <strong>Administration</strong> combines general administration
-    (school board and the SAU / superintendent's office) with school administration
-    (principals) and business services. Shares are of recurring current expenditures;
-    facility construction and debt principal are excluded, as in DOE's own cost-per-pupil
-    method. District-level figures are shared by every town in a cooperative.
+  {% endif %}
+
+  {% if current and current.equalized %}
+  <div class="subsection compare-card">
+    <div class="row">
+      <div>
+        <h3 class="sub-title">Equalized rate <span class="badge {{ 'official' if current.is_official else 'estimate' }}">{{ 'DRA official' if current.is_official else 'estimate' }}</span></h3>
+        <p class="sub">for comparing {{ m.name }} with other towns{% if current.dra_rank %} · rank {{ current.dra_rank }} of 234{% endif %}</p>
+      </div>
+      <div class="figure sm">{{ "%.2f"|format(current.equalized|float) }}</div>
+    </div>
+    {% if current.ratio_pct and current.advertised %}
+    <p class="explain">
+      {{ m.name }} assesses property at about <strong>{{ "%.0f"|format(current.ratio_pct|float) }}%</strong>
+      of market value. The advertised <strong>{{ "%.2f"|format(current.advertised|float) }}</strong> is
+      charged on that assessed value. Restated as if everything were assessed at full market value, it
+      becomes the equalized <strong>{{ "%.2f"|format(current.equalized|float) }}</strong> — the honest
+      number for comparing towns. Same tax bill, different denominator.
+      <a href="/about/equalized-rates">Why this matters →</a>
+    </p>
+    {% endif %}
+  </div>
+  {% endif %}
+
+  {% if valuation %}
+  <div class="subsection taxbase">
+    <h3 class="sub-title">Where the tax base comes from <span class="yr-badge">{{ valuation.year }}</span></h3>
+    <p class="sub">New Hampshire taxes all property at a single rate, so the more of {{ m.name }}'s value that
+      is commercial, industrial, or utility property, the more of the tax burden businesses carry — and the
+      lighter it tends to fall on homeowners.</p>
+    <div class="tb-head">
+      <span class="tb-big">{{ valuation.commercial_industrial_pct }}%</span>
+      <span class="tb-lbl">of property value is commercial &amp; industrial</span>
+    </div>
+    <div class="tb-bar">
+      <span style="width:{{ valuation.residential_pct }}%;background:#2a78d6" title="Residential {{ valuation.residential_pct }}%"></span>
+      <span style="width:{{ valuation.commercial_industrial_pct }}%;background:#eb6834" title="Commercial &amp; industrial {{ valuation.commercial_industrial_pct }}%"></span>
+      <span style="width:{{ valuation.utilities_pct }}%;background:#eda100" title="Utilities {{ valuation.utilities_pct }}%"></span>
+      <span style="width:{{ valuation.other_pct }}%;background:#8f8f88" title="Other {{ valuation.other_pct }}%"></span>
+    </div>
+    <div class="tb-legend">
+      <span><span class="sw" style="background:#2a78d6"></span>Residential {{ valuation.residential_pct }}%</span>
+      <span><span class="sw" style="background:#eb6834"></span>Commercial &amp; industrial {{ valuation.commercial_industrial_pct }}%</span>
+      <span><span class="sw" style="background:#eda100"></span>Utilities {{ valuation.utilities_pct }}%</span>
+      {% if valuation.other_pct >= 0.5 %}<span><span class="sw" style="background:#8f8f88"></span>Other {{ valuation.other_pct }}%</span>{% endif %}
+    </div>
+    <p class="src">Total assessed valuation ${{ "{:,.0f}".format(valuation.gross) }}. Source: NH DRA equalization “Tables by County,” {{ valuation.year }}.</p>
+  </div>
+  {% endif %}
+
+  {% if tax_dollar %}
+  <div class="subsection">
+    <h3 class="sub-title">Where your property tax dollar goes</h3>
+    <p class="sub">Every property-tax bill in {{ m.name }} splits three ways — schools, the town
+      government, and the county. This is the macro view; education is almost always the largest
+      slice, and below, each part breaks down further.</p>
+    <div class="moneybar">
+      {% for p in tax_dollar.parts %}<div class="seg c-{{ p.slug }}" style="flex:{{ p.pct }} {{ p.pct }} 0"
+        title="{{ p.label }}: {{ '%.1f'|format(p.pct) }}%"></div>{% endfor %}
+    </div>
+    <div class="fin-legend">
+      {% for p in tax_dollar.parts %}<span class="item"><span class="sw c-{{ p.slug }}"></span>
+        <span class="lab">{{ p.label }}</span> <span class="val">{{ "%.0f"|format(p.pct) }}%</span></span>{% endfor %}
+    </div>
+  </div>
+  {% endif %}
+
+  {% if split %}
+  <div class="subsection">
+    <h3 class="sub-title">{{ split.tax_year }} tax rate breakdown</h3>
+    <table class="kv">
+      <tr><th>Municipal</th><td>{{ "%.2f"|format(split.municipal_rate|float) }}</td></tr>
+      <tr><th>County</th><td>{{ "%.2f"|format(split.county_rate|float) }}</td></tr>
+      <tr><th>Local education</th><td>{{ "%.2f"|format(split.local_ed_rate|float) }}</td></tr>
+      <tr><th>State education</th><td>{{ "%.2f"|format(split.state_ed_rate|float) }}</td></tr>
+      <tr class="total"><th>Total</th><td>{{ "%.2f"|format(split.total_rate|float) }}</td></tr>
+    </table>
+  </div>
+  {% endif %}
+
+</section>
+{% endif %}
+
+{# ===== 3. Total public operating budget ===== #}
+{% if total_budget %}
+<section class="panel">
+  <h2>Total public operating budget</h2>
+  <p class="sub">The combined operating budgets of the governments that serve {{ m.name }} — the
+    town itself plus its school district{{ 's' if total_budget.parts|length > 2 else '' }}.
+    Schools are usually the larger share by far.</p>
+  <div class="hero-stat" style="margin:14px 0">
+    <div class="figure">${{ "%.1f"|format(total_budget.total/1000000) }}M</div>
+    <div class="cap">combined operating budget
+      <span class="sub">town ${{ "%.1f"|format(total_budget.town_total/1000000) }}M · schools ${{ "%.1f"|format(total_budget.school_total/1000000) }}M</span></div>
+  </div>
+  <div class="moneybar">
+    {% for p in total_budget.parts %}<div class="seg c-{{ p.slug }}" style="flex:{{ p.pct }} {{ p.pct }} 0"
+      title="{{ p.label }}: ${{ '{:,.0f}'.format(p.amount) }} ({{ '%.0f'|format(p.pct) }}%)"></div>{% endfor %}
+  </div>
+  <table class="dept-list">
+    {% for p in total_budget.parts %}
+    <tr><td>{{ p.label }}{% if p.grade_span %} <span class="cat">· {{ p.grade_span }}</span>{% endif %}{% if p.shared %} <span class="cat">· shared district</span>{% endif %}</td>
+        <td class="amt">${{ "{:,.0f}".format(p.amount) }}</td>
+        <td class="amt">{{ "%.0f"|format(p.pct) }}%</td></tr>
+    {% endfor %}
+    <tr class="total"><td><strong>Total</strong></td><td class="amt"><strong>${{ "{:,.0f}".format(total_budget.total) }}</strong></td><td></td></tr>
+  </table>
+  <p class="src" style="color:var(--faint);font-size:12px;margin-top:12px">
+    Each unit's operating budget (town = voted appropriations; schools = DOE-25 recurring current
+    expenditures). This is larger than the property-tax total, because these budgets are funded by
+    property taxes <em>plus</em> state aid, fees, and other revenue.{% if total_budget.has_shared %}
+    A “shared district” (a cooperative) also serves other towns, so part of its budget is funded by them.{% endif %}
   </p>
 </section>
 {% endif %}
 
+{# ===== 3b. Town operating budget by department ===== #}
 <section class="panel">
-  <h2>History</h2>
+  <h2>Town operating budget by department{% if municipal %}
+    <span class="yr-badge">FY{{ municipal.year }} · {% if municipal.kind == 'appropriation' %}appropriations{% else %}actual (MS-535){% endif %}</span>{% endif %}</h2>
+  {% if municipal %}
+  <p class="sub">The municipal slice of your bill — what the town government itself spends,
+    apart from schools and the county. {{ m.name }}: <strong>${{ "{:,.0f}".format(municipal.total) }}</strong>
+    in {% if municipal.kind == 'appropriation' %}voted appropriations{% else %}actual expenditures (MS-535){% endif %},
+    the most recent filing we have (FY{{ municipal.year }}).</p>
+  <div class="moneybar">
+    {% for c in municipal.categories %}<div class="seg c-{{ c.slug }}" style="flex:{{ c.pct }} {{ c.pct }} 0"
+      title="{{ c.label }}: {{ '%.1f'|format(c.pct) }}% (${{ '{:,.0f}'.format(c.amount) }})"></div>{% endfor %}
+  </div>
+  <div class="fin-legend">
+    {% for c in municipal.categories %}<span class="item"><span class="sw c-{{ c.slug }}"></span>
+      <span class="lab">{{ c.label }}</span> <span class="val">{{ "%.0f"|format(c.pct) }}%</span></span>{% endfor %}
+  </div>
+  <table class="dept-list">
+    {% for d in municipal.departments %}
+    <tr><td>{{ d.department }} <span class="cat">· {{ d.category }}</span></td>
+        <td class="amt">${{ "{:,.0f}".format(d.amount) }}</td>
+        <td class="amt">{{ "%.1f"|format(d.pct) }}%</td></tr>
+    {% endfor %}
+  </table>
+  <p class="src" style="color:var(--faint);font-size:12px;margin-top:12px">
+    Source: {{ municipal.source }}. Standard NH municipal chart of accounts; “Capital Outlay”
+    includes one-time capital projects, so it can swing year to year. This is the town
+    (municipal) portion only.</p>
+  {% else %}
+  <p class="na-note">A department-level breakdown of {{ m.name }}'s town budget isn't available yet.
+    Each town files this with the NH Department of Revenue Administration, but the version published
+    in {{ m.name }}'s most recent annual report either isn't in a machine-readable format
+    {% if m.entity_type == 'city' %}(cities report in a different, GASB financial-statement style){% else %}(often a scanned image){% endif %}
+    or hasn't been posted for a recent year. We add each town the moment a parseable filing is available.</p>
+  {% endif %}
+</section>
+
+{# ===== 4. School spending breakdown ===== #}
+{% if schools or finance or trend %}
+<section class="panel">
+  <h2>School spending breakdown <a href="/schools" style="font-size:13px;font-weight:400">compare all towns →</a></h2>
+
+  {% if schools %}
+  <div class="subsection">
+    <h3 class="sub-title">Districts</h3>
+    <p class="sub">{{ m.name }} belongs to
+      {% if schools|length == 1 %}one school district{% else %}{{ schools|length }} school districts{% endif %}.
+      Cost per pupil and enrollment are reported at the district level, so towns
+      that share a cooperative share its figures.</p>
+    <table class="grid">
+      <thead><tr>
+        <th>District</th><th>Grades</th>
+        <th class="num">Cost / pupil</th><th class="num">vs state</th>
+        <th class="num">Enrollment</th><th class="num">Students / teacher</th>
+      </tr></thead>
+      <tbody>
+      {% for d in schools %}
+        <tr>
+          <td>{{ d.district }}{% if d.sau %}<br><span class="muted" style="font-size:12px">SAU {{ d.sau_id }} · {{ d.sau }}</span>{% endif %}</td>
+          <td>{{ d.grade_span or "—" }}</td>
+          <td class="num">{{ "$%s"|format("{:,.0f}".format(d.cpp_total|float)) if d.cpp_total else "—" }}</td>
+          <td class="num">
+            {%- if d.cpp_total and state_cpp -%}
+              {% set pct = ((d.cpp_total|float - state_cpp) / state_cpp * 100) %}
+              <span class="{{ 'est' if pct > 0 else '' }}">{{ "%+.0f%%"|format(pct) }}</span>
+            {%- else -%}—{%- endif -%}
+          </td>
+          <td class="num">{{ "{:,.0f}".format(d.enrollment|float) if d.enrollment else "—" }}</td>
+          <td class="num">{{ "%.1f"|format(d.student_teacher_ratio|float) if d.student_teacher_ratio else "—" }}</td>
+        </tr>
+      {% endfor %}
+      </tbody>
+    </table>
+    <p class="src" style="color:var(--faint);font-size:12px;margin-top:12px">
+      Cost per pupil: NH DOE, FY2025 (operating), statewide average
+      ${{ "{:,.0f}".format(state_cpp) }}. Enrollment &amp; student-teacher ratio: NH DOE,
+      fall 2021&ndash;22. District-level figures apply to every town in a shared district
+      or cooperative.
+    </p>
+  </div>
+  {% endif %}
+
+  {% if finance %}
+  <div class="subsection">
+    <h3 class="sub-title">Where the money goes</h3>
+    <p class="sub">Each school district's operating budget, from its DOE-25 annual
+      financial report — what it spends by function, and where the revenue comes from.
+      The administration and local-property-tax shares are called out because those are
+      the numbers residents ask about most.</p>
+    {% for f in finance %}
+    <div class="fin-block">
+      <h4>{{ f.district }}</h4>
+      <p class="dist-meta">{% if f.grade_span %}{{ f.grade_span }} · {% endif %}FY{{ f.year }}
+        · ${{ "{:,.0f}".format(f.spend_total) }} in recurring operating expenditures</p>
+
+      <div class="fin-callouts">
+        {% if f.admin_pct is not none %}
+        <div class="fin-callout">
+          <div class="big">{{ "%.1f"|format(f.admin_pct) }}%</div>
+          <div class="cap">goes to administration</div>
+        </div>{% endif %}
+        {% if f.proptax_pct is not none %}
+        <div class="fin-callout">
+          <div class="big">{{ "%.1f"|format(f.proptax_pct) }}%</div>
+          <div class="cap">of revenue is local property tax</div>
+        </div>{% endif %}
+      </div>
+
+      <div class="fin-barlabel"><span>Spending by function</span>
+        <strong>${{ "{:,.0f}".format(f.spend_total) }}</strong></div>
+      <div class="moneybar">
+        {% for g in f.spend %}<div class="seg c-{{ g.slug }}" style="flex:{{ g.pct }} {{ g.pct }} 0"
+          title="{{ g.label }}: {{ '%.1f'|format(g.pct) }}% (${{ '{:,.0f}'.format(g.amount) }})"></div>{% endfor %}
+      </div>
+      <div class="fin-legend">
+        {% for g in f.spend %}<span class="item"><span class="sw c-{{ g.slug }}"></span>
+          <span class="lab">{{ g.label }}</span> <span class="val">{{ "%.0f"|format(g.pct) }}%</span></span>{% endfor %}
+      </div>
+
+      <div class="fin-barlabel"><span>Revenue by source</span>
+        <strong>${{ "{:,.0f}".format(f.rev_total) }}</strong></div>
+      <div class="moneybar">
+        {% for g in f.revenue %}<div class="seg c-{{ g.slug }}" style="flex:{{ g.pct }} {{ g.pct }} 0"
+          title="{{ g.label }}: {{ '%.1f'|format(g.pct) }}% (${{ '{:,.0f}'.format(g.amount) }})"></div>{% endfor %}
+      </div>
+      <div class="fin-legend">
+        {% for g in f.revenue %}<span class="item"><span class="sw c-{{ g.slug }}"></span>
+          <span class="lab">{{ g.label }}</span> <span class="val">{{ "%.0f"|format(g.pct) }}%</span></span>{% endfor %}
+      </div>
+    </div>
+    {% endfor %}
+    <p class="src" style="color:var(--faint);font-size:12px;margin-top:16px">
+      Source: NH DOE-25 Annual Financial Report (District Profile), the district's own
+      certified filing. <strong>Administration</strong> combines general administration
+      (school board and the SAU / superintendent's office) with school administration
+      (principals) and business services. Shares are of recurring current expenditures;
+      facility construction and debt principal are excluded, as in DOE's own cost-per-pupil
+      method. District-level figures are shared by every town in a cooperative.
+    </p>
+  </div>
+  {% endif %}
+
+  {% if trend %}
+  <div class="subsection trend">
+    <h3 class="sub-title">Spending over time</h3>
+    <p class="sub">Cost per pupil has been rising across New Hampshire. These charts show
+      how much it has moved for this district, and whether administration or special
+      education — the two lines residents ask about — is behind it. If cost per pupil
+      climbs while those shares stay flat, the increase is broad-based, not any one line.</p>
+    {% for t in trend %}
+    <div class="trend-block">
+      <h4>{{ t.district }}{% if t.grade_span %} <span style="color:var(--faint);font-size:12px;font-weight:400">· {{ t.grade_span }}</span>{% endif %}</h4>
+      <div class="trend-charts">
+        <figure>
+          <figcaption>Cost per pupil, {{ t.year_first }}–{{ t.year_last }}
+            {% if t.cpp_change is not none %}<strong class="{{ 'up' if t.cpp_change > 0 }}">{{ "%+.0f%%"|format(t.cpp_change) }}</strong>{% endif %}</figcaption>
+          <svg viewBox="0 0 {{ t.w }} {{ t.h }}" role="img" aria-label="Cost per pupil over time">
+            <line class="axis" x1="16" y1="{{ t.h - 16 }}" x2="{{ t.w - 16 }}" y2="{{ t.h - 16 }}"/>
+            <polyline class="line cpp" points="{{ t.cpp_pts }}"/>
+            {% if t.cpp_end %}<circle class="end-dot" cx="{{ t.cpp_end[0] }}" cy="{{ t.cpp_end[1] }}" r="2.6"/>{% endif %}
+            <text class="lbl" x="16" y="{{ t.h - 4 }}">{{ t.year_first }}</text>
+            <text class="lbl" x="{{ t.w - 16 }}" y="{{ t.h - 4 }}" text-anchor="end">{{ t.year_last }}</text>
+          </svg>
+          <div class="ends"><span>${{ "{:,.0f}".format(t.cpp_first) }}</span><span>${{ "{:,.0f}".format(t.cpp_last) }}</span></div>
+        </figure>
+        <figure>
+          <figcaption>Administration &amp; special education, share of budget</figcaption>
+          <svg viewBox="0 0 {{ t.w }} {{ t.h }}" role="img" aria-label="Administration and special education budget shares over time">
+            <line class="axis" x1="16" y1="{{ t.h - 16 }}" x2="{{ t.w - 16 }}" y2="{{ t.h - 16 }}"/>
+            {% if t.sped_pts %}<polyline class="line sped" points="{{ t.sped_pts }}"/>{% endif %}
+            {% if t.admin_pts %}<polyline class="line admin" points="{{ t.admin_pts }}"/>{% endif %}
+            <text class="lbl" x="16" y="{{ t.h - 4 }}">{{ t.year_first }}</text>
+            <text class="lbl" x="{{ t.w - 16 }}" y="{{ t.h - 4 }}" text-anchor="end">{{ t.year_last }}</text>
+          </svg>
+          <div class="trend-legend">
+            <span class="k"><i style="background:#eb6834"></i>Administration{% if t.admin_last is not none %} · {{ "%.0f%%"|format(t.admin_last) }} now{% endif %}</span>
+            <span class="k"><i style="background:#1baf7a"></i>Special education{% if t.sped_last is not none %} · {{ "%.0f%%"|format(t.sped_last) }} now{% endif %}</span>
+          </div>
+        </figure>
+      </div>
+    </div>
+    {% endfor %}
+    <p class="src" style="color:var(--faint);font-size:12px;margin-top:16px">
+      Cost per pupil and function shares: NH DOE-25 Annual Financial Reports, {{ trend[0].year_first }}–{{ trend[0].year_last }}.
+      Figures are nominal (not inflation-adjusted), so some of the rise reflects general inflation.
+      Administration = general + school administration + business services; special education = function 1200.
+    </p>
+  </div>
+  {% endif %}
+</section>
+{% endif %}
+
+{# ===== 5. Tax rate history ===== #}
+<section class="panel">
+  <h2>Tax rate history</h2>
   <table class="grid">
     <thead><tr><th>Year</th><th class="num">Advertised</th><th class="num">Equalized</th><th class="num">Ratio %</th><th class="num">Rank</th><th>Source</th></tr></thead>
     <tbody>

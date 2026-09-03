@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% block title %}Town List — NHDataHub{% endblock %}
+{% block content %}
+<section class="lede">
+  <h1>Town List</h1>
+  <p>Every New Hampshire city and town. Select one for its data page.</p>
+</section>
+<ul class="townlist">
+  {% for t in towns %}
+  <li><a href="/{{ t.slug }}">{{ t.name }}</a><span class="tl-county">{{ t.county }}</span></li>
+  {% endfor %}
+</ul>
+{% endblock %}

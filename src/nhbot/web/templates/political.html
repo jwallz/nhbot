@@ -1,0 +1,72 @@
+{% extends "base.html" %}
+{% block title %}Political Makeup — NHDataHub{% endblock %}
+{% block content %}
+<style>
+  .polpage .lede{max-width:none}
+  .polmap{display:block;height:auto}
+  .polmap a:hover path{stroke:#111;stroke-width:1.1}
+  /* legend */
+  .pol-legend{display:flex;flex-direction:column;gap:6px;width:100%;margin:6px 0 22px}
+  .pol-bar{height:14px;border-radius:7px;border:1px solid var(--line);
+    background:linear-gradient(90deg,#1c5cab 0%,#6b4c9a 50%,#c0392b 100%)}
+  .pol-ends{display:flex;justify-content:space-between;font-size:12px;color:var(--muted)}
+  .pol-ends .mid{color:var(--faint)}
+  .pol-note{font-size:12px;color:var(--faint);display:flex;gap:14px;flex-wrap:wrap;margin-top:2px}
+  .pol-note .sw{display:inline-block;width:11px;height:11px;border-radius:3px;
+    vertical-align:middle;margin-right:4px;border:1px solid var(--line)}
+  /* summary tiles */
+  .pol-summary{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin:0 0 8px}
+  .pol-summary .tile{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:14px 16px}
+  .pol-summary .num{font-size:26px;font-weight:700;color:var(--ink);line-height:1.1}
+  .pol-summary .cap{font-size:12px;color:var(--muted);margin-top:3px}
+  .pol-summary .tile.r{border-top:3px solid #c0392b}
+  .pol-summary .tile.d{border-top:3px solid #1c5cab}
+  .pol-summary .tile.m{border-top:3px solid #6b4c9a}
+  .pol-method{color:var(--muted);font-size:14px;margin-top:18px}
+  @media(max-width:560px){.pol-summary{grid-template-columns:1fr}}
+</style>
+
+<div class="polpage">
+  <section class="lede">
+    <h1>Political makeup of New Hampshire</h1>
+    <p>Every municipality, colored by the partisan balance of the people who represent it
+       in the New Hampshire General Court — its state representatives and its state senator.
+       Deep blue means the whole delegation is Democratic, deep red means it's entirely
+       Republican, and the purples in between show towns whose representation is split.
+       Hover any town for its exact tally, or click through to its page.</p>
+  </section>
+
+  <div class="pol-summary">
+    <div class="tile r"><div class="num">{{ summary.all_r }}</div>
+      <div class="cap">towns with all-Republican representation</div></div>
+    <div class="tile m"><div class="num">{{ summary.mixed }}</div>
+      <div class="cap">towns with split (bipartisan) representation</div></div>
+    <div class="tile d"><div class="num">{{ summary.all_d }}</div>
+      <div class="cap">towns with all-Democratic representation</div></div>
+  </div>
+
+  <div class="pol-legend">
+    <div class="pol-bar" role="img" aria-label="Color scale from all Democratic (blue) through evenly split (purple) to all Republican (red)"></div>
+    <div class="pol-ends"><span>← More Democratic</span><span class="mid">Evenly split</span><span>More Republican →</span></div>
+    <div class="pol-note">
+      <span><span class="sw" style="background:#d9d9d4"></span>Unincorporated (no local reps)</span>
+      <span>The deeper the color, the more lopsided the delegation.</span>
+    </div>
+  </div>
+
+  <div id="mapwrap" class="mapwrap">
+    {{ pol_map | safe }}
+  </div>
+
+  <p class="pol-method">
+    How this is built: each seated legislator counts equally — every state representative
+    from a town's district (including any floterial district it shares) plus its state
+    senator — and the color reflects that group's split between the two major parties.
+    A town with one lone representative therefore reads as fully one color; the tooltip's
+    tally is the ground truth behind every shade. Independents are counted in the tally but
+    don't tilt the color. Reflects the current membership of the 2025–2026 General Court and
+    updates whenever the roster is reloaded. Source: New Hampshire General Court
+    (<a href="https://gc.nh.gov" target="_blank" rel="noopener">gc.nh.gov</a>).
+  </p>
+</div>
+{% endblock %}

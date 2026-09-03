@@ -1,0 +1,153 @@
+{% extends "base.html" %}
+{% block title %}NH Tax Burden vs. U.S. — NHDataHub{% endblock %}
+{% block content %}
+<style>
+  .natl h2{margin:0 0 4px}
+  .natl .sub{color:var(--muted);font-size:14px;margin:0 0 14px}
+  .n-tiles{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px;margin:18px 0 6px}
+  .n-tiles .tile{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:15px 16px}
+  .n-tiles .num{font-size:23px;font-weight:700;color:var(--ink);line-height:1.1}
+  .n-tiles .cap{font-size:12px;color:var(--muted);margin-top:4px}
+  .n-tiles .rk{font-size:12px;font-weight:600;margin-top:6px}
+  .n-tiles .rk.hi{color:#b2482f}.n-tiles .rk.mid{color:var(--muted)}.n-tiles .rk.top{color:var(--accent)}
+  @media(max-width:640px){.n-tiles{grid-template-columns:1fr 1fr}}
+  .callout{background:var(--surface);border:1px solid var(--line);border-left:3px solid var(--accent);
+    border-radius:6px;padding:12px 14px;margin:10px 0 16px;font-size:14px;color:var(--ink)}
+  .cta{display:block;background:rgba(28,92,171,.06);border:1px solid var(--line);border-left:3px solid var(--est,#eb6834);
+    border-radius:6px;padding:14px 16px;margin:16px 0;font-size:14px;color:var(--ink);text-decoration:none}
+  .cta b{color:var(--ink)} .cta .go{color:var(--accent);font-weight:600;white-space:nowrap}
+  /* stacked household breakdown bars */
+  .mix-legend{display:flex;flex-wrap:wrap;gap:14px;margin:4px 0 14px;font-size:12px;color:var(--muted)}
+  .mix-legend .sw{display:inline-block;width:11px;height:11px;border-radius:3px;vertical-align:middle;margin-right:5px}
+  .mix-row{display:grid;grid-template-columns:130px 1fr auto;align-items:center;gap:12px;margin:7px 0}
+  .mix-row .who{font-size:13px;color:var(--ink);font-weight:600}
+  .mix-row .who small{display:block;font-weight:400;color:var(--faint);font-size:11px}
+  .mix-bar{display:flex;height:22px;border-radius:5px;overflow:hidden;background:transparent}
+  .mix-bar span{height:100%;box-shadow:inset -1px 0 0 var(--panel)}
+  .mix-row .tot{font-size:12px;color:var(--muted);font-variant-numeric:tabular-nums;min-width:64px;text-align:right}
+  .seg-prop{background:#2a78d6}.seg-ii{background:#1baf7a}.seg-sa{background:#eb6834}.seg-ex{background:#eda100}
+  .mix-note{color:var(--ink);font-size:12.5px;line-height:1.55;margin:14px 0 0;
+    background:rgba(214,69,52,.08);border:1px solid rgba(214,69,52,.28);
+    border-left:3px solid #d64534;border-radius:6px;padding:11px 13px}
+  .mix-note .ast{color:#c33a29;font-weight:700}
+  .mix-legend .ast{color:#c33a29;font-weight:700}
+  /* burden ranking */
+  .rank-row{display:grid;grid-template-columns:26px 118px 1fr auto;align-items:center;gap:10px;
+    padding:3px 6px;border-radius:5px;border-bottom:1px solid var(--line)}
+  .rank-row .rn{font-size:12px;color:var(--faint);text-align:right;font-variant-numeric:tabular-nums}
+  .rank-row .st{font-size:13px;color:var(--ink);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+  .rank-row .rt{height:14px;background:var(--surface);border-radius:4px;overflow:hidden}
+  .rank-row .rt span{display:block;height:100%;background:var(--accent);border-radius:4px;opacity:.55}
+  .rank-row .pv{font-size:13px;font-weight:600;color:var(--ink);font-variant-numeric:tabular-nums;min-width:52px;text-align:right}
+  .rank-row.nh{background:rgba(235,104,52,.12)}
+  .rank-row.nh .st{font-weight:700}
+  .rank-row.nh .rt span{background:var(--est,#eb6834);opacity:1}
+  .rank-row.nh .pv{color:#b2482f}
+  .rank-row.us{background:var(--surface)}
+  .rank-row.us .st{font-style:italic;color:var(--muted)}
+  .rank-row.us .rt span{background:var(--faint);opacity:.7}
+  .method{color:var(--muted);font-size:13px;margin-top:16px}
+  .panel + .panel{margin-top:22px}
+</style>
+
+<div class="natl">
+  <section class="lede">
+    <h1>New Hampshire vs other states</h1>
+  </section>
+
+  {% if not nh or nh.hh_burden_pct is none %}
+  <section class="panel"><p>The comparison data hasn't been loaded yet. Run
+     <code>nhbot load</code> with the comparison CSV in place and this page fills in.</p></section>
+  {% else %}
+
+  <div class="n-tiles">
+    <div class="tile"><div class="num">{{ nh.hh_burden_pct }}%</div>
+      <div class="cap">of income goes to household taxes</div>
+      <div class="rk top">{{ nh.hh_burden_rank|ord }}-lowest of {{ n_states }}</div></div>
+    <div class="tile"><div class="num">$0</div>
+      <div class="cap">general sales tax &amp; no tax on wages</div>
+      <div class="rk mid">only a handful of states can say both</div></div>
+    <div class="tile"><div class="num">{{ prop_share }}%</div>
+      <div class="cap">of that tax bill is property tax</div>
+      <div class="rk mid">income &amp; sales taxes are near zero</div></div>
+    <div class="tile"><div class="num">{{ nh.eff_property_rate }}%</div>
+      <div class="cap">effective property tax rate on a home</div>
+      <div class="rk hi">{{ nh.eff_property_rank|ord }}-highest of 51 — the trade-off</div></div>
+  </div>
+
+  <div class="callout">The average U.S. household pays about <strong>{{ us.hh_burden_pct }}%</strong> of
+    income in state and local taxes, spread fairly evenly across property, income, and sales. A New
+    Hampshire household pays <strong>{{ nh.hh_burden_pct }}%</strong> — and roughly {{ prop_share }} cents
+    of every dollar of it is property tax, because there's no income or sales tax to share the load.</div>
+
+  {# ===== Household breakdown ===== #}
+  <section class="panel">
+    <h2>What a typical household's tax bill is made of</h2>
+    <p class="sub">Average state &amp; local taxes paid per household, by type — the same four taxes that
+       make up the burden ranking below, converted from per-person to per-household using each state's
+       average household size. Longer bars mean a heavier total load; New Hampshire's is short and almost
+       entirely blue (property).</p>
+    <div class="mix-legend">
+      <span><span class="sw seg-prop"></span>Property</span>
+      <span><span class="sw seg-ii"></span>Individual income<span class="ast">*</span></span>
+      <span><span class="sw seg-sa"></span>General sales</span>
+      <span><span class="sw seg-ex"></span>Excise</span>
+    </div>
+    {% for b in breakdown_rows %}
+    <div class="mix-row">
+      <span class="who">{{ b.state }}{% if b.state == "United States" %}<small>national average</small>{% endif %}</span>
+      <span class="mix-bar">
+        <span class="seg-prop" style="width:{{ (b.prop or 0) / breakdown_max * 100 }}%" title="Property ${{ "{:,}".format(b.prop) }}/household"></span>
+        <span class="seg-ii"   style="width:{{ (b.income or 0) / breakdown_max * 100 }}%" title="Individual income ${{ "{:,}".format(b.income) }}/household"></span>
+        <span class="seg-sa"   style="width:{{ (b.sales or 0) / breakdown_max * 100 }}%"  title="General sales ${{ "{:,}".format(b.sales) }}/household"></span>
+        <span class="seg-ex"   style="width:{{ (b.excise or 0) / breakdown_max * 100 }}%" title="Excise ${{ "{:,}".format(b.excise) }}/household"></span>
+      </span>
+      <span class="tot">${{ "{:,}".format(b.total) }}</span>
+    </div>
+    {% endfor %}
+    {% if nh and nh.hh_income_pc %}
+    <p class="mix-note"><span class="ast">*</span> New Hampshire shows a thin green (individual&nbsp;income) sliver even though it has
+       no wage income tax. That reflects the state's <strong>Interest &amp; Dividends tax</strong>, a narrow
+       tax on investment income that was phased out and fully <strong>repealed at the start of 2025</strong>.
+       On today's law that slice is effectively zero; it lingers in this chart only because the underlying
+       Census collections are for fiscal year 2023, while the tax was still in effect.</p>
+    {% endif %}
+  </section>
+
+  <a class="cta" href="/compare">
+    <b>Within New Hampshire, the only household tax that changes town to town is the property tax</b> —
+    income and sales taxes are zero everywhere in the state. So picking a community really comes down to
+    its property tax rate. <span class="go">Compare every town's tax rate →</span>
+  </a>
+
+  {# ===== Household burden ranking ===== #}
+  <section class="panel">
+    <h2>Household tax burden, every state</h2>
+    <p class="sub">Property, individual income, sales, and excise taxes combined, as a share of income —
+       what households actually pay. Ranked lowest to highest; New Hampshire and the U.S. average are highlighted.</p>
+    {% set bmax = hh_max %}
+    <div class="bars">
+      {% for r in hh_list %}
+      <div class="rank-row {{ 'nh' if r.state == 'New Hampshire' else 'us' if r.state == 'United States' else '' }}">
+        <span class="rn">{{ r.hh_burden_rank if r.hh_burden_rank else '—' }}</span>
+        <span class="st">{{ r.state }}</span>
+        <span class="rt"><span style="width:{{ (r.hh_burden_pct / bmax * 100)|round(1) }}%"></span></span>
+        <span class="pv">{{ r.hh_burden_pct }}%</span>
+      </div>
+      {% endfor %}
+    </div>
+  </section>
+
+  <p class="method">
+    This is a household (individual) tax burden: state and local property, individual income, general
+    sales, and excise tax collections per capita, divided by income per capita. It deliberately excludes
+    business and corporate taxes, which fall on companies rather than residents. Figures are compiled from
+    U.S. Census Bureau state &amp; local government finance data (fiscal year 2023) and Bureau of Economic
+    Analysis income data (2024), by way of the Tax Foundation's <em>Facts &amp; Figures 2026</em>; we compute
+    the burden ourselves from those underlying per-capita figures, so the method is fully transparent. Sources:
+    <a href="https://www.census.gov/programs-surveys/gov-finances.html" target="_blank" rel="noopener">U.S. Census Bureau</a>,
+    <a href="https://www.bea.gov/data/income-saving/personal-income-by-state" target="_blank" rel="noopener">Bureau of Economic Analysis</a>.
+  </p>
+  {% endif %}
+</div>
+{% endblock %}

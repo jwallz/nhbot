@@ -1,5 +1,5 @@
 {% extends "base.html" %}
-{% block title %}Compare NH towns — NHbot{% endblock %}
+{% block title %}Compare NH towns — NHDataHub{% endblock %}
 {% block content %}
 <h1>Compare towns</h1>
 <p class="lede"><strong>Advertised</strong> is the rate on the bill — but it is
@@ -39,4 +39,22 @@
 <div id="results">
   {% include "partials/_compare_results.html" %}
 </div>
+
+<script>
+// Arrived via "Compare with other towns" (…/compare#town-<slug>): scroll to that
+// town's row and highlight it.
+(function () {
+  function focusTown() {
+    var h = location.hash || "";
+    if (h.indexOf("#town-") !== 0) return;
+    var el = document.getElementById(h.slice(1));
+    if (!el) return;
+    document.querySelectorAll("tr.focus-row").forEach(function (r) { r.classList.remove("focus-row"); });
+    el.classList.add("focus-row");
+    el.scrollIntoView({ block: "center", behavior: "smooth" });
+  }
+  focusTown();
+  document.body.addEventListener("htmx:afterSwap", function () { setTimeout(focusTown, 30); });
+})();
+</script>
 {% endblock %}

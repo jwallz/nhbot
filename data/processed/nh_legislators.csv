@@ -1,0 +1,409 @@
+id,body,county,district,first_name,last_name,party,town_residence,title,email,phone,elected_status
+1,senate,Rockingham,22,Daryl,Abbas,R,Concord,Senator,Daryl.Abbas@gc.nh.gov,(603) 271-3077,new
+2,house,Belknap,6,Glen,Aldrich,R,Gilford,Representative,Glennaldrich@proton.me,(603) 527-8726,Former
+3,house,Hillsborough,29,Joe,Alexander,R,Goffstown,Representative,Joe.Alexander@gc.nh.gov,(603) 856-5227,Incumbent
+4,house,Grafton,17,Susan,Almy,D,Lebanon,Representative,susan.almy@comcast.net,,Incumbent
+5,senate,Rockingham,24,Debra,Altschiller,D,Concord,Senator,Debra.Altschiller@gc.nh.gov,(603) 271-7875,new
+6,house,Cheshire,13,Dick,Ames,D,Jaffrey,Representative,amesinjaffrey@gmail.com,(603) 532-6781,Incumbent
+7,house,Hillsborough,42,Keith,Ammon,R,New Boston,Representative,Keith.Ammon@gc.nh.gov,(603) 296-9879,Incumbent
+8,house,Merrimack,5,Louise,Andrus,R,Salisbury,Representative,Louise.Andrus@gc.nh.gov,(603) 648-2510,Incumbent
+9,house,Strafford,7,Aidan,Ankarberg,I,Concord,Representative,Aidan.Ankarberg@gc.nh.gov,,Incumbent
+10,house,Sullivan,8,Michael,Aron,R,South Acworth,Representative,Michael.Aron@gc.nh.gov,(603) 835-2188,new
+11,house,Sullivan,4,Judy,Aron,R,South Acworth,Representative,Judy.Aron@gc.nh.gov,(603) 835-2188,Incumbent
+12,house,Merrimack,13,Cyril,Aures,R,Concord,Representative,Cyril.Aures@gc.nh.gov,,Incumbent
+13,senate,Hillsborough,12,Kevin,Avard,R,Concord,Senator,Kevin.Avard@gc.nh.gov,(603) 271-3479,Incumbent
+14,house,Carroll,4,Lino,Avellani,R,Sanbornville,Representative,lino.avellani@gc.nh.gov,(603) 858-5196,Incumbent
+15,house,Merrimack,5,Deborah,Aylward,R,Concord,Representative,Deborah.Aylward@gc.nh.gov,,Incumbent
+16,house,Strafford,2,Glenn,Bailey,R,Milton,Representative,grbailey@metrocast.net,(603) 755-2756,Incumbent
+17,house,Rockingham,38,Peggy,Balboni,D,Rye Beach,Representative,Peggy.Balboni@gc.nh.gov,,Incumbent
+18,house,Grafton,4,Heather,Baldwin,D,Thornton,Representative,Heather.Baldwin@gc.nh.gov,,Incumbent
+19,house,Rockingham,25,Lorie,Ball,R,Concord,Representative,Lorie.Ball@gc.nh.gov,(603) 770-7319,Incumbent
+20,house,Hillsborough,35,Liz,Barbour,R,Concord,Representative,Liz.Barbour@gc.nh.gov,,new
+21,house,Grafton,1,Joseph,Barton,R,Concord,Representative,Joseph.Barton@gc.nh.gov,,
+22,house,Strafford,21,Luz,Bay,D,Dover,Representative,Luz.Bay@gc.nh.gov,(603) 743-3440,Incumbent
+23,house,Hillsborough,3,Paige,Beauchemin,D,Concord,Representative,paige.beauchemin@gc.nh.gov,(603) 296-5489,Incumbent
+24,house,Grafton,1,Calvin,Beaulier,R,Concord,Representative,Calvin.Beaulier@gc.nh.gov,,new
+25,house,Carroll,4,Mike,Belcher,R,Wakefield,Representative,Mike.Belcher@gc.nh.gov,,Incumbent
+26,house,Rockingham,4,Cindy,Bennett,R,Raymond,Representative,Cindy.Bennett@gc.nh.gov,(603) 493-8265,new
+27,house,Cheshire,6,Paul,Berch,D,Westmoreland,Representative,Paul.Berch@gc.nh.gov,(603) 852-6541,Former
+28,house,Grafton,11,Lex,Berezhny,R,Grafton,Representative,Lex.Berezhny@gc.nh.gov,,Incumbent
+29,house,Hillsborough,16,Dan,Bergeron,D,Manchester,Representative,Dan.Bergeron@gc.nh.gov,(603) 682-8961,new
+30,house,Rockingham,36,JD,Bernardy,R,South Hampton,Representative,jd.bernardy@comcast.net,(603) 969-5796,Incumbent
+31,house,Hillsborough,44,Ross,Berry,R,Weare,Representative,Ross.Berry@gc.nh.gov,(603) 803-3448,Former
+32,senate,Rockingham,19,Regina,Birdsell,R,Concord,Senator,Regina.Birdsell@gc.nh.gov,(603) 271-3479,Incumbent
+33,house,Strafford,13,Peter,Bixby,D,Concord,Representative,Peter.Bixby@gc.nh.gov,(603) 749-5659,Incumbent
+34,house,Grafton,5,Marie Louise,Bjelobrk,R,Concord,Representative,Marie.Bjelobrk@gc.nh.gov,,new
+35,house,Hillsborough,38,Ralph,Boehm,R,Litchfield,Representative,rgboehm@comcast.net,(603) 860-6309,Incumbent
+36,house,Belknap,5,Steven,Bogert,R,Laconia,Representative,Steven.Bogert@gc.nh.gov,(603) 528-0613,Incumbent
+37,house,Grafton,8,Bill,Bolton,D,Plymouth,Representative,Bill.Bolton@gc.nh.gov,(603) 236-1812,Incumbent
+38,house,Hillsborough,8,Efstathia,Booras,D,Concord,Representative,Efstathia.Booras@gc.nh.gov,,Incumbent
+39,house,Belknap,5,Mike,Bordes,R,Laconia,Representative,mike.bordes@gc.nh.gov,(516) 369-1167,Incumbent
+40,house,Carroll,7,Bobbi,Boudman,D,Wolfeboro,Representative,Bobbi.Boudman@gc.nh.gov,,new
+41,house,Hillsborough,12,Bill,Boyd,R,Merrimack,Representative,Bill.Boyd@gc.nh.gov,(603) 660-6077,Incumbent
+42,house,Merrimack,10,Stephen,Boyd,R,Hooksett,Representative,stepheneboyd@gmail.com,(603) 203-0746,Incumbent
+43,house,Merrimack,15,Tracy,Bricchi,D,Penacook,Representative,Tracy.Bricchi@gc.nh.gov,,new
+44,house,Rockingham,29,Nicholas,Bridle,R,Hampton,Representative,Nicholas.Bridle@gc.nh.gov,,new
+45,house,Rockingham,14,Pam,Brown,R,Kingston,Representative,Pam.Brown@gc.nh.gov,(818) 700-1853,new
+46,house,Carroll,8,Richard,Brown,R,Concord,Representative,Richard.Brown@gc.nh.gov,,Incumbent
+47,house,Rockingham,1,Scott,Bryer,R,Northwood,Representative,Scott.Bryer@gc.nh.gov,,new
+48,house,Carroll,1,Thomas,Buco,D,Conway,Representative,Tom.Buco@gc.nh.gov,(603) 986-5629,Incumbent
+49,house,Strafford,2,Claudine,Burnham,R,Milton,Representative,Claudine.Burnham@gc.nh.gov,,Incumbent
+50,house,Carroll,2,Anita,Burroughs,D,Glen,Representative,Anita.Burroughs@gc.nh.gov,(603) 986-6216,Incumbent
+51,house,Strafford,10,Wayne,Burton,D,Durham,Representative,Wayne.Burton@gc.nh.gov,(603) 868-5037,Former
+52,house,Strafford,12,Billie,Butler,D,Concord,Representative,,,new
+53,house,Rockingham,10,Michael,Cahill,D,Concord,Representative,Michael.Cahill@gc.nh.gov,(603) 380-1736,Incumbent
+54,house,Merrimack,4,Jose,Cambrils,R,Loudon,Representative,Jose4NH@comcast.net,(603) 731-8287,Incumbent
+55,house,Merrimack,8,Tony,Caplan,D,Henniker,Representative,Tony.Caplan@gc.nh.gov,(603) 428-7042,Incumbent
+56,senate,Rockingham,14,Sharon,Carson,R,Concord,Senator,Sharon.Carson@gc.nh.gov,(603) 271-3266,Incumbent
+57,house,Hillsborough,11,Manoj,Chourasia,D,Concord,Representative,Manoj.Chourasia@gc.nh.gov,,new
+58,house,Hillsborough,19,Suzanne,Chretien,D,Concord,Representative,Suzanne.Chretien@gc.nh.gov,,new
+59,house,Sullivan,6,John,Cloutier,D,Claremont,Representative,jocloutier@comcast.net,(603) 542-6190,Incumbent
+60,house,Belknap,2,Matthew,Coker,R,Meredith,Representative,Matthew.Coker@gc.nh.gov,,Incumbent
+61,house,Merrimack,9,Eleana,Colby,D,Bow,Representative,Eleana.Colby@gc.nh.gov,(603) 545-1484,new
+62,house,Hillsborough,30,Riché,Colcombe,R,Concord,Representative,Riche.Colcombe@gc.nh.gov,,Incumbent
+63,house,Hillsborough,26,Brian,Cole,R,Manchester,Representative,Brian.Cole@gc.nh.gov,(603) 670-8045,Incumbent
+64,house,Belknap,7,Barbara,Comtois,R,Center Barnstead,Representative,Barbara.Comtois@gc.nh.gov,(603) 776-8989,Incumbent
+65,house,Hillsborough,28,Travis,Corcoran,R,Concord,Representative,tjic2020@gmail.com,,Incumbent
+66,house,Grafton,15,Thomas,Cormen,D,Concord,Representative,Thomas.Cormen@gc.nh.gov,(603) 707-6994,Incumbent
+67,house,Hillsborough,22,Patricia,Cornell,D,Manchester,Representative,patricia.cornell@gc.nh.gov,(603) 644-5480,Incumbent
+68,house,Carroll,3,Karel,Crawford,R,Center Harbor,Representative,karel.crawford@gc.nh.gov,(603) 253-7857,Incumbent
+69,house,Hillsborough,30,James,Creighton,R,Antrim,Representative,creighton4nh@gmail.com,(603) 588-2739,Incumbent
+70,house,Sullivan,8,Hope,Damon,D,Croydon,Representative,Hope.Damon@gc.nh.gov,603-848-4257,Incumbent
+71,house,Hillsborough,43,Gary,Daniels,R,Milford,Representative,Gary.Daniels@gc.nh.gov,(603) 673-3065,Former
+72,house,Hillsborough,11,Will,Darby,D,Nashua,Representative,Will.Darby@gc.nh.gov,(603) 891-2865,Incumbent
+73,house,Hillsborough,43,Paul,Dargie,D,Milford,Representative,Paul.Dargie@gc.nh.gov,(603) 672-5336,Former
+74,house,Hillsborough,3,Fred,Davis,D,Nashua,Representative,Fred.Davis@gc.nh.gov,,Incumbent
+75,house,Coos,2,Arnold,Davis,R,Berlin,Representative,Arnold.Davis@gc.nh.gov,,Incumbent
+76,house,Rockingham,29,Erica,de Vries,D,Hampton,Representative,Erica.deVries@gc.nh.gov,(603) 777-7658,new
+77,house,Strafford,6,Denise,DeDe-Poulin,R,Concord,Representative,Denise.DeDePoulin@gc.nh.gov,,new
+78,house,Strafford,1,Susan,DeLemus,R,Farmington,Representative,Susan.DeLemus@gc.nh.gov,(603) 335-5119,Former
+79,house,Strafford,3,Susan,DeRoy,R,New Durham,Representative,Susan.DeRoy@gc.nh.gov,,new
+80,house,Rockingham,18,Debra,DeSimone,R,Atkinson,Representative,debra.desimone@gc.nh.gov,(603) 362-4314,Incumbent
+81,house,Rockingham,8,Sayra,DeVito,R,Concord,Representative,Sayra.DeVito@gc.nh.gov,(405) 590-0911,new
+82,house,Merrimack,1,Ricky,Devoid,R,Boscawen,Representative,Rick.Devoid@gc.nh.gov,(603) 848-2551,new
+83,house,Hillsborough,17,Linda,DiSilvestro,D,Manchester,Representative,Linda.Disilvestro@gc.nh.gov,(603) 645-6729,Incumbent
+84,house,Rockingham,16,Tom,Dolan,R,Londonderry,Representative,Tom.Dolan@gc.nh.gov,(603) 434-5461,Incumbent
+85,house,Hillsborough,9,William,Dolan,D,Concord,Representative,William.Dolan@gc.nh.gov,,Incumbent
+86,house,Rockingham,25,Tanya,Donnelly,R,Concord,Representative,Tanya.Donnelly@gc.nh.gov,(978) 482-7434,Incumbent
+87,house,Rockingham,4,Mike,Drago,R,Concord,Representative,Mike.Drago@gc.nh.gov,,Incumbent
+88,house,Hillsborough,19,Matt,Drew,R,Manchester,Representative,Matt.Drew@gc.nh.gov,,new
+89,house,Sullivan,7,Margaret,Drye,R,Plainfield,Representative,Margaret.Drye@gc.nh.gov,,Incumbent
+90,house,Belknap,6,Russell,Dumais,R,Gilford,Representative,Russell.Dumais@gc.nh.gov,(603) 293-2014,Incumbent
+91,house,Hillsborough,13,Dillon,Dumont,R,Hudson,Representative,Dillon.Dumont@gc.nh.gov,,new
+92,house,Rockingham,16,Ron,Dunn,R,Londonderry,Representative,Ron.Dunn@gc.nh.gov,,Incumbent
+93,house,Hillsborough,20,Pierre,Dupont,R,Manchester,Representative,Pierre.Dupont@gc.nh.gov,,new
+94,house,Coos,1,Sean,Durkin,R,Concord,Representative,seandurkin4NH@gmail.com,,Incumbent
+95,house,Merrimack,7,Karen,Ebel,D,New London,Representative,Karen.Ebel@gc.nh.gov,(603) 748-3876,Incumbent
+96,house,Rockingham,29,Michael,Edgar,D,Hampton,Representative,Michael.Edgar@gc.nh.gov,(603) 926-1878,Incumbent
+97,house,Rockingham,31,Jess,Edwards,R,Concord,Representative,jess.edwards@gc.nh.gov,,Incumbent
+98,house,Hillsborough,5,Susan,Elberger,D,Nashua,Representative,Susan.Elberger@gc.nh.gov,,Incumbent
+99,house,Strafford,12,Myles,England,D,Concord,Representative,Myles.England@gc.nh.gov,,new
+100,house,Hillsborough,28,Keith,Erf,R,Weare,Representative,Keith.Erf@gc.nh.gov,,Incumbent
+101,house,Strafford,8,Samuel,Farrington,R,Rochester,Representative,Samuel.Farrington@gc.nh.gov,(603) 948-6240,new
+102,house,Cheshire,10,Barry,Faulkner,D,Swanzey,Representative,fbfaulkner@outlook.com,,Incumbent
+103,house,Hillsborough,30,Jim,Fedolfi,R,Hillsborough,Representative,jfedolfi@comcast.net,(603) 464-3050,Incumbent
+104,house,Grafton,8,Sallie,Fellows,D,Concord,Representative,Sallie.Fellows@gc.nh.gov,(603) 536-3123,Incumbent
+105,senate,Cheshire,10,Donovan,Fenton,D,Concord,Senator,Donovan.Fenton@gc.nh.gov,(603) 271-3469,new
+106,house,Hillsborough,45,Jack,Flanagan,R,Brookline,Representative,Jack.Flanagan@gc.nh.gov,,Former
+107,house,Rockingham,13,Charles,Foote,R,Derry,Representative,Charles.Foote@gc.nh.gov,,Incumbent
+108,house,Rockingham,3,Mary,Ford,R,Chester,Representative,Mary.Ford@gc.nh.gov,(603) 722-5775,new
+109,house,Hillsborough,41,Lily,Foss,D,Concord,Representative,Lily.Foss@gc.nh.gov,,new
+110,house,Cheshire,2,Dru,Fox,D,Keene,Representative,Dru.Fox@gc.nh.gov,(603) 352-2332,Incumbent
+111,house,Hillsborough,2,Loren,Foxx,D,Concord,Representative,Loren.Foxx@gc.nh.gov,,Incumbent
+112,house,Grafton,16,David,Fracht,D,Enfield,Representative,David.fracht@gc.nh.gov,,Incumbent
+113,house,Grafton,6,Linda,Franz,R,Concord,Representative,Linda.Franz@gc.nh.gov,(508) 341-9021,new
+114,house,Belknap,8,Lisa,Freeman,R,Concord,Representative,Lisa.Freeman@gc.nh.gov,,Former
+115,house,Hillsborough,16,Larry,Gagne,R,Manchester,Representative,lgagne25@comcast.net,,Incumbent
+116,house,Merrimack,20,Eric,Gallager,D,Concord,Representative,eric.gallager@gc.nh.gov,,Incumbent
+117,senate,Rockingham,23,Bill,Gannon,R,Concord,Senator,William.Gannon@gc.nh.gov,(603) 271-3077,Incumbent
+118,house,Hillsborough,23,Mary,Georges,D,Concord,Representative,Mary.Georges@gc.nh.gov,(603) 264-7083,new
+119,house,Cheshire,15,Nicholas,Germana,D,Keene,Representative,Nicholas.Germana@gc.nh.gov,(603) 762-8139,Incumbent
+120,house,Hillsborough,29,Henry,Giasson,R,Goffstown,Representative,Henry.Giasson@gc.nh.gov,(603) 930-2019,new
+121,house,Merrimack,23,Merryl,Gibbs,D,Concord,Representative,Merryl.Gibbs@gc.nh.gov,(603) 224-2239,Incumbent
+122,house,Rockingham,11,Julie,Gilman,D,Exeter,Representative,Julie.Gilman@gc.nh.gov,(603) 580-1393,Incumbent
+123,house,Strafford,16,Gary,Gilmore,D,Dover,Representative,gilmoregary256@gmail.com,(603) 534-6800,Former
+124,house,Sullivan,6,Dale,Girard,R,Claremont,Representative,Dale.Girard@gc.nh.gov,(603) 543-1770,new
+125,house,Merrimack,3,Ernesto,Gonzalez,R,Franklin,Representative,Ernesto.Gonzalez@gc.nh.gov,,new
+126,house,Hillsborough,2,Ted,Gorski,R,Concord,Representative,ted.gorski@gc.nh.gov,,Incumbent
+127,house,Hillsborough,2,Linda,Gould,R,Bedford,Representative,linda.gould@gc.nh.gov,(603) 472-3877,Incumbent
+128,house,Strafford,2,Michael,Granger,R,Milton Mills,Representative,Michael.Granger@gc.nh.gov,(603) 815-1143,Incumbent
+129,house,Sullivan,5,George,Grant,R,Sunapee,Representative,George.Grant@gc.nh.gov,(603) 748-0309,new
+130,senate,Strafford,6,James,Gray,R,Concord,Senator,James.Gray@gc.nh.gov,(603) 271-4980,Incumbent
+131,house,Hillsborough,7,Alicia,Gregg,D,Concord,Representative,Alicia.Gregg@gc.nh.gov,,Incumbent
+132,house,Hillsborough,42,Gerald,Griffin,R,Mont Vernon,Representative,Gerald.Griffin@gc.nh.gov,(603) 673-7467,Incumbent
+133,house,Hillsborough,18,Jessica,Grill,D,Concord,Representative,Jessica.Grill@gc.nh.gov,(603) 566-6132,Incumbent
+134,house,Rockingham,11,Gaby,Grossman,D,Concord,Representative,Gaby.Grossman@gc.nh.gov,(603) 418-4685,Incumbent
+135,house,Cheshire,16,James,Gruber,D,Concord,Representative,James.Gruber@gc.nh.gov,(603) 313-1277,new
+136,house,Hillsborough,34,Stephanie,Grund,D,Concord,Representative,Stephanie.Grund@gc.nh.gov,(603) 769-1390,new
+137,house,Rockingham,15,Joseph,Guthrie,R,Hampstead,Representative,lojogut@gmail.com,(603) 489-1228,Incumbent
+138,house,Rockingham,1,James,Guzofski,R,Northwood,Representative,James.Guzofski@gc.nh.gov,(603) 767-0696,new
+139,house,Grafton,12,Mary,Hakken-Phillips,D,Hanover,Representative,Mary.HakkenPhillips@gc.nh.gov,,Incumbent
+140,house,Strafford,1,Robley,Hall,R,Farmington,Representative,Robley.Hall@gc.nh.gov,(603) 531-7190,new
+141,house,Merrimack,9,Muriel,Hall,D,Bow,Representative,Muriel.Hall@gc.nh.gov,(603) 224-9017,Incumbent
+142,house,Carroll,3,Joseph,Hamblen,R,Concord,Representative,Joseph.Hamblen@gc.nh.gov,,new
+143,house,Rockingham,20,Robert,Harb,R,Plaistow,Representative,Robert.Harb@gc.nh.gov,,Incumbent
+144,house,Strafford,18,Michael,Harrington,R,Strafford,Representative,harringt@metrocast.net,(603) 942-8691,Incumbent
+145,house,Hillsborough,10,Linda,Harriott-Gathright,D,Nashua,Representative,linda.harriottgathright@gc.nh.gov,(603) 880-4537,Incumbent
+146,house,Cheshire,6,Cathryn,Harvey,D,Spofford,Representative,Cathryn.Harvey@gc.nh.gov,(603) 363-4424,Incumbent
+147,house,Belknap,3,Juliet,Harvey-Bolia,R,Concord,Representative,Juliet.HarveyBolia@gc.nh.gov,(603) 941-4932,Incumbent
+148,house,Hillsborough,41,Karen,Hegner,D,Manchester,Representative,Karen.Hegner@gc.nh.gov,(603) 520-7644,new
+149,house,Sullivan,6,Wayne,Hemingway,R,Claremont,Representative,Wayne.Hemingway@gc.nh.gov,(603) 477-4407,Incumbent
+150,house,Hillsborough,24,Christopher,Herbert,D,Manchester,Representative,Chris.Herbert@gc.nh.gov,(603) 867-4711,Incumbent
+151,house,Merrimack,24,Matthew,Hicks,D,Concord,Representative,Matthew.Hicks@gc.nh.gov,,Incumbent
+152,house,Merrimack,2,Gregory,Hill,R,Northfield,Representative,greghillnh@gmail.com,(617) 590-4027,Incumbent
+153,house,Strafford,10,Timothy,Horrigan,D,Durham,Representative,Timothy.Horrigan@gc.nh.gov,(603) 969-3823,Incumbent
+154,house,Strafford,4,Heath,Howard,D,Concord,Representative,Heath.Howard@gc.nh.gov,(603) 413-0090,new
+155,house,Hillsborough,31,Molly,Howard,D,Hancock,Representative,Molly.Howard@gc.nh.gov,(603) 525-9330,Incumbent
+156,house,Strafford,20,Allan,Howland,D,Durham,Representative,Allan.Howland@gc.nh.gov,,Incumbent
+157,house,Cheshire,14,John,Hunt,R,Rindge,Representative,jbhunt@prodigy.net,(603) 345-1129,Incumbent
+158,senate,Belknap,7,Daniel,Innis,R,Concord,Senator,Daniel.Innis@gc.nh.gov,(603) 271-2609,new
+159,house,Hillsborough,10,Martin,Jack,D,Nashua,Representative,Martin.Jack@gc.nh.gov,(603) 318-0457,Incumbent
+160,house,Cheshire,15,Samantha,Jacobs,D,Keene,Representative,Samantha.Jacobs@gc.nh.gov,(603) 721-1067,new
+161,house,Rockingham,25,John,Janigian,R,Salem,Representative,John.Janigian@gc.nh.gov,(603) 770-8230,Incumbent
+162,house,Hillsborough,23,Jean,Jeudy,D,Manchester,Representative,jean.jeudy@gc.nh.gov,(603) 645-5290,Incumbent
+163,house,Strafford,11,Erik,Johnson,D,Concord,Representative,Erik.Johnson@gc.nh.gov,,Incumbent
+164,house,Cheshire,3,Philip,Jones,D,Keene,Representative,Philip.Jones@gc.nh.gov,(603) 499-8648,Incumbent
+165,house,Hillsborough,7,Louis,Juris,D,Concord,Representative,Louis.Juris@gc.nh.gov,(617) 293-2083,Incumbent
+166,house,Strafford,5,Thomas,Kaczynski,R,Rochester,Representative,thomas.kaczynski@gc.nh.gov,(603) 332-7310,Incumbent
+167,house,Cheshire,10,Sly,Karasinski,R,North Swanzey,Representative,Sly.Karasinski@gc.nh.gov,,new
+168,house,Rockingham,13,Phyllis,Katsakiores,R,Derry,Representative,pkatsakiores@comcast.net,(603) 434-9587,Incumbent
+169,house,Hillsborough,32,Diane,Kelley,R,Temple,Representative,Diane.Kelley@gc.nh.gov,(603) 484-1377,Incumbent
+170,house,Merrimack,8,Eileen,Kelly,D,Bradford,Representative,Eileen.Kelly@gc.nh.gov,(603) 848-2870,new
+171,house,Hillsborough,13,Catherine,Kenny,R,Hudson,Representative,Cathy.Kenny@gc.nh.gov,(603) 883-7535,Incumbent
+172,house,Hillsborough,40,Erin,Kerwin,D,Concord,Representative,Erin.Kerwin@gc.nh.gov,,new
+173,house,Hillsborough,18,Steven,Kesselring,R,Concord,Representative,Steven.Kesselring@gc.nh.gov,(603) 203-9924,new
+174,house,Rockingham,30,Aboul,Khan,R,Seabrook,Representative,Aboul.Khan@gc.nh.gov,(603) 474-1496,Incumbent
+175,house,Coos,4,Seth,King,R,Whitefield,Representative,Seth.King@gc.nh.gov,(603) 837-7195,Incumbent
+176,house,Hillsborough,6,Lee Ann,Kluger,D,Concord,Representative,LeeAnn.Kluger@gc.nh.gov,,new
+177,house,Rockingham,12,Allison,Knab,D,Stratham,Representative,Allison.Knab@gc.nh.gov,(603) 580-5896,Incumbent
+178,house,Hillsborough,32,Jim,Kofalt,R,Wilton,Representative,Jim.Kofalt@gc.nh.gov,,Incumbent
+179,house,Coos,7,Lori,Korzen,R,Berlin,Representative,Lori.Korzen@gc.nh.gov,(603) 723-9901,new
+180,house,Rockingham,17,Katelyn,Kuttab,R,Windham,Representative,Katelyn.Kuttab@gc.nh.gov,,Incumbent
+181,house,Hillsborough,2,Brian,Labrie,R,Bedford,Representative,Brian.Labrie@gc.nh.gov,(603) 765-1198,new
+182,house,Grafton,5,Rick,Ladd,R,Haverhill,Representative,rick.ladd@gc.nh.gov,,Incumbent
+183,house,Strafford,17,Jessica,LaMontagne,D,Concord,Representative,Jessica.Lamontagne@gc.nh.gov,,Incumbent
+184,house,Merrimack,16,Connie,Lane,D,Concord,Representative,Connie.Lane@gc.nh.gov,,Incumbent
+185,senate,Belknap,2,Timothy,Lang,R,Concord,Senator,Timothy.Lang@gc.nh.gov,(603) 271-2117,new
+186,house,Strafford,19,John,Larochelle,D,Concord,Representative,John.Larochelle@gc.nh.gov,,Incumbent
+187,house,Hillsborough,14,Richard,Lascelles,R,Litchfield,Representative,richard.lascelles@gc.nh.gov,(603) 325-5523,Incumbent
+188,house,Rockingham,13,Erica,Layon,R,Derry,Representative,Erica.Layon@gc.nh.gov,,Incumbent
+189,house,Hillsborough,22,Nicole,Leapley,D,Manchester,Representative,Nicole.Leapley@gc.nh.gov,(603) 206-5667,Incumbent
+190,house,Merrimack,10,John,Leavitt,R,Concord,Representative,John.Leavitt@gc.nh.gov,,Incumbent
+191,house,Hillsborough,34,Daniel,LeClerc,D,Concord,Representative,Daniel.LeClerc@gc.nh.gov,(603) 365-6006,Incumbent
+192,house,Hillsborough,33,Peter,Leishman,D,Peterborough,Representative,prleishman@aol.com,(603) 924-0004,Incumbent
+193,house,Strafford,4,Cassandra,Levesque,D,Concord,Representative,Cassandra.Levesque@gc.nh.gov,,Incumbent
+194,house,Rockingham,32,Melissa,Litchfield,R,Brentwood,Representative,Melissa.Litchfield@gc.nh.gov,(603) 731-1047,Former
+195,house,Hillsborough,8,Christal,Lloyd,D,Concord,Representative,Christal.Lloyd@gc.nh.gov,,Incumbent
+196,house,Hillsborough,26,Patrick,Long,D,Manchester,Representative,PatrickN.Long@gc.nh.gov,(603) 316-6938,new
+197,senate,Hillsborough,20,Pat,Long,D,Concord,Senator,pat.long@gc.nh.gov,(603) 271-2104,new
+198,house,Grafton,1,Darrell,Louis,R,Littleton,Representative,Darrell.Louis@gc.nh.gov,(603) 444-4801,new
+199,house,Rockingham,13,David,Love,R,Concord,Representative,David.Love@gc.nh.gov,,Incumbent
+200,house,Grafton,8,Peter,Lovett,D,Concord,Representative,Peter.Lovett@gc.nh.gov,(603) 759-5454,Incumbent
+201,house,Grafton,7,Janet,Lucas,D,Campton,Representative,Janet.Lucas@gc.nh.gov,,new
+202,house,Rockingham,16,David,Lundgren,R,Londonderry,Representative,Qtipnh@aol.com,(603) 432-3499,Incumbent
+203,house,Merrimack,9,David,Luneau,D,Hopkinton,Representative,dluneauNH@gmail.com,(603) 746-6484,Incumbent
+204,house,Rockingham,17,Bob,Lynn,R,Concord,Representative,rjlynn4@gmail.com,(603) 235-7952,Incumbent
+205,house,Rockingham,16,Wayne,MacDonald,R,Londonderry,Representative,elephantsmarching@msn.com,(603) 434-8191,Incumbent
+206,house,Carroll,6,John,MacDonald,R,Wolfeboro Falls,Representative,John.MacDonald@gc.nh.gov,(603) 387-5255,Incumbent
+207,house,Merrimack,18,James,MacKay,D,Concord,Representative,james.mackay@mygait.com,(603) 224-0623,Incumbent
+208,house,Hillsborough,40,Mark,MacKenzie,D,Manchester,Representative,Mark.MacKenzie@gc.nh.gov,,Incumbent
+209,house,Rockingham,23,Jim,Maggiore,D,North Hampton,Representative,Jim.Maggiore@gc.nh.gov,(603) 556-0073,Incumbent
+210,house,Rockingham,24,Dennis,Malloy,D,Greenland,Representative,dennis.malloy@gc.nh.gov,(603) 970-1827,Incumbent
+211,house,Strafford,9,Amy,Malone,D,Concord,Representative,Amy.Malone@gc.nh.gov,,new
+212,house,Rockingham,21,Jennifer,Mandelbaum,D,Portsmouth,Representative,JenForNH@gmail.com,(603) 203-9596,Incumbent
+213,house,Hillsborough,1,Tim,Mannion,R,Concord,Representative,Tim.Mannion@gc.nh.gov,,new
+214,house,Hillsborough,1,Tom,Mannion,R,Pelham,Representative,Tom.Mannion@gc.nh.gov,,Incumbent
+215,house,Rockingham,25,Dennis,Mannion,R,Concord,Representative,Dennis.Mannion@gc.nh.gov,,Incumbent
+216,house,Hillsborough,9,Sanjeev,Manohar,D,Nashua,Representative,Sanjeev.Manohar@gc.nh.gov,,new
+217,house,Rockingham,12,Zoe,Manos,D,Concord,Representative,zoe.manos@gc.nh.gov,,Incumbent
+218,house,Rockingham,18,Jay,Markell,R,Atkinson,Representative,Jay.Markell@gc.nh.gov,(603) 362-8144,new
+219,house,Cheshire,18,Rita,Mattson,R,Concord,Representative,Rita.Mattson@gc.nh.gov,,new
+220,house,Hillsborough,44,Lisa,Mazur,R,Concord,Representative,Lisa.Mazur@gc.nh.gov,,Incumbent
+221,house,Carroll,2,Chris,McAleer,D,Jackson,Representative,Chris.McAleer@gc.nh.gov,(603) 383-6767,Incumbent
+222,senate,Carroll,3,Mark,McConkey,R,Concord,Senator,mark.mcconkey@gc.nh.gov,(603) 271-8631,new
+223,house,Rockingham,25,Valerie,McDonnell,R,Salem,Representative,Valerie.McDonnell@gc.nh.gov,(603) 327-6718,Incumbent
+224,house,Grafton,18,Donald,McFarlane,R,Orange,Representative,Donald.McFarlane@gc.nh.gov,(603) 523-7412,new
+225,house,Hillsborough,35,Kat,McGhee,D,Concord,Representative,Kat.McGhee@gc.nh.gov,,Incumbent
+226,senate,Hillsborough,11,Tim,McGough,R,Concord,Senator,Tim.McGough@gc.nh.gov,(603) 271-8718,new
+227,house,Rockingham,40,Linda,McGrath,R,Concord,Representative,Linda.McGrath@gc.nh.gov,(603) 498-9984,new
+228,house,Merrimack,27,Carol,McGuire,R,Epsom,Representative,mcguire4house@gmail.com,(603) 782-4918,Incumbent
+229,house,Merrimack,14,Dan,McGuire,R,Epsom,Representative,Dan.McGuire@gc.nh.gov,(603) 782-4918,Incumbent
+230,house,Hillsborough,15,Mark,McLean,R,Manchester,Representative,mark.mclean@gc.nh.gov,(603) 668-0076,Incumbent
+231,house,Rockingham,17,Charles,McMahon,R,Windham,Representative,cmcmahon55@gmail.com,(603) 432-8787,Incumbent
+232,house,Merrimack,12,Peter,Mehegan,R,Concord,Representative,Peter.Mehegan@gc.nh.gov,,new
+233,house,Rockingham,20,Charles,Melvin,R,Newton,Representative,Charlie.Melvin@gc.nh.gov,(603) 819-6280,Incumbent
+234,house,Rockingham,37,David,Meuse,D,Concord,Representative,David.Meuse@gc.nh.gov,,Incumbent
+235,house,Hillsborough,12,Julie,Miles,R,Merrimack,Representative,Julie.Miles@gc.nh.gov,(603) 930-3296,new
+236,house,Strafford,21,Seth,Miller,D,Concord,Representative,Seth.Miller@gc.nh.gov,,new
+237,house,Rockingham,13,David,Milz,R,Derry,Representative,david.milz@gc.nh.gov,,Incumbent
+238,house,Rockingham,7,Laurence,Miner,R,Fremont,Representative,Laurence.Miner@gc.nh.gov,,new
+239,house,Belknap,5,Sheri,Minor,R,Laconia,Representative,Sheri.Minor@gc.nh.gov,(603) 520-5340,new
+240,house,Merrimack,4,Michael,Moffett,R,Loudon,Representative,michael.moffett@gc.nh.gov,(603) 491-0553,Incumbent
+241,house,Hillsborough,12,Maureen,Mooney,R,Merrimack,Representative,maureen.mooney@gc.nh.gov,,Incumbent
+242,house,Coos,5,Pete,Morency,R,Berlin,Representative,Peter.Morency@gc.nh.gov,(603) 752-7325,new
+243,house,Merrimack,3,Bryan,Morse,R,Concord,Representative,Bryan.Morse@gc.nh.gov,603-393-3263,new
+244,house,Grafton,12,Russell,Muirhead,D,Hanover,Representative,Russell.Muirhead@gc.nh.gov,(603) 727-6065,Incumbent
+245,house,Rockingham,29,Chris,Muns,D,Concord,Representative,Chris.Muns@gc.nh.gov,,Incumbent
+246,house,Hillsborough,27,Mary,Murphy,R,Francestown,Representative,Mary.Murphy@gc.nh.gov,(603) 265-1978,new
+247,house,Hillsborough,12,Nancy,Murphy,D,Merrimack,Representative,Nancy.Murphy@gc.nh.gov,(603) 424-0254,Incumbent
+248,house,Cheshire,11,Denis,Murphy,R,Winchester,Representative,Denis.Murphy@gc.nh.gov,(603) 762-3102,new
+249,senate,Hillsborough,16,Keith,Murphy,R,Concord,Senator,Keith.Murphy@gc.nh.gov,(603) 271-4063,new
+250,house,Hillsborough,37,Megan,Murray,D,Concord,Representative,Megan.Murray@gc.nh.gov,,Incumbent
+251,house,Hillsborough,20,Alissandra,Murray,D,Manchester,Representative,Alissandra.Murray@gc.nh.gov,,Incumbent
+252,house,Rockingham,4,Brian,Nadeau,R,Concord,Representative,Brian.Nadeau@gc.nh.gov,,new
+253,house,Belknap,6,David,Nagel,D,Gilmanton,Representative,davidnagelmd@gmail.com,(603) 491-5708,Incumbent
+254,house,Cheshire,9,Rich,Nalevanko,R,Alstead,Representative,Rich.Nalevanko@gc.nh.gov,(603) 835-2564,new
+255,house,Rockingham,13,Jodi,Nelson,R,Derry,Representative,jodi.nelson@gc.nh.gov,(508) 397-9999,Incumbent
+256,house,Cheshire,4,Jodi,Newell,D,Keene,Representative,Jodi.Newell@gc.nh.gov,,Incumbent
+257,house,Hillsborough,4,Sue,Newman,D,Nashua,Representative,sue.newman@gc.nh.gov,(603) 880-8973,Incumbent
+258,house,Hillsborough,4,Ray,Newman,D,Nashua,Representative,Ray.Newman@gc.nh.gov,,Incumbent
+259,house,Merrimack,9,James,Newsom,D,Contoocook,Representative,James.Newsom@gc.nh.gov,(603) 731-1108,new
+260,house,Hillsborough,2,Kristin,Noble,R,Bedford,Representative,Kristin.Noble@gc.nh.gov,,Incumbent
+261,house,Hillsborough,12,Jeanine,Notter,R,Concord,Representative,jeanine.notter@gc.nh.gov,,Incumbent
+262,house,Hillsborough,10,Bill,Ohm,R,Nashua,Representative,Bill.Ohm@gc.nh.gov,(603) 891-2306,Former
+263,house,Cheshire,7,Terri,O'Rorke,D,Concord,Representative,terri.ororke@gc.nh.gov,,new
+264,house,Rockingham,2,Jason,Osborne,R,Auburn,Representative,Jason@Osborne4NH.com,(603) 391-2138,Incumbent
+265,house,Coos,3,Mike,Ouellet,R,Colebrook,Representative,Mike.Ouellet@gc.nh.gov,(603) 331-2159,Incumbent
+266,house,Rockingham,16,Sherman,Packard,R,Londonderry,Representative,sherman.packard@gc.nh.gov,(603) 271-3661,Incumbent
+267,house,Carroll,1,David,Paige,D,Concord,Representative,David.Paige@gc.nh.gov,,Incumbent
+268,house,Rockingham,11,Mark,Paige,D,Concord,Representative,mark.paige@gc.nh.gov,,Incumbent
+269,house,Sullivan,2,William,Palmer,D,Cornish,Representative,William.Palmer@gc.nh.gov,(603) 675-2117,Incumbent
+270,house,Hillsborough,25,Kathleen,Paquette,R,Concord,Representative,Kathleen.Paquette@gc.nh.gov,(603) 305-2774,
+271,house,Cheshire,8,Lucius,Parshall,D,Marlborough,Representative,Lucius.Parshall@gc.nh.gov,(603) 400-0342,Incumbent
+272,house,Hillsborough,36,Diane,Pauer,R,Concord,Representative,Diane.Pauer@gc.nh.gov,(603) 801-5088,Incumbent
+273,house,Merrimack,8,Stephanie,Payeur,D,Concord,Representative,Stephanie.Payeur@gc.nh.gov,,Incumbent
+274,senate,Merrimack,17,Howard,Pearl,R,Concord,Senator,Howard.Pearl@gc.nh.gov,(603) 271-4151,new
+275,house,Strafford,12,Wayne,Pearson,D,Rollinsford,Representative,Wayne.Pearson@gc.nh.gov,,new
+276,house,Rockingham,13,Stephen,Pearson,R,Derry,Representative,Steve.Pearson@gc.nh.gov,(603) 548-8523,Incumbent
+277,house,Rockingham,34,Mark,Pearson,R,Hampstead,Representative,Mark.Pearson@gc.nh.gov,(603) 571-0205,Incumbent
+278,house,Hillsborough,14,Raymond,Peeples,R,Litchfield,Representative,Raymond.Peeples@gc.nh.gov,(603) 424-1557,new
+279,house,Rockingham,16,Kristine,Perez,R,Londonderry,Representative,Kristine.Perez@gc.nh.gov,,Incumbent
+280,senate,Rockingham,21,Rebecca,Perkins Kwoka,D,Concord,Senator,Rebecca.PerkinsKwoka@gc.nh.gov,(603) 271-3207,Incumbent
+281,house,Carroll,6,Katy,Peternel,R,Concord,Representative,Katy.Peternel@gc.nh.gov,(603) 387-5876,Incumbent
+282,house,Hillsborough,43,Peter,Petrigno,D,Milford,Representative,Peter.Petrigno@gc.nh.gov,,Incumbent
+283,house,Merrimack,11,Matthew,Pitaro,R,Allenstown,Representative,Matthew.Pitaro@gc.nh.gov,(603) 210-2347,Former
+284,house,Hillsborough,3,Marc,Plamondon,D,Nashua,Representative,marc.plamondon@gc.nh.gov,,Incumbent
+285,house,Merrimack,27,Raymond,Plante,R,Concord,Representative,Ray.Plante@gc.nh.gov,(603) 351-0994,new
+286,house,Belknap,1,Tom,Ploszaj,R,Center Harbor,Representative,tom.ploszaj@gc.nh.gov,(603) 279-9965,Incumbent
+287,house,Merrimack,10,Yury,Polozov,R,Hooksett,Representative,Yury.Polozov@gc.nh.gov,,Incumbent
+288,house,Rockingham,17,Daniel,Popovici-Muller,R,Windham,Representative,Daniel.PopoviciMuller@gc.nh.gov,,Incumbent
+289,house,Rockingham,19,Susan,Porcelli,R,Hampton Falls,Representative,Susan.Porcelli@gc.nh.gov,(617) 594-0209,Incumbent
+290,house,Hillsborough,42,Lisa,Post,R,Lyndeborough,Representative,Lisacmpost@gmail.com,(802) 730-5401,Incumbent
+291,house,Strafford,19,Kelley,Potenza,R,Concord,Representative,Kelley.Potenza@gc.nh.gov,(603) 456-1741,Incumbent
+292,house,Rockingham,13,John,Potucek,R,Derry,Representative,John.Potucek@gc.nh.gov,(603) 432-9049,Incumbent
+293,house,Hillsborough,17,David,Preece,D,Concord,Representative,David.Preece@gc.nh.gov,(603) 682-0123,Incumbent
+294,senate,Grafton,5,Suzanne,Prentiss,D,Concord,Senator,Suzanne.Prentiss@gc.nh.gov,(603) 271-3091,Incumbent
+295,house,Hillsborough,12,Adam,Presa,R,Merrimack,Representative,adam.presa@gc.nh.gov,(603) 921-0028,new
+296,house,Hillsborough,15,Mark,Proulx,R,Concord,Representative,Mark.Proulx@gc.nh.gov,(603) 669-7179,Incumbent
+297,house,Hillsborough,13,Andrew,Prout,R,Hudson,Representative,Andrew.Prout@gc.nh.gov,(603) 265-0771,Incumbent
+298,house,Rockingham,13,Katherine,Prudhomme-O'Brien,R,Concord,Representative,kpo@gc.nh.gov,(603) 339-4598,Incumbent
+299,house,Cheshire,18,James,Qualey,R,Concord,Representative,Jim.Qualey@gc.nh.gov,(603) 562-8951,Incumbent
+300,house,Hillsborough,5,Heather,Raymond,D,Nashua,Representative,Heather.Raymond@gc.nh.gov,,Incumbent
+301,house,Rockingham,39,Ned,Raynolds,D,Portsmouth,Representative,Ned.Raynolds@gc.nh.gov,,Incumbent
+302,house,Rockingham,10,Ellen,Read,D,Newmarket,Representative,ellen4nh@gmail.com,(352) 978-7692,Incumbent
+303,senate,Merrimack,15,Tara,Reardon,D,Concord,Senator,Tara.Reardon@gc.nh.gov,(603) 271-7875,new
+304,house,Hillsborough,29,Sherri,Reinfurt,R,Concord,Representative,Sherri.Reinfurt@gc.nh.gov,,new
+305,house,Cheshire,17,Jennifer,Rhodes,R,Concord,Representative,Jennifer.Rhodes@gc.nh.gov,(603) 762-8069,Incumbent
+306,senate,Cheshire,9,Denise,Ricciardi,R,Concord,Senator,Denise.Ricciardi@gc.nh.gov,(603) 271-1403,Incumbent
+307,house,Hillsborough,38,Kimberly,Rice,R,Hudson,Representative,Kimberly.Rice@gc.nh.gov,(603) 417-1227,Former
+308,house,Merrimack,17,Beth,Richards,D,Concord,Representative,bethrichardsforward3@gmail.com,(603) 219-0038,Incumbent
+309,senate,Grafton,1,David,Rochefort,R,Concord,Senator,david.rochefort@gc.nh.gov,(603) 271-8631,new
+310,house,Grafton,12,Ellen,Rockmore,D,Hanover,Representative,Ellen.Rockmore@gc.nh.gov,(603) 643-0169,new
+311,house,Merrimack,22,James,Roesener,D,Concord,Representative,James.Roesener@gc.nh.gov,,Incumbent
+312,house,Sullivan,3,Skip,Rollins,R,Newport,Representative,skip.rollins@gc.nh.gov,(603) 504-8501,Incumbent
+313,house,Hillsborough,2,Catherine,Rombeau,D,Bedford,Representative,Catherine.Rombeau@gc.nh.gov,,Incumbent
+314,senate,Hillsborough,13,Cindy,Rosenwald,D,Concord,Senator,Cindy.Rosenwald@gc.nh.gov,(603) 271-3207,Incumbent
+315,house,Rockingham,31,Terry,Roy,R,Deerfield,Representative,Terry.Roy@gc.nh.gov,(603) 239-3369,Incumbent
+316,house,Hillsborough,12,Rosemarie,Rung,D,Merrimack,Representative,Rosemarie.Rung@gc.nh.gov,,Incumbent
+317,house,Hillsborough,4,Linda,Ryan,D,Nashua,Representative,Linda.Ryan@gc.nh.gov,(603) 320-2463,Incumbent
+318,house,Rockingham,30,Matt,Sabourin dit Choinière,R,Seabrook,Representative,Matt.Sabourin@gc.nh.gov,(603) 519-5656,new
+319,house,Hillsborough,9,Santosh,Salvi,D,Concord,Representative,Santosh.Salvi@gc.nh.gov,,new
+320,house,Merrimack,7,Gregory,Sargent,D,New London,Representative,Gregory.Sargent@gc.nh.gov,(603) 674-5253,new
+321,house,Merrimack,6,Thomas,Schamberg,D,Wilmot,Representative,Tom.Schamberg@gc.nh.gov,(603) 715-6778,Incumbent
+322,house,Rockingham,26,Buzz,Scherr,D,Portsmouth,Representative,buzzfornh@gmail.com,(603) 498-6916,new
+323,house,Strafford,14,Peter,Schmidt,D,Dover,Representative,peterbarrettschmidt@gmail.com,(603) 969-1043,Incumbent
+324,house,Hillsborough,2,John,Schneller,R,Bedford,Representative,John.Schneller@gc.nh.gov,(603) 488-5941,new
+325,house,Merrimack,29,Kris,Schultz,D,Concord,Representative,Kris.Schultz@gc.nh.gov,(603) 275-2227,Incumbent
+326,house,Hillsborough,8,Kevin,Scully,R,Concord,Representative,Kevin.Scully@gc.nh.gov,,Former
+327,house,Merrimack,12,Brian,Seaworth,R,Pembroke,Representative,brian.seaworth@gc.nh.gov,(603) 722-0807,Incumbent
+328,house,Merrimack,26,Alvin,See,R,Concord,Representative,Alvin.See@gc.nh.gov,(603) 798-3427,Incumbent
+329,house,Hillsborough,21,Christine,Seibert,D,Manchester,Representative,Christine.Seibert@gc.nh.gov,(603) 892-2685,Incumbent
+330,house,Rockingham,9,Donald,Selby,R,Concord,Representative,Donald.Selby@gc.nh.gov,,new
+331,house,Strafford,10,Loren,Selig,D,Concord,Representative,Loren.Selig@gc.nh.gov,,Incumbent
+332,house,Grafton,10,John,Sellers,R,Concord,Representative,John.Sellers@gc.nh.gov,,Incumbent
+333,house,Hillsborough,43,Vanessa,Sheehan,R,Milford,Representative,vanessa@vanessa4nh.com,(603) 320-6111,Incumbent
+334,house,Rockingham,33,Alexis,Simpson,D,Exeter,Representative,Alexis.Simpson@gc.nh.gov,(603) 303-4722,Incumbent
+335,house,Hillsborough,32,Shane,Sirois,R,New Ipswich,Representative,Shane.Sirois@gc.nh.gov,,Incumbent
+336,house,Hillsborough,13,Jeremy,Slottje,R,Hudson,Representative,,,new
+337,house,Sullivan,3,Steven,Smith,R,Charlestown,Representative,Steven.Smith@gc.nh.gov,(603) 826-5940,Incumbent
+338,house,Strafford,10,Marjorie,Smith,D,Durham,Representative,msmithpen@aol.com,(603) 868-7500,Incumbent
+339,house,Carroll,5,Jonathan,Smith,R,Concord,Representative,Jonathan.Smith@gc.nh.gov,(603) 651-1137,Incumbent
+340,house,Strafford,21,Geoffrey,Smith,D,Dover,Representative,Geoff.Smith@gc.nh.gov,,Incumbent
+341,house,Merrimack,28,Jim,Snodgrass,D,Concord,Representative,Jim.Snodgrass@gc.nh.gov,,new
+342,house,Hillsborough,7,Catherine,Sofikitis,D,Concord,Representative,CSofikitis@gmail.com,,Incumbent
+343,house,Rockingham,28,Carrie,Sorensen,D,Concord,Representative,Carrie.Sorensen@gc.nh.gov,,new
+344,house,Rockingham,35,Julius,Soti,R,Concord,Representative,rep.jsoti@gmail.com,(603) 404-1115,Incumbent
+345,house,Merrimack,21,Timothy,Soucy,D,Concord,Representative,Tim.Soucy@gc.nh.gov,(603) 305-5012,Incumbent
+346,house,Strafford,11,Thomas,Southworth,D,Dover,Representative,Thomas.Southworth@gc.nh.gov,(603) 742-0556,Incumbent
+347,house,Grafton,12,Terry,Spahr,D,Hanover,Representative,Terry.Spahr@gc.nh.gov,(610) 420-1787,new
+348,house,Hillsborough,6,Carry,Spier,D,Nashua,Representative,Carry.Spier@gc.nh.gov,(603) 860-4385,Incumbent
+349,house,Rockingham,2,James,Spillane,R,Deerfield,Representative,James@JamesSpillane.org,(603) 463-5623,Incumbent
+350,house,Sullivan,3,Walter,Spilsbury,R,Charlestown,Representative,Walter.Spilsbury@gc.nh.gov,,Incumbent
+351,house,Belknap,5,Charlie,St. Clair,D,Laconia,Representative,Charlie.StClair@gc.nh.gov,(603) 387-5944,Incumbent
+352,house,Hillsborough,25,Kathy,Staub,D,Manchester,Representative,Kathy.Staub@gc.nh.gov,(603) 624-0249,Incumbent
+353,house,Grafton,13,Laurel,Stavis,D,Concord,Representative,Laurel.Stavis@gc.nh.gov,,Incumbent
+354,house,Strafford,12,John,Stone,D,Somersworth,Representative,biggamehunter53@aol.com,(603) 833-0433,new
+355,house,Grafton,3,Jerry,Stringham,D,Lincoln,Representative,Jerry.Stringham@gc.nh.gov,(603) 239-2310,Incumbent
+356,house,Hillsborough,36,John,Suiter,R,Concord,Representative,John.Suiter@gc.nh.gov,,new
+357,house,Grafton,2,Jared,Sullivan,D,Concord,Representative,Jared.Sullivan@gc.nh.gov,,Incumbent
+358,house,Sullivan,1,Brian,Sullivan,D,Grantham,Representative,brian.sullivan@gc.nh.gov,(603) 381-7889,Incumbent
+359,senate,Hillsborough,18,Victoria,Sullivan,R,Concord,Senator,victoria.sullivan@gc.nh.gov,(603) 271-3324,new
+360,house,Rockingham,20,James,Summers,R,Newton,Representative,James.Summers@gc.nh.gov,(603) 320-1572,Incumbent
+361,house,Hillsborough,5,Dale,Swanson,D,Nashua,Representative,Dale.Swanson@gc.nh.gov,(603) 759-4241,new
+362,house,Rockingham,25,Joe,Sweeney,R,Salem,Representative,Joe.Sweeney@gc.nh.gov,(603) 327-7184,Incumbent
+363,house,Grafton,14,George,Sykes,D,Lebanon,Representative,George.Sykes@gc.nh.gov,(603) 667-1834,Incumbent
+364,house,Rockingham,25,John,Sytek,R,Salem,Representative,john.sytek@gc.nh.gov,(603) 893-8889,Incumbent
+365,house,Carroll,8,Brian,Taylor,R,Freedom,Representative,Brian.Taylor@gc.nh.gov,(603) 986-8316,new
+366,house,Hillsborough,11,Laura,Telerski,D,Concord,Representative,Laura.Telerski@gc.nh.gov,(603) 320-3957,Incumbent
+367,house,Hillsborough,40,Trinidad,Tellez,D,Hooksett,Representative,Trinidad.Tellez@gc.nh.gov,,Incumbent
+368,house,Hillsborough,1,Jeffrey,Tenczar,R,Concord,Representative,Jeffrey.Tenczar@gc.nh.gov,,Incumbent
+369,house,Belknap,7,Paul,Terry,R,Alton,Representative,Paul.Terry@gc.nh.gov,,Incumbent
+370,house,Cheshire,12,Dick,Thackston,R,Troy,Representative,thackston3@aol.com,(603) 313-1231,Incumbent
+371,house,Merrimack,25,James,Thibault,R,Franklin,Representative,James.Thibault@gc.nh.gov,(603) 800-6180,new
+372,house,Rockingham,16,Douglas,Thomas,R,Concord,Representative,doug.thomasnh@gmail.com,(603) 490-3226,Incumbent
+373,house,Hillsborough,12,Wendy,Thomas,D,Concord,Representative,Wendy.Thomas@gc.nh.gov,,Incumbent
+374,house,Coos,1,James,Tierney,R,Groveton,Representative,James.Tierney@gc.nh.gov,(603) 636-2889,Incumbent
+375,house,Belknap,4,Travis,Toner,R,Belmont,Representative,Travis.Toner@gc.nh.gov,(603) 219-2689,new
+376,house,Coos,5,Marc,Tremblay,R,Berlin,Representative,marc.tremblay@gc.nh.gov,(603) 915-0302,Former
+377,house,Rockingham,13,Richard,Tripp,R,Concord,Representative,Richard.Tripp@gc.nh.gov,,Incumbent
+378,house,Belknap,8,Douglas,Trottier,R,Concord,Representative,douglastrottier1@gmail.com,(603) 455-0997,Incumbent
+379,house,Rockingham,1,Paul,Tudor,R,Concord,Representative,paultudor.1strockingham@gmail.com,(781) 953-6950,Incumbent
+380,house,Strafford,4,Len,Turcotte,R,Barrington,Representative,lenturcotte@metrocast.net,,Incumbent
+381,house,Rockingham,6,Eric,Turer,D,Brentwood,Representative,Eric.Turer@gc.nh.gov,(603) 642-4888,Incumbent
+382,house,Hillsborough,13,Jordan,Ulery,R,Hudson,Representative,repulery@comcast.net,(603) 882-8979,Incumbent
+383,house,Rockingham,5,Mark,Vallone,D,Epping,Representative,Mark.Vallone@gc.nh.gov,(603) 770-4088,Incumbent
+384,house,Rockingham,25,Susan,Vandecasteele,R,Concord,Representative,susanjonvan@gmail.com,,Incumbent
+385,house,Belknap,7,Peter,Varney,R,Alton,Representative,pvarney@atsnh.com,(603) 765-6380,Incumbent
+386,house,Hillsborough,34,Daniel,Veilleux,D,Amherst,Representative,Daniel.Veilleux@gc.nh.gov,,Incumbent
+387,house,Rockingham,2,Kevin,Verville,R,Deerfield,Representative,kevin.verville@gc.nh.gov,(603) 731-0654,Incumbent
+388,house,Rockingham,5,Michael,Vose,R,Epping,Representative,michael.vose@gc.nh.gov,(603) 734-4084,Incumbent
+389,house,Strafford,15,Alice,Wade,D,Concord,Representative,Alice.Wade@gc.nh.gov,,Incumbent
+390,house,Strafford,19,David,Walker,R,Rochester,Representative,David.Walker@gc.nh.gov,,new
+391,house,Strafford,11,Janet,Wall,D,Madbury,Representative,janet.wall@gc.nh.gov,,Incumbent
+392,house,Merrimack,19,Mary Jane,Wallner,D,Concord,Representative,mjwallner@gc.nh.gov,(603) 225-5249,Incumbent
+393,house,Merrimack,10,Thomas,Walsh,R,Hooksett,Representative,Thomas.Walsh@gc.nh.gov,(603) 623-4104,Incumbent
+394,house,Rockingham,15,Lilli,Walsh,R,Hampstead,Representative,Lilli.Walsh@gc.nh.gov,,Incumbent
+395,house,Rockingham,27,Gerald,Ward,D,Portsmouth,Representative,ward4staterep@gmail.com,(603) 436-6142,Incumbent
+396,senate,Cheshire,8,Ruth,Ward,R,Concord,Senator,Ruth.Ward@gc.nh.gov,(603) 271-2609,Incumbent
+397,house,Hillsborough,39,Mark,Warden,R,Manchester,Representative,Mark.Warden@gc.nh.gov,(603) 391-2888,Former
+398,senate,Strafford,4,David,Watters,D,Concord,Senator,David.Watters@gc.nh.gov,(603) 271-2104,Incumbent
+399,house,Cheshire,5,Lucy,Weber,D,Walpole,Representative,Lucy.weber@gc.nh.gov,(603) 499-0282,Incumbent
+400,house,Rockingham,10,Toni,Weinstein,D,Concord,Representative,Toni.Weinstein@gc.nh.gov,(603) 770-4867,new
+401,house,Rockingham,14,Kenneth,Weyler,R,Kingston,Representative,kweyler@aol.com,(603) 642-3518,Incumbent
+402,house,Hillsborough,33,Jonah,Wheeler,D,Peterborough,Representative,Jonah.Wheeler@gc.nh.gov,(603) 831-9916,Incumbent
+403,house,Hillsborough,13,Robert,Wherry,R,Hudson,Representative,Robert.Wherry@gc.nh.gov,(603) 247-7409,Incumbent
+404,house,Hillsborough,21,Matthew,Wilhelm,D,Manchester,Representative,Matt.Wilhelm@gc.nh.gov,(603) 377-6214,Incumbent
+405,house,Rockingham,9,Vicki,Wilson,R,Sandown,Representative,Vicki.Wilson@gc.nh.gov,,new
+406,house,Merrimack,13,Clayton,Wood,R,Concord,Representative,Clayton.Wood@gc.nh.gov,(603) 396-6663,Incumbent
+407,house,Carroll,1,Stephen,Woodcock,D,Center Conway,Representative,stevewoodcock.rep@gmail.com,(603) 356-2904,Incumbent
+408,house,Merrimack,30,Gary,Woods,D,Concord,Representative,Gary.Woods@gc.nh.gov,(603) 228-3827,Former

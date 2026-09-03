@@ -1,0 +1,46 @@
+{% extends "base.html" %}
+{% block title %}Contact — NHDataHub{% endblock %}
+{% block content %}
+<section class="prose">
+  <h1>Contact</h1>
+
+  {% if sent == 'ok' %}
+  <div class="flash ok">Thanks — your message came through. I read every one.</div>
+  <p>Have something else to add? The form's below.</p>
+  {% elif sent == 'error' %}
+  <div class="flash err">Please add {{ errors|join(', ') }} and try again.</div>
+  {% endif %}
+
+  <p>Comments, corrections, or a feature you'd like to see on NHDataHub? Send a note and
+     it'll reach the person who runs the site.</p>
+
+  <form class="contact-form" method="post" action="/contact">
+    {# honeypot: real people leave this empty; bots don't #}
+    <div class="hp" aria-hidden="true">
+      <label>Leave this field empty<input type="text" name="website" tabindex="-1" autocomplete="off"></label>
+    </div>
+
+    <label>Name
+      <input type="text" name="name" required maxlength="120"
+             value="{{ form.name if form else '' }}">
+    </label>
+    <label>Email
+      <input type="email" name="email" required maxlength="200"
+             value="{{ form.email if form else '' }}">
+    </label>
+    <label>Topic
+      <select name="category">
+        {% set cat = form.category if form else '' %}
+        <option {{ 'selected' if cat == 'General comment' }}>General comment</option>
+        <option {{ 'selected' if cat == 'Data correction' }}>Data correction</option>
+        <option {{ 'selected' if cat == 'Feature request' }}>Feature request</option>
+        <option {{ 'selected' if cat == 'Other' }}>Other</option>
+      </select>
+    </label>
+    <label>Message
+      <textarea name="message" rows="7" required maxlength="4000">{{ form.message if form else '' }}</textarea>
+    </label>
+    <button type="submit">Send message</button>
+  </form>
+</section>
+{% endblock %}

@@ -1,0 +1,200 @@
+{% extends "base.html" %}
+{% block title %}State Budget & Revenue — NHDataHub{% endblock %}
+{% block content %}
+<style>
+  .statepage .lede{max-width:none}
+  .statepage h2{margin:0 0 4px}
+  .statepage .sub{color:var(--muted);font-size:14px;margin:0 0 14px}
+  /* stat tiles */
+  .s-tiles{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px;margin:18px 0 6px}
+  .s-tiles .tile{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:15px 16px}
+  .s-tiles .num{font-size:24px;font-weight:700;color:var(--ink);line-height:1.1}
+  .s-tiles .cap{font-size:12px;color:var(--muted);margin-top:4px}
+  @media(max-width:640px){.s-tiles{grid-template-columns:1fr 1fr}}
+  /* bar rows */
+  .bars{margin:6px 0 2px}
+  .bar-row{display:grid;grid-template-columns:minmax(120px,210px) 1fr auto;align-items:center;
+    gap:12px;padding:5px 0;border-bottom:1px solid var(--line)}
+  .bar-row .lbl{font-size:13px;color:var(--ink);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+  .bar-row .lbl .cat{display:block;font-size:10px;text-transform:uppercase;letter-spacing:.04em;color:var(--faint)}
+  .bar-track{display:block;height:16px;background:var(--surface);border:1px solid var(--line);border-radius:5px;overflow:hidden}
+  .bar-fill{display:block;height:100%;min-width:2px;border-radius:5px 4px 4px 5px;background:var(--accent)}
+  .bar-fill.rev{background:#2f8f6b}
+  .bar-fill.fund{background:#8a6d3b}
+  .bar-row .val{font-size:13px;font-weight:600;color:var(--ink);white-space:nowrap;
+    font-variant-numeric:tabular-nums;text-align:right;min-width:70px}
+  .bar-row .val .d{font-size:11px;font-weight:500;color:var(--muted);margin-left:6px}
+  .up{color:#1c7c4a}.down{color:#b2482f}
+  .callout{background:var(--surface);border:1px solid var(--line);border-left:3px solid var(--accent);
+    border-radius:6px;padding:12px 14px;margin:8px 0 14px;font-size:14px;color:var(--ink)}
+  .method{color:var(--muted);font-size:13px;margin-top:16px}
+  .yr-tag{font-size:12px;font-weight:600;color:var(--muted);background:var(--surface);
+    border:1px solid var(--line);border-radius:99px;padding:1px 10px;margin-left:8px;white-space:nowrap}
+  .panel + .panel{margin-top:22px}
+  /* federal-funds drill-down: info-icon toggle (no JS) */
+  .fedtog{position:absolute;width:1px;height:1px;opacity:0;overflow:hidden;margin:-1px}
+  .iicon{display:inline-flex;align-items:center;justify-content:center;width:15px;height:15px;
+    margin-left:6px;border:1.3px solid var(--accent);border-radius:50%;color:var(--accent);
+    font-family:Georgia,'Times New Roman',serif;font-style:italic;font-weight:700;font-size:10px;
+    line-height:1;cursor:pointer;vertical-align:middle;user-select:none;
+    transition:background .12s ease,color .12s ease}
+  .iicon:hover{background:var(--accent);color:#fff}
+  .fedtog:checked ~ .bar-row .iicon{background:var(--accent);color:#fff}
+  .fedtog:focus-visible ~ .bar-row .iicon{outline:2px solid var(--accent);outline-offset:2px}
+  .fed-body{display:none;padding:8px 0 12px 20px;border-left:2px solid var(--line);margin-left:2px}
+  .fedtog:checked ~ .fed-body{display:block}
+  .fed-note{margin-top:0;border-left-color:#8a6d3b}
+  .bar-row.fed{grid-template-columns:minmax(120px,230px) 1fr auto}
+  .bar-row.fed .lbl{font-size:12.5px}
+  .fed-foot{color:var(--faint);font-size:11.5px;margin:10px 0 0}
+  @media(max-width:640px){.fed-body{padding-left:12px}}
+</style>
+
+<div class="statepage">
+  <section class="lede">
+    <h1>State budget &amp; revenue</h1>
+    <p>Where New Hampshire's state government gets its money and where it spends it — the
+       whole state's finances, separate from the town-by-town property taxes elsewhere on
+       this site. New Hampshire is unusual: it funds its budget with almost no broad income
+       or sales tax, leaning instead on business taxes and the meals &amp; rooms tax.</p>
+    <p><a class="compare-link" href="/national">See how NH's tax burden compares to other states →</a></p>
+  </section>
+
+  {% if not has_data %}
+  <section class="panel">
+    <p>The state fiscal data hasn't been loaded into the database yet. Once <code>nhbot load</code>
+       has run with the state CSVs in place, this page fills in automatically.</p>
+  </section>
+  {% else %}
+
+  <div class="s-tiles">
+    <div class="tile"><div class="num">{{ budget_total|usd }}</div>
+      <div class="cap">operating budget, FY{{ budget_year }}</div></div>
+    <div class="tile"><div class="num">{{ (budget_total + budget_total2)|usd }}</div>
+      <div class="cap">FY{{ budget_year }}–{{ budget_year2 }} biennium total</div></div>
+    <div class="tile"><div class="num">{{ (revenue_total * 1000000)|usd }}</div>
+      <div class="cap">tax &amp; fee revenue, FY{{ revenue_year }}</div></div>
+    <div class="tile"><div class="num">{{ by_dept|length }}</div>
+      <div class="cap">departments &amp; agencies</div></div>
+  </div>
+
+  {# ===== Spending by category ===== #}
+  <section class="panel">
+    <h2>Where the money goes <span class="yr-tag">FY{{ budget_year }}</span></h2>
+    <p class="sub">Total appropriations grouped into the state's six budget categories.</p>
+    {% set catmax = by_cat[0].amount if by_cat else 1 %}
+    <div class="bars">
+      {% for c in by_cat %}
+      <div class="bar-row">
+        <span class="lbl">{{ c.category }}</span>
+        <span class="bar-track"><span class="bar-fill" style="width:{{ (c.amount / catmax * 100)|round(1) }}%"></span></span>
+        <span class="val">{{ c.amount|usd }}</span>
+      </div>
+      {% endfor %}
+    </div>
+  </section>
+
+  {# ===== Spending by department ===== #}
+  <section class="panel">
+    <h2>Spending by department <span class="yr-tag">FY{{ budget_year }}</span></h2>
+    <p class="sub">All {{ by_dept|length }} departments and agencies, largest first. Two agencies —
+       Health &amp; Human Services and Education — make up well over half the budget.</p>
+    {% set dmax = by_dept[0].amount if by_dept else 1 %}
+    <div class="bars">
+      {% for d in by_dept %}
+      <div class="bar-row">
+        <span class="lbl">{{ d.department }}<span class="cat">{{ d.category }}</span></span>
+        <span class="bar-track"><span class="bar-fill" style="width:{{ (d.amount / dmax * 100)|round(1) }}%"></span></span>
+        <span class="val">{{ d.amount|usd }}</span>
+      </div>
+      {% endfor %}
+    </div>
+  </section>
+
+  {# ===== How it's funded ===== #}
+  <section class="panel">
+    <h2>How the budget is funded <span class="yr-tag">FY{{ budget_year }}</span></h2>
+    <p class="sub">The appropriations above are paid for from these sources across all funds. Federal
+       money is a large share; the state's own tax revenue (next section) chiefly fills the General
+       and Education funds.</p>
+    {% set fmax = funding[0].amount if funding else 1 %}
+    <div class="bars">
+      {% for s in funding %}
+      {% if s.source == "Federal Funds" and federal and federal.agencies %}
+      {% set dhhs = federal.agencies[0] %}
+      <input type="checkbox" id="fedtog" class="fedtog">
+      <div class="bar-row">
+        <span class="lbl">{{ s.source }}<label for="fedtog" class="iicon" role="button" tabindex="0"
+          title="Where does the federal money go?" aria-label="Break down federal funds by agency">i</label></span>
+        <span class="bar-track"><span class="bar-fill fund" style="width:{{ (s.amount / fmax * 100)|round(1) }}%"></span></span>
+        <span class="val">{{ s.amount|usd }}</span>
+      </div>
+      <div class="fed-body">
+        <div class="callout fed-note">Most of it isn't money the state can spend freely — it's tied to
+          specific programs. The single biggest piece is the <strong>federal share of Medicaid</strong>:
+          Washington reimburses roughly half of what New Hampshire spends on health coverage for
+          lower-income residents, children, seniors, and people with disabilities. That flows through the
+          Department of Health &amp; Human Services, which alone receives
+          <strong>{{ dhhs.amount|usd }}</strong> — about <strong>{{ dhhs.pct }}%</strong> of all federal
+          funds. The rest is largely federal highway aid and education grants (Title&nbsp;I, special
+          education, school meals) passed through to local districts.</div>
+        {% for it in federal.agencies %}
+        <div class="bar-row fed">
+          <span class="lbl">{{ it.department.replace(' Dept','') }}{% if it.n %}<span class="cat">{{ it.n }} smaller agencies combined</span>{% endif %}</span>
+          <span class="bar-track"><span class="bar-fill fund" style="width:{{ (it.amount / federal.max * 100)|round(1) }}%"></span></span>
+          <span class="val">{{ it.amount|usd }} <span class="d">{{ it.pct }}%</span></span>
+        </div>
+        {% endfor %}
+        <p class="fed-foot">Federal funds total {{ federal.total|usd }} in FY{{ budget_year }}, across all
+          receiving agencies. Source: enacted operating budget (HB&nbsp;1), federal-fund lines by agency.</p>
+      </div>
+      {% else %}
+      <div class="bar-row">
+        <span class="lbl">{{ s.source }}</span>
+        <span class="bar-track"><span class="bar-fill fund" style="width:{{ (s.amount / fmax * 100)|round(1) }}%"></span></span>
+        <span class="val">{{ s.amount|usd }}</span>
+      </div>
+      {% endif %}
+      {% endfor %}
+    </div>
+  </section>
+
+  {# ===== Revenue by source ===== #}
+  <section class="panel">
+    <h2>State tax &amp; fee revenue <span class="yr-tag">FY{{ revenue_year }}</span></h2>
+    <p class="sub">Unrestricted General &amp; Education Fund revenue by source, with the change from
+       FY{{ revenue_prior }}. This is the money the state raises itself.</p>
+    <div class="callout">New Hampshire has no broad-based income or general sales tax. Its largest single
+       source is <strong>business taxes</strong>, followed by the statewide property tax, the lottery
+       transfer, the meals &amp; rooms (rentals) tax, and insurance and real-estate-transfer taxes.</div>
+    {% set rmax = revenue[0].actual_musd if revenue else 1 %}
+    <div class="bars">
+      {% for r in revenue %}
+      <div class="bar-row">
+        <span class="lbl">{{ r.source }}</span>
+        <span class="bar-track"><span class="bar-fill rev" style="width:{{ (r.actual_musd / rmax * 100)|round(1) }}%"></span></span>
+        <span class="val">{{ (r.actual_musd * 1000000)|usd }}
+          {% if r.prior_musd %}{% set delta = r.actual_musd - r.prior_musd %}
+          <span class="d {{ 'up' if delta >= 0 else 'down' }}">{{ '▲' if delta >= 0 else '▼' }}{{ '%.0f'|format((delta / r.prior_musd * 100)|abs) }}%</span>
+          {% endif %}
+        </span>
+      </div>
+      {% endfor %}
+    </div>
+  </section>
+
+  <p class="method">
+    Budget figures are the enacted operating budget (HB 1, Chapter 140, Laws of 2025) as passed for the
+    FY{{ budget_year }}–{{ budget_year2 }} biennium; department totals sum every expenditure line for each
+    agency. Revenue figures are preliminary cash-basis year-end actuals for the General and Education funds;
+    FY{{ revenue_year }} includes a one-time tax-amnesty windfall, which the source report flags separately.
+    Dollar amounts are as reported and may differ slightly from audited totals in the state's annual
+    financial report. Sources:
+    <a href="https://gc.nh.gov/LBA/Budget/fy2026_2027_budget.aspx" target="_blank" rel="noopener">NH Legislative Budget Assistant</a>
+    (budget) and
+    <a href="https://www.das.nh.gov/accounting/revenue_reports.aspx" target="_blank" rel="noopener">NH Dept. of Administrative Services, Monthly Revenue Focus</a>
+    (revenue).
+  </p>
+  {% endif %}
+</div>
+{% endblock %}

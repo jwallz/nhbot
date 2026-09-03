@@ -1,0 +1,952 @@
+geoid,seq,role,name,is_chair,phone,email
+3301900260,1,Selectman,Kathi Bradt,true,603-835-2567,kasbradt@msn.com
+3301900260,2,Selectman,James Jennison,false,603-835-2596,248jimj@gmail.com
+3301900260,3,Selectman,Ryanne Schoonover,false,802-376-4441,
+3300300420,1,Selectman,Kathy Golding,true,603-447-6038,contact@albanynh.org
+3300300420,2,Selectman,Kelly Robitaille,false,,
+3300300420,3,Selectman,James Drouin,false,,
+3300900580,1,Selectman,George Tuthill,true,,info@alexandrainh.com
+3300900580,2,Selectman,Robert Piehler,false,,
+3300900580,3,Selectman,Chet Caron,false,,
+3301300660,1,Selectman,Scott McDonald,true,,
+3301300660,2,Selectman,Diane Adinolfo,false,,
+3301300660,3,Selectman,Kathleen Pelissier,false,,
+3301300660,4,Selectman,Laura Lambert,false,,
+3301300660,5,Selectman,Patricia Caruso,false,,
+3300500820,1,Selectman,Joel McCarty,true,,jmccarty@alteadnh.gov
+3300500820,2,Selectman,Matt Saxton,false,,msaxton78877@gmail.com
+3300500820,3,Selectman,Gordon Kemp,false,,gkemp@alsteadnh.gov
+3300101060,1,Selectman,Paul LaRochelle,true,603-875-2161,selectman@alton.nh.gov
+3300101060,2,Selectman,Nicholas Buonopane,false,,
+3300101060,3,Selectman,Andrew Morse,false,,
+3300101060,4,Selectman,Richard Shea,false,,
+3300101060,5,Selectman,Drew Carter,false,,
+3301101300,1,Selectman,Tom Grella,true,,
+3301101300,2,Selectman,Peter Lyon,false,,
+3301101300,3,Selectman,William Stoughton,false,,
+3301301460,1,Selectman,Dana Swenson,true,,dswenson@andover-nh.gov
+3301301460,2,Selectman,"James Delaney, Sr",false,,jdelaney@andover-nh.gov
+3301301460,3,Selectman,Roland Carter,false,,rcarter@andover-nh.gov
+3301301460,4,Selectman,Charles Stewart,false,,cstewart@andover-nh.gov
+3301301460,5,Selectman,Leslie Fenton,false,,pbeaufays@andover-nh.gov
+3301101700,1,Selectman,Michael Ott,true,603-588-8331,mottantrimbos@gmail.com
+3301101700,2,Selectman,John Roberts,false,,jrobertsonbos@gmail.com
+3301101700,3,Selectman,Bob Edwards,false,,rledwardsbos@gmail.com
+3300902020,1,Selectman,Andy Fitch,true,,afitch@ashland.nh.gov
+3300902020,2,Selectman,Ann-marie Barney,false,,abarney@ashland.nh.gov
+3300902020,3,Selectman,Charles Bozzello,false,,cbozzello@ashland.nh.gov
+3300902020,4,Selectman,Maghan Semiao,false,,msemiao@ashland.nh.gov
+3300902020,5,Selectman,Chris Janosa,false,,
+3301502340,1,Selectman,David Paquette,true,603-362-5266,
+3301502340,2,Selectman,William Baldwin,false,603-362-2263,
+3301502340,3,Selectman,Wendy Barker,false,603-234-8385,
+3301502340,4,Selectman,Gregory Spero,false,603-362-2712,
+3301502340,5,Selectman,Robert Worden,false,603-944-1570,
+3301502820,1,Selectman,Keith Leclair,true,,
+3301502820,2,Selectman,Michael Rolfe,false,,
+3301502820,3,Selectman,Thomas Carroll,false,,
+3300103220,1,Selectman,Gary Madden,false,ext. 4,
+3300103220,2,Selectman,Edward Tasker,false,,
+3300103220,3,Selectman,Priscilla Tiede,false,,
+3300103220,4,Selectman,Diane Beijei,false,,
+3301703460,1,Selectman,James Saccoccia,true,,jsaccoccia@barrington.nh.gov
+3301703460,2,Selectman,Robert Gibson,false,,rgibson@barrington.nh.gov
+3301703460,3,Selectman,Joyce Cappiello,false,,jcappiello@barrington.nh.gov
+3301703460,4,Selectman,Tracy Hardekopf,false,,thardakopf@barrington.nh.gov
+3301703460,5,Selectman,Dannen Mannschreck,false,,dmannschreck@barrington.nh.gov
+3300303700,1,Selectman,Gene Chandler,false,,selectmen@townofbartlettnh.org
+3300303700,2,Selectman,Vicki Garland Town,false,Officials,
+3300303700,3,Selectman,Ronald Munro,false,,
+3300903940,1,Selectman,Shelby Lackie,false,603-272-0500,
+3300903940,2,Selectman,Shawn Applebee,false,603-787-8005,
+3300903940,3,Selectman,William Minot II,false,603-747-2199,
+3301104500,1,Town Councilor,Lori Radke,true,603-472-5242,lradke@bedfordnh.org
+3301104500,2,Town Councilor,Phil Greazzo,false,,pgreazzo@bedfordnh.org
+3301104500,3,Town Councilor,William Carter,false,,wcarter@bedfordnh.org
+3301104500,4,Town Councilor,Gail Levesque,false,,glevesque@bedfordnh.org
+3301104500,5,Town Councilor,Kathleen Bemiss,false,,kbemiss@bedfordnh.org
+3301104500,6,Town Councilor,Michael Strand,false,,mstrand@bedfordnh.org
+3301104500,7,Town Councilor,Becky Soule,false,,bsoule@bedfordnh.org
+3300104740,1,Selectman,Ruth Mooney,true,,
+3300104740,2,Selectman,Jon Pike,false,,
+3300104740,3,Selectman,"Claude Patten, Jr",false,,
+3300104740,4,Selectman,Sharon Ciampi,false,,
+3300104740,5,Selectman,Travis O'Hara,false,,
+3301104900,1,Selectman,James Cleary,true,,
+3301104900,2,Selectman,Thomas James,false,,
+3301104900,3,Selectman,Tony Parisi,false,,
+3300905060,1,Selectman,William Darcy,true,603-787-6541,bentonnh@gmail.com
+3300905060,2,Selectman,Kimberli Carpenter,false,,
+3300905060,3,Selectman,Regina Elliott,false,,
+3300705140,1,Town Councilor,Robert Cone,false,603-752-2340,
+3300705140,2,Town Councilor,Diana Berthiaume,false,603-723-2861,
+3300705140,3,Town Councilor,Robert Theberge,false,603-331-1805,
+3300705140,4,Town Councilor,Peter Monrency,false,603-752-7325,
+3300705140,5,Town Councilor,Brain Valerino,false,603-723-7247,
+3300705140,6,Town Councilor,Mia Qualls,false,603-723-3771,
+3300705140,7,Town Councilor,Steven Korzen,false,603-723-2834,
+3300705140,8,Town Councilor,Paul Grenier,false,603-752-4693,
+3300905460,1,Selectman,Mike Bruno,true,,selectman3@bethlehemnh.org
+3300905460,2,Selectman,Nancy Strand,false,,selectman5@bethlehemnh.org
+3300905460,3,Selectman,Veronica Morris,false,,selectman4@bethlehemnh.org
+3300905460,4,Selectman,April Hibberd,false,,selectman1@bethlehemnh.org
+3300905460,5,Selectman,Bruce Caplain,false,,selectman2@bethlehemnh.org
+3301306260,1,Selectman,Bill Bevans,true,,
+3301306260,2,Selectman,Lorrie Carey,false,,
+3301306260,3,Selectman,Matthew Burdick,false,,
+3301306500,1,Selectman,Kip McDaniel,true,,cnicolopoulos@bownh.gov
+3301306500,2,Selectman,Angela Brennan,false,,abrennan@bownh.gov
+3301306500,3,Selectman,Eleana Colby,false,,ecolby@bownh.gov
+3301306500,4,Selectman,Ian Flanagan,false,,lflanagan@bownh.gov
+3301306500,5,Selectman,Christopher Nicolopoulos,false,,kmcdaniel@bownh.gov
+3301306980,1,Selectman,Beth Downs,true,,
+3301306980,2,Selectman,Mel Pfeifle,false,,
+3301306980,3,Selectman,Marlene Freyler,false,,
+3301507220,1,Selectman,Jennifer Jones,true,,jjones@brentwoodnh.gov
+3301507220,2,Selectman,Andrew (Andy) Artimovich,false,,aartimovich@brentwoodnh.gov
+3301507220,3,Selectman,Paul Kleinman,false,,pkleinman@brentwoodnh.gov
+3301507220,4,Selectman,Jon Morgan,false,,jmorgan@brentwoodnh.gov
+3301507220,5,Selectman,Letty Bedard,false,,lbedard@brentwoodnh.gov
+3300907540,1,Selectman,"Maurice Jenness, Jr",false,,
+3300907540,2,Selectman,Terence Murphy,false,,
+3300907540,3,Selectman,"P. Wesley Morrill, Jr",false,,
+3300907700,1,Selectman,Rob Glassett,true,,rglassett@bristolnh.gov
+3300907700,2,Selectman,Don Millbrand,false,,dmilbrand@bristolnh.gov
+3300907700,3,Selectman,Leslie Dion,false,,ldion@bristolnh.gov
+3300907700,4,Selectman,Scott Sanschagrin,false,,ssanschagrin@bristolnh.gov
+3300907700,5,Selectman,Carroll Brown Jr,false,,cbrown@bristolnh.gov
+3300307940,1,Selectman,Rich Zacher,true,603-682-5823,selectman@brookfieldnh.org
+3300307940,2,Selectman,Ed Gauthier,false,774-239-7699,
+3300307940,3,Selectman,Brian Robischeau,false,603-583-1324,
+3301108100,1,Selectman,Eddie Arnold,true,603-732-8730,selectboard@brooklinenh.gov
+3301108100,2,Selectman,Brian Rater,false,603-930-6636,
+3301108100,3,Selectman,Brendan Denehy,false,603-680-1003,
+3301108100,4,Selectman,Steve Russo,false,603-321-9895,
+3301108100,5,Selectman,Ed Perry,false,857-540-9066,
+3300908660,1,Selectman,Sharon Davis,true,,
+3300908660,2,Selectman,Sherrill Howard,false,,
+3300908660,3,Selectman,Mort Donahue,false,,
+3300908660,4,Selectman,Karl Kelly,false,,
+3300908980,1,Selectman,Scott Johnson,false,,
+3300908980,2,Selectman,Stephen Freese,false,,
+3300908980,3,Selectman,Sadie Wells,false,,
+3301509300,1,Selectman,Brien Brock,true,,bbrock@candianh.org
+3301509300,2,Selectman,Patrick Moran,false,,
+3301509300,3,Selectman,Boyd Chivers,false,,bchivers@candianh.org
+3301509300,4,Selectman,Russell Dann,false,,rdann@candianh.org
+3301509300,5,Selectman,Susan Young,false,,syoung@candianh.org
+3301309860,1,Selectman,Scott Doherty,true,,selectmen@canterburynh.gov
+3301309860,2,Selectman,Kent Ruesswick,false,,
+3301309860,3,Selectman,Beth Blair,false,,
+3300710100,1,Selectman,John Greer,true,603-846-5494,selectmen@townofcarroll.org
+3300710100,2,Selectman,Jules Marquis,false,,
+3300710100,3,Selectman,Bonnie Moroney,false,,
+3300110660,1,Selectman,Harry Viens,true,603-253-8420,selectmen@centerharbornh.org
+3300110660,2,Selectman,William Ricciardi,false,,
+3300110660,3,Selectman,Richard Drenkhahn,false,,
+3301911380,1,Selectman,Jeremy Wood,true,603-826-4400,
+3301911380,2,Selectman,Nancy Houghton,false,,
+3301911380,3,Selectman,Trish Beaudry,false,,
+3301911380,4,Selectman,Shelly Blouin-Andrus,false,,
+3301911380,5,Selectman,Charles Baraly,false,,
+3300311780,1,Selectman,Jason Eastman,false,603-694-3013,
+3300311780,2,Selectman,Riley Pitman,false,603-662-6180,
+3300311780,3,Selectman,William Briggs,false,603-694-3366,
+3301512100,1,Selectman,Chuck Myette,true,,
+3301512100,2,Selectman,Steven Couture Town,false,Officials,
+3301512100,3,Selectman,Stephen Landau,false,,
+3301512100,4,Selectman,Dana Theokas,false,,
+3301512100,5,Selectman,Dick Trask,false,,
+3300512260,1,Selectman,Gary Winn,true,,selectmen-c@nhchesterfield.com
+3300512260,2,Selectman,Fran Shippee,false,,selectmen-a@nhchesterfield.com
+3300512260,3,Selectman,Judy Idelkope,false,,selectmen-b@nhchesterfield.com
+3300512260,4,Selectman,Mary Ewell,false,,selectmen-d@nhchesterfield.com
+3300512260,5,Selectman,Michelle Hilger,false,,selectmen-e@nhchesterfield.com
+3301312420,1,Selectman,Richard Bouchard,false,,"can email thorugh the website, no stated email"
+3301312420,2,Selectman,Stephen MacCleery,false,,
+3301312420,3,Selectman,Michael Williams,false,,
+3301912900,1,Town Councilor,Spencer Batchelder,false,603-542-7026,sbatchelder@council.claremontnh.com
+3301912900,2,Town Councilor,Jonathan Hayden,false,,jhayden@council.claremontnh.com
+3301912900,3,Town Councilor,Wayne Hemingway,false,,whemingway@council.claremontnh.com
+3301912900,4,Town Councilor,Nicholas Koloski,false,,nkoloski@council.claremontnh.com
+3301912900,5,Town Councilor,William Limoges,false,,wlimoges@council.claremontnh.com
+3301912900,6,Town Councilor,Andrew O'Hearne,false,,aohearne@council.claremontnh.com
+3301912900,7,Town Councilor,Joel Tremblay,false,,jtremblay@council.claremontnh.com
+3300713220,1,Selectman,John White,true,603-331-3845,
+3300713220,2,Selectman,Melvin Purrington,false,603-538-6365,
+3300713220,3,Selectman,Ramon Demaio,false,603-538-7000,
+3300713780,1,Selectman,Greg Placy,true,603-237-4142,info@colebrooknh.org
+3300713780,2,Selectman,Raymond Gorman,false,,
+3300713780,3,Selectman,Suzanne Collins,false,,
+3300713940,1,Selectman,Norman Cloutier,true,,
+3300713940,2,Selectman,Eric Stohl,false,,
+3300713940,3,Selectman,Donald Campbell,false,,
+3301314200,1,Town Councilor,Brent Todd,false,603-225-8500,brenttoddconcord@gmail.com
+3301314200,2,Town Councilor,Michele Horne,false,,mhorne@concordnh.gov
+3301314200,3,Town Councilor,Jennifer Kretovic,false,,jkretovic@concordnh.gov
+3301314200,4,Town Councilor,Karen McNamara,false,,kmcnamaraward4@gmail.com
+3301314200,5,Town Councilor,Stacey Brown,false,,sfbrown@concordnh.gov
+3301314200,6,Town Councilor,Paula McLaughlin,false,,pwmclaughlin24@gmail.com
+3301314200,7,Town Councilor,Jim Schlosser,false,,jim4concord@gmail.com
+3301314200,8,Town Councilor,Ali Sekou,false,,asekou@concordnh.gov
+3301314200,9,Town Councilor,Kris Schultz Town,false,Officials,kschultz@concordnh.gov
+3301314200,10,Town Councilor,Jeff Foote,false,,jfoote@concordnh.gov
+3301314200,11,Town Councilor,Nathan Fennessy,false,,nfennessy@concordnh.gov
+3301314200,12,Town Councilor,Amanda Grady Sexton,false,,agradysexton@concordnh.gov
+3301314200,13,Town Councilor,Fred Keach,false,,fkeach@concordnh.gov
+3301314200,14,Town Councilor,Judith Kurtz,false,,jkurtz@concordnh.gov
+3300314660,1,Selectman,Mary Carey Seavy,true,,no stated email address
+3300314660,2,Selectman,Peter Donahoe,false,,
+3300314660,3,Selectman,John Colbath,false,,
+3300314660,4,Selectman,Steven Porter,false,,
+3300314660,5,Selectman,Ryan Shepard,false,,
+3301915060,1,Selectman,Dillon Gallagher,true,,
+3301915060,2,Selectman,Jason Bourne,false,,
+3301915060,3,Selectman,John Hammond,false,,
+3301916340,1,Selectman,Amie Freak,true,,"can email through the website, no stated email"
+3301916340,2,Selectman,Edward Spiker,false,,
+3301916340,3,Selectman,Kimberlee Burkhamer,false,,
+3301916340,4,Selectman,Susan Kimball,false,,
+3301916340,5,Selectman,Carl Newton,false,,
+3300716820,1,Selectman,Eric Moore,true,,
+3300716820,2,Selectman,Jo Beth Dudley,false,,
+3300716820,3,Selectman,Thomas Dubreuil,false,,
+3301316980,1,Selectman,Jessica Hatch,true,,
+3301316980,2,Selectman,Ruby Hill,false,,
+3301316980,3,Selectman,James Farmer,false,,
+3301517140,1,Selectman,Annemarie Inman,true,,"can email through the website, no stated email"
+3301517140,2,Selectman,Shawn O'Neil,false,,
+3301517140,3,Selectman,Scott Barr,false,,
+3301517140,4,Selectman,Robert Aliberti,false,,
+3301517140,5,Selectman,Joseph Hester,false,,
+3301517460,1,Selectman,William Huebner,true,,"can email through the website, no stated email"
+3301517460,2,Selectman,Greg Whitmore,false,,
+3301517460,3,Selectman,Jared Messina,false,,
+3301517460,4,Selectman,Steve Barry,false,,
+3301117780,1,Selectman,Jill Smith,true,,selectmen@deeringnh.gov
+3301117780,2,Selectman,Steve Diers,false,,
+3301117780,3,Selectman,Roy Watson,false,,
+3301517940,1,Town Councilor,Erin Spencer,false,,"can email through the website, no stated email"
+3301517940,2,Town Councilor,Charles Foote,false,,
+3301517940,3,Town Councilor,Jim ManEachern,false,,
+3301517940,4,Town Councilor,Randall Chase,false,,
+3301517940,5,Town Councilor,Jack Webb,false,,
+3301517940,6,Town Councilor,David Granese,false,,
+3301517940,7,Town Councilor,Michelle Mose,false,,
+3300918740,1,Selectman,Sherman Hallock,true,603-786-5095,sherman.h@townofdorchester.org
+3300918740,2,Selectman,Craig Veasey,false,,craig.v@townofdorchester.org
+3300918740,3,Selectman,Margaret Currier-Lemay,false,,margaret.c@townofdorchester.org
+3301718820,1,Town Councilor,April Richer,false,603-516-6000,a.richer@dover.nh.gov
+3301718820,2,Town Councilor,Robert Warach,false,,r.warach@dover.nh.gov
+3301718820,3,Town Councilor,Anthony Retrosi,false,,a.retrosi@dover.nh.gov
+3301718820,4,Town Councilor,Debra Hackett,false,,d.hackett@dover.nh.gov
+3301718820,5,Town Councilor,Dennis Shanahan,false,,d.shanahan@dover.nh.gov
+3301718820,6,Town Councilor,Fergus Cullen,false,,f.cullen@dover.nh.gov
+3301718820,7,Town Councilor,Lindsey Williams,false,,l.williams@dover.nh.gov
+3301718820,8,Town Councilor,Linnea Nemeth,false,,l.nemeth@dover.nh.gov
+3300519140,1,Selectman,Carole Monroe,true,,"can email through the website, no stated email"
+3300519140,2,Selectman,Chris Raymond,false,,
+3300519140,3,Selectman,Susan Peters,false,,
+3300719300,1,Selectman,Gary Dube,true,603-728-9399,
+3300719300,2,Selectman,Eric Demers,false,603-348-2622,
+3300719300,3,Selectman,Joshua Ewalt,false,603-723-5988,
+3301319460,1,Selectman,Dave Nault,true,603-774-3547,
+3301319460,2,Selectman,Justin Nault,false,,
+3301319460,3,Selectman,Michael Kaminski,false,,
+3301719700,1,Town Councilor,Sally Needell,true,,council@ci.durham.nh.us
+3301719700,2,Town Councilor,Joe Friedman,false,,
+3301719700,3,Town Councilor,James Bubar,false,,
+3301719700,4,Town Councilor,Wayne Burton,false,,
+3301719700,5,Town Councilor,Darrell Ford,false,,
+3301719700,6,Town Councilor,Emily Friedrichs Town,false,Officials,
+3301719700,7,Town Councilor,Heather Grant,false,,
+3301719700,8,Town Councilor,Eric Lund,false,,
+3301719700,9,Town Councilor,Curtis Register,false,,
+3301521380,1,Selectman,Bob Nigrello,true,603-498-7352,
+3301521380,2,Selectman,Joe Cacciatore,false,603-394-7591,
+3301521380,3,Selectman,Rob Caron,false,603-365-7450,
+3300922020,1,Selectman,Zak Mei,true,603-823-7264,eastonnhselectboard@gmail.com
+3300922020,2,Selectman,Bob Thibault,false,603-823-7210,
+3300922020,3,Selectman,Toni Woodruff,false,603-823-8017,
+3300323380,1,Selectman,Greg Grinnell,true,,selectmen@eatonnh.org
+3300323380,2,Selectman,Richard Fortin,false,,
+3300323380,3,Selectman,John Schmerfeld,false,,
+3300323620,1,Selectman,Leo Racine,true,,townofeffingham@effinghamnh.net
+3300323620,2,Selectman,Chris Seamans,false,,
+3300323620,3,Selectman,Chuck Fuller,false,,
+3300923860,1,Selectman,Michael O'Brien,true,,
+3300923860,2,Selectman,Thomas Beech,false,,
+3300923860,3,Selectman,Steven Taves,false,,
+3300924340,1,Selectman,John Kluge,true,,jkluge@enfield.nh.us
+3300924340,2,Selectman,Erik Russell,false,,erussell@enfield.nh.us
+3300924340,3,Selectman,Katherine Stewart,false,,kdpstewart@enfield.nh.us
+3300924340,4,Selectman,Alice Kennedy,false,,akennedy@enfield.nh.us
+3300924340,5,Selectman,Tracy Young,false,,tyoung@enfield.nh.us
+3301524660,1,Selectman,Joe Trombley,true,,secertary@townofepping.com
+3301524660,2,Selectman,Tom Gauthier,false,,
+3301524660,3,Selectman,Bob Jordan,false,,
+3301524660,4,Selectman,Pamela Tibbetts,false,,
+3301524660,5,Selectman,Cliff Cray,false,,
+3301324900,1,Selectman,Cheryl Gilpatrick,true,603-736-9002,
+3301324900,2,Selectman,Virginia Drew,false,,
+3301324900,3,Selectman,Meadow Wysocki Town,false,Officials,
+3300725140,1,Selectman,Scott Rineer,true,,
+3300725140,2,Selectman,Kim Thompson,false,,
+3300725140,3,Selectman,Mark Cyr,false,,
+3301525380,1,Selectman,Niko Papakonstantis,true,,selectboard@exeternh.gov
+3301525380,2,Selectman,Molly Cowan,false,,
+3301525380,3,Selectman,Julie Gilman,false,,
+3301525380,4,Selectman,Nancy Belanger,false,,
+3301525380,5,Selectman,Daniel Chartrand,false,,
+3301726020,1,Selectman,Gerry Vachon,true,,
+3301726020,2,Selectman,Penny Morin,false,,
+3301726020,3,Selectman,Douglas Staples,false,,
+3301726020,4,Selectman,Charlie King,false,,
+3301726020,5,Selectman,Ann Titus,false,,
+3300526500,1,Selectman,Martin Nolan,true,,
+3300526500,2,Selectman,Nancy Carney,false,,
+3300526500,3,Selectman,Thamos Rothermel,false,,
+3301127140,1,Selectman,Scot Heath,true,,
+3301127140,2,Selectman,Charles Pyle,false,,
+3301127140,3,Selectman,Karen Fitzgerald,false,,
+3300927300,1,Selectman,Jill Brewer,true,,
+3300927300,2,Selectman,Eric Meth,false,,
+3300927300,3,Selectman,Dan Walker,false,,
+3301327380,1,Town Councilor,Ted Starkweather,false,603-934-4693,TStarkeather@franklinnh.org
+3301327380,2,Town Councilor,George Dzujna,false,603-934-7163,Gdzujna@franklinnh.org
+3301327380,3,Town Councilor,Timothy Johnston,false,603-934-6404,TJohnston@franklinnh.org
+3301327380,4,Town Councilor,Olivia Zink,false,603-934-4297,OZink@franklinnh.org
+3301327380,5,Town Councilor,Vincent Ribas,false,603-934-5330,VRibas@franklinnh.org
+3301327380,6,Town Councilor,Susan Hallett-Cook,false,603-491-9587,SHCook@franklinnh.org
+3301327380,7,Town Councilor,Leigh Webb,false,603-934-8222,Lwebb@franklinnh.org
+3301327380,8,Town Councilor,Valerie Blake,false,603-671-7352,VBlake@franklinnh.org
+3301327380,9,Town Councilor,Ed Prive,false,603-934-6802,EPrive@franklinnh.org
+3300327700,1,Selectman,Leslie Babb Town,true,Officials,
+3300327700,2,Selectman,Gary Williams,false,,
+3300327700,3,Selectman,Allan Fall,false,,
+3301527940,1,Selectman,Gene Cordes,true,,
+3301527940,2,Selectman,Roger Barham,false,,
+3301527940,3,Selectman,Jon Benson,false,,
+3300128740,1,Selectman,Gus Benavides,true,603-527-4700,selectman@gilfordnh.org
+3300128740,2,Selectman,J. Kevin Hayes,false,,
+3300128740,3,Selectman,Dale Channing Eddy,false,,
+3300128980,1,Selectman,Vincent Baiocchetti,true,,
+3300128980,2,Selectman,Evan Collins,false,,
+3300128980,3,Selectman,Mark Warren,false,,
+3300529220,1,Selectman,Clem Lounder,true,603-499-6397,selectman-lounder@gilsum-nh.gov
+3300529220,2,Selectman,William Mitchell,false,603-358-6224,selectman-mitchell@gilsum-nh.gov
+3300529220,3,Selectman,Brian J. Bazarnicki,false,603-762-8744,brianbaz@icloud.com
+3301129860,1,Selectman,Peter Georgantas,true,603-384-6261,PGeorgantas@GoffstownNH.gov
+3301129860,2,Selectman,Richard Manzo,false,603-289-5929,Richard.Manzo@GoffstownNH.gov
+3301129860,3,Selectman,Joshua Douglas,false,,Joshua.Douglas@GoffstownNH.gov
+3301129860,4,Selectman,Jim Craig,false,603-361-4253,Jim.Craig@GoffstownNH.gov
+3301129860,5,Selectman,Mark Lemay,false,603-305-0507,Mark.Lemay@GoffstownNH.gov
+3300730260,1,Selectman,Bob Gargano,true,,
+3300730260,2,Selectman,Michael Waddell,false,,
+3300730260,3,Selectman,Judy LeBlanc,false,,
+3301930500,1,Selectman,Derek Tremblay,true,,selectmen@goshennh.org
+3301930500,2,Selectman,Diane Craig,false,,
+3301930500,3,Selectman,Sebastian Zyzdorf,false,,
+3300930820,1,Selectman,Leif Hogue,true,,
+3300930820,2,Selectman,Steve Darrow,false,,
+3300930820,3,Selectman,Ed Grinley,false,,
+3301931220,1,Selectman,Peter Garland,true,603-863-5445,gungadin88@hotmail.com
+3301931220,2,Selectman,Warren Kimball,false,603-863-3156,townofgrantham@gmail.com
+3301931220,3,Selectman,Constance Jones,false,603-863-8395,selectmanconniejones@gmail.com
+3301131540,1,Selectman,Mason Parker,true,,
+3301131540,2,Selectman,Michael Borden,false,,
+3301131540,3,Selectman,Thomas Bascom,false,,
+3301531700,1,Selectman,Laura Malloy,true,,lmalloy@greenland.nh.gov
+3301531700,2,Selectman,Paul Stanley,false,,pstanley@greenland.nh.gov
+3301531700,3,Selectman,Stephan Toth,false,,stoth@greenland.nh.gov
+3301531700,4,Selectman,Heather Droesch,false,,hdroesch@greenland.nh.gov
+3301531700,5,Selectman,Zach Pike,false,,zpike@greenland.nh.gov
+3301131940,1,Selectman,Carla Mary,true,,
+3301131940,2,Selectman,Margaret Bickford,false,,
+3301131940,3,Selectman,Kathleen McNamara,false,,
+3300932180,1,Selectman,John Rescigno,true,,
+3300932180,2,Selectman,Ron Madan,false,,
+3300932180,3,Selectman,Tony Albert,false,,
+3301532900,1,Selectman,Laurie Warnock,true,,lwarnock@hampsteadnh.us
+3301532900,2,Selectman,Lewis Eaton,false,,leaton@hampsteadnh.us
+3301532900,3,Selectman,Joseph Guthrie,false,,Lojogut@gmail.com
+3301532900,4,Selectman,Maurie Worthen,false,,mworthen@hampsteadnh.us
+3301532900,5,Selectman,Steve Morse,false,,smorse@hampsteadnh.us
+3301533060,1,Selectman,Rusty Bridle,true,603-929-5908,ahanson@hamptonnh.gov
+3301533060,2,Selectman,Carleigh Beriont,false,,crage@hamptonnh.gov
+3301533060,3,Selectman,Charles Rage,false,,jwaddell@hamptonnh.gov
+3301533060,4,Selectman,Amy Hansen,false,,rbridle@town.hampton.nh.us
+3301533060,5,Selectman,Jeffery Grip,false,,cbariont@hamptonnh.gov
+3301533460,1,Selectman,Lou Gargiulo,true,,
+3301533460,2,Selectman,Mark Lane,false,,
+3301533460,3,Selectman,Edward Beattie,false,,
+3301133700,1,Selectman,Virginia Smith,true,,smith@hancocknh.org
+3301133700,2,Selectman,Jeff Brown Town,false,Officials,jbrown@hancocknh.org
+3301133700,3,Selectman,Elisabeth Villaume,false,,evillaume@hancocknh.org
+3300933860,1,Selectman,Athos Rassias,true,,athos.rassias@hanovernh.org
+3300933860,2,Selectman,Joanna Whitcomb,false,,joanna.whitcomb@hanovernh.org
+3300933860,3,Selectman,Nancy Carter,false,,nancy.carter@hanovernh.org
+3300933860,4,Selectman,Carey Callaghan,false,,carey.callaghan@hanovernh.org
+3300933860,5,Selectman,Jennie Chamberlain,false,,jennie.chamberlain@hanovernh.org
+3300534420,1,Selectman,Andrew Maneval,true,,
+3300534420,2,Selectman,Kathleen Scott,false,,
+3300534420,3,Selectman,Andrea Hodson,false,,
+3300334500,1,Selectman,Mark Dindorf,true,603-374-6644,
+3300334500,2,Selectman,Guy Putnam,false,603-374-6616,
+3300334500,3,Selectman,John Gallagher,false,978-968-7163,
+3300934820,1,Selectman,Rod O'Shana,true,,roshana@haverhill-nh.com
+3300934820,2,Selectman,Joe Langacre,false,,jlongacre@haverhill-nh.com
+3300934820,3,Selectman,Theresa Paige,false,,tpaige@haverhill-nh.com
+3300934820,4,Selectman,Kevin Knapp,false,,kknapp@haverhill-nh.com
+3300935220,1,Selectman,Patrick Moriarty,true,,
+3300935220,2,Selectman,Paul Hazelton,false,,
+3300935220,3,Selectman,Richard James,false,,
+3301335540,1,Selectman,Kris Blomback,true,603-428-3221,
+3301335540,2,Selectman,Bill Marko,false,,
+3301335540,3,Selectman,Neal Martin,false,,
+3301335540,4,Selectman,Jeff Morse,false,,
+3301335540,5,Selectman,Peter Flynn,false,,
+3301335860,1,Selectman,Shaun Bresnahan,true,,sbreznahan@townofhillnh.org
+3301335860,2,Selectman,Frank Razzaboni,false,,f.razzaboni@townofhillnh.org
+3301335860,3,Selectman,Stephen Thompson,false,,s.thompson@townofhillnh.org
+3301136180,1,Selectman,James Bailey III,true,,"can email through the website, no stated email"
+3301136180,2,Selectman,Iris Campbell,false,,
+3301136180,3,Selectman,Richard Pelletier,false,,
+3300536660,1,Selectman,Steve Diorio,true,"603-336-5710,",
+3300536660,2,Selectman,Richard Johnson,false,,
+3300536660,3,Selectman,Bernie Rideout,false,,
+3300536660,4,Selectman,Michael Carrier,false,,
+3300536660,5,Selectman,William Hodgman,false,,
+3300936900,1,Selectman,Jill White,true,,
+3300936900,2,Selectman,John Laverack,false,,
+3300936900,3,Selectman,Sam Brinkley,false,,
+3300936900,4,Selectman,Kelly Schwaner,false,,
+3300936900,5,Selectman,Peter Francesco,false,,
+3301137140,1,Selectman,David Petry,true,,
+3301137140,2,Selectman,Susan Benz,false,,
+3301137140,3,Selectman,Mark Le Doux,false,,
+3301137140,4,Selectman,Tom Whalen,false,,
+3301137140,5,Selectman,Joe Garruba,false,,
+3301337300,1,Town Councilor,Timothy Tsantoulis,false,603-669-6999,ttsantoulis@hooksett.org
+3301337300,2,Town Councilor,David Boutin,false,603-203-5391,dboutin@hooksett.org
+3301337300,3,Town Councilor,James Sullivan,false,603-315-0084,jsullivan@hooksett.org
+3301337300,4,Town Councilor,Roger Duhaime,false,,rduhaime@hooksett.org
+3301337300,5,Town Councilor,Jodi Pinard,false,603-860-6226,jpinard@hooksett.org
+3301337300,6,Town Councilor,John Durand,false,603-716-6313,jdurand@hooksett.org
+3301337300,7,Town Councilor,Keith Judge,false,603-493-7991,kjudge@hooksett.org
+3301337300,8,Town Councilor,Alexander Walczyk,false,818-446-6599,awalczyk@hooksett.org
+3301337300,9,Town Councilor,yR)andall Lapierre,false,603-341-8311,rlapierre@hooksett.org
+3301337540,1,Selectman,Sabrina Dunlap,true,603-746-3170,
+3301337540,2,Selectman,Victoria Bram,false,,
+3301337540,3,Selectman,Alyssa McKeon,false,,
+3301337540,4,Selectman,Jeffrey Donohue,false,,
+3301337540,5,Selectman,Steven Whitley,false,,
+3301137940,1,Selectman,Bob Guessferd,true,,bos@hudsonnh.gov
+3301137940,2,Selectman,Dillon Dumont,false,,
+3301137940,3,Selectman,David Morin,false,,
+3301137940,4,Selectman,Kara Roy,false,,
+3301137940,5,Selectman,Heidi Jakoby,false,,
+3300338260,1,Selectman,Barbara Campbell,true,603-383-4223,
+3300338260,2,Selectman,Frank DiFruscio Town,false,Officials,
+3300338260,3,Selectman,Bob Thompson,false,,
+3300538500,1,Selectman,Franklin Sterling,true,,
+3300538500,2,Selectman,Charlie Turcotte,false,,
+3300538500,3,Selectman,Andrew Lawn,false,,
+3300738820,1,Selectman,Terri Larcomb,true,,selectman3@jeffersonnh.org
+3300738820,2,Selectman,Kevin Meehan,false,,selectman1@jeffersonnh.org
+3300738820,3,Selectman,Norman Brown,false,,selectman2@jeffersonnh.org
+3300539300,1,Town Councilor,Kris Roberts,false,603-439-1526,kroberts@keenenh.gov
+3300539300,2,Town Councilor,Jacob Favolise,false,603-338-8880,jfavolise@keenenh.gov
+3300539300,3,Town Councilor,Mithcell Greenwald,false,603-357-3035,mgreenwald@keenenh.gov
+3300539300,4,Town Councilor,Robert Williams,false,603-338-7733,rwilliams@keenenh.gov
+3300539300,5,Town Councilor,Bryan Lake,false,603-313-6774,blake@keenenh.gov
+3300539300,6,Town Councilor,Andrew Madison,false,603-892-0679,amadison@keenenh.gov
+3300539300,7,Town Councilor,Laura Tobin,false,603-287-1850,ltobin@keenenh.gov
+3300539300,8,Town Councilor,Catherine Workman,false,603-762-8762,cworkman@keenenh.gov
+3300539300,9,Town Councilor,Philip Jones,false,603-499-8648,pjones@keenenh.gov
+3300539300,10,Town Councilor,Thomas Powers,false,603-357-3738,tpowers@keenenh.gov
+3300539300,11,Town Councilor,Randy Filiault,false,603-313-3130,rfiliault@keenenh.gov
+3300539300,12,Town Councilor,Bettina Chadbourne,false,603-357-2601,bchadbourne@keenenh.gov
+3300539300,13,Town Councilor,Kate Bosley,false,603-493-4586,kbosley@keenenh.gov
+3300539300,14,Town Councilor,Michael Remy,false,603-324-0926,mremy@keenenh.gov
+3300539300,15,Town Councilor,Edward Haas,false,603-633-8832,ehaas@keenenh.gov
+3301539780,1,Selectman,Joe Pace,true,,kenselectman3@kensingtontown.com
+3301539780,2,Selectman,Bob Solomon,false,,kenselectman1@kensingtontown.com
+3301539780,3,Selectman,Bob Gustafson,false,,kenselectman2@kensingtontown.com
+3301540100,1,Selectman,Electra Alessio,true,,
+3301540100,2,Selectman,Glenn Coppelman,false,,
+3301540100,3,Selectman,Peter Bakie,false,,
+3301540100,4,Selectman,Chuck Hart,false,,
+3301540100,5,Selectman,Laurie Szwed,false,,
+3300140180,1,Town Councilor,Bruce Cheney,false,,citycouncil@laconianh.gov
+3300140180,2,Town Councilor,Robert Soucy,false,,
+3300140180,3,Town Councilor,Eric Hoffman,false,,
+3300140180,4,Town Councilor,Mark Haynes,false,,
+3300140180,5,Town Councilor,Steven Bogert,false,,
+3300140180,6,Town Councilor,Tony Felch,false,,
+3300740420,1,Selectman,Shane Beattie,true,,
+3300740420,2,Selectman,Kathy-Jean Lavoie Town,false,Officials,
+3300740420,3,Selectman,Leon Rideout,false,,
+3300940660,1,Selectman,Harry McGovern,true,,
+3300940660,2,Selectman,Mary Beaudin,false,,
+3300940660,3,Selectman,Rachael Booth,false,,
+3301940900,1,Selectman,Kathryn Gallagher,true,603-835-2907,
+3301940900,2,Selectman,Devin Gallagher,false,603-903-4866,
+3301940900,3,Selectman,Nathan Chaffee,false,603-835-6429,
+3300941300,1,Town Councilor,Laurel Stavis,false,603-359-4161,
+3300941300,2,Town Councilor,Chris Simon,false,603-289-0203,chris.simon@lebanonnh.gov
+3300941300,3,Town Councilor,Tim McNamara,false,603-678-8905,
+3300941300,4,Town Councilor,George Sykes,false,603-667-1834,george.sykes@lebanonnh.gov
+3300941300,5,Town Councilor,Karen Zook,false,603-790-0421,karen.zook@lebanonnh.gov
+3300941300,6,Town Councilor,Erling Heistad,false,603-448-9955,erling.heistad@lebanonnh.gov
+3300941300,7,Town Councilor,Nicole Ford Burley,false,603-667-0540,
+3301741460,1,Selectman,Rebecca Hawthorne,true,603-659-5414,
+3301741460,2,Selectman,Scott Bugbee,false,,
+3301741460,3,Selectman,David Benson,false,,
+3301941700,1,Selectman,Philip Tirrell,true,,
+3301941700,2,Selectman,Everett Thurber,false,,
+3301941700,3,Selectman,Mark Lightner,false,,
+3300941860,1,Selectman,O.J. Robinson,true,,robinsonbos@lincolnnh.org
+3300941860,2,Selectman,Tamra Ham,false,,hambos@lincolnnh.org
+3300941860,3,Selectman,Jack Daly,false,,dalybos@lincolnnh.org
+3300942020,1,Selectman,Scott Champagne,true,,
+3300942020,2,Selectman,Arthur Boutin,false,,
+3300942020,3,Selectman,Brian Higgins,false,,
+3301142260,1,Selectman,F. Robert Leary,true,603-424-4046,rleary@litchfieldnh.gov
+3301142260,2,Selectman,Kimberley Queenan Town,false,Officials,kqueenan@litchfieldnh.gov
+3301142260,3,Selectman,G. Stephen Gannon,false,,sgannon@litchfieldnh.gov
+3301142260,4,Selectman,Kevin Lynch,false,,kalynch@litchfieldnh.gov
+3301142260,5,Selectman,John Brunelle,false,,jbrunelle@litchfieldnh.gov
+3300942580,1,Selectman,Linda Macneil,true,,
+3300942580,2,Selectman,Roger Emerson,false,,
+3300942580,3,Selectman,Kerri Harrington,false,,
+3301543220,1,Town Councilor,Chad Franz,true,,
+3301543220,2,Town Councilor,Ted Combes,false,,
+3301543220,3,Town Councilor,John Farrell,false,,
+3301543220,4,Town Councilor,Ron Dunn,false,,
+3301543220,5,Town Councilor,Shawn Faber,false,,
+3301343380,1,Selectman,Dwayne Gilman,true,,selectmensoffice@loudonnh.org
+3301343380,2,Selectman,Jeff Miller,false,,
+3301343380,3,Selectman,Marc Griffin,false,,
+3300944100,1,Selectman,Bruce Beane,true,,
+3300944100,2,Selectman,Thomas Smith,false,,
+3300944100,3,Selectman,Bo Presby,false,,
+3300944260,1,Selectman,Judith Brotman,true,,selectboard@lymenh.gov
+3300944260,2,Selectman,Ben Kilham,false,,
+3300944260,3,Selectman,David Kahn,false,,
+3301144580,1,Selectman,Bob Howe,true,,
+3301144580,2,Selectman,Mark Chamberlain,false,,
+3301144580,3,Selectman,Fred Douglas,false,,
+3301744820,1,Selectman,Mark Avery,true,,
+3301744820,2,Selectman,Tim Burt,false,,
+3301744820,3,Selectman,Susan Ossoff,false,,
+3300345060,1,Selectman,Adam Price,true,,no stated email address
+3300345060,2,Selectman,John Arruda,false,,
+3300345060,3,Selectman,Joy Gray,false,,
+3301145140,1,Alderman,Chris Morgan,false,603-674-2400,cmorgan@manchesternh.gov
+3301145140,2,Alderman,Dan Goonan,false,603-493-9052,dan.goonan@manchesternh.gov
+3301145140,3,Alderman,Pat Long,false,603-668-1037,long55@comcast.net
+3301145140,4,Alderman,Christine Fajardo,false,215-287-8022,cfajardo@manchesternh.gov
+3301145140,5,Alderman,Anthony Sapienza,false,603-624-6943,asapienza@manchesternh.gov
+3301145140,6,Alderman,Crissy Kantor,false,978-238-8824,ckantor@manchesternh.gov
+3301145140,7,Alderman,Ross Terrio,false,603-820-9064,rterrio@manchesternh.gov
+3301145140,8,Alderman,Edward Sapienza,false,603-391-8038,esapienza@manchesternh.gov
+3301145140,9,Alderman,Jim Burkush,false,603-714-0283,jburkush@manchesternh.gov
+3301145140,10,Alderman,Bill Barry,false,603-627-7189,bbarry@manchesternh.gov
+3301145140,11,Alderman,Norm Vincent,false,603-384-6293,nvincent@manchesternh.gov
+3301145140,12,Alderman,Kelly Thomas,false,603-384-0009,kelly.thomas@manchesternh.gov
+3301145140,13,Alderman,Dan O'Neil,false,603-668-9814,doneil@manchesternh.gov
+3301145140,14,Alderman,Joseph Kelly Levasseur,false,603-622-7575,jklevasseur@manchesternh.gov
+3300545460,1,Selectman,Jane Pitt,true,,
+3300545460,2,Selectman,Gina Paight,false,,
+3300545460,3,Selectman,Earl Nelson,false,,
+3300545700,1,Selectman,John Luke,true,,"can email through the website, no stated email"
+3300545700,2,Selectman,Robert Allen,false,,
+3300545700,3,Selectman,Sandra Pierre,false,,
+3301146260,1,Selectman,Kate Batcheller,true,,
+3301146260,2,Selectman,Charles Moser,false,,
+3301146260,3,Selectman,John Suiter,false,,
+3300147140,1,Selectman,Jeanie Forrester,true,603-677-4205,
+3300147140,2,Selectman,Steven Aiken,false,,
+3300147140,3,Selectman,Lynn Leighton,false,,
+3300147140,4,Selectman,Jonathan James,false,,
+3300147140,5,Selectman,Michael Pelczar,false,,
+3301147540,1,Town Councilor,Finlay Rothhaus,true,,
+3301147540,2,Town Councilor,Nancy Harrington,false,,
+3301147540,3,Town Councilor,Nancy Murphy,false,,
+3301147540,4,Town Councilor,Andy Hunter,false,,
+3301147540,5,Town Councilor,Thomas Koenig,false,,
+3301147540,6,Town Councilor,Mackenzie Murphy,false,,
+3301147540,7,Town Councilor,Jennifer Jobin,false,,
+3301747700,1,Selectman,Scott Ferguson,true,,
+3301747700,2,Selectman,Timothy Cremmen Town,false,Officials,
+3301747700,3,Selectman,Roxanne Tufts-Keegan,false,,
+3301747700,4,Selectman,Tracy Donovan-Laviolette,false,,
+3301747700,5,Selectman,Michael Green,false,,
+3300747860,1,Selectman,Randy Fortin,true,,
+3300747860,2,Selectman,Kenneth Lee Dube,false,,
+3300747860,3,Selectman,Peter Nolet,false,,
+3301148020,1,Selectman,Tim Finan,true,603-673-2273,tfinan@milford.nh.gov
+3301148020,2,Selectman,Paul Dargie,false,,pdargie@milford.nh.gov
+3301148020,3,Selectman,Chris Labonte,false,,clabonte@milford.nh.gov
+3301148020,4,Selectman,Dave Freel,false,,dfreel@milford.nh.gov
+3301148020,5,Selectman,Tina Philbrick,false,,tphilbrick@milford.nh.gov
+3301748660,1,Selectman,Andrew Rawson,true,,arawson@miltonnh-us.com
+3301748660,2,Selectman,Matthew Morrill,false,,mmorrill@miltonnh-us.com
+3301748660,3,Selectman,Humphrey Williams,false,,hwilliams@miltonnh-us.com
+3300948980,1,Selectman,Oren Remick,true,,oremick@monroenh.org
+3300948980,2,Selectman,John Blanchard,false,,jblanchard@monroenh.org
+3300948980,3,Selectman,Justin Bradshaw,false,,jbradshaw@monroenh.org
+3301149140,1,Selectman,John Esposito,true,,
+3301149140,2,Selectman,"John Quinlan, Jr.",false,,
+3301149140,3,Selectman,Mike Fimbel,false,,
+3300349380,1,Selectman,Kevin Quinlan,true,,
+3300349380,2,Selectman,Jonathan Tolman,false,,
+3300349380,3,Selectman,Karel Crawford,false,,
+3300349380,4,Selectman,James Gray,false,,
+3300349380,5,Selectman,Charles McGee,false,,
+3301150260,1,Alderman,Lori Wilshire,false,603-589-3030,wilshirel@nashuanh.gov
+3301150260,2,Alderman,Michael O'Brien,false,,obrienm@nashuanh.gov
+3301150260,3,Alderman,Tyler Gouveia,false,,gouveiat@nashaunh.gov
+3301150260,4,Alderman,Richard Dowd,false,,dowdr@nashuanh.gov
+3301150260,5,Alderman,Patricia KLee,false,,kleep@nashuanh.gov
+3301150260,6,Alderman,Thomas Lopez,false,,lopezt@nashuanh.gov
+3301150260,7,Alderman,Earnest Jette,false,,jettee@nashuanh.gov
+3301150260,8,Alderman,Chris Thibodeau,false,,thibodeauc@nashuanh.gov
+3301150260,9,Alderman,Tim Sennott Town,false,Officials,sennottt@nashuanh.gov
+3301150260,10,Alderman,Derek Thibeault,false,,thibeaultd@nashuanh.gov
+3301150260,11,Alderman,John Sullivan,false,,sullivanj@nashuanh.gov
+3301150260,12,Alderman,Ben Clemons,false,,clemonsb@nashuanh.gov
+3301150260,13,Alderman,Shoshanna Kelly,false,,kellys@nashuanh.gov
+3301150260,14,Alderman,Melbourne Moran Jr.,false,,moranm@nashuanh.gov
+3301150260,15,Alderman,Gloria Timmons,false,,timmonsg@nashuanh.gov
+3300550580,1,Selectman,Brenna Kucinski,true,,selectboardchair@nelsonnh.us
+3300550580,2,Selectman,Michael Blaudschun,false,,blaudschun@gmail.com
+3300550580,3,Selectman,Don Carlisle,false,,don.carlisle@gmail.com
+3301150740,1,Selectman,William McFadden,true,,
+3301150740,2,Selectman,Kary Jencks,false,,
+3301150740,3,Selectman,Kevin Collimore,false,,
+3301550980,1,Selectman,Bill Stewart,true,603-431-6710,bill.stewart@newcastlenh.org
+3301550980,2,Selectman,Jane Finn,false,,jane.finn@newcastlenh.org
+3301550980,3,Selectman,Pamela Cullen,false,,pamela.cullen@newcastlenh.org
+3301751220,1,Selectman,David Swenson,true,603-859-2091,
+3301751220,2,Selectman,Marc DeCoff,false,,
+3301751220,3,Selectman,Dot Veisel,false,,
+3300151540,1,Selectman,Michael Drake,true,,selectmen@new-hampton.nh.us
+3300151540,2,Selectman,Eric Shaw,false,,
+3300151540,3,Selectman,Bruce Harvey,false,,
+3301151940,1,Selectman,Shawn Talbot,true,,
+3301151940,2,Selectman,Jason Somero,false,,
+3301151940,3,Selectman,Lou Alvarez,false,,
+3301352100,1,Selectman,Bill Helm,true,,
+3301352100,2,Selectman,Bebe Hammond Casey,false,,
+3301352100,3,Selectman,Janet Kidder,false,,
+3301350900,1,Selectman,Scott Wheeler,true,,"can email through the website, no stated email"
+3301350900,2,Selectman,Joanne Lord,false,,
+3301350900,3,Selectman,Kristen Schultz,false,,
+3301551380,1,Selectman,Michael Sununu,true,,msununu@newfieldsnh.gov
+3301551380,2,Selectman,Hobart Harmon,false,,hharmon@newfieldsnh.gov
+3301551380,3,Selectman,Mark Kasper,false,,mkasper@newfieldsnh.gov
+3301551620,1,Selectman,Chris Wayss,true,,selectmen@newington.nh.us
+3301551620,2,Selectman,Bob Blonigen,false,,
+3301551620,3,Selectman,Brandon Arsenault,false,,
+3301552340,1,Town Councilor,Katanna Conley,true,,kconley@newmarketnh.gov
+3301552340,2,Town Councilor,Brian Ward,false,,bward@newmarketnh.gov
+3301552340,3,Town Councilor,Scott Blackstone,false,,sblackstone@newmarketnh.gov
+3301552340,4,Town Councilor,Joe LaMattina,false,,jlamattina@newmarketnh.gov
+3301552340,5,Town Councilor,"Colin White, Sr",false,,cwhite@newmarketnh.gov
+3301552340,6,Town Councilor,Sonke Dornblut,false,,sdornblut@newmarketnh.gov
+3301552340,7,Town Councilor,Justin Glazebrook,false,,jglazebrook@newmarketnh.gov
+3301952580,1,Selectman,James Burroughs,true,,selectboard@newportnh.gov
+3301952580,2,Selectman,Jeffery Kessler,false,,
+3301952580,3,Selectman,"Herbert Tellor, Jr",false,,
+3301952580,4,Selectman,Jeffery North,false,,
+3301952580,5,Selectman,"Bert Spaulding, Sr",false,,
+3301552900,1,Selectman,"Robert Marchand, Jr",true,603-952-0807,rmarchand@newtonnh.net
+3301552900,2,Selectman,Joseph Simone,false,603-553-6751,jsimone@newtonnh.net
+3301552900,3,Selectman,Michael Connolly,false,603-382-4405 ext. 310,mconnolly@newtonnh.net
+3301552900,4,Selectman,Daniel Guide,false,603-560-3902,dguide@newtonnh.net
+3301552900,5,Selectman,Anthony Aiello,false,978-360-1055,JAiello@newtonnh.net
+3301554580,1,Selectman,James Sununu,true,,jsununu@northhampton-nh.gov
+3301554580,2,Selectman,Jim Maggiore,false,,jmaggiore@northhampton-nh.gov
+3301554580,3,Selectman,Jonathan Pinette,false,,jpinette@northhampton-nh.gov
+3301354260,1,Selectman,Jason Durgin,true,,selectmen@northfieldnh.gov
+3301354260,2,Selectman,Ross Cunningham,false,,
+3301354260,3,Selectman,Scott McGuffin,false,,
+3300756100,1,Selectman,Keith Bronson Town,true,O60ff3i-c6i3a6ls-1450,no stated email address
+3300756100,2,Selectman,James Tierney,false,,
+3300756100,3,Selectman,James Weagle,false,,
+3301556820,1,Selectman,Hal Kreider,true,,hkreider@northwoodnh.org
+3301556820,2,Selectman,Tim Colby,false,,tcolby@northwoodnh.org
+3301556820,3,Selectman,Jim Guzofski,false,,jguzofski@northwoodnh.org
+3301556820,4,Selectman,Pamela Sanderson,false,,psanderson@northwoodnh.org
+3301556820,5,Selectman,Matt Frye,false,,mfrye@northwoodnh.org
+3301557460,1,Selectman,John Morin,true,,bospc@nottingham-nh.gov
+3301557460,2,Selectman,Tim Dabrieo,false,,
+3301557460,3,Selectman,Steve Welch,false,,
+3301557460,4,Selectman,Matthew Shirland,false,,
+3301557460,5,Selectman,John Decker,false,,
+3300958340,1,Selectman,Aaron Allen,true,603-381-4063,aaronallentimberframing@yahoo.com
+3300958340,2,Selectman,Lucy LaChance,false,802-558-6765,
+3300958340,3,Selectman,Samara Pitre,false,315-921-5427,
+3300958500,1,Selectman,Kevin Follensbee,true,603-252-5723,
+3300958500,2,Selectman,"Charles Smith, Jr.",false,603-208-8080,
+3300958500,3,Selectman,Larry Taylor,false,603-353-9865,
+3300358740,1,Selectman,Jonathan Smith,true,,
+3300358740,2,Selectman,Susan Smith,false,,
+3300358740,3,Selectman,Brian Keyes,false,,
+3301159940,1,Selectman,Jason Croteau,true,603-635-8233,selectmen@pelhamweb.com
+3301159940,2,Selectman,Charlene Takesian,false,,
+3301159940,3,Selectman,Jaie Bergeron,false,,
+3301159940,4,Selectman,Heather Corbett,false,,
+3301159940,5,Selectman,Kimberly Abare,false,,
+3301360020,1,Selectman,Karen Yeaton,true,603-485-4747,yeaton.karenTOP@yahoo.com
+3301360020,2,Selectman,Sandy Goulet,false,,sgouletselectman@gmail.com
+3301360020,3,Selectman,Rick Frederickson,false,,rickfredselectman@outlook.com
+3301360020,4,Selectman,Matt Miller,false,,mmillerselectman@gmail.com
+3301360020,5,Selectman,Bryan Christiansen,false,,christiansen1@comcast.net
+3301160580,1,Selectman,Tyler Ward,true,,
+3301160580,2,Selectman,Bill Taylor,false,,
+3301160580,3,Selectman,William Kennedy,false,,
+3300961060,1,Selectman,Wayne Godfrey,true,603-272-9181,wayne.e.godfrey@townofpiermontnh.org
+3300961060,2,Selectman,Rick Daley,false,,rick.daley@townofpiermontnh.org
+3300961060,3,Selectman,Colin Stubbings,false,,colin.stubbings@townofpiermontnh.org
+3300761780,1,Selectman,Beth Drew,true,,
+3300761780,2,Selectman,Douglas Ahlstrin,false,,
+3300761780,3,Selectman,Toby Owen,false,,
+3301361940,1,Selectman,Larry Konopka,true,,
+3301361940,2,Selectman,Jim Adams,false,,
+3301361940,3,Selectman,Jim Allard,false,,
+3301361940,4,Selectman,Art St. Laurent,false,,
+3301361940,5,Selectman,Paul Colby,false,,
+3301962340,1,Selectman,Ron Eberhardt,true,,
+3301962340,2,Selectman,Eric Brann,false,,
+3301962340,3,Selectman,Amy Lappin,false,,
+3301562500,1,Selectman,Jay DeRoche,true,603-382-5200,jderoche@plaistow.com
+3301562500,2,Selectman,Bill Coye,false,,bcoye@plaistow.com
+3301562500,3,Selectman,Jonathan Gifford,false,,jgifford@plaistow.com
+3301562500,4,Selectman,Elizabeth Kosta,false,,ekosta@plaistow.com
+3301562500,5,Selectman,Darrell Britton,false,,dbritton@plaistow.com
+3300962660,1,Selectman,Zach Tirrell,true,,townhall@plymouthnh.gov
+3300962660,2,Selectman,Phillip LaMoreaux,false,,
+3300962660,3,Selectman,Maryann Barnsley,false,,
+3300962660,4,Selectman,Jason Neenos,false,,
+3300962660,5,Selectman,Theodore Wisniewski,false,,
+3301562900,1,Town Councilor,John Tabor,true,603-431-2000,
+3301562900,2,Town Councilor,Kate Cook,false,,
+3301562900,3,Town Councilor,Josh Denton,false,,
+3301562900,4,Town Councilor,Rich Blalock,false,,
+3301562900,5,Town Councilor,Andrew Bagley,false,,
+3301562900,6,Town Councilor,Beth Moreau Town,false,Officials,
+3301562900,7,Town Councilor,Vincent Lombardi,false,,
+3300763860,1,Selectman,Michelle Cormier,true,,selectmen@randolph.nh.gov
+3300763860,2,Selectman,Paul Jadis,false,,
+3300763860,3,Selectman,Richard Fournier,false,,
+3301564020,1,Selectman,Patricia Bridgeo,true,,pbridgeo@raymondnh.gov
+3301564020,2,Selectman,Rani Merryman,false,,dmerryman@raymondnh.gov
+3301564020,3,Selectman,Doug Vogel,false,,dvogel@rayomndnh.gov
+3301564020,4,Selectman,Anthony Clements,false,,aclements@raymondnh.gov
+3301564020,5,Selectman,Tom Daigle,false,,tdaigle@raymondnh.gov
+3300564420,1,Selectman,William Daniels,true,,
+3300564420,2,Selectman,Douglas Bersaw,false,,
+3300564420,3,Selectman,Andrew Wallace,false,,
+3300564580,1,Selectman,Robert Hamilton,true,,
+3300564580,2,Selectman,Karl Pruter,false,,
+3300564580,3,Selectman,Larry Cleveland,false,,
+3301765140,1,Town Councilor,Patricia Turner,false,,"can email through the website, no stated email"
+3301765140,2,Town Councilor,Tim Fontneau,false,,
+3301765140,3,Town Councilor,Daniel Fitzpatrick,false,,
+3301765140,4,Town Councilor,Leslie Horne,false,,
+3301765140,5,Town Councilor,Bryan Karolian,false,,
+3301765140,6,Town Councilor,David Herman,false,,
+3301765140,7,Town Councilor,David Walker,false,,
+3301765140,8,Town Councilor,Chuck Creteau,false,,
+3301765140,9,Town Councilor,Alexander de Geofroy,false,,
+3301765140,10,Town Councilor,Matthew Richardson,false,,
+3301765140,11,Town Councilor,Kevin Sullivan,false,,
+3301765540,1,Selectman,Kim St Hilaire,true,,selectboard@rollinsford.nh.us
+3301765540,2,Selectman,Jack Boyle,false,,
+3301765540,3,Selectman,Denise Knowles,false,,
+3300565700,1,Selectman,Janice Albano,true,,
+3300565700,2,Selectman,Tim O'Brien,false,,
+3300565700,3,Selectman,Mark Funk,false,,
+3300965940,1,Selectman,Robert Berti,true,,selectmen@rumneynh.org
+3300965940,2,Selectman,Isaac DeWever,false,,
+3300965940,3,Selectman,Ed Haskell,false,,
+3301566180,1,Selectman,Bill Epperson,true,603-964-5523,
+3301566180,2,Selectman,Bob McGrath,false,,
+3301566180,3,Selectman,Rob Wright,false,,
+3301566660,1,Town Councilor,Joseph Sweeney,false,,Salem_Town_Council@salemnh.gov
+3301566660,2,Town Councilor,DJ Bettencourt,false,,
+3301566660,3,Town Councilor,Robert Bryant,false,,
+3301566660,4,Town Councilor,Jeffery Hatch,false,,
+3301566660,5,Town Councilor,Paul Pelletier,false,,
+3301566660,6,Town Councilor,Cathy Ann Stacey,false,,
+3301566660,7,Town Councilor,Keith Stramaglia,false,,
+3301566660,8,Town Councilor,Bonnie Wright,false,,
+3301566660,9,Town Councilor,Lisa Withrow,false,,
+3301366980,1,Selectman,Brett Walker,true,,brettwalkerselectman@gmail.com
+3301366980,2,Selectman,John Herbert,false,,jhoytselectman@gmail.com
+3301366980,3,Selectman,Jim Hoyt,false,,johnw.herbert@tds.net
+3300167300,1,Selectman,Brandon Deacon,true,603-286-8303,brandondeacon.nh@gmail.com
+3300167300,2,Selectman,Glenn Frederick,false,,gfred2020@aol.com
+3300167300,3,Selectman,Ralph Carter,false,,"can email through the website, no stated email"
+3301567620,1,Selectman,Tom Tombarello,true,,
+3301567620,2,Selectman,Eric Olsen,false,,
+3301567620,3,Selectman,Robert Nickerson,false,,
+3301567620,4,Selectman,Benjamin Sharpe,false,,
+3301567620,5,Selectman,Ed Mencis,false,,
+3300367780,1,Selectman,Joanne Haight,true,,
+3300367780,2,Selectman,Caroline Nesbitt,false,,
+3300367780,3,Selectman,Adam Heard,false,,
+3301568260,1,Selectman,Srinivasan Ravikumar,true,603-474-3311,selectmen@seabrooknh.org
+3301568260,2,Selectman,Harold Eaton,false,,
+3301568260,3,Selectman,Theresa Kyle,false,,
+3301168820,1,Selectman,Chet Bowles,true,,
+3301168820,2,Selectman,Richard Dufresne,false,,
+3301168820,3,Selectman,Jon Shomody,false,,
+3300768980,1,Selectman,Stanley Judge,true,,no stated email address
+3300768980,2,Selectman,Lucy Evans,false,,
+3300768980,3,Selectman,Ronald Baillargeon,false,,
+3301769940,1,Town Councilor,Marty Pepin,false,,mpepin@comcast.net
+3301769940,2,Town Councilor,Ken Vincent,false,,thevince@comcast.net
+3301769940,3,Town Councilor,Robert Gibson,false,,rgibson@somersworthnh.gov
+3301769940,4,Town Councilor,Crystal Paradis-Catanzaro,false,,crystal@somersworthnh.gov
+3301769940,5,Town Councilor,Richard Michaud,false,,rmichaud@somersworthnh.gov
+3301769940,6,Town Councilor,MDaayvoer Witham,false,,dwitham@somersworthnh.gov
+3301769940,7,Town Councilor,Nancie Cameron,false,,bballmom824@yahoo.com
+3301769940,8,Town Councilor,Paul Goodwin,false,,pgoodwin@somersworthnh.gov
+3301769940,9,Town Councilor,Laura Barry,false,,lbarry@somersworthnh.gov
+3301571140,1,Selectman,Lee Knapp,true,,selectmen@southhamptonnh.org
+3301571140,2,Selectman,Ron Preston,false,,
+3301571140,3,Selectman,Eric Worthen,false,,
+3301972740,1,Selectman,Poul Heilmann,true,,
+3301972740,2,Selectman,Amy Lewis,false,,
+3301972740,3,Selectman,Steve Dzubak,false,,
+3300773060,1,Selectman,Crystal Pelletier,true,603-715-7608,cpelletier@townofstark.com
+3300773060,2,Selectman,Henry Dion,false,603-636-1353,henry@townofstark.org
+3300773060,3,Selectman,Chris Wheelock,false,603-631-5829,chriswheelock0@gmail.com
+3300773380,1,Selectman,Dwayne Covell,true,603-246-3329,no stated email address
+3300773380,2,Selectman,Allen Coats,false,,
+3300773380,3,Selectman,James Gilbert,false,,
+3300573700,1,Selectman,Terri LaRoche,true,,
+3300573700,2,Selectman,Jason Kovarik,false,,
+3300573700,3,Selectman,Robert Fee,false,,
+3301773860,1,Selectman,Lynn Sweet,true,603-664-2192,
+3301773860,2,Selectman,Brian Monahan,false,,
+3301773860,3,Selectman,R. Stephen Leighton,false,,
+3300774180,1,Selectman,Clayton Macdonald,true,,macdonald.sb@stratfordnh.gov
+3300774180,2,Selectman,Charles Goulet,false,,goulet.sb@stratfordnh.gov
+3300774180,3,Selectman,Harry Juergens,false,,juergens.sb@stratfordnh.gov
+3301574340,1,Selectman,Michael Houghton,true,603-772-7391,
+3301574340,2,Selectman,Allison Knab,false,,
+3301574340,3,Selectman,Joe Anderson,false,,
+3300974740,1,Selectman,Chris Ellms,true,,
+3300974740,2,Selectman,Russell Talbot,false,,
+3300974740,3,Selectman,Richard Bielefield,false,,
+3300574900,1,Selectman,David Jakway,true,,
+3300574900,2,Selectman,Paul Bolduc,false,,
+3300574900,3,Selectman,Virginia DeAngelis,false,,
+3301975060,1,Selectman,Suzanne Gottling,true,,sgottling@town.sunapee.nh.us
+3301975060,2,Selectman,Aaron Whipple,false,603-504-4503,awhipple@town.sunapee.nh.us
+3301975060,3,Selectman,Frederick Gallup,false,603-763-2649,fgallup@town.sunapee.nh.us
+3301975060,4,Selectman,Jeremy Hathorn,false,603-738-1615,jhathorn@town.sunapee.nh.us
+3301975060,5,Selectman,Anthony Dolan,false,603-359-9881,adolan@town.sunapee.nh.us
+3300575300,1,Selectman,John Croteau III,true,,
+3300575300,2,Selectman,Stevens Goldsmith,false,,
+3300575300,3,Selectman,Ronald Profaizer,false,,
+3301375460,1,Selectman,Glenn Pogust,true,,
+3301375460,2,Selectman,Michael McManus,false,,
+3301375460,3,Selectman,Nancy Glynn,false,,
+3300575700,1,Selectman,Sylvester Karasinski,true,,kburton@swanzeynh.gov
+3300575700,2,Selectman,W.William Hutwelker III,false,,
+3300575700,3,Selectman,James Tempesta,false,,
+3300376100,1,Selectman,Emery Roberts,true,,
+3300376100,2,Selectman,Karl Behr,false,,
+3300376100,3,Selectman,Lianne Prentice,false,,
+3300376100,4,Selectman,Richard Doucette,false,,
+3300376100,5,Selectman,Steven Schaeffer,false,,
+3301176260,1,Selectman,Bill Ezell,true,,boardassistant@templenh.org
+3301176260,2,Selectman,Ken Caisse,false,,
+3301176260,3,Selectman,George Willard,false,,
+3300976740,1,Selectman,Peter Laufenberg,true,,
+3300976740,2,Selectman,Marianne Peabody,false,,
+3300976740,3,Selectman,Brad Benton,false,,
+3300976740,4,Selectman,Steve Babin,false,,
+3300976740,5,Selectman,Matthew Peltier,false,,
+3300177060,1,Selectman,Patricia Consentino,true,,
+3300177060,2,Selectman,Jonathan Scanlon,false,,
+3300177060,3,Selectman,Joseph Jesseman,false,,
+3300177060,4,Selectman,Katherine Dawson,false,,
+3300177060,5,Selectman,Scott Ruggles,false,,
+3300577380,1,Selectman,TJ Chase,true,,
+3300577380,2,Selectman,Richard Thackston,false,,
+3300577380,3,Selectman,Curtis Hopkins,false,,
+3300377620,1,Selectman,Robert Murray,true,,
+3300377620,2,Selectman,William Albee,false,,
+3300377620,3,Selectman,David Dauphinais,false,,
+3301977940,1,Selectman,Garry Bator,true,,
+3301977940,2,Selectman,Gary Ross,false,,
+3301977940,3,Selectman,William Schroeter,false,,
+3300378180,1,Selectman,Kenneth Fifield,true,,
+3300378180,2,Selectman,Mark Duffy,false,,
+3300378180,3,Selectman,Charlie Edwards,false,,
+3300578420,1,Selectman,Steven Dalessio,true,,no stated email address
+3300578420,2,Selectman,Cheryl Mayberry,false,,
+3300578420,3,Selectman,Carolyn Vose,false,,
+3301378580,1,Selectman,Faith Minton,true,,selectboard@warnernh.gov
+3301378580,2,Selectman,Harry Seidel,false,,
+3301378580,3,Selectman,Michael Smith,false,,
+3300978740,1,Selectman,Shirley McCartin,true,,no stated email address
+3300978740,2,Selectman,"Chalres Sackett, Jr.",false,,
+3300978740,3,Selectman,Jeremy Hair,false,,
+3301978980,1,Selectman,Don Revane,true,,
+3301978980,2,Selectman,Mark Florence,false,,
+3301978980,3,Selectman,Gary Kendall,false,,
+3300979380,1,Selectman,Richard Rita,true,,
+3300979380,2,Selectman,Robert Fries,false,,
+3300979380,3,Selectman,Wendi Rathgeber,false,,
+3301179780,1,Selectman,Janice Matthews,true,,boardmembers@wearenh.gov
+3301179780,2,Selectman,Benji Knapp,false,,
+3301179780,3,Selectman,James Drury,false,,
+3301179780,4,Selectman,Salim Blume,false,,
+3301179780,5,Selectman,David Pratte,false,,
+3301380020,1,Selectman,David Hemenway,true,,
+3301380020,2,Selectman,John Clerk,false,,
+3301380020,3,Selectman,Marlo Herrick,false,,
+3300980500,1,Selectman,Arnold Scheller,true,,
+3300980500,2,Selectman,Brain DuBois,false,,
+3300980500,3,Selectman,Rick Ducheneau,false,,
+3300582660,1,Selectman,John Snowdon,true,603-493-8860,
+3300582660,2,Selectman,Bill McGahie,false,603-674-2572,
+3300582660,3,Selectman,Mark Terry,false,603-852-2761,
+3300784420,1,Selectman,Shawn White,true,,
+3300784420,2,Selectman,Abigail Querrard,false,,
+3300784420,3,Selectman,Scott Black,false,,
+3301384900,1,Selectman,Jonathan Schwartz,true,,
+3301384900,2,Selectman,Glynis Hart,false,,
+3301384900,3,Selectman,Thomas Schamberg,false,,
+3301185220,1,Selectman,DJ Garcia,true,,no stated email address
+3301185220,2,Selectman,Tom Schultz,false,,
+3301185220,3,Selectman,Kermit Williams,false,,
+3300585540,1,Selectman,Ben Kilanski,true,,no stated email address
+3300585540,2,Selectman,Jack Marsh,false,,
+3300585540,3,Selectman,Herbert Stephens,false,,
+3300585540,4,Selectman,Trevor Croteau,false,,
+3300585540,5,Selectman,Theresa Sepe,false,,
+3301585780,1,Selectman,Heath Partington,true,603-432-7732,BOS@WindhamNH.gov
+3301585780,2,Selectman,Mark Samsel,false,,
+3301585780,3,Selectman,Ross McLeod,false,,
+3301585780,4,Selectman,Bruce Breton,false,,
+3301585780,5,Selectman,Roger Hohenberger,false,,
+3301185940,1,Selectman,Darlene Cuddy,true,,
+3301185940,2,Selectman,Sean O'Keefe,false,,
+3301185940,3,Selectman,Gerald Needham,false,,
+3300386420,1,Selectman,Linda Murray,true,,
+3300386420,2,Selectman,Dave Senecal,false,,
+3300386420,3,Selectman,Brain Deshaies,false,,
+3300386420,4,Selectman,Brad Harriman,false,,
+3300386420,5,Selectman,Paul O'Brien,false,,
+3300987060,1,Selectman,Charyl Reardon,true,,admin@woodstock.gov
+3300987060,2,Selectman,Scott Rice,false,,
+3300987060,3,Selectman,R. Gil Rand,false,,

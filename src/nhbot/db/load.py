@@ -325,7 +325,383 @@ def load_finance(cur):
             (did, int(r["year"]), r["source_code"], r["source_name"],
              num(r["amount"]), num(r["pct"]), lid))
         n_r += 1
-    return {"exp": n_e, "exp_skip": e_skip, "rev": n_r, "rev_skip": r_skip}
+    # multi-year cost-per-pupil -> district_finance (upsert cpp cols only; leaves
+    # enrollment/ratio that load_schools set for its year). Enables the trend view.
+    n_c = c_skip = 0
+    try:
+        cpp = rows("nh_district_cpp.csv")
+    except FileNotFoundError:
+        cpp = []
+    for r in cpp:
+        did = int(r["district_id"])
+        if did not in valid:
+            c_skip += 1; continue
+        cur.execute("""INSERT INTO nh.district_finance
+              (district_id,year,cpp_elementary,cpp_middle,cpp_high,cpp_total,load_id)
+              VALUES (%s,%s,%s,%s,%s,%s,%s)
+              ON CONFLICT (district_id,year) DO UPDATE SET
+                cpp_elementary=EXCLUDED.cpp_elementary, cpp_middle=EXCLUDED.cpp_middle,
+                cpp_high=EXCLUDED.cpp_high, cpp_total=EXCLUDED.cpp_total""",
+            (did, int(r["year"]), num(r["cpp_elementary"]), num(r["cpp_middle"]),
+             num(r["cpp_high"]), num(r["cpp_total"]), lid))
+        n_c += 1
+    return {"exp": n_e, "exp_skip": e_skip, "rev": n_r, "rev_skip": r_skip,
+            "cpp": n_c, "cpp_skip": c_skip}
+
+def load_municipal(cur):
+    """Town-side department budgets (municipal_expenditure). Skips gracefully if
+    the table or CSV is absent. Rows for unknown geoids are skipped (FK safety)."""
+    if not has_column(cur, "municipal_expenditure", "function_code"):
+        print("  (municipal table absent -- run schema with the municipal block; skipping)")
+        return None
+    try:
+        muni = rows("nh_municipal_expenditure.csv")
+    except FileNotFoundError:
+        print("  (municipal CSV absent -- run 'nhbot municipal'; skipping)")
+        return None
+    cur.execute("SELECT geoid FROM nh.municipality")
+    valid = {r[0] for r in cur.fetchall()}
+    lid = source_load(cur, "NH municipal budgets (MS-232/MS-535, town annual reports)",
+                      None, "town annual reports", 2025, None)
+    n = skip = 0
+    for r in muni:
+        if r["geoid"] not in valid:
+            skip += 1; continue
+        cur.execute("""INSERT INTO nh.municipal_expenditure
+              (geoid,year,function_code,department,category,amount,kind,source,load_id)
+              VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s)
+              ON CONFLICT (geoid,year,function_code,kind) DO UPDATE SET
+                department=EXCLUDED.department, category=EXCLUDED.category,
+                amount=EXCLUDED.amount, source=EXCLUDED.source, load_id=EXCLUDED.load_id""",
+            (r["geoid"], int(r["year"]), r["function_code"], r["department"],
+             r["category"], num(r["amount"]), r["kind"], r["source"], lid))
+        n += 1
+    return {"rows": n, "skip": skip, "towns": len({r["geoid"] for r in muni})}
+
+def load_municipality_websites(cur):
+    """Official municipal website per GEOID, onto the municipality spine. Adds the
+    website columns if an older DB lacks them (idempotent), then upserts. Rows for
+    unknown geoids are skipped (FK safety). Skips gracefully if the CSV is absent."""
+    cur.execute("ALTER TABLE nh.municipality ADD COLUMN IF NOT EXISTS website text")
+    cur.execute("ALTER TABLE nh.municipality ADD COLUMN IF NOT EXISTS website_source text")
+    try:
+        data = rows("nh_municipality_website.csv")
+    except FileNotFoundError:
+        print("  (website CSV absent -- run 'nhbot municipal-websites'; skipping)")
+        return None
+    cur.execute("SELECT geoid FROM nh.municipality")
+    valid = {r[0] for r in cur.fetchall()}
+    n = skip = 0
+    for r in data:
+        if r["geoid"] not in valid:
+            skip += 1; continue
+        cur.execute("""UPDATE nh.municipality
+                       SET website=%s, website_source=%s WHERE geoid=%s""",
+                    (r["website"], r["source"], r["geoid"]))
+        n += 1
+    return {"rows": n, "skip": skip}
+
+
+def load_municipality_profile(cur):
+    """Form of government, governing body, SB2 flag, year incorporated, 2020
+    population onto the municipality spine. Self-migrates columns; upserts by geoid."""
+    for col, typ in [("form_of_government", "text"), ("governing_body", "text"),
+                     ("sb2", "boolean DEFAULT false"), ("year_incorporated", "integer"),
+                     ("population_2020", "integer")]:
+        cur.execute(f"ALTER TABLE nh.municipality ADD COLUMN IF NOT EXISTS {col} {typ}")
+    try:
+        data = rows("nh_municipality_profile.csv")
+    except FileNotFoundError:
+        print("  (profile CSV absent -- run 'nhbot municipal-profile'; skipping)")
+        return None
+    cur.execute("SELECT geoid FROM nh.municipality")
+    valid = {r[0] for r in cur.fetchall()}
+    n = skip = 0
+    for r in data:
+        if r["geoid"] not in valid:
+            skip += 1; continue
+        cur.execute("""UPDATE nh.municipality SET
+                         form_of_government=%s, governing_body=%s, sb2=%s,
+                         year_incorporated=%s, population_2020=%s
+                       WHERE geoid=%s""",
+                    (r["form_of_government"] or None, r["governing_body"] or None,
+                     r["sb2"] == "true",
+                     int(r["year_incorporated"]) if r["year_incorporated"] else None,
+                     int(r["population_2020"]) if r["population_2020"] else None,
+                     r["geoid"]))
+        n += 1
+    return {"rows": n, "skip": skip}
+
+
+def load_town_history(cur):
+    """Short town-history snippet + source URL onto the municipality spine.
+    Self-migrates columns; upserts by geoid. Also upgrades sb2=true where the
+    history capture confirmed a town is SB2 (never downgrades)."""
+    cur.execute("ALTER TABLE nh.municipality ADD COLUMN IF NOT EXISTS history text")
+    cur.execute("ALTER TABLE nh.municipality ADD COLUMN IF NOT EXISTS history_source text")
+    try:
+        data = rows("nh_town_history.csv")
+    except FileNotFoundError:
+        print("  (history CSV absent -- run 'nhbot town-history'; skipping)")
+        return None
+    cur.execute("SELECT geoid FROM nh.municipality")
+    valid = {r[0] for r in cur.fetchall()}
+    n = skip = sb2 = 0
+    for r in data:
+        if r["geoid"] not in valid:
+            skip += 1; continue
+        cur.execute("""UPDATE nh.municipality
+                       SET history=%s, history_source=%s WHERE geoid=%s""",
+                    (r["history"] or None, r["source_url"] or None, r["geoid"]))
+        if str(r.get("sb2", "")).lower() == "true":
+            cur.execute("UPDATE nh.municipality SET sb2=true WHERE geoid=%s", (r["geoid"],))
+            sb2 += 1
+        n += 1
+    return {"rows": n, "skip": skip, "sb2_upgraded": sb2}
+
+
+def load_municipal_coverage(cur):
+    """MS-535 / town-budget coverage flag onto the municipality spine. Self-migrates
+    columns; upserts by geoid. Towns absent from the CSV are left at their default
+    ('missing')."""
+    for col, typ in [("ms535_status", "text"), ("ms535_kind", "text"),
+                     ("ms535_year", "integer"), ("ms535_source", "text")]:
+        cur.execute(f"ALTER TABLE nh.municipality ADD COLUMN IF NOT EXISTS {col} {typ}")
+    try:
+        data = rows("nh_municipal_coverage.csv")
+    except FileNotFoundError:
+        print("  (coverage CSV absent -- run 'nhbot municipal-coverage'; skipping)")
+        return None
+    cur.execute("SELECT geoid FROM nh.municipality")
+    valid = {r[0] for r in cur.fetchall()}
+    n = skip = 0
+    from collections import Counter
+    seen = Counter()
+    for r in data:
+        if r["geoid"] not in valid:
+            skip += 1; continue
+        cur.execute("""UPDATE nh.municipality SET
+                         ms535_status=%s, ms535_kind=%s, ms535_year=%s, ms535_source=%s
+                       WHERE geoid=%s""",
+                    (r["ms535_status"] or "missing", r["ms535_kind"] or None,
+                     int(r["ms535_year"]) if r["ms535_year"] else None,
+                     r["ms535_source"] or None, r["geoid"]))
+        seen[r["ms535_status"] or "missing"] += 1
+        n += 1
+    return {"rows": n, "skip": skip, "by_status": dict(seen)}
+
+
+def load_legislature(cur):
+    """Legislators (House + Senate) + town→district mappings. Self-creates its tables,
+    then truncates and reloads. Skips gracefully if the CSVs aren't built yet."""
+    cur.execute("""CREATE TABLE IF NOT EXISTS nh.legislator(
+        id integer PRIMARY KEY, body text NOT NULL, county text, district integer,
+        first_name text, last_name text, party text, town_residence text,
+        title text, email text, phone text, elected_status text)""")
+    cur.execute("CREATE INDEX IF NOT EXISTS legislator_house_idx ON nh.legislator(body,county,district)")
+    cur.execute("CREATE INDEX IF NOT EXISTS legislator_senate_idx ON nh.legislator(body,district)")
+    cur.execute("""CREATE TABLE IF NOT EXISTS nh.town_house_district(
+        geoid char(10) NOT NULL, county text NOT NULL, district integer NOT NULL,
+        PRIMARY KEY(geoid,county,district))""")
+    cur.execute("""CREATE TABLE IF NOT EXISTS nh.town_senate_district(
+        geoid char(10) NOT NULL, senate_district integer NOT NULL,
+        PRIMARY KEY(geoid,senate_district))""")
+    try:
+        legs = rows("nh_legislators.csv")
+        hd = rows("nh_town_house_district.csv")
+        sd = rows("nh_town_senate_district.csv")
+    except FileNotFoundError:
+        print("  (legislature CSVs absent -- run 'nhbot legislature'; skipping)")
+        return None
+    cur.execute("SELECT geoid FROM nh.municipality")
+    valid = {r[0] for r in cur.fetchall()}
+    cur.execute("TRUNCATE nh.legislator, nh.town_house_district, nh.town_senate_district")
+    for r in legs:
+        cur.execute("""INSERT INTO nh.legislator
+            (id,body,county,district,first_name,last_name,party,town_residence,title,email,phone,elected_status)
+            VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s)""",
+            (int(r["id"]), r["body"], r["county"] or None,
+             int(r["district"]) if r["district"] else None,
+             r["first_name"], r["last_name"], r["party"], r["town_residence"],
+             r["title"], r["email"], r["phone"], r["elected_status"]))
+    hn = sn = skip = 0
+    for r in hd:
+        if r["geoid"] not in valid:
+            skip += 1; continue
+        cur.execute("INSERT INTO nh.town_house_district(geoid,county,district) VALUES(%s,%s,%s) ON CONFLICT DO NOTHING",
+                    (r["geoid"], r["county"], int(r["district"])))
+        hn += 1
+    for r in sd:
+        if r["geoid"] not in valid:
+            skip += 1; continue
+        cur.execute("INSERT INTO nh.town_senate_district(geoid,senate_district) VALUES(%s,%s) ON CONFLICT DO NOTHING",
+                    (r["geoid"], int(r["senate_district"])))
+        sn += 1
+    return {"legislators": len(legs), "house_rows": hn, "senate_rows": sn, "skip": skip}
+
+
+def load_select_board(cur):
+    """Municipal governing-board members (select board / town council / aldermen).
+    Self-creates its table, truncates and reloads. Skips if the CSV isn't built."""
+    cur.execute("""CREATE TABLE IF NOT EXISTS nh.select_board(
+        geoid char(10) NOT NULL, seq integer NOT NULL, role text, name text NOT NULL,
+        is_chair boolean DEFAULT false, phone text, email text,
+        PRIMARY KEY(geoid,seq))""")
+    cur.execute("CREATE INDEX IF NOT EXISTS select_board_geoid_idx ON nh.select_board(geoid)")
+    try:
+        data = rows("nh_select_board.csv")
+    except FileNotFoundError:
+        print("  (select-board CSV absent -- run 'nhbot select-board'; skipping)")
+        return None
+    cur.execute("SELECT geoid FROM nh.municipality")
+    valid = {r[0] for r in cur.fetchall()}
+    cur.execute("TRUNCATE nh.select_board")
+    n = skip = 0
+    for r in data:
+        if r["geoid"] not in valid:
+            skip += 1; continue
+        cur.execute("""INSERT INTO nh.select_board(geoid,seq,role,name,is_chair,phone,email)
+                       VALUES(%s,%s,%s,%s,%s,%s,%s)""",
+                    (r["geoid"], int(r["seq"]), r["role"], r["name"],
+                     r["is_chair"] == "true", r["phone"] or None, r["email"] or None))
+        n += 1
+    return {"rows": n, "skip": skip}
+
+
+def load_state_budget(cur):
+    """State operating-budget appropriations by department & funding sources.
+    Self-creates tables, truncates and reloads. Skips if the CSVs aren't built."""
+    cur.execute("""CREATE TABLE IF NOT EXISTS nh.state_budget(
+        fiscal_year integer NOT NULL, category text, department text NOT NULL,
+        amount numeric, PRIMARY KEY(fiscal_year, department))""")
+    cur.execute("CREATE INDEX IF NOT EXISTS state_budget_year_idx ON nh.state_budget(fiscal_year)")
+    cur.execute("""CREATE TABLE IF NOT EXISTS nh.state_funding(
+        fiscal_year integer NOT NULL, source text NOT NULL, amount numeric,
+        PRIMARY KEY(fiscal_year, source))""")
+    cur.execute("""CREATE TABLE IF NOT EXISTS nh.state_federal_funds(
+        fiscal_year integer NOT NULL, category text, department text NOT NULL,
+        amount numeric, PRIMARY KEY(fiscal_year, department))""")
+    try:
+        budg = rows("nh_state_budget.csv")
+        fund = rows("nh_state_funding.csv")
+    except FileNotFoundError:
+        print("  (state budget CSVs absent -- run 'nhbot state-fiscal'; skipping)")
+        return None
+    try:
+        fed = rows("nh_state_federal_funds.csv")
+    except FileNotFoundError:
+        fed = []
+    cur.execute("TRUNCATE nh.state_budget, nh.state_funding, nh.state_federal_funds")
+    for r in budg:
+        cur.execute("""INSERT INTO nh.state_budget(fiscal_year,category,department,amount)
+                       VALUES(%s,%s,%s,%s)""",
+                    (int(r["fiscal_year"]), r["category"] or None, r["department"], float(r["amount"] or 0)))
+    for r in fund:
+        cur.execute("INSERT INTO nh.state_funding(fiscal_year,source,amount) VALUES(%s,%s,%s)",
+                    (int(r["fiscal_year"]), r["source"], float(r["amount"] or 0)))
+    for r in fed:
+        cur.execute("""INSERT INTO nh.state_federal_funds(fiscal_year,category,department,amount)
+                       VALUES(%s,%s,%s,%s)""",
+                    (int(r["fiscal_year"]), r["category"] or None, r["department"], float(r["amount"] or 0)))
+    return {"budget_rows": len(budg), "funding_rows": len(fund), "federal_rows": len(fed)}
+
+
+def load_state_revenue(cur):
+    """State tax & fee revenue by source (General & Education funds, $ millions).
+    Self-creates its table, truncates and reloads. Skips if the CSV isn't built."""
+    cur.execute("""CREATE TABLE IF NOT EXISTS nh.state_revenue(
+        fiscal_year integer NOT NULL, source text NOT NULL,
+        actual_musd numeric, plan_musd numeric,
+        PRIMARY KEY(fiscal_year, source))""")
+    try:
+        data = rows("nh_state_revenue.csv")
+    except FileNotFoundError:
+        print("  (state revenue CSV absent -- run 'nhbot state-fiscal'; skipping)")
+        return None
+    cur.execute("TRUNCATE nh.state_revenue")
+    for r in data:
+        cur.execute("""INSERT INTO nh.state_revenue(fiscal_year,source,actual_musd,plan_musd)
+                       VALUES(%s,%s,%s,%s)""",
+                    (int(r["fiscal_year"]), r["source"],
+                     float(r["actual_musd"]) if r["actual_musd"] not in (None, "") else None,
+                     float(r["plan_musd"]) if r["plan_musd"] not in (None, "") else None))
+    return {"rows": len(data)}
+
+
+def load_state_comparison(cur):
+    """National state-by-state tax comparison. Self-creates its table, truncates
+    and reloads. Skips if the CSV isn't built."""
+    cur.execute("""CREATE TABLE IF NOT EXISTS nh.state_tax_comparison(
+        state text PRIMARY KEY, burden_pct numeric, burden_rank integer,
+        collections_percap integer, collections_rank integer,
+        prop_pct numeric, sales_pct numeric, individual_income_pct numeric,
+        corporate_income_pct numeric, other_pct numeric,
+        eff_property_rate numeric, eff_property_rank integer,
+        hh_property_pc integer, hh_income_pc integer, hh_sales_pc integer,
+        hh_excise_pc integer, hh_income_percap integer, hh_persons_per_household numeric,
+        hh_burden_pct numeric, hh_burden_rank integer)""")
+    # migrate existing installs (CREATE TABLE IF NOT EXISTS won't add the household columns)
+    for col, typ in [("hh_property_pc", "integer"), ("hh_income_pc", "integer"),
+                     ("hh_sales_pc", "integer"), ("hh_excise_pc", "integer"),
+                     ("hh_income_percap", "integer"), ("hh_persons_per_household", "numeric"),
+                     ("hh_burden_pct", "numeric"), ("hh_burden_rank", "integer")]:
+        cur.execute(f"ALTER TABLE nh.state_tax_comparison ADD COLUMN IF NOT EXISTS {col} {typ}")
+    try:
+        data = rows("nh_state_comparison.csv")
+    except FileNotFoundError:
+        print("  (state comparison CSV absent -- run 'nhbot tax-comparison'; skipping)")
+        return None
+    def num(v):  return float(v) if v not in (None, "") else None
+    def ival(v): return int(v) if v not in (None, "") else None
+    cur.execute("TRUNCATE nh.state_tax_comparison")
+    for r in data:
+        cur.execute("""INSERT INTO nh.state_tax_comparison(state,burden_pct,burden_rank,
+            collections_percap,collections_rank,prop_pct,sales_pct,individual_income_pct,
+            corporate_income_pct,other_pct,eff_property_rate,eff_property_rank,
+            hh_property_pc,hh_income_pc,hh_sales_pc,hh_excise_pc,hh_income_percap,
+            hh_persons_per_household,hh_burden_pct,hh_burden_rank)
+            VALUES(%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s)""",
+            (r["state"], num(r["burden_pct"]), ival(r["burden_rank"]),
+             ival(r["collections_percap"]), ival(r["collections_rank"]),
+             num(r["prop_pct"]), num(r["sales_pct"]), num(r["individual_income_pct"]),
+             num(r["corporate_income_pct"]), num(r["other_pct"]),
+             num(r["eff_property_rate"]), ival(r["eff_property_rank"]),
+             ival(r["hh_property_pc"]), ival(r["hh_income_pc"]), ival(r["hh_sales_pc"]),
+             ival(r["hh_excise_pc"]), ival(r["hh_income_percap"]),
+             num(r["hh_persons_per_household"]), num(r["hh_burden_pct"]), ival(r["hh_burden_rank"])))
+    return {"rows": len(data)}
+
+
+def load_valuation(cur):
+    """Town tax-base composition (valuation by property class). Self-creates its
+    table, truncates and reloads. Skips if the CSV isn't built."""
+    cur.execute("""CREATE TABLE IF NOT EXISTS nh.valuation_class(
+        geoid char(10) PRIMARY KEY, year integer, residential numeric,
+        commercial_industrial numeric, utilities numeric, other numeric, gross numeric)""")
+    try:
+        data = rows("nh_valuation_class.csv")
+    except FileNotFoundError:
+        print("  (valuation CSV absent -- run 'nhbot valuation'; skipping)")
+        return None
+    cur.execute("SELECT geoid FROM nh.municipality")
+    valid = {r[0] for r in cur.fetchall()}
+    cur.execute("TRUNCATE nh.valuation_class")
+    n = skip = 0
+    for r in data:
+        if r["geoid"] not in valid:
+            skip += 1; continue
+        cur.execute("""INSERT INTO nh.valuation_class
+            (geoid,year,residential,commercial_industrial,utilities,other,gross)
+            VALUES(%s,%s,%s,%s,%s,%s,%s) ON CONFLICT (geoid) DO UPDATE SET
+            year=EXCLUDED.year, residential=EXCLUDED.residential,
+            commercial_industrial=EXCLUDED.commercial_industrial,
+            utilities=EXCLUDED.utilities, other=EXCLUDED.other, gross=EXCLUDED.gross""",
+            (r["geoid"], int(r["year"]) if r["year"] else None,
+             float(r["residential"]), float(r["commercial_industrial"]),
+             float(r["utilities"]), float(r["other"]), float(r["gross"])))
+        n += 1
+    return {"rows": n, "skip": skip}
+
 
 def main():
     conn = psycopg2.connect(DSN)
@@ -339,6 +715,17 @@ def main():
             est_rate, est_eq, est_skip = load_estimate(cur, g)
             schools = load_schools(cur)
             finance = load_finance(cur)
+            municipal = load_municipal(cur)
+            websites = load_municipality_websites(cur)
+            profile = load_municipality_profile(cur)
+            history = load_town_history(cur)
+            coverage = load_municipal_coverage(cur)
+            legislature = load_legislature(cur)
+            select_board = load_select_board(cur)
+            state_budget = load_state_budget(cur)
+            state_revenue = load_state_revenue(cur)
+            state_comparison = load_state_comparison(cur)
+            valuation = load_valuation(cur)
         conn.commit()
         print(f"municipalities loaded:        {n_muni}")
         print(f"official equalized rows:      {off_eq}  (unmatched names skipped: {off_miss})")
@@ -349,7 +736,34 @@ def main():
                   f"enrollment={schools['enrollment']} (skip {schools['enr_skip']})")
         if finance:
             print(f"DOE-25 finance: expenditure={finance['exp']} (skip {finance['exp_skip']}), "
-                  f"revenue={finance['rev']} (skip {finance['rev_skip']})")
+                  f"revenue={finance['rev']} (skip {finance['rev_skip']}), "
+                  f"cpp/year={finance['cpp']} (skip {finance['cpp_skip']})")
+        if municipal:
+            print(f"municipal: {municipal['rows']} rows, {municipal['towns']} town(s) (skip {municipal['skip']})")
+        if websites:
+            print(f"municipal websites: {websites['rows']} set (skip {websites['skip']})")
+        if profile:
+            print(f"municipal profile: {profile['rows']} set (skip {profile['skip']})")
+        if history:
+            print(f"town history: {history['rows']} set (skip {history['skip']}, "
+                  f"sb2 upgraded {history['sb2_upgraded']})")
+        if coverage:
+            print(f"municipal coverage: {coverage['rows']} set (skip {coverage['skip']}) "
+                  f"{coverage['by_status']}")
+        if legislature:
+            print(f"legislature: {legislature['legislators']} legislators, "
+                  f"{legislature['house_rows']} house + {legislature['senate_rows']} senate town-links")
+        if select_board:
+            print(f"select boards: {select_board['rows']} members set (skip {select_board['skip']})")
+        if state_budget:
+            print(f"state budget: {state_budget['budget_rows']} dept-year rows, "
+                  f"{state_budget['funding_rows']} funding-source rows")
+        if state_revenue:
+            print(f"state revenue: {state_revenue['rows']} source-year rows")
+        if state_comparison:
+            print(f"state comparison: {state_comparison['rows']} states")
+        if valuation:
+            print(f"valuation (tax base): {valuation['rows']} towns set (skip {valuation['skip']})")
         print("load committed.")
     except Exception:
         conn.rollback(); raise

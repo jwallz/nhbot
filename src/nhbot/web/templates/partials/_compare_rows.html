@@ -1,6 +1,7 @@
 {% for r in rows %}
-<tr>
-  <td><a href="/town/{{ r.geoid }}">{{ r.name }}</a></td>
+<tr id="town-{{ r.name|slugify }}">
+  <td class="rank">{{ loop.index }}</td>
+  <td><a href="/{{ r.name|slugify }}">{{ r.name }}</a></td>
   <td>{{ r.county }}</td>
   <td class="num {{ '' if rate == 'advertised' else 'dim' }}">{{ "%.2f"|format(r.advertised|float) if r.advertised else "—" }}</td>
   <td class="num {{ '' if rate == 'equalized' else 'dim' }}">{{ "%.2f"|format(r.equalized|float) if r.equalized else "—" }}{% if r.equalized and not r.is_official %}<span class="est" title="estimate">*</span>{% endif %}</td>
@@ -9,7 +10,7 @@
 </tr>
 {% endfor %}
 {% set any_est = rows|selectattr('equalized')|rejectattr('is_official')|list|length > 0 %}
-<tr class="footnote"><td colspan="6">
+<tr class="footnote"><td colspan="7">
   Cost / pupil: NH DOE FY2025 (operating), the town's own district; cooperative
   towns show the elementary district. {% if any_est %}&nbsp;· * {{ year }} equalized
   rate is an estimate; DRA official not yet published.{% endif %}

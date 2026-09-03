@@ -1,12 +1,82 @@
 {% extends "base.html" %}
+{% block title %}NHDataHub — New Hampshire data{% endblock %}
 {% block content %}
-<section class="lede">
-  <h1>What is your New Hampshire town actually like?</h1>
-  <p>Start with property taxes. The map shows the <strong>advertised rate</strong> —
-     the number on your tax bill — by default. Toggle to the <strong>equalized rate</strong>
-     to compare towns fairly, since assessment levels differ. Click any town for detail.</p>
-</section>
-<div id="mapwrap" class="mapwrap">
-  {% include "partials/_map.html" %}
+<div class="home">
+  <section class="lede">
+    <p>New Hampshire has one of the most decentralized, hyper-local governance structures in the U.S.—with 221 towns, 13 cities, 400 House representatives serving tiny districts (~3,300 residents each), and stark differences in tax rates (e.g., zero income/sales tax putting the entire weight on local property tax). NHDataHub is a nonpartisan, open resource for all things New Hampshire —
+       town by town. The data does the talking: budgets, taxes, schools, and more,
+       for every one of the state's 234 municipalities. Pick a town to begin.</p>
+  </section>
+
+  <form class="townfind" role="search" autocomplete="off" onsubmit="return false">
+    <label for="townsearch">Click a town in the map below — or type it here:</label>
+    <div class="ac">
+      <input id="townsearch" type="text" placeholder="Start typing a town name…"
+             aria-label="Search for a town" aria-autocomplete="list"
+             aria-controls="ac-list" aria-expanded="false">
+      <ul id="ac-list" class="ac-list" role="listbox" hidden></ul>
+    </div>
+  </form>
+
+  <div id="mapwrap" class="mapwrap">
+    {{ map_svg | safe }}
+  </div>
 </div>
+
+<script id="towns-data" type="application/json">{{ towns | tojson }}</script>
+<script>
+(function () {
+  var TOWNS = JSON.parse(document.getElementById('towns-data').textContent);
+  var input = document.getElementById('townsearch');
+  var list  = document.getElementById('ac-list');
+  var active = -1, shown = [];
+
+  function go(slug) { if (slug) window.location.href = '/' + slug; }
+
+  function render(items) {
+    shown = items; active = -1;
+    if (!items.length) { list.hidden = true; input.setAttribute('aria-expanded','false'); return; }
+    list.innerHTML = items.map(function (t, i) {
+      return '<li role="option" id="ac-opt-' + i + '" data-slug="' + t.slug + '">' +
+             '<span class="ac-name">' + t.name + '</span>' +
+             '<span class="ac-county">' + t.county + '</span></li>';
+    }).join('');
+    list.hidden = false; input.setAttribute('aria-expanded','true');
+  }
+
+  function filter(q) {
+    q = q.trim().toLowerCase();
+    if (!q) { render([]); return; }
+    var starts = [], contains = [];
+    for (var i = 0; i < TOWNS.length; i++) {
+      var n = TOWNS[i].name.toLowerCase();
+      if (n.indexOf(q) === 0) starts.push(TOWNS[i]);
+      else if (n.indexOf(q) > 0) contains.push(TOWNS[i]);
+    }
+    render(starts.concat(contains).slice(0, 8));
+  }
+
+  function highlight(i) {
+    var opts = list.querySelectorAll('li');
+    for (var k = 0; k < opts.length; k++) opts[k].classList.toggle('on', k === i);
+    active = i;
+    if (opts[i]) input.setAttribute('aria-activedescendant', opts[i].id);
+  }
+
+  input.addEventListener('input', function () { filter(input.value); });
+  input.addEventListener('keydown', function (e) {
+    if (list.hidden) return;
+    if (e.key === 'ArrowDown') { e.preventDefault(); highlight(Math.min(active + 1, shown.length - 1)); }
+    else if (e.key === 'ArrowUp') { e.preventDefault(); highlight(Math.max(active - 1, 0)); }
+    else if (e.key === 'Enter') { e.preventDefault(); go((shown[active] || shown[0] || {}).slug); }
+    else if (e.key === 'Escape') { render([]); }
+  });
+  list.addEventListener('mousedown', function (e) {
+    var li = e.target.closest('li'); if (li) go(li.getAttribute('data-slug'));
+  });
+  document.addEventListener('click', function (e) {
+    if (!e.target.closest('.ac')) render([]);
+  });
+})();
+</script>
 {% endblock %}
